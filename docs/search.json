@@ -46,7 +46,7 @@
     "href": "open-resources/sebapp.html#features-at-a-glance",
     "title": "The Living SEB app",
     "section": "Features at a glance",
-    "text": "Features at a glance\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
+    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
   },
   {
     "objectID": "open-resources/sebapp.html#background",
@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "Tommaso Feraco",
     "section": "",
-    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2025-12-03"
+    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2025-12-03"
   },
   {
     "objectID": "contact.html",
@@ -116,28 +116,28 @@
     "href": "open-resources/clusterapp.html",
     "title": "A shiny app for clusters that are not there",
     "section": "",
-    "text": "This app allows testing inferential risks for cluster analysis app link. More info at the linked paper: Clusters that are not there"
+    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
   },
   {
     "objectID": "open-resources/clusterapp.html#overview",
     "href": "open-resources/clusterapp.html#overview",
     "title": "A shiny app for clusters that are not there",
-    "section": "Overview",
-    "text": "Overview\nClusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024) Toffalini 2024 Clusters, the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: (add your app link here)\n➡️ Manuscript: full citation and link based on your hosting (PDF/HTML)"
+    "section": "",
+    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
   },
   {
     "objectID": "open-resources/clusterapp.html#what-the-app-does",
     "href": "open-resources/clusterapp.html#what-the-app-does",
     "title": "A shiny app for clusters that are not there",
     "section": "What the App Does",
-    "text": "What the App Does\nThe app implements the simulation logic described in the manuscript, allowing users to:\n\nSimulate datasets with custom characteristics:\n\nsample size\nnumber of indicators\ncorrelations\nskewness and kurtosis\neffect size (d) between true clusters\n\nEstimate Type I error\nHow often does a method detect multiple clusters when the data truly come from one population?\n(e.g., GMM may show inflated Type I error under modest skewness as shown on p.7–8 of the manuscript Toffalini 2024 Clusters.)\nEstimate Power\nHow often does the method correctly detect two clusters when they truly exist?\n(e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means — see p.9 of the article Toffalini 2024 Clusters.)\nAssess classification accuracy\nUsing the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (p.10–11).\nExample: k-means may detect “two clusters” with 100% power but classify individuals no better than chance (Adjusted Rand Index ≈ .06)."
+    "text": "What the App Does\nThe app implements the simulation logic described in the manuscript, allowing users to:\n\nSimulate datasets with custom characteristics:\n\nsample size\nnumber of indicators\ncorrelations\nskewness and kurtosis\neffect size (d) between true clusters\n\nEstimate Type I error\nHow often does a method detect multiple clusters when the data truly come from one population? (e.g., GMM may show inflated Type I error under modest skewness)\nEstimate Power\nHow often does the method correctly detect two clusters when they truly exist? (e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means)\nAssess classification accuracy\nUsing the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (k-means may detect “two clusters” with 100% power but classify individuals no better than chance (Adjusted Rand Index ≈ .06))."
   },
   {
     "objectID": "open-resources/clusterapp.html#why-this-matters",
     "href": "open-resources/clusterapp.html#why-this-matters",
     "title": "A shiny app for clusters that are not there",
     "section": "Why This Matters",
-    "text": "Why This Matters\nClustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:\n\nModerate skewness (skew = .50) yields 48% false positives for GMM (p.7)\nModest correlations (r = .35) produce 100% false positives for k-means (p.8–9)\nLarge sample sizes exacerbate the problem for GMM (p.12)\nApparent clusters disappear when centering data within clusters (p.13, Figure 5)\nGMM may “create” clusters to compensate for skewed distributions (Figure 6, p.13)\n\nThese are exactly the pitfalls the app helps users explore and understand."
+    "text": "Why This Matters\nClustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:\n\nModerate skewness (skew = .50) yields 48% false positives for GMM in our simulation (p.7)\nModest correlations (r = .35) produce 100% false positives for k-means (p.8–9)\nLarge sample sizes exacerbate the problem for GMM (p.12)\nGMM may “create” clusters to compensate for skewed distributions (Figure 6, p.13)\n\nThese are exactly the pitfalls the app helps users explore and understand."
   },
   {
     "objectID": "open-resources/clusterapp.html#features-at-a-glance",
@@ -151,14 +151,14 @@
     "href": "open-resources/livingseb.html",
     "title": "Living SEB project",
     "section": "",
-    "text": "The Living SEB Project is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
   },
   {
     "objectID": "open-resources/livingseb.html#overview",
     "href": "open-resources/livingseb.html#overview",
     "title": "Living SEB project",
     "section": "",
-    "text": "The Living SEB Project is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
   },
   {
     "objectID": "open-resources/livingseb.html#what-the-project-includes",
@@ -172,7 +172,7 @@
     "href": "open-resources/livingseb.html#core-resources",
     "title": "Living SEB project",
     "section": "Core Resources",
-    "text": "Core Resources\n\n📄 Living SEB Paper\nFull methodological and empirical description of the project.\n\nHTML version:\nhttps://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html\nOfficial preprint (PDF):\nhttps://doi.org/10.31234/osf.io/ewvuf_v1\n\n\n\n📊 Living SEB App\nInteractive Shiny app for browsing studies and running meta-analyses.\n\nApp (v0):\nhttps://feracoshiny.shinyapps.io/livingSEBapp/\nUser manual (PDF):\nhttps://feracotommaso.github.io/living_SEB_review/appManual/livingSEBapp_manual.pdf\n\n\n\n📝 Preregistration\nFull preregistration protocol of the Living SEB workflow.\n\nhttps://feracotommaso.github.io/living_SEB_review/preregistration/Preregistration_protocol_livingSEB.pdf\n\n\n\n🎤 Presentations\n\nIBT Colloquium • 2025-09-17\nhttps://feracotommaso.github.io/living_SEB_review/slides/IBTcolloquium/IBTcolloquium.html#/title-slide\nLab Meeting • 2025-10-13\nhttps://feracotommaso.github.io/living_SEB_review/slides/labMeeting/LabMeetingLMA.html"
+    "text": "Core Resources\n\n📄 Living SEB Paper\nFull methodological and empirical description of the project.\n\nLiving paper (html)\nOfficial preprint (pdf)\n\n📊 Living SEB App\nInteractive Shiny app for browsing studies and running meta-analyses.\n\nApp link\nUser manual (PDF)\n\n📝 Preregistration\nFull preregistration protocol of the Living SEB workflow (PDF).\n🎤 Presentations\n\nIBT Colloquium • 2025-09-17 (slides)\nLab Meeting • 2025-10-13 (slides)"
   },
   {
     "objectID": "open-resources/livingseb.html#why-a-living-approach",

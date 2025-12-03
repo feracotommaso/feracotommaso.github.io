@@ -8,7 +8,7 @@ tags: [review, meta-analysis, SEB]
 
 ## Overview
 
-The **Living SEB Project** is an open, continuously updated research initiative that compiles and synthesizes all available **cross-sectional studies** on Strength–Emotion–Behavior (SEB) associations.\
+The **Living SEB Project** (<https://github.com/feracotommaso/living_SEB_review>) is an open, continuously updated research initiative that compiles and synthesizes all available **cross-sectional studies** on Strength–Emotion–Behavior (SEB) associations.\
 Its goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.
 
 The project provides access to a *living database*, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature.
@@ -23,36 +23,19 @@ The project provides access to a *living database*, a suite of analytic tools, a
 
 ## Core Resources
 
-### 📄 Living SEB Paper
-
-Full methodological and empirical description of the project.
-
--   **HTML version:**\
-    <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html>
--   **Official preprint (PDF):**\
-    <https://doi.org/10.31234/osf.io/ewvuf_v1>
-
-### 📊 Living SEB App
-
-Interactive Shiny app for browsing studies and running meta-analyses.
-
--   **App (v0):**\
-    <https://feracoshiny.shinyapps.io/livingSEBapp/>
--   **User manual (PDF):**\
-    <https://feracotommaso.github.io/living_SEB_review/appManual/livingSEBapp_manual.pdf>
-
-### 📝 Preregistration
-
-Full preregistration protocol of the Living SEB workflow.
-
--   <https://feracotommaso.github.io/living_SEB_review/preregistration/Preregistration_protocol_livingSEB.pdf>
-
-### 🎤 Presentations
-
--   **IBT Colloquium • 2025-09-17**\
-    <https://feracotommaso.github.io/living_SEB_review/slides/IBTcolloquium/IBTcolloquium.html#/title-slide>
--   **Lab Meeting • 2025-10-13**\
-    <https://feracotommaso.github.io/living_SEB_review/slides/labMeeting/LabMeetingLMA.html>
+-   📄 **Living SEB Paper\
+    **Full methodological and empirical description of the project.
+    -   **Living paper** ([html](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html))
+    -   **Official preprint** ([pdf](https://doi.org/10.31234/osf.io/ewvuf_v1))
+-   **📊 Living SEB App\
+    **Interactive Shiny app for browsing studies and running meta-analyses.
+    -   **App** [link](https://feracoshiny.shinyapps.io/livingSEBapp/)
+    -   **User manual ([PDF](https://feracotommaso.github.io/living_SEB_review/appManual/livingSEBapp_manual.pdf))**
+-   📝 **Preregistration\
+    **Full preregistration protocol of the Living SEB workflow ([PDF](https://feracotommaso.github.io/living_SEB_review/preregistration/Preregistration_protocol_livingSEB.pdf)).
+-   🎤 **Presentations**
+    -   **IBT Colloquium** • 2025-09-17 ([slides](https://feracotommaso.github.io/living_SEB_review/slides/IBTcolloquium/IBTcolloquium.html#/title-slide))
+    -   **Lab Meeting •** 2025-10-13 ([slides](https://feracotommaso.github.io/living_SEB_review/slides/labMeeting/LabMeetingLMA.html))
 
 ## Why a “Living” approach?
 

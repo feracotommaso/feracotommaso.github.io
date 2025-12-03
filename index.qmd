@@ -7,28 +7,41 @@ about:
   image-shape: round
   image-width: 12em
   links:
-    # - icon: mail
-    #   text: tommaso.feraco@unipd.it
-    #   href: mailto:tommaso.feraco@unipd.it
-    - icon: github
-      # text: GitHub
-      href: https://github.com/feracotommaso 
-    - text: '<img src="img/osf.png" style="height: 1.2em; vertical-align: middle;">'
-      href: https://osf.io/user/pu75z
-      target: _blank
-    - text: '<img src="img/sc.png" style="height: 1.2em; vertical-align: middle; ">'
-      href: https://www.scopus.com/authid/detail.uri?authorId=57218109907
-      target: _blank
-    - text: '<img src="img/rg.png" style="height: 1.2em; vertical-align: middle; ">'
-      href: https://www.researchgate.net/profile/Tommaso-Feraco
-      target: _blank
-    - text: '<img src="img/psicostat.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> Psicostat'
-      href: https://psicostat.dpss.psy.unipd.it/
-      target: _blank
-    - text: '<img src="img/ML.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> M&L'
-      href: https://www.memoryandlearninglab.it/
-      target: _blank
-    
+  - icon: github
+    href: https://github.com/feracotommaso 
+
+  - text: '<img src="img/x.png" style="height: 1.2em; vertical-align: middle;">'
+    href: https://x.com/FeracoTommaso
+    target: _blank
+
+  - text: '<img src="img/bluesky.png" style="height: 1.2em; vertical-align: middle;">'
+    href: https://bsky.app/profile/tommasoferaco.bsky.social
+    target: _blank
+
+  - text: '<img src="img/linkedin.svg" style="height: 1.2em; vertical-align: middle;">'
+    href: https://www.linkedin.com/in/tommaso-feraco-883810151/
+    target: _blank
+
+  - text: '<img src="img/osf.png" style="height: 1.2em; vertical-align: middle;">'
+    href: https://osf.io/user/pu75z
+    target: _blank
+
+  - text: '<img src="img/sc.png" style="height: 1.2em; vertical-align: middle;">'
+    href: https://www.scopus.com/authid/detail.uri?authorId=57218109907
+    target: _blank
+
+  - text: '<img src="img/rg.png" style="height: 1.2em; vertical-align: middle;">'
+    href: https://www.researchgate.net/profile/Tommaso-Feraco
+    target: _blank
+
+  - text: '<img src="img/psicostat.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> Psicostat'
+    href: https://psicostat.dpss.psy.unipd.it/
+    target: _blank
+
+  - text: '<img src="img/ML.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> M&L'
+    href: https://www.memoryandlearninglab.it/
+    target: _blank
+
 markdown:
   extensions: [link_attributes]
 engine: knitr

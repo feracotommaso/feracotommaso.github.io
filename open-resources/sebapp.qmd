@@ -26,15 +26,11 @@ Built as part of a broader effort to create a living, open, and cumulative evide
 
 ## Features at a glance
 
-📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity
-
-🧮 Built-in meta-analytic models using robust and reproducible pipelines
-
-🔍 Searchable database of SEB constructs, measures, sample characteristics
-
-🔄 Continuously updated through the Living SEB Project workflow
-
-📥 Export options for datasets and analysis outputs
+-   📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity
+-   🧮 Built-in meta-analytic models using robust and reproducible pipelines
+-   🔍 Searchable database of SEB constructs, measures, sample characteristics
+-   🔄 Continuously updated through the Living SEB Project workflow
+-   📥 Export options for datasets and analysis outputs
 
 ## Background
 

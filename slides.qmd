@@ -15,5 +15,4 @@ Here you can find slides used for scientific presentation and talks:
 ## Methods
 
 -   **Clusters that are not there -** [Psicostat meeting](https://psicostat.dpss.psy.unipd.it/meetings/slides/2024-03-08_feraco.pdf)
-
 -   **SEMbeddings** - [handZone](https://feracotommaso.github.io/living_SEB_review/slides/SEMbeddingSlides.pdf)

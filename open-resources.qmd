@@ -3,10 +3,10 @@ title: "Open resources"
 listing:
   contents: open-resources
   type: table
-  fields: [title, date, file-modified, categories]
+  fields: [title, date, description, method, tags] #file-modified
   sort: "date desc"
   sort-ui: [date, title]
-  filter-ui: [title, categories]
+  filter-ui: [title, description, method, tags]
   categories: numbered
   page-size: 30
 ---

@@ -2,10 +2,11 @@
 title: "Living SEB project"
 description: "A living database for SEB research."
 date: 2025-12-01
-categories: [review, reproducibility, SEB]
+method: [database]
+tags: [review, meta-analysis, SEB]
 ---
 
-Here you can find the basic resources about the *Living SEB Project* that everyone may want to use or read :
+Here you can find the basic resources about the *Living SEB Project* that everyone may want to use or read:
 
 -   **Living SEB paper** - [html](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html)
 -   **Official preprint -** [pdf](https://doi.org/10.31234/osf.io/ewvuf_v1)

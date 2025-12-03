@@ -1,0 +1,101 @@
+---
+toc: false
+---
+
+# Courses and Open Teaching materials
+
+This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.
+
+------------------------------------------------------------------------
+
+<details>
+
+<summary>
+
+<p style="font-size:25px;">
+
+Structural Equation Modeling ![English](img/english.png){width="18px"}
+
+</p>
+
+</summary>
+
+<br>
+
+**Course website**: <a href="https://feracotommaso.github.io/SEM-course/" target="_blank">https://enricotoffalini.github.io/SEM-course/</a>
+
+**Short description**\
+This course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.
+
+**What you can find here**
+
+-   📑 **Slides and lecture notes**
+    -   Conceptual slides introducing R as a language for data science\
+    -   Step-by-step examples to reproduce directly in R / RStudio
+-   🧪 **Hands-on exercises**
+    -   Guided exercises for getting familiar with lavaan syntax\
+    -   Small data sets used in class, ready to be reused in other courses or self-study
+
+**Who this is useful for**
+
+-   PhD students and early-career researchers who need a **compact, applied** introduction to SEM\
+-   Teachers who want **ready-made R exercises and examples** and **slides** to integrate in their own courses
+
+</details>
+
+------------------------------------------------------------------------
+
+<details>
+
+<summary>
+
+<p style="font-size:25px;">
+
+Psicologia della Personalità e delle Differenze Individuali ![Italiano](img/italian.png){width="18px"}
+
+</p>
+
+</summary>
+
+<br>
+
+**Sito del corso e materiali aperti**: <a href="https://feracotommaso.github.io/Personality-and-individual-differences/" target="_blank">https://feracotommaso.github.io/Personality-and-individual-differences/</a>
+
+Corso triennale introduttivo sulla **psicologia della personalità** e sulle **differenze individuali**. Il corso affronta:
+
+-   la definizione di personalità\
+-   i maggiori modelli di personalità\
+-   i principali strumenti di misura della personalità\
+-   varie tipologie e aree di ricerca delle differenze individuali
+
+**Materiali disponibili**
+
+-   📑 **Dispense e approfondimenti**\
+    Tutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.
+
+-   📑 **Risultati delle esercitazioni**\
+    Durante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.
+
+**A chi può essere utile**
+
+-   Persone curiose di capire meglio come e perchè le persone sono diverse una dall'altra e quali modelli spiegano meglio tali differenze;
+-   Studentesse e studenti di psicologia, neuroscienze, materie umanistiche;
+-   Docenti che cercano **materiali pronti all’uso** per lezioni sui temi di personalità e differenze individuali.
+
+</details>
+
+------------------------------------------------------------------------
+
+## Reuse of materials
+
+-   ✅ You are welcome to **link to these course pages**, embed specific exercises in your own syllabi, or recommend them to students.\
+-   ✅ Slides and code examples are generally fine to reuse for **non-commercial teaching**, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\
+-   ❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it's generally fine, but please get in touch first.
+
+------------------------------------------------------------------------
+
+## Contact
+
+If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: [tommaso.feraco\@unipd.it](mailto:tommaso.feraco@unipd.it){.email}
+
+I am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science.

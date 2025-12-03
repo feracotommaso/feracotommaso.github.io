@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-file-modified','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-method','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-categories"],
+      searchColumns: ["listing-title","listing-categories","listing-method"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -169,7 +169,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y2x1c3RlcnM=">clusters <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVwcm9kdWNpYmlsaXR5">reproducibility <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmV2aWV3">review <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U0VC">SEB <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c2hpbnk=">shiny <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -232,7 +232,7 @@ window.Quarto = {
 </th>
 
 <th>
-Modified
+method
 </th>
 
 <th>
@@ -243,7 +243,7 @@ Categories
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="cmV2aWV3JTJDcmVwcm9kdWNpYmlsaXR5JTJDU0VC" data-listing-date-sort="1764543600000" data-listing-file-modified-sort="1764755043789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72" data-listing-title-sort="Living SEB project" data-listing-filename-sort="livingseb.qmd">
+<tr data-index="0" data-listing-date-sort="1764543600000" data-listing-file-modified-sort="1764777844375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-title-sort="Living SEB project" data-listing-filename-sort="livingseb.qmd">
 <td>
 <a href="./open-resources/livingseb.html" class="title listing-title">Living SEB project</a>
 </td>
@@ -251,15 +251,15 @@ Categories
 <span class="listing-date">Dec 1, 2025</span>
 </td>
 <td>
-<span class="listing-file-modified">12/3/25, 10:44:03 AM</span>
+<span class="listing-method">database</span>
 </td>
 <td>
-<span class="listing-categories">review, reproducibility, SEB</span>
+<span class="listing-categories">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-categories="cmV2aWV3JTJDc2hpbnklMkNTRUI=" data-listing-date-sort="1764543600000" data-listing-file-modified-sort="1764754838491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21" data-listing-title-sort="The Living SEB app" data-listing-filename-sort="sebapp.qmd">
+<tr data-index="1" data-listing-date-sort="1764543600000" data-listing-file-modified-sort="1764778199858" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21" data-listing-title-sort="The Living SEB app" data-listing-filename-sort="sebapp.qmd">
 <td>
 <a href="./open-resources/sebapp.html" class="title listing-title">The Living SEB app</a>
 </td>
@@ -267,15 +267,31 @@ Categories
 <span class="listing-date">Dec 1, 2025</span>
 </td>
 <td>
-<span class="listing-file-modified">12/3/25, 10:40:38 AM</span>
+<span class="listing-method">shinyApp</span>
 </td>
 <td>
-<span class="listing-categories">review, shiny, SEB</span>
+<span class="listing-categories">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-categories="Y2x1c3RlcnMlMkNzaGlueQ==" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1764759685013" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22" data-listing-title-sort="A shiny app for clusters that are not there" data-listing-filename-sort="clusterapp.qmd">
+<tr data-index="2" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1764778194028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="Character strengths meta-analysis" data-listing-filename-sort="csmetaapp.qmd">
+<td>
+<a href="./open-resources/csmetaapp.html" class="title listing-title">Character strengths meta-analysis</a>
+</td>
+<td>
+<span class="listing-date">Aug 12, 2025</span>
+</td>
+<td>
+<span class="listing-method">shinyApp</span>
+</td>
+<td>
+<span class="listing-categories">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1764778192322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22" data-listing-title-sort="A shiny app for clusters that are not there" data-listing-filename-sort="clusterapp.qmd">
 <td>
 <a href="./open-resources/clusterapp.html" class="title listing-title">A shiny app for clusters that are not there</a>
 </td>
@@ -283,10 +299,10 @@ Categories
 <span class="listing-date">Sep 23, 2024</span>
 </td>
 <td>
-<span class="listing-file-modified">12/3/25, 12:01:25 PM</span>
+<span class="listing-method">shinyApp</span>
 </td>
 <td>
-<span class="listing-categories">clusters, shiny</span>
+<span class="listing-categories">&nbsp;</span>
 </td>
 
 </tr>

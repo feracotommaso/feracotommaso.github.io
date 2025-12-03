@@ -1,0 +1,11 @@
+---
+title: "Character strengths meta-analysis"
+date: 2025-08-12
+description: "An app to explore meta-analytic results of Casali & Feraco, 2025"
+method: [shinyApp]
+tags: [review, meta-analysis, shiny]
+---
+
+This app ([app link](https://feracoshiny.shinyapps.io/character-meta-v3/){target="_blank"}) allows exploring the results of our meta-analysis (Casali & Feraco, 2025) testing the associations between character strengths and well-being.
+
+More information on the meta-analysis here: <https://doi.org/10.1177/08902070251366765>

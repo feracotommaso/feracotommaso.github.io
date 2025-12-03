@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tommaso Feraco",
-    "section": "",
-    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n \n  \n   \n  \n    \n     GitHub\n  \n  \n      OSF\n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n  \n      Scopus\n  \n  \n      RG\n  \n\n\n\n\nLast updated: 2025-12-03"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
-  },
-  {
-    "objectID": "open-resources.html",
-    "href": "open-resources.html",
-    "title": "Open resources",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nModified\n\n\n\nCategories\n\n\n\n\n\n\n\n\nLiving SEB project\n\n\nDec 1, 2025\n\n\n12/3/25, 10:44:03 AM\n\n\nreview, reproducibility, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\n12/3/25, 10:40:38 AM\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\n12/3/25, 12:01:25 PM\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "slides.html",
     "href": "slides.html",
     "title": "Slides",
@@ -35,13 +14,6 @@
     "text": "Social, emotional, and behavioral skills\n\nSEB skills and specific learning disabilities - Departmental talk\nSEB skills and self-regulated learning frameworks - ARP (pdf); ISSID\nSEB skills in adolescence and change goals - YLC presentation (pdf)\nThe Living SEB project - IBT; Lab meeting"
   },
   {
-    "objectID": "open-resources/clusterapp.html",
-    "href": "open-resources/clusterapp.html",
-    "title": "A shiny app for clusters that are not there",
-    "section": "",
-    "text": "This app allows testing inferential risks for cluster analysis app link. More info at the linked paper: Clusters that are not there"
-  },
-  {
     "objectID": "slides.html#methods",
     "href": "slides.html#methods",
     "title": "Slides",
@@ -49,10 +21,73 @@
     "text": "Methods\n\nClusters that are not there - Psicostat meeting\nSEMbeddings - handZone"
   },
   {
+    "objectID": "open-resources/sebapp.html",
+    "href": "open-resources/sebapp.html",
+    "title": "The Living SEB app",
+    "section": "",
+    "text": "This app allows using the Living SEB Project materials app link to navigate and meta-analyse evidence from all cross-sectional SEB studies."
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html",
+    "href": "open-resources/csmetaapp.html",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This app (app link) allows exploring the results of our meta-analysis (Casali & Feraco, 2025) testing the associations between character strengths and well-being.\nMore information on the meta-analysis here: https://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tommaso Feraco",
+    "section": "",
+    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n \n  \n   \n  \n    \n     GitHub\n  \n  \n     \n  \n  \n     \n  \n  \n      RG\n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2025-12-03"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "courses.html#reuse-of-materials",
+    "href": "courses.html#reuse-of-materials",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
+  },
+  {
+    "objectID": "courses.html#contact",
+    "href": "courses.html#contact",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html",
+    "href": "open-resources/clusterapp.html",
+    "title": "A shiny app for clusters that are not there",
+    "section": "",
+    "text": "This app allows testing inferential risks for cluster analysis app link. More info at the linked paper: Clusters that are not there"
+  },
+  {
     "objectID": "open-resources/livingseb.html",
     "href": "open-resources/livingseb.html",
     "title": "Living SEB project",
     "section": "",
-    "text": "Here you can find the basic resources about the Living SEB Project that everyone may want to use or read :\n\nLiving SEB paper - html\nOfficial preprint - pdf\nLiving SEB app - link v0 (user manual)\nPreregistration - pdf\nPresentations\n\nIBT colloquium 2025-09-17 html\nLab meeting 2025-10-13 html"
+    "text": "Here you can find the basic resources about the Living SEB Project that everyone may want to use or read:\n\nLiving SEB paper - html\nOfficial preprint - pdf\nLiving SEB app - link v0 (user manual)\nPreregistration - pdf\nPresentations\n\nIBT colloquium 2025-09-17 html\nLab meeting 2025-10-13 html"
+  },
+  {
+    "objectID": "open-resources.html",
+    "href": "open-resources.html",
+    "title": "Open resources",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nmethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nLiving SEB project\n\n\nDec 1, 2025\n\n\ndatabase\n\n\n \n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nshinyApp\n\n\n \n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nshinyApp\n\n\n \n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nshinyApp\n\n\n \n\n\n\n\n\n\nNo matching items"
   }
 ]

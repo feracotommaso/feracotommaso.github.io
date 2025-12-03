@@ -1,7 +1,9 @@
 ---
 title: "A shiny app for clusters that are not there"
 date: 2024-09-23
-categories: [clusters, shiny]
+description: "An app for inferential risks and power in cluster analysis"
+method: [shinyApp]
+tags: [clusters, shiny]
 ---
 
 This app allows testing inferential risks for cluster analysis [app link](https://psicostat.shinyapps.io/clustersimulation-demo/){target="_blank"}. More info at the linked paper: [Clusters that are not there](https://doi.org/10.1002/ijop.13246)

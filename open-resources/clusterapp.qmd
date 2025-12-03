@@ -7,3 +7,57 @@ tags: [clusters, shiny]
 ---
 
 This app allows testing inferential risks for cluster analysis [app link](https://psicostat.shinyapps.io/clustersimulation-demo/){target="_blank"}. More info at the linked paper: [Clusters that are not there](https://doi.org/10.1002/ijop.13246)
+
+## Overview
+
+**Clusters That Are Not There** is a Shiny application designed to help researchers **quantify inferential risks** when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article *Clusters That Are Not There* (Toffalini et al., 2024) Toffalini 2024 Clusters, the app provides an accessible interface to run Monte Carlo simulations that evaluate **Type I error**, **power**, and **classification accuracy** under conditions commonly found in psychological research.
+
+The core message of the paper is simple but crucial:
+
+**Clustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.**\
+This app offers an intuitive way to test these risks *before* running cluster analyses on real data.
+
+➡️ **Explore the app:** *(add your app link here)*\
+➡️ **Manuscript:** *full citation and link based on your hosting (PDF/HTML)*
+
+## What the App Does
+
+The app implements the simulation logic described in the manuscript, allowing users to:
+
+-   **Simulate datasets** with custom characteristics:
+    -   sample size
+    -   number of indicators
+    -   correlations
+    -   skewness and kurtosis
+    -   effect size (d) between true clusters
+-   **Estimate Type I error**\
+    How often does a method detect multiple clusters when the data truly come from **one population**?\
+    (e.g., GMM may show inflated Type I error under modest skewness as shown on p.7–8 of the manuscript Toffalini 2024 Clusters.)
+-   **Estimate Power**\
+    How often does the method correctly detect two clusters when they truly exist?\
+    (e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means — see p.9 of the article Toffalini 2024 Clusters.)
+-   **Assess classification accuracy**\
+    Using the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (p.10–11).\
+    Example: k-means may detect “two clusters” with 100% power but *classify individuals no better than chance* (Adjusted Rand Index ≈ .06).
+
+## Why This Matters
+
+Clustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:
+
+-   **Moderate skewness** (skew = .50) yields **48% false positives** for GMM (p.7)
+-   **Modest correlations** (r = .35) produce **100% false positives** for k-means (p.8–9)
+-   **Large sample sizes** exacerbate the problem for GMM (p.12)
+-   **Apparent clusters** disappear when centering data within clusters (p.13, Figure 5)
+-   **GMM may “create” clusters** to compensate for skewed distributions (Figure 6, p.13)
+
+These are exactly the pitfalls the app helps users explore and understand.
+
+## Features at a Glance
+
+-   🧮 **Monte Carlo simulation interface**
+-   🔢 **Data Specification mode** (define your own distributions)
+-   📂 **Data Upload mode** (upload your dataset and test risks)
+-   📊 **GMM and k-means implementations** following the paper
+-   🔍 **Visual summaries** of detected cluster counts
+-   ⏱️ **Time-limited simulation mode** for web performance
+-   📥 **Downloadable simulation settings**

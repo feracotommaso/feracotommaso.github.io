@@ -11,7 +11,7 @@ about:
     #   text: tommaso.feraco@unipd.it
     #   href: mailto:tommaso.feraco@unipd.it
     - icon: github
-      text: GitHub
+      # text: GitHub
       href: https://github.com/feracotommaso 
     - text: '<img src="img/osf.png" style="height: 1.2em; vertical-align: middle;">'
       href: https://osf.io/user/pu75z
@@ -19,7 +19,7 @@ about:
     - text: '<img src="img/sc.png" style="height: 1.2em; vertical-align: middle; ">'
       href: https://www.scopus.com/authid/detail.uri?authorId=57218109907
       target: _blank
-    - text: '<img src="img/rg.png" style="height: 1.2em; vertical-align: middle; "> RG'
+    - text: '<img src="img/rg.png" style="height: 1.2em; vertical-align: middle; ">'
       href: https://www.researchgate.net/profile/Tommaso-Feraco
       target: _blank
     - text: '<img src="img/psicostat.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> Psicostat'

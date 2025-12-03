@@ -6,4 +6,40 @@ method: [shinyApp]
 tags: [review, shiny, SEB]
 ---
 
-This app allows using the *Living SEB Project* materials [app link](https://feracoshiny.shinyapps.io/livingSEBapp/){target="_blank"} to navigate and meta-analyse evidence from all cross-sectional SEB studies.
+This app ([app link](https://feracoshiny.shinyapps.io/livingSEBapp/){target="_blank"}) allows using the *Living SEB Project* materials to navigate and meta-analyse evidence from all cross-sectional SEB studies.
+
+## Overview
+
+The Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.
+
+Built as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.
+
+➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp/{target="\_blank"}
+
+## What you can do with the app
+
+-   Browse all included SEB studies with filters for samples, designs, measures, and variables.
+-   Inspect effect sizes and metadata for every association extracted in the review.
+-   Run on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).
+-   Download the dataset used in the app for further analysis in R or other tools.
+-   Track updates as new studies are added to the living review.
+
+## Features at a glance
+
+📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity
+
+🧮 Built-in meta-analytic models using robust and reproducible pipelines
+
+🔍 Searchable database of SEB constructs, measures, sample characteristics
+
+🔄 Continuously updated through the Living SEB Project workflow
+
+📥 Export options for datasets and analysis outputs
+
+## Background
+
+The app accompanies the article:
+
+Feraco, T. & Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. <https://doi.org/10.31234/osf.io/ewvuf_v1>
+
+Together with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis.

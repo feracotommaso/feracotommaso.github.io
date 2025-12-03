@@ -109,8 +109,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#what-the-app-does" id="toc-what-the-app-does" class="nav-link" data-scroll-target="#what-the-app-does">What the App Does</a></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
+  <li><a href="#features-at-a-glance" id="toc-features-at-a-glance" class="nav-link" data-scroll-target="#features-at-a-glance">Features at a Glance</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -146,8 +155,64 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This app allows testing inferential risks for cluster analysis <a href="https://psicostat.shinyapps.io/clustersimulation-demo/" target="_blank">app link</a>. More info at the linked paper: <a href="https://doi.org/10.1002/ijop.13246">Clusters that are not there</a></p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p><strong>Clusters That Are Not There</strong> is a Shiny application designed to help researchers <strong>quantify inferential risks</strong> when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article <em>Clusters That Are Not There</em> (Toffalini et al., 2024) Toffalini 2024 Clusters, the app provides an accessible interface to run Monte Carlo simulations that evaluate <strong>Type I error</strong>, <strong>power</strong>, and <strong>classification accuracy</strong> under conditions commonly found in psychological research.</p>
+<p>The core message of the paper is simple but crucial:</p>
+<p><strong>Clustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.</strong><br>
+This app offers an intuitive way to test these risks <em>before</em> running cluster analyses on real data.</p>
+<p>➡️ <strong>Explore the app:</strong> <em>(add your app link here)</em><br>
+➡️ <strong>Manuscript:</strong> <em>full citation and link based on your hosting (PDF/HTML)</em></p>
+</section>
+<section id="what-the-app-does" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-app-does">What the App Does</h2>
+<p>The app implements the simulation logic described in the manuscript, allowing users to:</p>
+<ul>
+<li><strong>Simulate datasets</strong> with custom characteristics:
+<ul>
+<li>sample size</li>
+<li>number of indicators</li>
+<li>correlations</li>
+<li>skewness and kurtosis</li>
+<li>effect size (d) between true clusters</li>
+</ul></li>
+<li><strong>Estimate Type I error</strong><br>
+How often does a method detect multiple clusters when the data truly come from <strong>one population</strong>?<br>
+(e.g., GMM may show inflated Type I error under modest skewness as shown on p.7–8 of the manuscript Toffalini 2024 Clusters.)</li>
+<li><strong>Estimate Power</strong><br>
+How often does the method correctly detect two clusters when they truly exist?<br>
+(e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means — see p.9 of the article Toffalini 2024 Clusters.)</li>
+<li><strong>Assess classification accuracy</strong><br>
+Using the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (p.10–11).<br>
+Example: k-means may detect “two clusters” with 100% power but <em>classify individuals no better than chance</em> (Adjusted Rand Index ≈ .06).</li>
+</ul>
+</section>
+<section id="why-this-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
+<p>Clustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:</p>
+<ul>
+<li><strong>Moderate skewness</strong> (skew = .50) yields <strong>48% false positives</strong> for GMM (p.7)</li>
+<li><strong>Modest correlations</strong> (r = .35) produce <strong>100% false positives</strong> for k-means (p.8–9)</li>
+<li><strong>Large sample sizes</strong> exacerbate the problem for GMM (p.12)</li>
+<li><strong>Apparent clusters</strong> disappear when centering data within clusters (p.13, Figure 5)</li>
+<li><strong>GMM may “create” clusters</strong> to compensate for skewed distributions (Figure 6, p.13)</li>
+</ul>
+<p>These are exactly the pitfalls the app helps users explore and understand.</p>
+</section>
+<section id="features-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="features-at-a-glance">Features at a Glance</h2>
+<ul>
+<li>🧮 <strong>Monte Carlo simulation interface</strong></li>
+<li>🔢 <strong>Data Specification mode</strong> (define your own distributions)</li>
+<li>📂 <strong>Data Upload mode</strong> (upload your dataset and test risks)</li>
+<li>📊 <strong>GMM and k-means implementations</strong> following the paper</li>
+<li>🔍 <strong>Visual summaries</strong> of detected cluster counts</li>
+<li>⏱️ <strong>Time-limited simulation mode</strong> for web performance</li>
+<li>📥 <strong>Downloadable simulation settings</strong></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

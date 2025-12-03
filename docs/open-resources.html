@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-method','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-description','listing-method','listing-tags',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-categories","listing-method"],
+      searchColumns: ["listing-title","listing-description","listing-method","listing-tags"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -232,18 +232,22 @@ window.Quarto = {
 </th>
 
 <th>
+Description
+</th>
+
+<th>
 method
 </th>
 
 <th>
-Categories
+tags
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1764543600000" data-listing-file-modified-sort="1764777844375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-title-sort="Living SEB project" data-listing-filename-sort="livingseb.qmd">
+<tr data-index="0" data-listing-date-sort="1764543600000" data-listing-file-modified-sort="1764780015189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290" data-listing-title-sort="Living SEB project" data-listing-filename-sort="livingseb.qmd">
 <td>
 <a href="./open-resources/livingseb.html" class="title listing-title">Living SEB project</a>
 </td>
@@ -251,15 +255,18 @@ Categories
 <span class="listing-date">Dec 1, 2025</span>
 </td>
 <td>
+<span class="listing-description">A living database for SEB research.</span>
+</td>
+<td>
 <span class="listing-method">database</span>
 </td>
 <td>
-<span class="listing-categories">&nbsp;</span>
+<span class="listing-tags">review, meta-analysis, SEB</span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1764543600000" data-listing-file-modified-sort="1764778199858" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21" data-listing-title-sort="The Living SEB app" data-listing-filename-sort="sebapp.qmd">
+<tr data-index="1" data-listing-date-sort="1764543600000" data-listing-file-modified-sort="1764780044985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279" data-listing-title-sort="The Living SEB app" data-listing-filename-sort="sebapp.qmd">
 <td>
 <a href="./open-resources/sebapp.html" class="title listing-title">The Living SEB app</a>
 </td>
@@ -267,15 +274,18 @@ Categories
 <span class="listing-date">Dec 1, 2025</span>
 </td>
 <td>
+<span class="listing-description">A shiny app for SEB research synthesis</span>
+</td>
+<td>
 <span class="listing-method">shinyApp</span>
 </td>
 <td>
-<span class="listing-categories">&nbsp;</span>
+<span class="listing-tags">review, shiny, SEB</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1764778194028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="Character strengths meta-analysis" data-listing-filename-sort="csmetaapp.qmd">
+<tr data-index="2" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1764780544968" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133" data-listing-title-sort="Character strengths meta-analysis" data-listing-filename-sort="csmetaapp.qmd">
 <td>
 <a href="./open-resources/csmetaapp.html" class="title listing-title">Character strengths meta-analysis</a>
 </td>
@@ -283,15 +293,18 @@ Categories
 <span class="listing-date">Aug 12, 2025</span>
 </td>
 <td>
+<span class="listing-description">An app to explore meta-analytic results of Casali &amp; Feraco, 2025</span>
+</td>
+<td>
 <span class="listing-method">shinyApp</span>
 </td>
 <td>
-<span class="listing-categories">&nbsp;</span>
+<span class="listing-tags">review, meta-analysis, shiny</span>
 </td>
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1764778192322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22" data-listing-title-sort="A shiny app for clusters that are not there" data-listing-filename-sort="clusterapp.qmd">
+<tr data-index="3" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1764780338249" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="540" data-listing-title-sort="A shiny app for clusters that are not there" data-listing-filename-sort="clusterapp.qmd">
 <td>
 <a href="./open-resources/clusterapp.html" class="title listing-title">A shiny app for clusters that are not there</a>
 </td>
@@ -299,10 +312,13 @@ Categories
 <span class="listing-date">Sep 23, 2024</span>
 </td>
 <td>
+<span class="listing-description">An app for inferential risks and power in cluster analysis</span>
+</td>
+<td>
 <span class="listing-method">shinyApp</span>
 </td>
 <td>
-<span class="listing-categories">&nbsp;</span>
+<span class="listing-tags">clusters, shiny</span>
 </td>
 
 </tr>

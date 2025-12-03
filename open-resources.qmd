@@ -1,0 +1,12 @@
+---
+title: "Open resources"
+listing:
+  contents: open-resources
+  type: table
+  fields: [title, date, file-modified, categories]
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: [title, categories]
+  categories: numbered
+  page-size: 30
+---

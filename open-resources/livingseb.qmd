@@ -1,0 +1,16 @@
+---
+title: "Living SEB project"
+description: "A living database for SEB research."
+date: 2025-12-01
+categories: [review, reproducibility, SEB]
+---
+
+Here you can find the basic resources about the *Living SEB Project* that everyone may want to use or read :
+
+-   **Living SEB paper** - [html](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html)
+-   **Official preprint -** [pdf](https://doi.org/10.31234/osf.io/ewvuf_v1)
+-   **Living SEB app -** [link v0](https://feracoshiny.shinyapps.io/livingSEBapp/) ([user manual](https://feracotommaso.github.io/living_SEB_review/appManual/livingSEBapp_manual.pdf))
+-   **Preregistration** - [pdf](https://feracotommaso.github.io/living_SEB_review/preregistration/Preregistration_protocol_livingSEB.pdf)
+-   **Presentations**
+    -   IBT colloquium 2025-09-17 [html](https://feracotommaso.github.io/living_SEB_review/slides/IBTcolloquium/IBTcolloquium.html#/title-slide)
+    -   Lab meeting 2025-10-13 [html](https://feracotommaso.github.io/living_SEB_review/slides/labMeeting/LabMeetingLMA.html){target="_blank"}

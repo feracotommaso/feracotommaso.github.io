@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - text: "home"
+        href: index.qmd
+      - text: "resources"
+        href: open-resources.qmd
+      - text: "slides"
+        href: slides.qmd
+      # - text: "contact"
+      #   href: contact.qmd
+
+format:
+  html: 
+    theme:
+      light: yeti
+    fontsize: 1.2em
+    linestretch: 1.7
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+

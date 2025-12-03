@@ -1,0 +1,7 @@
+---
+title: "The Living SEB app"
+date: 2025-12-01
+categories: [review, shiny, SEB]
+---
+
+This app allows using the *Living SEB Project* materials [app link](https://feracoshiny.shinyapps.io/livingSEBapp/){target="_blank"} to navigate and meta-analyse evidence from all cross-sectional SEB studies.

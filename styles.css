@@ -1,0 +1,143 @@
+
+
+/* ---------- Navbar Styling ---------- */
+.navbar {
+  background-color: #556B2F !important;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #6E8B3D;
+  font-size: 0.95rem; /* slightly smaller font size */
+}
+
+/* Navbar link styles */
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.navbar a:hover {
+  background-color: #6E8B3D;
+  border-radius: 4px;
+}
+
+/* Improve link spacing and alignment */
+.navbar .nav-link {
+  padding: 0.5rem 0.9rem;
+  font-weight: 500;
+}
+
+/* Subtle hover underline with offset for readability */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  text-underline-offset: 3px;
+}
+
+/* Remove Bootstrap active indicator under the current page link */
+.navbar .nav-link.active {
+  box-shadow: none !important;
+  border-bottom: none !important;
+  background: rgba(255,255,255,.08);
+  border-radius: .5rem;
+}
+
+/* Gentle elevation for separation from content */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* ---------- Base Styling ---------- */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0 0.75rem;
+}
+
+/* ---------- Hero Section Styling ---------- */
+/* Hero container: tighter margins/padding */
+#hero-heading {
+  text-align: center;
+  max-width: 100%;
+  font-size: 1.1rem;
+  margin: 0.5rem 0.5rem;      /* was 1rem */
+  padding: 0.1rem 0.1rem;     /* unchanged; keep minimal */
+  box-sizing: border-box;
+}
+
+/* Reduce top whitespace for the about hero block itself */
+.quarto-about .about-entity {
+  padding-top: 0.7rem;       /* trims space above the title/photo */
+}
+
+/* Tighter vertical rhythm under the hero */
+#hero-heading p { 
+  margin-bottom: 0.5rem;     /* was 0.65rem */
+}
+
+/* Bring the links row closer to the text */
+.about .about-links {
+  margin-top: 0.2rem;         /* smaller gap before the buttons */
+}
+
+/* Slimmer rule above links (optional) */
+.about hr {
+  margin: 0.5rem 0;
+}
+
+/* Subtle, aligned last-updated line closer to links */
+.last-updated {
+  margin-top: 0.2rem;         /* was 0.8rem */
+  text-align: center;
+  color: var(--bs-secondary-color);
+  font-size: 0.9rem;
+}
+
+
+/* ---------- CV Events Layout (Improved for Mobile) ---------- */
+.cvevent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5em;
+}
+
+.cvevent-left {
+  flex: 1 1 70%;
+  min-width: 200px;
+}
+
+.cvevent-right {
+  flex: 0 0 25%;
+  min-width: 120px;
+  text-align: right;
+  font-weight: bold;
+  color: #556B2F;
+}
+
+/* ---------- Responsive Tweaks for Mobile ---------- */
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.75rem;
+  }
+
+  .navbar a {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  #hero-heading {
+    font-size: 0.85rem;
+    padding: 0rem 0.5rem;
+  }
+
+  body {
+    padding: 0 0.5rem;
+  }
+}
+
+

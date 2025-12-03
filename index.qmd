@@ -1,0 +1,48 @@
+---
+title: "Tommaso Feraco"
+image: img/me.jpg
+about:
+  id: hero-heading
+  template: jolla
+  image-shape: round
+  image-width: 12em
+  links:
+    # - icon: mail
+    #   text: tommaso.feraco@unipd.it
+    #   href: mailto:tommaso.feraco@unipd.it
+    - icon: github
+      text: GitHub
+      href: https://github.com/feracotommaso 
+    - text: '<img src="img/osf.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> OSF'
+      href: https://osf.io/user/pu75z
+      target: _blank
+    - text: '<img src="img/psicostat.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> Psicostat'
+      href: https://psicostat.dpss.psy.unipd.it/
+      target: _blank
+    - text: '<img src="img/ML.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> M&L'
+      href: https://www.memoryandlearninglab.it/
+      target: _blank
+    - text: '<img src="img/sc.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> Scopus'
+      href: https://www.scopus.com/authid/detail.uri?authorId=57218109907
+      target: _blank
+    - text: '<img src="img/rg.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> RG'
+      href: https://www.researchgate.net/profile/Tommaso-Feraco
+      target: _blank
+    
+markdown:
+  extensions: [link_attributes]
+engine: knitr
+---
+
+:::: {#hero-heading}
+
+[tommaso.feraco\@unipd.it](tommaso.feraco@unipd.it)
+
+I am a researcher at the Department of General Psychology, University of Padova, Italy.
+
+My research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.
+::::
+
+::: last-updated
+Last updated: `r format(Sys.Date(), "%Y-%m-%d")`
+:::

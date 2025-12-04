@@ -4,3 +4,5 @@
 .RData
 .Ruserdata
 .DS_Store
+courses.qmd
+docs/courses.html

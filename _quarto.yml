@@ -23,6 +23,9 @@ website:
 
 format:
   html: 
+    include-in-header:
+       text: |
+         <link rel="shortcut icon" href="img/favicon.png"/>
     theme:
       light: yeti
     fontsize: 1.2em

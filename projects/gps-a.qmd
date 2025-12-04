@@ -1,7 +1,7 @@
 ---
 title: "Geographical Psychology of School Anxiety"
 description: |
-    GPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently. By linking psychological, environmental, and spatial data, the project aims to reshape how we understand and intervene on school anxiety.
+    GPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently.
 author:
   - name: Tommaso Feraco
     orcid: 0000-0003-3131-0864

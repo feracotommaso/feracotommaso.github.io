@@ -1,7 +1,7 @@
 ---
 title: "Change goals and development of SEB skills"
 description: |
-    "An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop across adolescence and adulthood, and how people think about changing them. Through multiple studies, we examine change goals, perceived malleability, and the motivational processes that drive intentional development, with the aim of informing more effective skill-building interventions."
+    "An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop what people think about changing them."
 author:
   - name: Tommaso Feraco
     orcid: 0000-0003-3131-0864

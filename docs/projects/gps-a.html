@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-01">
-<meta name="description" content="A shiny app for SEB research synthesis">
+<meta name="author" content="Tommaso Feraco">
+<meta name="dcterms.date" content="2025-12-04">
+<meta name="description" content="GPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently. By linking psychological, environmental, and spatial data, the project aims to reshape how we understand and intervene on school anxiety.">
 
-<title>The Living SEB app</title>
+<title>Geographical Psychology of School Anxiety</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -118,10 +119,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#what-you-can-do-with-the-app" id="toc-what-you-can-do-with-the-app" class="nav-link" data-scroll-target="#what-you-can-do-with-the-app">What you can do with the app</a></li>
-  <li><a href="#features-at-a-glance" id="toc-features-at-a-glance" class="nav-link" data-scroll-target="#features-at-a-glance">Features at a glance</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#the-project" id="toc-the-project" class="nav-link active" data-scroll-target="#the-project">The project</a></li>
+  <li><a href="#collaborators-and-acknowledgment" id="toc-collaborators-and-acknowledgment" class="nav-link" data-scroll-target="#collaborators-and-acknowledgment">Collaborators and Acknowledgment</a></li>
+  <li><a href="#fundings" id="toc-fundings" class="nav-link" data-scroll-target="#fundings">Fundings</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   </ul>
 </nav>
     </div>
@@ -130,28 +131,34 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Living SEB app</h1>
+<h1 class="title">Geographical Psychology of School Anxiety</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">review</div>
-    <div class="quarto-category">shiny</div>
-    <div class="quarto-category">SEB</div>
+    <div class="quarto-category">geographical psychology</div>
+    <div class="quarto-category">education</div>
+    <div class="quarto-category">variability</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    A shiny app for SEB research synthesis
+    <p>GPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently. By linking psychological, environmental, and spatial data, the project aims to reshape how we understand and intervene on school anxiety.</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tommaso Feraco <a href="mailto:tommaso.feraco@unipd.it" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3131-0864" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 1, 2025</p>
+      <p class="date">December 4, 2025</p>
     </div>
   </div>
   
@@ -163,38 +170,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This app (<a href="https://feracoshiny.shinyapps.io/livingSEBapp/" target="_blank">app link</a>) allows using the <em>Living SEB Project</em> materials to navigate and meta-analyse evidence from all cross-sectional SEB studies.</p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.</p>
-<p>Built as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.</p>
-<p>➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp/{target=“_blank”}</p>
+<section id="the-project" class="level2">
+<h2 class="anchored" data-anchor-id="the-project">The project</h2>
+<p><strong>GPS-A (The Geographical Psychology of School Anxiety)</strong> investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.</p>
+<p>GPS-A integrates educational psychology, geographical psychology, and environmental data to uncover the socio-ecological features—such as green spaces, climate, pollution, population density, and economic inequality—that help explain this variability. Through advanced spatial analyses and large-scale intervention studies that will be conducted across 50 diverse regions, the project tests whether the effectiveness of psychological interventions also changes depending on the local environment.</p>
+<p>By developing the first fine-grained geographical model of school anxiety, GPS-A aims to support more context-sensitive theories, improve school-based interventions, and provide policymakers with evidence to better allocate resources. The project will also establish a freely accessible online platform where researchers can collaborate, explore geographical variations, and access pre-processed data to advance geographically informed psychological research.</p>
 </section>
-<section id="what-you-can-do-with-the-app" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-can-do-with-the-app">What you can do with the app</h2>
-<ul>
-<li>Browse all included SEB studies with filters for samples, designs, measures, and variables.</li>
-<li>Inspect effect sizes and metadata for every association extracted in the review.</li>
-<li>Run on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).</li>
-<li>Download the dataset used in the app for further analysis in R or other tools.</li>
-<li>Track updates as new studies are added to the living review.</li>
-</ul>
+<section id="collaborators-and-acknowledgment" class="level2">
+<h2 class="anchored" data-anchor-id="collaborators-and-acknowledgment">Collaborators and Acknowledgment</h2>
+<p>This project would not be possible without the collaboration of Tobias Ebert, David Giofrè, and the INVALSI.</p>
 </section>
-<section id="features-at-a-glance" class="level2">
-<h2 class="anchored" data-anchor-id="features-at-a-glance">Features at a glance</h2>
-<ul>
-<li>📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity</li>
-<li>🧮 Built-in meta-analytic models using robust and reproducible pipelines</li>
-<li>🔍 Searchable database of SEB constructs, measures, sample characteristics</li>
-<li>🔄 Continuously updated through the Living SEB Project workflow</li>
-<li>📥 Export options for datasets and analysis outputs</li>
-</ul>
+<section id="fundings" class="level2">
+<h2 class="anchored" data-anchor-id="fundings">Fundings</h2>
+<p>The project was funded by the European Association of Personality Psychology and by the Italian Science Fund (Fondo Italiano per la Scienza – FIS-3), established by the Italian Ministry of University and Research (MUR).</p>
 </section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>The app accompanies the article:</p>
-<p>Feraco, T. &amp; Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv.&nbsp;<a href="https://doi.org/10.31234/osf.io/ewvuf_v1" class="uri">https://doi.org/10.31234/osf.io/ewvuf_v1</a></p>
-<p>Together with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis.</p>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<p>Nothing yet, sorry :)</p>
 
 
 </section>

@@ -7,5 +7,14 @@
       "/open-resources/csmetaapp.html",
       "/open-resources/clusterapp.html"
     ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/gps-a.html",
+      "/projects/thelivingsebproject.html",
+      "/projects/bessichange.html",
+      "/projects/measuringseb.html"
+    ]
   }
 ]

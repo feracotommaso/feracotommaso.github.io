@@ -1,9 +1,9 @@
 ---
-title: "Living SEB project"
+title: "The Living SEB project"
 description: "A living database for SEB research."
 date: 2025-12-01
-method: [database]
-tags: [review, meta-analysis, SEB]
+Method: [database]
+categories: [review, meta-analysis, SEB]
 ---
 
 ## Overview

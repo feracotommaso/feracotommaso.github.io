@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-01">
-<meta name="description" content="A shiny app for SEB research synthesis">
+<meta name="author" content="Tommaso Feraco">
+<meta name="dcterms.date" content="2025-11-04">
+<meta name="description" content="“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”">
 
-<title>The Living SEB app</title>
+<title>The Living SEB Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -118,10 +139,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#what-you-can-do-with-the-app" id="toc-what-you-can-do-with-the-app" class="nav-link" data-scroll-target="#what-you-can-do-with-the-app">What you can do with the app</a></li>
-  <li><a href="#features-at-a-glance" id="toc-features-at-a-glance" class="nav-link" data-scroll-target="#features-at-a-glance">Features at a glance</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#the-project" id="toc-the-project" class="nav-link active" data-scroll-target="#the-project">The project</a></li>
+  <li><a href="#collaborators-and-acknowledgment" id="toc-collaborators-and-acknowledgment" class="nav-link" data-scroll-target="#collaborators-and-acknowledgment">Collaborators and Acknowledgment</a></li>
+  <li><a href="#fundings" id="toc-fundings" class="nav-link" data-scroll-target="#fundings">Fundings</a></li>
+  <li><a href="#living-paper" id="toc-living-paper" class="nav-link" data-scroll-target="#living-paper">Living paper</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   </ul>
 </nav>
     </div>
@@ -130,28 +152,36 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Living SEB app</h1>
+<h1 class="title">The Living SEB Project</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">SEB skills</div>
+    <div class="quarto-category">living review</div>
+    <div class="quarto-category">meta-analysis</div>
+    <div class="quarto-category">SEM</div>
     <div class="quarto-category">review</div>
-    <div class="quarto-category">shiny</div>
-    <div class="quarto-category">SEB</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    A shiny app for SEB research synthesis
+    <p>“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tommaso Feraco <a href="mailto:tommaso.feraco@unipd.it" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3131-0864" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 1, 2025</p>
+      <p class="date">November 4, 2025</p>
     </div>
   </div>
   
@@ -163,43 +193,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This app (<a href="https://feracoshiny.shinyapps.io/livingSEBapp/" target="_blank">app link</a>) allows using the <em>Living SEB Project</em> materials to navigate and meta-analyse evidence from all cross-sectional SEB studies.</p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.</p>
-<p>Built as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.</p>
-<p>➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp/{target=“_blank”}</p>
-</section>
-<section id="what-you-can-do-with-the-app" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-can-do-with-the-app">What you can do with the app</h2>
+<section id="the-project" class="level2">
+<h2 class="anchored" data-anchor-id="the-project">The project</h2>
+<p>The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a <em>living</em>, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.</p>
+<p>The project includes ongoing systematic literature searches, a centralized and <a href="https://github.com/feracotommaso/living_SEB_review">openly available database</a> of coded study metadata and effect sizes, and an interactive <a href="https://feracoshiny.shinyapps.io/livingSEBapp/">web application</a> that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.</p>
+<p>The resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.</p>
+<p>Conceptually, the project is grounded in the understanding of SEB skills as <em>capacities</em>—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: <strong>Innovation, Self-Management, Social Engagement, Cooperation,</strong> and <strong>Emotional Resilience</strong>.</p>
+<p><strong>Aims of the project</strong></p>
 <ul>
-<li>Browse all included SEB studies with filters for samples, designs, measures, and variables.</li>
-<li>Inspect effect sizes and metadata for every association extracted in the review.</li>
-<li>Run on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).</li>
-<li>Download the dataset used in the app for further analysis in R or other tools.</li>
-<li>Track updates as new studies are added to the living review.</li>
+<li><p>To provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.</p></li>
+<li><p>To enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.</p></li>
+<li><p>To help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.</p></li>
 </ul>
+<p>Because the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications.</p>
 </section>
-<section id="features-at-a-glance" class="level2">
-<h2 class="anchored" data-anchor-id="features-at-a-glance">Features at a glance</h2>
-<ul>
-<li>📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity</li>
-<li>🧮 Built-in meta-analytic models using robust and reproducible pipelines</li>
-<li>🔍 Searchable database of SEB constructs, measures, sample characteristics</li>
-<li>🔄 Continuously updated through the Living SEB Project workflow</li>
-<li>📥 Export options for datasets and analysis outputs</li>
-</ul>
+<section id="collaborators-and-acknowledgment" class="level2">
+<h2 class="anchored" data-anchor-id="collaborators-and-acknowledgment">Collaborators and Acknowledgment</h2>
+<p>This project is supported by Gerardo Pellegrino who helps me manage the new incoming data.</p>
 </section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>The app accompanies the article:</p>
-<p>Feraco, T. &amp; Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv.&nbsp;<a href="https://doi.org/10.31234/osf.io/ewvuf_v1" class="uri">https://doi.org/10.31234/osf.io/ewvuf_v1</a></p>
-<p>Together with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis.</p>
+<section id="fundings" class="level2">
+<h2 class="anchored" data-anchor-id="fundings">Fundings</h2>
+<p>No funding was obtained for this project at the moment.</p>
+</section>
+<section id="living-paper" class="level2">
+<h2 class="anchored" data-anchor-id="living-paper">Living paper</h2>
+<p>A living paper with updated results is available on github: <a href="https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html" class="uri">https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html</a></p>
+</section>
+<section id="publications" class="level2">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Publications</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-feracoLivingSEBProject2025" class="csl-entry" role="listitem">
+Feraco, Tommaso, and Gerardo Pellegrino. n.d. <span>“The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills.”</span> <a href="https://doi.org/10.31234/osf.io/ewvuf_v1">https://doi.org/10.31234/osf.io/ewvuf_v1</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

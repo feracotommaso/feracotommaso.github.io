@@ -1,0 +1,64 @@
+---
+title: "Measuring SEB skills"
+description: |
+    "What's the best way to measure SEB skills? Are self-report enough?."
+author:
+  - name: Tommaso Feraco
+    orcid: 0000-0003-3131-0864
+    email: tommaso.feraco@unipd.it
+date: 2023-12-04
+categories: [
+    "SEB skills","measurement","SEM"
+            ]
+image: img/imgbessiita.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+# citation:
+#     url: https://chrisvoncsefalvay.com/media/euronews-covid
+bibliography: references.bib
+nocite: |
+  @feracoItalianBehavioralEmotional2024
+---
+
+## The project
+
+Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.
+
+The **original** [BESSI](https://doi.org/10.1037/pspp0000401) **(Behavioral, Emotional, and Social Skills Inventory)** provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.
+
+However, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.
+
+To address this, the project introduces and evaluates the **BESSI-R**, a refined measurement tool designed to better separate SEB skills from personality traits. The BESSI-R includes:
+
+-   **clearer conceptual instructions** distinguishing abilities from tendencies,
+
+-   a **dual-item format**, asking first about behavioral tendencies and then about abilities,
+
+-   an **expanded response scale** for finer discrimination, and
+
+-   small but targeted wording adjustments to facilitate more accurate self-assessment.
+
+Initial evidence from high school students shows that participants *do* perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-R retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.
+
+Together, the BESSI-I and BESSI-R projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:
+
+-   validating the SEB skills framework across languages and developmental periods,
+
+-   improving the measurement tools used to distinguish skills from traits, and
+
+-   supporting more precise research, applied work, and educational interventions based on SEB skills.
+
+This broader research program contributes to building a **reliable, culturally adaptable, and theoretically coherent assessment system** for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications.
+
+## Collaborators and Acknowledgment
+
+This project would not be possible without the collaboration of Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, Barbara Carretti, Christopher J. Soto, Christopher M. Napolitano, and many more...
+
+## Fundings
+
+This project was initially funded by a research grant from the Department of General Psychology in 2022.
+
+## Publications

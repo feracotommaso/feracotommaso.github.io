@@ -21,95 +21,116 @@
     "text": "Methods\n\nClusters that are not there - Psicostat meeting\nSEMbeddings - handZone"
   },
   {
-    "objectID": "open-resources/sebapp.html",
-    "href": "open-resources/sebapp.html",
-    "title": "The Living SEB app",
+    "objectID": "projects/thelivingsebproject.html",
+    "href": "projects/thelivingsebproject.html",
+    "title": "The Living SEB Project",
     "section": "",
-    "text": "This app (app link) allows using the Living SEB Project materials to navigate and meta-analyse evidence from all cross-sectional SEB studies."
+    "text": "The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a living, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.\nThe project includes ongoing systematic literature searches, a centralized and openly available database of coded study metadata and effect sizes, and an interactive web application that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.\nThe resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.\nConceptually, the project is grounded in the understanding of SEB skills as capacities—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: Innovation, Self-Management, Social Engagement, Cooperation, and Emotional Resilience.\nAims of the project\n\nTo provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.\nTo enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.\nTo help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.\n\nBecause the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications."
   },
   {
-    "objectID": "open-resources/sebapp.html#overview",
-    "href": "open-resources/sebapp.html#overview",
-    "title": "The Living SEB app",
-    "section": "Overview",
-    "text": "Overview\nThe Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.\nBuilt as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.\n➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp/{target=“_blank”}"
-  },
-  {
-    "objectID": "open-resources/sebapp.html#what-you-can-do-with-the-app",
-    "href": "open-resources/sebapp.html#what-you-can-do-with-the-app",
-    "title": "The Living SEB app",
-    "section": "What you can do with the app",
-    "text": "What you can do with the app\n\nBrowse all included SEB studies with filters for samples, designs, measures, and variables.\nInspect effect sizes and metadata for every association extracted in the review.\nRun on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).\nDownload the dataset used in the app for further analysis in R or other tools.\nTrack updates as new studies are added to the living review."
-  },
-  {
-    "objectID": "open-resources/sebapp.html#features-at-a-glance",
-    "href": "open-resources/sebapp.html#features-at-a-glance",
-    "title": "The Living SEB app",
-    "section": "Features at a glance",
-    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
-  },
-  {
-    "objectID": "open-resources/sebapp.html#background",
-    "href": "open-resources/sebapp.html#background",
-    "title": "The Living SEB app",
-    "section": "Background",
-    "text": "Background\nThe app accompanies the article:\nFeraco, T. & Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. https://doi.org/10.31234/osf.io/ewvuf_v1\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html",
-    "href": "open-resources/csmetaapp.html",
-    "title": "Character strengths meta-analysis",
+    "objectID": "projects/thelivingsebproject.html#the-project",
+    "href": "projects/thelivingsebproject.html#the-project",
+    "title": "The Living SEB Project",
     "section": "",
-    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+    "text": "The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a living, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.\nThe project includes ongoing systematic literature searches, a centralized and openly available database of coded study metadata and effect sizes, and an interactive web application that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.\nThe resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.\nConceptually, the project is grounded in the understanding of SEB skills as capacities—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: Innovation, Self-Management, Social Engagement, Cooperation, and Emotional Resilience.\nAims of the project\n\nTo provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.\nTo enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.\nTo help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.\n\nBecause the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications."
   },
   {
-    "objectID": "open-resources/csmetaapp.html#overview",
-    "href": "open-resources/csmetaapp.html#overview",
-    "title": "Character strengths meta-analysis",
+    "objectID": "projects/thelivingsebproject.html#collaborators-and-acknowledgment",
+    "href": "projects/thelivingsebproject.html#collaborators-and-acknowledgment",
+    "title": "The Living SEB Project",
+    "section": "Collaborators and Acknowledgment",
+    "text": "Collaborators and Acknowledgment\nThis project is supported by Gerardo Pellegrino who helps me manage the new incoming data."
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#fundings",
+    "href": "projects/thelivingsebproject.html#fundings",
+    "title": "The Living SEB Project",
+    "section": "Fundings",
+    "text": "Fundings\nNo funding was obtained for this project at the moment."
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#living-paper",
+    "href": "projects/thelivingsebproject.html#living-paper",
+    "title": "The Living SEB Project",
+    "section": "Living paper",
+    "text": "Living paper\nA living paper with updated results is available on github: https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html"
+  },
+  {
+    "objectID": "projects/gps-a.html",
+    "href": "projects/gps-a.html",
+    "title": "Geographical Psychology of School Anxiety",
     "section": "",
-    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+    "text": "GPS-A (The Geographical Psychology of School Anxiety) investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.\nGPS-A integrates educational psychology, geographical psychology, and environmental data to uncover the socio-ecological features—such as green spaces, climate, pollution, population density, and economic inequality—that help explain this variability. Through advanced spatial analyses and large-scale intervention studies that will be conducted across 50 diverse regions, the project tests whether the effectiveness of psychological interventions also changes depending on the local environment.\nBy developing the first fine-grained geographical model of school anxiety, GPS-A aims to support more context-sensitive theories, improve school-based interventions, and provide policymakers with evidence to better allocate resources. The project will also establish a freely accessible online platform where researchers can collaborate, explore geographical variations, and access pre-processed data to advance geographically informed psychological research."
   },
   {
-    "objectID": "open-resources/csmetaapp.html#what-you-can-do",
-    "href": "open-resources/csmetaapp.html#what-you-can-do",
-    "title": "Character strengths meta-analysis",
-    "section": "What you can do",
-    "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tommaso Feraco",
+    "objectID": "projects/gps-a.html#the-project",
+    "href": "projects/gps-a.html#the-project",
+    "title": "Geographical Psychology of School Anxiety",
     "section": "",
-    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2025-12-03"
+    "text": "GPS-A (The Geographical Psychology of School Anxiety) investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.\nGPS-A integrates educational psychology, geographical psychology, and environmental data to uncover the socio-ecological features—such as green spaces, climate, pollution, population density, and economic inequality—that help explain this variability. Through advanced spatial analyses and large-scale intervention studies that will be conducted across 50 diverse regions, the project tests whether the effectiveness of psychological interventions also changes depending on the local environment.\nBy developing the first fine-grained geographical model of school anxiety, GPS-A aims to support more context-sensitive theories, improve school-based interventions, and provide policymakers with evidence to better allocate resources. The project will also establish a freely accessible online platform where researchers can collaborate, explore geographical variations, and access pre-processed data to advance geographically informed psychological research."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
+    "objectID": "projects/gps-a.html#collaborators-and-acknowledgment",
+    "href": "projects/gps-a.html#collaborators-and-acknowledgment",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "Collaborators and Acknowledgment",
+    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Tobias Ebert, David Giofrè, and the INVALSI."
   },
   {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+    "objectID": "projects/gps-a.html#fundings",
+    "href": "projects/gps-a.html#fundings",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "Fundings",
+    "text": "Fundings\nThe project was funded by the European Association of Personality Psychology and by the Italian Science Fund (Fondo Italiano per la Scienza – FIS-3), established by the Italian Ministry of University and Research (MUR)."
   },
   {
-    "objectID": "courses.html#reuse-of-materials",
-    "href": "courses.html#reuse-of-materials",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
+    "objectID": "projects/gps-a.html#publications",
+    "href": "projects/gps-a.html#publications",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "Publications",
+    "text": "Publications\nNothing yet, sorry :)"
   },
   {
-    "objectID": "courses.html#contact",
-    "href": "courses.html#contact",
-    "title": "Courses and Open Teaching materials",
+    "objectID": "open-resources.html",
+    "href": "open-resources.html",
+    "title": "Open resources",
     "section": "",
-    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "open-resources/livingseb.html",
+    "href": "open-resources/livingseb.html",
+    "title": "The Living SEB project",
+    "section": "",
+    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+  },
+  {
+    "objectID": "open-resources/livingseb.html#overview",
+    "href": "open-resources/livingseb.html#overview",
+    "title": "The Living SEB project",
+    "section": "",
+    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+  },
+  {
+    "objectID": "open-resources/livingseb.html#what-the-project-includes",
+    "href": "open-resources/livingseb.html#what-the-project-includes",
+    "title": "The Living SEB project",
+    "section": "What the project includes",
+    "text": "What the project includes\n\nA curated, living database of SEB studies\nFully reproducible effect-size extraction pipeline\nA continuously updated synthesis of SEB associations\nInteractive tools for exploring and analysing the evidence\nOpen access materials including preregistrations, papers, and presentations"
+  },
+  {
+    "objectID": "open-resources/livingseb.html#core-resources",
+    "href": "open-resources/livingseb.html#core-resources",
+    "title": "The Living SEB project",
+    "section": "Core Resources",
+    "text": "Core Resources\n\n📄 Living SEB Paper\nFull methodological and empirical description of the project.\n\nLiving paper (html)\nOfficial preprint (pdf)\n\n📊 Living SEB App\nInteractive Shiny app for browsing studies and running meta-analyses.\n\nApp link\nUser manual (PDF)\n\n📝 Preregistration\nFull preregistration protocol of the Living SEB workflow (PDF).\n🎤 Presentations\n\nIBT Colloquium • 2025-09-17 (slides)\nLab Meeting • 2025-10-13 (slides)"
+  },
+  {
+    "objectID": "open-resources/livingseb.html#why-a-living-approach",
+    "href": "open-resources/livingseb.html#why-a-living-approach",
+    "title": "The Living SEB project",
+    "section": "Why a “Living” approach?",
+    "text": "Why a “Living” approach?\nTraditional meta-analyses quickly become outdated as new studies accumulate.\nThe Living SEB Project uses a living evidence workflow — an approach that ensures:\n\nrapid integration of new findings\nfully reproducible synthesis pipelines\ntransparent tracking of updates\ncontinuous availability of up-to-date results\n\nThis allows the SEB literature to remain current, cumulative, and open for researchers and practitioners."
   },
   {
     "objectID": "open-resources/clusterapp.html",
@@ -147,45 +168,157 @@
     "text": "Features at a Glance\n\n🧮 Monte Carlo simulation interface\n🔢 Data Specification mode (define your own distributions)\n📂 Data Upload mode (upload your dataset and test risks)\n📊 GMM and k-means implementations following the paper\n🔍 Visual summaries of detected cluster counts\n⏱️ Time-limited simulation mode for web performance\n📥 Downloadable simulation settings"
   },
   {
-    "objectID": "open-resources/livingseb.html",
-    "href": "open-resources/livingseb.html",
-    "title": "Living SEB project",
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses and Open Teaching materials",
     "section": "",
-    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
   },
   {
-    "objectID": "open-resources/livingseb.html#overview",
-    "href": "open-resources/livingseb.html#overview",
-    "title": "Living SEB project",
+    "objectID": "courses.html#reuse-of-materials",
+    "href": "courses.html#reuse-of-materials",
+    "title": "Courses and Open Teaching materials",
     "section": "",
-    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
   },
   {
-    "objectID": "open-resources/livingseb.html#what-the-project-includes",
-    "href": "open-resources/livingseb.html#what-the-project-includes",
-    "title": "Living SEB project",
-    "section": "What the project includes",
-    "text": "What the project includes\n\nA curated, living database of SEB studies\nFully reproducible effect-size extraction pipeline\nA continuously updated synthesis of SEB associations\nInteractive tools for exploring and analysing the evidence\nOpen access materials including preregistrations, papers, and presentations"
-  },
-  {
-    "objectID": "open-resources/livingseb.html#core-resources",
-    "href": "open-resources/livingseb.html#core-resources",
-    "title": "Living SEB project",
-    "section": "Core Resources",
-    "text": "Core Resources\n\n📄 Living SEB Paper\nFull methodological and empirical description of the project.\n\nLiving paper (html)\nOfficial preprint (pdf)\n\n📊 Living SEB App\nInteractive Shiny app for browsing studies and running meta-analyses.\n\nApp link\nUser manual (PDF)\n\n📝 Preregistration\nFull preregistration protocol of the Living SEB workflow (PDF).\n🎤 Presentations\n\nIBT Colloquium • 2025-09-17 (slides)\nLab Meeting • 2025-10-13 (slides)"
-  },
-  {
-    "objectID": "open-resources/livingseb.html#why-a-living-approach",
-    "href": "open-resources/livingseb.html#why-a-living-approach",
-    "title": "Living SEB project",
-    "section": "Why a “Living” approach?",
-    "text": "Why a “Living” approach?\nTraditional meta-analyses quickly become outdated as new studies accumulate.\nThe Living SEB Project uses a living evidence workflow — an approach that ensures:\n\nrapid integration of new findings\nfully reproducible synthesis pipelines\ntransparent tracking of updates\ncontinuous availability of up-to-date results\n\nThis allows the SEB literature to remain current, cumulative, and open for researchers and practitioners."
-  },
-  {
-    "objectID": "open-resources.html",
-    "href": "open-resources.html",
-    "title": "Open resources",
+    "objectID": "courses.html#contact",
+    "href": "courses.html#contact",
+    "title": "Courses and Open Teaching materials",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nmethod\n\n\n\ntags\n\n\n\n\n\n\n\n\nLiving SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
+    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tommaso Feraco",
+    "section": "",
+    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2025-12-04"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html",
+    "href": "open-resources/csmetaapp.html",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html#overview",
+    "href": "open-resources/csmetaapp.html#overview",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html#what-you-can-do",
+    "href": "open-resources/csmetaapp.html#what-you-can-do",
+    "title": "Character strengths meta-analysis",
+    "section": "What you can do",
+    "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
+  },
+  {
+    "objectID": "open-resources/sebapp.html",
+    "href": "open-resources/sebapp.html",
+    "title": "The Living SEB app",
+    "section": "",
+    "text": "This app (app link) allows using the Living SEB Project materials to navigate and meta-analyse evidence from all cross-sectional SEB studies."
+  },
+  {
+    "objectID": "open-resources/sebapp.html#overview",
+    "href": "open-resources/sebapp.html#overview",
+    "title": "The Living SEB app",
+    "section": "Overview",
+    "text": "Overview\nThe Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.\nBuilt as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.\n➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp/{target=“_blank”}"
+  },
+  {
+    "objectID": "open-resources/sebapp.html#what-you-can-do-with-the-app",
+    "href": "open-resources/sebapp.html#what-you-can-do-with-the-app",
+    "title": "The Living SEB app",
+    "section": "What you can do with the app",
+    "text": "What you can do with the app\n\nBrowse all included SEB studies with filters for samples, designs, measures, and variables.\nInspect effect sizes and metadata for every association extracted in the review.\nRun on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).\nDownload the dataset used in the app for further analysis in R or other tools.\nTrack updates as new studies are added to the living review."
+  },
+  {
+    "objectID": "open-resources/sebapp.html#features-at-a-glance",
+    "href": "open-resources/sebapp.html#features-at-a-glance",
+    "title": "The Living SEB app",
+    "section": "Features at a glance",
+    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
+  },
+  {
+    "objectID": "open-resources/sebapp.html#background",
+    "href": "open-resources/sebapp.html#background",
+    "title": "The Living SEB app",
+    "section": "Background",
+    "text": "Background\nThe app accompanies the article:\nFeraco, T. & Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. https://doi.org/10.31234/osf.io/ewvuf_v1\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
+  },
+  {
+    "objectID": "projects/bessichange.html",
+    "href": "projects/bessichange.html",
+    "title": "Change goals and development of SEB skills",
+    "section": "",
+    "text": "This umbrella project investigates how social, emotional, and behavioral (SEB) skills develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ capacity to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.\nAcross multiple studies, this project addresses three interconnected questions:\n\nHow do SEB skills change across developmental periods?\nResearch including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.\nWhat do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?\nMulti-informant studies reveal that all groups see SEB skills as more feasible and desirable to change than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.\nHow do individuals prioritize change goals, and what shapes their motivation?\nExperimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.\n\nTogether, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions."
+  },
+  {
+    "objectID": "projects/bessichange.html#the-project",
+    "href": "projects/bessichange.html#the-project",
+    "title": "Change goals and development of SEB skills",
+    "section": "",
+    "text": "This umbrella project investigates how social, emotional, and behavioral (SEB) skills develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ capacity to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.\nAcross multiple studies, this project addresses three interconnected questions:\n\nHow do SEB skills change across developmental periods?\nResearch including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.\nWhat do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?\nMulti-informant studies reveal that all groups see SEB skills as more feasible and desirable to change than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.\nHow do individuals prioritize change goals, and what shapes their motivation?\nExperimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.\n\nTogether, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions."
+  },
+  {
+    "objectID": "projects/bessichange.html#collaborators-and-acknowledgment",
+    "href": "projects/bessichange.html#collaborators-and-acknowledgment",
+    "title": "Change goals and development of SEB skills",
+    "section": "Collaborators and Acknowledgment",
+    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Nicole Casali, Christopher J. Soto, Hayley K. Jach, Brent W. Roberts, Gerardo Pellegrino, Christopher M. Napolitano, and many more…"
+  },
+  {
+    "objectID": "projects/bessichange.html#fundings",
+    "href": "projects/bessichange.html#fundings",
+    "title": "Change goals and development of SEB skills",
+    "section": "Fundings",
+    "text": "Fundings\nPart of this project was funded by the European Association of Personality Psychology as a collaborative grant with Nicole Casali."
+  },
+  {
+    "objectID": "projects/measuringseb.html",
+    "href": "projects/measuringseb.html",
+    "title": "Measuring SEB skills",
+    "section": "",
+    "text": "Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.\nThe original BESSI (Behavioral, Emotional, and Social Skills Inventory) provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.\nHowever, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.\nTo address this, the project introduces and evaluates the BESSI-R, a refined measurement tool designed to better separate SEB skills from personality traits. The BESSI-R includes:\n\nclearer conceptual instructions distinguishing abilities from tendencies,\na dual-item format, asking first about behavioral tendencies and then about abilities,\nan expanded response scale for finer discrimination, and\nsmall but targeted wording adjustments to facilitate more accurate self-assessment.\n\nInitial evidence from high school students shows that participants do perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-R retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.\nTogether, the BESSI-I and BESSI-R projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:\n\nvalidating the SEB skills framework across languages and developmental periods,\nimproving the measurement tools used to distinguish skills from traits, and\nsupporting more precise research, applied work, and educational interventions based on SEB skills.\n\nThis broader research program contributes to building a reliable, culturally adaptable, and theoretically coherent assessment system for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications."
+  },
+  {
+    "objectID": "projects/measuringseb.html#the-project",
+    "href": "projects/measuringseb.html#the-project",
+    "title": "Measuring SEB skills",
+    "section": "",
+    "text": "Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.\nThe original BESSI (Behavioral, Emotional, and Social Skills Inventory) provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.\nHowever, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.\nTo address this, the project introduces and evaluates the BESSI-R, a refined measurement tool designed to better separate SEB skills from personality traits. The BESSI-R includes:\n\nclearer conceptual instructions distinguishing abilities from tendencies,\na dual-item format, asking first about behavioral tendencies and then about abilities,\nan expanded response scale for finer discrimination, and\nsmall but targeted wording adjustments to facilitate more accurate self-assessment.\n\nInitial evidence from high school students shows that participants do perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-R retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.\nTogether, the BESSI-I and BESSI-R projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:\n\nvalidating the SEB skills framework across languages and developmental periods,\nimproving the measurement tools used to distinguish skills from traits, and\nsupporting more precise research, applied work, and educational interventions based on SEB skills.\n\nThis broader research program contributes to building a reliable, culturally adaptable, and theoretically coherent assessment system for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications."
+  },
+  {
+    "objectID": "projects/measuringseb.html#collaborators-and-acknowledgment",
+    "href": "projects/measuringseb.html#collaborators-and-acknowledgment",
+    "title": "Measuring SEB skills",
+    "section": "Collaborators and Acknowledgment",
+    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, Barbara Carretti, Christopher J. Soto, Christopher M. Napolitano, and many more…"
+  },
+  {
+    "objectID": "projects/measuringseb.html#fundings",
+    "href": "projects/measuringseb.html#fundings",
+    "title": "Measuring SEB skills",
+    "section": "Fundings",
+    "text": "Fundings\nThis project was initially funded by a research grant from the Department of General Psychology in 2022."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Geographical Psychology of School Anxiety\n\n\n\ngeographical psychology\n\neducation\n\nvariability\n\n\n\nGPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently. By linking psychological, environmental, and spatial data, the project aims to reshape how we understand and intervene on school anxiety.\n\n\n\n\n\nDec 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nThe Living SEB Project\n\n\n\nSEB skills\n\nliving review\n\nmeta-analysis\n\nSEM\n\nreview\n\n\n\n“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”\n\n\n\n\n\nNov 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nChange goals and development of SEB skills\n\n\n\nSEB skills\n\neducation\n\npersonality\n\nchange\n\ndevelopment\n\n\n\n“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop across adolescence and adulthood, and how people think about changing them. Through multiple studies, we examine change goals, perceived malleability, and the motivational processes that drive intentional development, with the aim of informing more effective skill-building interventions.”\n\n\n\n\n\nJun 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring SEB skills\n\n\n\nSEB skills\n\nmeasurement\n\nSEM\n\n\n\n“What’s the best way to measure SEB skills? Are self-report enough?.”\n\n\n\n\n\nDec 4, 2023\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
   }
 ]

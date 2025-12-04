@@ -2,8 +2,8 @@
 title: "Character strengths meta-analysis"
 date: 2025-08-12
 description: "An app to explore meta-analytic results of Casali & Feraco, 2025"
-method: [shinyApp]
-tags: [review, meta-analysis, shiny]
+Method: [shinyApp]
+categories: [review, meta-analysis, shiny]
 ---
 
 ## Overview

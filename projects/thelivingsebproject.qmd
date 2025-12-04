@@ -1,0 +1,58 @@
+---
+title: "The Living SEB Project"
+description: |
+    "A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB)."
+author:
+  - name: Tommaso Feraco
+    orcid: 0000-0003-3131-0864
+    email: tommaso.feraco@unipd.it
+date: 2025-11-04
+categories: [
+    "SEB skills","living review","meta-analysis","SEM","review"
+            ]
+image: img/living.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+# citation:
+#     url: https://chrisvoncsefalvay.com/media/euronews-covid
+bibliography: references.bib
+nocite: |
+  @feracoLivingSEBProject2025
+---
+
+## The project
+
+The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a *living*, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.
+
+The project includes ongoing systematic literature searches, a centralized and [openly available database](https://github.com/feracotommaso/living_SEB_review) of coded study metadata and effect sizes, and an interactive [web application](https://feracoshiny.shinyapps.io/livingSEBapp/) that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.
+
+The resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.
+
+Conceptually, the project is grounded in the understanding of SEB skills as *capacities*—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: **Innovation, Self-Management, Social Engagement, Cooperation,** and **Emotional Resilience**.
+
+**Aims of the project**
+
+-   To provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.
+
+-   To enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.
+
+-   To help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.
+
+Because the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications.
+
+## Collaborators and Acknowledgment
+
+This project is supported by Gerardo Pellegrino who helps me manage the new incoming data.
+
+## Fundings
+
+No funding was obtained for this project at the moment.
+
+## Living paper
+
+A living paper with updated results is available on github: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html>
+
+## Publications

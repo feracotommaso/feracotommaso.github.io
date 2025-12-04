@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-01">
-<meta name="description" content="A shiny app for SEB research synthesis">
+<meta name="author" content="Tommaso Feraco">
+<meta name="dcterms.date" content="2024-06-04">
+<meta name="description" content="“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop across adolescence and adulthood, and how people think about changing them. Through multiple studies, we examine change goals, perceived malleability, and the motivational processes that drive intentional development, with the aim of informing more effective skill-building interventions.”">
 
-<title>The Living SEB app</title>
+<title>Change goals and development of SEB skills</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -118,10 +139,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#what-you-can-do-with-the-app" id="toc-what-you-can-do-with-the-app" class="nav-link" data-scroll-target="#what-you-can-do-with-the-app">What you can do with the app</a></li>
-  <li><a href="#features-at-a-glance" id="toc-features-at-a-glance" class="nav-link" data-scroll-target="#features-at-a-glance">Features at a glance</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#the-project" id="toc-the-project" class="nav-link active" data-scroll-target="#the-project">The project</a></li>
+  <li><a href="#collaborators-and-acknowledgment" id="toc-collaborators-and-acknowledgment" class="nav-link" data-scroll-target="#collaborators-and-acknowledgment">Collaborators and Acknowledgment</a></li>
+  <li><a href="#fundings" id="toc-fundings" class="nav-link" data-scroll-target="#fundings">Fundings</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   </ul>
 </nav>
     </div>
@@ -130,28 +151,36 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Living SEB app</h1>
+<h1 class="title">Change goals and development of SEB skills</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">review</div>
-    <div class="quarto-category">shiny</div>
-    <div class="quarto-category">SEB</div>
+    <div class="quarto-category">SEB skills</div>
+    <div class="quarto-category">education</div>
+    <div class="quarto-category">personality</div>
+    <div class="quarto-category">change</div>
+    <div class="quarto-category">development</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    A shiny app for SEB research synthesis
+    <p>“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop across adolescence and adulthood, and how people think about changing them. Through multiple studies, we examine change goals, perceived malleability, and the motivational processes that drive intentional development, with the aim of informing more effective skill-building interventions.”</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tommaso Feraco <a href="mailto:tommaso.feraco@unipd.it" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3131-0864" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 1, 2025</p>
+      <p class="date">June 4, 2024</p>
     </div>
   </div>
   
@@ -163,43 +192,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This app (<a href="https://feracoshiny.shinyapps.io/livingSEBapp/" target="_blank">app link</a>) allows using the <em>Living SEB Project</em> materials to navigate and meta-analyse evidence from all cross-sectional SEB studies.</p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.</p>
-<p>Built as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.</p>
-<p>➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp/{target=“_blank”}</p>
+<section id="the-project" class="level2">
+<h2 class="anchored" data-anchor-id="the-project">The project</h2>
+<p>This umbrella project investigates how <strong>social, emotional, and behavioral (SEB) skills</strong> develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ <em>capacity</em> to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.</p>
+<p>Across multiple studies, this project addresses three interconnected questions:</p>
+<ol type="1">
+<li><p><strong>How do SEB skills change across developmental periods?</strong><br>
+Research including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.</p></li>
+<li><p><strong>What do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?</strong><br>
+Multi-informant studies reveal that all groups see SEB skills as <em>more feasible and desirable to change</em> than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.</p></li>
+<li><p><strong>How do individuals prioritize change goals, and what shapes their motivation?</strong><br>
+Experimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.</p></li>
+</ol>
+<p>Together, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions.</p>
 </section>
-<section id="what-you-can-do-with-the-app" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-can-do-with-the-app">What you can do with the app</h2>
-<ul>
-<li>Browse all included SEB studies with filters for samples, designs, measures, and variables.</li>
-<li>Inspect effect sizes and metadata for every association extracted in the review.</li>
-<li>Run on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).</li>
-<li>Download the dataset used in the app for further analysis in R or other tools.</li>
-<li>Track updates as new studies are added to the living review.</li>
-</ul>
+<section id="collaborators-and-acknowledgment" class="level2">
+<h2 class="anchored" data-anchor-id="collaborators-and-acknowledgment">Collaborators and Acknowledgment</h2>
+<p>This project would not be possible without the collaboration of Nicole Casali, Christopher J. Soto, Hayley K. Jach, Brent W. Roberts, Gerardo Pellegrino, Christopher M. Napolitano, and many more…</p>
 </section>
-<section id="features-at-a-glance" class="level2">
-<h2 class="anchored" data-anchor-id="features-at-a-glance">Features at a glance</h2>
-<ul>
-<li>📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity</li>
-<li>🧮 Built-in meta-analytic models using robust and reproducible pipelines</li>
-<li>🔍 Searchable database of SEB constructs, measures, sample characteristics</li>
-<li>🔄 Continuously updated through the Living SEB Project workflow</li>
-<li>📥 Export options for datasets and analysis outputs</li>
-</ul>
+<section id="fundings" class="level2">
+<h2 class="anchored" data-anchor-id="fundings">Fundings</h2>
+<p>Part of this project was funded by the European Association of Personality Psychology as a collaborative grant with Nicole Casali.</p>
 </section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>The app accompanies the article:</p>
-<p>Feraco, T. &amp; Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv.&nbsp;<a href="https://doi.org/10.31234/osf.io/ewvuf_v1" class="uri">https://doi.org/10.31234/osf.io/ewvuf_v1</a></p>
-<p>Together with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis.</p>
+<section id="publications" class="level2">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Publications</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-feracoDifferencesChangeGoals2025" class="csl-entry" role="listitem">
+Feraco, Tommaso, Nathan W. Hudson, and Christopher J. Soto. 2025. <span>“Differences in Change Goals Between Personality Traits and Social, Emotional, and Behavioral Skills.”</span> <em>Personality and Individual Differences</em> 241 (July): 113200. <a href="https://doi.org/10.1016/j.paid.2025.113200">https://doi.org/10.1016/j.paid.2025.113200</a>.
+</div>
+<div id="ref-feracoSocialEmotionalBehavioral2023" class="csl-entry" role="listitem">
+Feraco, Tommaso, and Chiara Meneghetti. 2023. <span>“Social, Emotional, and Behavioral Skills: Age and Gender Differences at 12 to 19 Years Old.”</span> <em>Journal of Intelligence</em> 11 (6): 118. <a href="https://doi.org/10.3390/jintelligence11060118">https://doi.org/10.3390/jintelligence11060118</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

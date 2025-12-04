@@ -2,8 +2,8 @@
 title: "A shiny app for clusters that are not there"
 date: 2024-09-23
 description: "An app for inferential risks and power in cluster analysis"
-method: [shinyApp]
-tags: [clusters, shiny]
+Method: [shinyApp]
+categories: [clusters, shiny]
 ---
 
 ## Overview

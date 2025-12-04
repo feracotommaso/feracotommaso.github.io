@@ -1,0 +1,41 @@
+---
+title: "Geographical Psychology of School Anxiety"
+description: |
+    GPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently. By linking psychological, environmental, and spatial data, the project aims to reshape how we understand and intervene on school anxiety.
+author:
+  - name: Tommaso Feraco
+    orcid: 0000-0003-3131-0864
+    email: tommaso.feraco@unipd.it
+date: 2025-12-04
+categories: [
+    "geographical psychology","education","variability"
+            ]
+image: img/gpsimg.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+# citation:
+#     url: https://chrisvoncsefalvay.com/media/euronews-covid
+---
+
+## The project
+
+**GPS-A (The Geographical Psychology of School Anxiety)** investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.
+
+GPS-A integrates educational psychology, geographical psychology, and environmental data to uncover the socio-ecological features—such as green spaces, climate, pollution, population density, and economic inequality—that help explain this variability. Through advanced spatial analyses and large-scale intervention studies that will be conducted across 50 diverse regions, the project tests whether the effectiveness of psychological interventions also changes depending on the local environment.
+
+By developing the first fine-grained geographical model of school anxiety, GPS-A aims to support more context-sensitive theories, improve school-based interventions, and provide policymakers with evidence to better allocate resources. The project will also establish a freely accessible online platform where researchers can collaborate, explore geographical variations, and access pre-processed data to advance geographically informed psychological research.
+
+## Collaborators and Acknowledgment
+
+This project would not be possible without the collaboration of Tobias Ebert, David Giofrè, and the INVALSI.
+
+## Fundings
+
+The project was funded by the European Association of Personality Psychology and by the Italian Science Fund (Fondo Italiano per la Scienza – FIS-3), established by the Italian Ministry of University and Research (MUR).
+
+## Publications
+
+Nothing yet, sorry :)

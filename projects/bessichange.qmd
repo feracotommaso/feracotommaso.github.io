@@ -1,0 +1,52 @@
+---
+title: "Change goals and development of SEB skills"
+description: |
+    "An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop across adolescence and adulthood, and how people think about changing them. Through multiple studies, we examine change goals, perceived malleability, and the motivational processes that drive intentional development, with the aim of informing more effective skill-building interventions."
+author:
+  - name: Tommaso Feraco
+    orcid: 0000-0003-3131-0864
+    email: tommaso.feraco@unipd.it
+date: 2024-06-04
+categories: [
+    "SEB skills","education","personality","change","development"
+            ]
+image: img/trends.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+# citation:
+#     url: https://chrisvoncsefalvay.com/media/euronews-covid
+bibliography: references.bib
+nocite: |
+  @feracoDifferencesChangeGoals2025 
+  @feracoSocialEmotionalBehavioral2023
+---
+
+## The project
+
+This umbrella project investigates how **social, emotional, and behavioral (SEB) skills** develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ *capacity* to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.
+
+Across multiple studies, this project addresses three interconnected questions:
+
+1.  **How do SEB skills change across developmental periods?**\
+    Research including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.
+
+2.  **What do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?**\
+    Multi-informant studies reveal that all groups see SEB skills as *more feasible and desirable to change* than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.
+
+3.  **How do individuals prioritize change goals, and what shapes their motivation?**\
+    Experimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.
+
+Together, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions.
+
+## Collaborators and Acknowledgment
+
+This project would not be possible without the collaboration of Nicole Casali, Christopher J. Soto, Hayley K. Jach, Brent W. Roberts, Gerardo Pellegrino, Christopher M. Napolitano, and many more...
+
+## Fundings
+
+Part of this project was funded by the European Association of Personality Psychology as a collaborative grant with Nicole Casali.
+
+## Publications

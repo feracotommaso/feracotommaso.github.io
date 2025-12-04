@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-01">
-<meta name="description" content="A shiny app for SEB research synthesis">
+<meta name="author" content="Tommaso Feraco">
+<meta name="dcterms.date" content="2023-12-04">
+<meta name="description" content="“What’s the best way to measure SEB skills? Are self-report enough?.”">
 
-<title>The Living SEB app</title>
+<title>Measuring SEB skills</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -118,10 +139,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#what-you-can-do-with-the-app" id="toc-what-you-can-do-with-the-app" class="nav-link" data-scroll-target="#what-you-can-do-with-the-app">What you can do with the app</a></li>
-  <li><a href="#features-at-a-glance" id="toc-features-at-a-glance" class="nav-link" data-scroll-target="#features-at-a-glance">Features at a glance</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#the-project" id="toc-the-project" class="nav-link active" data-scroll-target="#the-project">The project</a></li>
+  <li><a href="#collaborators-and-acknowledgment" id="toc-collaborators-and-acknowledgment" class="nav-link" data-scroll-target="#collaborators-and-acknowledgment">Collaborators and Acknowledgment</a></li>
+  <li><a href="#fundings" id="toc-fundings" class="nav-link" data-scroll-target="#fundings">Fundings</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   </ul>
 </nav>
     </div>
@@ -130,28 +151,34 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Living SEB app</h1>
+<h1 class="title">Measuring SEB skills</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">review</div>
-    <div class="quarto-category">shiny</div>
-    <div class="quarto-category">SEB</div>
+    <div class="quarto-category">SEB skills</div>
+    <div class="quarto-category">measurement</div>
+    <div class="quarto-category">SEM</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    A shiny app for SEB research synthesis
+    <p>“What’s the best way to measure SEB skills? Are self-report enough?.”</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tommaso Feraco <a href="mailto:tommaso.feraco@unipd.it" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3131-0864" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 1, 2025</p>
+      <p class="date">December 4, 2023</p>
     </div>
   </div>
   
@@ -163,43 +190,47 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This app (<a href="https://feracoshiny.shinyapps.io/livingSEBapp/" target="_blank">app link</a>) allows using the <em>Living SEB Project</em> materials to navigate and meta-analyse evidence from all cross-sectional SEB studies.</p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.</p>
-<p>Built as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.</p>
-<p>➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp/{target=“_blank”}</p>
-</section>
-<section id="what-you-can-do-with-the-app" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-can-do-with-the-app">What you can do with the app</h2>
+<section id="the-project" class="level2">
+<h2 class="anchored" data-anchor-id="the-project">The project</h2>
+<p>Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.</p>
+<p>The <strong>original</strong> <a href="https://doi.org/10.1037/pspp0000401">BESSI</a> <strong>(Behavioral, Emotional, and Social Skills Inventory)</strong> provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.</p>
+<p>However, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.</p>
+<p>To address this, the project introduces and evaluates the <strong>BESSI-R</strong>, a refined measurement tool designed to better separate SEB skills from personality traits. The BESSI-R includes:</p>
 <ul>
-<li>Browse all included SEB studies with filters for samples, designs, measures, and variables.</li>
-<li>Inspect effect sizes and metadata for every association extracted in the review.</li>
-<li>Run on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).</li>
-<li>Download the dataset used in the app for further analysis in R or other tools.</li>
-<li>Track updates as new studies are added to the living review.</li>
+<li><p><strong>clearer conceptual instructions</strong> distinguishing abilities from tendencies,</p></li>
+<li><p>a <strong>dual-item format</strong>, asking first about behavioral tendencies and then about abilities,</p></li>
+<li><p>an <strong>expanded response scale</strong> for finer discrimination, and</p></li>
+<li><p>small but targeted wording adjustments to facilitate more accurate self-assessment.</p></li>
 </ul>
-</section>
-<section id="features-at-a-glance" class="level2">
-<h2 class="anchored" data-anchor-id="features-at-a-glance">Features at a glance</h2>
+<p>Initial evidence from high school students shows that participants <em>do</em> perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-R retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.</p>
+<p>Together, the BESSI-I and BESSI-R projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:</p>
 <ul>
-<li>📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity</li>
-<li>🧮 Built-in meta-analytic models using robust and reproducible pipelines</li>
-<li>🔍 Searchable database of SEB constructs, measures, sample characteristics</li>
-<li>🔄 Continuously updated through the Living SEB Project workflow</li>
-<li>📥 Export options for datasets and analysis outputs</li>
+<li><p>validating the SEB skills framework across languages and developmental periods,</p></li>
+<li><p>improving the measurement tools used to distinguish skills from traits, and</p></li>
+<li><p>supporting more precise research, applied work, and educational interventions based on SEB skills.</p></li>
 </ul>
+<p>This broader research program contributes to building a <strong>reliable, culturally adaptable, and theoretically coherent assessment system</strong> for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications.</p>
 </section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>The app accompanies the article:</p>
-<p>Feraco, T. &amp; Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv.&nbsp;<a href="https://doi.org/10.31234/osf.io/ewvuf_v1" class="uri">https://doi.org/10.31234/osf.io/ewvuf_v1</a></p>
-<p>Together with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis.</p>
+<section id="collaborators-and-acknowledgment" class="level2">
+<h2 class="anchored" data-anchor-id="collaborators-and-acknowledgment">Collaborators and Acknowledgment</h2>
+<p>This project would not be possible without the collaboration of Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, Barbara Carretti, Christopher J. Soto, Christopher M. Napolitano, and many more…</p>
+</section>
+<section id="fundings" class="level2">
+<h2 class="anchored" data-anchor-id="fundings">Fundings</h2>
+<p>This project was initially funded by a research grant from the Department of General Psychology in 2022.</p>
+</section>
+<section id="publications" class="level2">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Publications</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-feracoItalianBehavioralEmotional2024" class="csl-entry" role="listitem">
+Feraco, Tommaso, Nicole Casali, Gerardo Pellegrino, Christopher J. Soto, Christopher M. Napolitano, Barbara Carretti, and Chiara Meneghetti. 2024. <span>“The Italian Behavioral, Emotional, and Social Skills Inventory (BESSI-i).”</span> <em>JOURNAL OF PERSONALITY ASSESSMENT</em> 106 (6): 750–64. <a href="https://doi.org/10.1080/00223891.2024.2335912">https://doi.org/10.1080/00223891.2024.2335912</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

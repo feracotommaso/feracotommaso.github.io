@@ -16,6 +16,8 @@ website:
       #   href: courses.qmd
       - text: "slides"
         href: slides.qmd
+      - text: "projects"
+        href: projects.qmd
       # - text: "contact"
       #   href: contact.qmd
 

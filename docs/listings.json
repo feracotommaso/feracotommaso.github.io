@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/iatmeasure.html"
+    ]
+  },
+  {
     "listing": "/open-resources.html",
     "items": [
       "/open-resources/livingseb.html",

@@ -11,6 +11,8 @@ bibliography: references.bib
 set.seed(1)
 ```
 
+## Incremental validity in the case of higher-order latent variables
+
 During our Structural Equation Modeling course, we teach PhD students a simple but deceptively powerful fact about predictive validity in multiple regression. Imagine a single latent variable—call it *racial attitudes*—that predicts a behavioral outcome such as *discriminatory behaviors*. Now imagine that we have [two different measures]{.underline} of this latent variable, for example an *explicit* self-report and an *implicit* reaction-time task.
 
 Students often assume that if we regress the behavioral outcome on both the explicit and implicit measures simultaneously, the resulting regression coefficients tell us “which one is the better predictor”, but they also expect both effects will be zero because we are 'controlling' for the same thing. But both these intuitions are mistaken. If both measures load on the same underlying latent construct, then both will almost always be statistically significant in a large enough sample, **even if neither has any unique predictive effect**. The coefficients simply reflect their relative loadings on the same latent cause.
@@ -107,7 +109,7 @@ model_A <- '
 
 So what happens if we add that general latent factor?
 
-When we implement a bifactor-style model—one general attitude factor plus the specific method factors—we get good fit (CFI = 0.98, TLI = 0.97, RMSEA = 0.03, SRMR = 0.03) but a radically different picture:
+When we implement a hierarchical model—one general attitude factor plus the specific method factors—we get good fit (CFI = 0.98, TLI = 0.97, RMSEA = 0.03, SRMR = 0.03) but a radically different picture [@fig-model2]:
 
 -   The **general attitude factor** significantly predicts discriminatory behavior (β ≈ 0.15).
 
@@ -133,6 +135,9 @@ model_A <- '
     dpm ~~ pi
 '
 ```
+
+![Simpified version of the hierarchical model](imgs/iatmodel2.png){#fig-model2}
+
 
 ## What should we conclude?
 
@@ -163,6 +168,6 @@ Scientific progress requires modeling our constructs correctly. Without that fou
 
 ## Other readings
 
-See also <https://replicationindex.com/2025/12/02/is-the-implicit-association-test-too-big-to-fail/>
+See also <https://replicationindex.com/2025/12/02/is-the-implicit-association-test-too-big-to-fail/> for different perspectives.
 
 # References

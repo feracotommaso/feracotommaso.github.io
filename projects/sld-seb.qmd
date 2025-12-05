@@ -1,0 +1,78 @@
+---
+title: "SEB in students with learning disabilities"
+description: |
+    "Do students with specific learning disabilities report different levels of SEB skills?"
+author:
+  - name: Tommaso Feraco
+    orcid: 0000-0003-3131-0864
+    email: tommaso.feraco@unipd.it
+date: 2024-1-04
+categories: [
+    "SEB skills","learning","SLD"
+            ]
+image: img/sld.png
+format:
+  html:
+    df-print: paged
+    toc: true
+google-scholar: false
+# citation:
+#     url: https://chrisvoncsefalvay.com/media/euronews-covid
+bibliography: references.bib
+nocite: |
+  @feracoSocialEmotionalBehavioral2025
+---
+
+## **Overview**
+
+Students with Specific Learning Disabilities (SLDs) experience persistent difficulties in reading, writing, or mathematics, but their challenges extend well beyond the academic domain. Research consistently shows that they face motivational, emotional, and interpersonal vulnerabilities, often struggling with self-efficacy, organization, and well-being. Yet, despite these vulnerabilities, we still know relatively little about how *soft skills*—more precisely, **social, emotional, and behavioral (SEB) skills**—characterize this population and whether these skills may serve as adaptive resources.
+
+This project investigates SEB skills in students with and without SLDs from middle school to university, adopting the most comprehensive framework in the field: the SEB model ([Soto et al., 2021](https://doi.org/10.1177/0963721420978613)). The project includes several large-scale studies and replications, each examining group differences and the functional role of SEB skills in academic and non-academic outcomes.
+
+## What This Project Does
+
+Across multiple studies, this research program examines:
+
+-   **Mean-level differences** in SEB skills between students with and without SLDs.
+
+-   **How SEB skills relate to outcomes** such as academic achievement, life satisfaction, peer acceptance, academic burnout, and engagement.
+
+-   **Why SEB skills may function differently** for students with SLDs, with a particular focus on self-regulated learning processes.
+
+-   **How these findings generalize**, via preregistered replications and meta-analytic synthesis.
+
+Together, these studies build a coherent picture of the strengths and vulnerabilities of students with SLDs in non-academic domains—an essential step for designing more inclusive and strength-based educational practices.
+
+## Key Findings
+
+1.  **Students with SLDs show a consistently weaker SEB profile\
+    **Across multiple datasets—including more than 5,000 students—students with SLDs tend to report lower **Self-management**, **Cooperation**, and **Social Engagement** skills. These effects are small but highly consistent across studies and educational levels.
+2.  **Higher SEB skills do *not* guarantee better grades for students with SLDs\
+    **While Self-management skills are reliably associated with higher academic achievement among students without SLDs, these associations are **weak or absent** in the SLD group.\
+    This pattern replicates across independent samples.
+3.  **SEB skills remain important for well-being\
+    **Despite the weakened link with achievement, SEB skills are similarly associated with **life satisfaction** and other non-academic outcomes (e.g., peer acceptance) in both groups.
+4.  **Vulnerabilities extend beyond learning\
+    **Students with SLDs also report lower academic self-efficacy, weaker self-regulated learning strategies, and higher burnout risk, especially at the university level.
+
+![A mini meta-analysis of the first three studies we conducted](img/sldmeta.png)
+
+## Why This Matters
+
+This project contributes to reframing SLDs within a **broader developmental perspective**, recognizing that:
+
+-   Learning disabilities diagnoses affect more than academic performance—they shape emotional and social adjustment as well.
+-   SEB skills represent crucial personal resources, but students with SLDs may struggle to apply them effectively in academic contexts.
+-   Interventions should address both **skill development** and **the structural barriers** that prevent students with SLDs from translating these skills into achievement.
+
+These findings support **strength-based**, **inclusive**, and **multi-level** approaches in schools and universities..
+
+## Collaborators and Acknowledgment
+
+This project would not be possible without the collaboration of Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, and Barbara Carretti.
+
+## Fundings
+
+This project was initially funded by a research grant from the Department of General Psychology in 2023.
+
+## Publications

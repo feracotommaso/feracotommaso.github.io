@@ -172,7 +172,8 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#reanalyzing-axt-and-colleagues-dataset" id="toc-reanalyzing-axt-and-colleagues-dataset" class="nav-link active" data-scroll-target="#reanalyzing-axt-and-colleagues-dataset">Reanalyzing Axt and colleagues’ dataset</a></li>
+  <li><a href="#incremental-validity-in-the-case-of-higher-order-latent-variables" id="toc-incremental-validity-in-the-case-of-higher-order-latent-variables" class="nav-link active" data-scroll-target="#incremental-validity-in-the-case-of-higher-order-latent-variables">Incremental validity in the case of higher-order latent variables</a></li>
+  <li><a href="#reanalyzing-axt-and-colleagues-dataset" id="toc-reanalyzing-axt-and-colleagues-dataset" class="nav-link" data-scroll-target="#reanalyzing-axt-and-colleagues-dataset">Reanalyzing Axt and colleagues’ dataset</a></li>
   <li><a href="#what-should-we-conclude" id="toc-what-should-we-conclude" class="nav-link" data-scroll-target="#what-should-we-conclude">What should we conclude?</a></li>
   <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   <li><a href="#other-readings" id="toc-other-readings" class="nav-link" data-scroll-target="#other-readings">Other readings</a></li>
@@ -203,6 +204,8 @@ div.csl-indent {
 </header>
 
 
+<section id="incremental-validity-in-the-case-of-higher-order-latent-variables" class="level2">
+<h2 class="anchored" data-anchor-id="incremental-validity-in-the-case-of-higher-order-latent-variables">Incremental validity in the case of higher-order latent variables</h2>
 <p>During our Structural Equation Modeling course, we teach PhD students a simple but deceptively powerful fact about predictive validity in multiple regression. Imagine a single latent variable—call it <em>racial attitudes</em>—that predicts a behavioral outcome such as <em>discriminatory behaviors</em>. Now imagine that we have <u>two different measures</u> of this latent variable, for example an <em>explicit</em> self-report and an <em>implicit</em> reaction-time task.</p>
 <p>Students often assume that if we regress the behavioral outcome on both the explicit and implicit measures simultaneously, the resulting regression coefficients tell us “which one is the better predictor”, but they also expect both effects will be zero because we are ‘controlling’ for the same thing. But both these intuitions are mistaken. If both measures load on the same underlying latent construct, then both will almost always be statistically significant in a large enough sample, <strong>even if neither has any unique predictive effect</strong>. The coefficients simply reflect their relative loadings on the same latent cause.</p>
 <p>This is not a subtle point: it is a foundational implication of classical test theory and the logic of multiple regression. If we want to know whether either measure has <strong>incremental validity</strong>, we must first <strong>model and remove the influence of their common latent factor</strong>. Otherwise the incremental effect is an artifact of confounding.</p>
@@ -254,6 +257,7 @@ implicit       0.101      0.032   3.135    0.002</code></pre>
 <p>The simulation illustrates the key point: <strong>significant regression coefficients by themselves do not establish incremental predictive power</strong>. They can easily emerge when both predictors share variance due to an underlying latent trait—<em>even if there are no specific effects at all</em>. This was nicely explained by Julia Rohrer in her October 2025 <a href="https://www.the100.ci/2025/10/13/if-you-have-two-measures-of-the-same-confounder-you-can-just-include-both-of-them-in-your-regression-model/">blogpost</a>, and has been know since many years <span class="citation" data-cites="westfallStatisticallyControllingConfounding2016">(e.g., <a href="#ref-westfallStatisticallyControllingConfounding2016" role="doc-biblioref">Westfall and Yarkoni 2016</a>)</span>.</p>
 </blockquote>
 <p>But this is not just a didactic issue. It has immediate consequences for how we interpret claims about the predictive and incremental validity of implicit measures—including the recently published adversarial collaboration by Axt et al. <span class="citation" data-cites="axtRelationshipIndirectMeasures2025">(<a href="#ref-axtRelationshipIndirectMeasures2025" role="doc-biblioref">2025</a>)</span>.</p>
+</section>
 <section id="reanalyzing-axt-and-colleagues-dataset" class="level2">
 <h2 class="anchored" data-anchor-id="reanalyzing-axt-and-colleagues-dataset">Reanalyzing Axt and colleagues’ dataset</h2>
 <p>The recent paper ‘<em>On the relationship between indirect measures of Black vs.&nbsp;White racial attitudes and discriminatory outcomes: An adversarial collaboration using a sample of White Americans</em>’ represents one of the largest and methodologically strongest empirical efforts in the history of implicit bias research. With over 2,100 White American participants, four implicit measures, four explicit measures, four behavioral tasks, and a preregistered SEM framework, it looks—at first glance—like the definitive test the field has been waiting for.</p>
@@ -293,7 +297,7 @@ Figure&nbsp;1: Published SEM model
 <span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>So what happens if we add that general latent factor?</p>
-<p>When we implement a bifactor-style model—one general attitude factor plus the specific method factors—we get good fit (CFI = 0.98, TLI = 0.97, RMSEA = 0.03, SRMR = 0.03) but a radically different picture:</p>
+<p>When we implement a hierarchical model—one general attitude factor plus the specific method factors—we get good fit (CFI = 0.98, TLI = 0.97, RMSEA = 0.03, SRMR = 0.03) but a radically different picture <a href="#fig-model2" class="quarto-xref">Figure&nbsp;2</a>:</p>
 <ul>
 <li><p>The <strong>general attitude factor</strong> significantly predicts discriminatory behavior (β ≈ 0.15).</p></li>
 <li><p>The <strong>explicit-specific factor</strong> still predicts behavior strongly (β ≈ 0.60).</p></li>
@@ -313,6 +317,16 @@ Figure&nbsp;1: Published SEM model
 <span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="st">    anes ~~ srs</span></span>
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="st">    dpm ~~ pi</span></span>
 <span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="fig-model2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-model2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="imgs/iatmodel2.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-model2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Simpified version of the hierarchical model
+</figcaption>
+</figure>
 </div>
 </section>
 <section id="what-should-we-conclude" class="level2">
@@ -339,7 +353,7 @@ Otherwise you are not testing incremental validity at all.</strong></p>
 </section>
 <section id="other-readings" class="level2">
 <h2 class="anchored" data-anchor-id="other-readings">Other readings</h2>
-<p>See also <a href="https://replicationindex.com/2025/12/02/is-the-implicit-association-test-too-big-to-fail/" class="uri">https://replicationindex.com/2025/12/02/is-the-implicit-association-test-too-big-to-fail/</a></p>
+<p>See also <a href="https://replicationindex.com/2025/12/02/is-the-implicit-association-test-too-big-to-fail/" class="uri">https://replicationindex.com/2025/12/02/is-the-implicit-association-test-too-big-to-fail/</a> for different perspectives.</p>
 </section>
 <section id="references" class="level1">
 

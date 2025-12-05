@@ -141,7 +141,7 @@ model_A <- '
 '
 ```
 
-![Simpified version of the hierarchical model](imgs/iatmodel2.png){#fig-model2}
+![The adjusted hierarchical model](imgs/iatmodel2.png){#fig-model2}
 
 ## What should we conclude?
 

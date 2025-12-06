@@ -161,6 +161,10 @@ window.Quarto = {
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+<span class="menu-text">posts</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -174,7 +178,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SUFU">IAT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWVhc3VyZW1lbnQ=">measurement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U0VN">SEM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmFsaWRpdHk=">validity <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -203,7 +207,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1764889200000" data-listing-file-modified-sort="1764974786747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1214">
+<div class="quarto-post image-right" data-index="0" data-categories="bWVhc3VyZW1lbnQlMkNJQVQlMkNTRU0lMkN2YWxpZGl0eQ==" data-listing-date-sort="1764889200000" data-listing-file-modified-sort="1765017659761" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1214">
 <div class="thumbnail"><a href="./posts/iatmeasure.html" class="no-external">
 
 <p class="card-img-top"><img src="posts\imgs\iatmodel.jpg"  class="thumbnail-image card-img"/></p>
@@ -216,8 +220,19 @@ window.Quarto = {
 <div class="listing-subtitle">
 <a href="./posts/iatmeasure.html" class="no-external">A commentary on Axt and colleagues (2025)</a>
 </div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVhc3VyZW1lbnQ='); return false;">measurement</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUFU'); return false;">IAT</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U0VN'); return false;">SEM</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmFsaWRpdHk='); return false;">validity</div>
+
+</div>
 <div class="delink listing-description"><a href="./posts/iatmeasure.html" class="no-external">
-During our Structural Equation Modeling course, we teach PhD students a simple but deceptively powerful fact about predictive validity in multiple regression. Imagine a…<em></em><em></em><u></u><em></em><em></em>
+<p>“Badly modeling latent factors undermines your results and misleads your conclusions.”</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -306,7 +321,7 @@ Tommaso Feraco
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/feracotommaso\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

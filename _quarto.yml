@@ -3,6 +3,8 @@ project:
   output-dir: docs
 
 website:
+  title: "TF"
+  site-url: "https://feracotommaso.github.io/"
   search: 
     location: navbar
     type: overlay
@@ -18,6 +20,8 @@ website:
         href: slides.qmd
       - text: "projects"
         href: projects.qmd
+      - text: "posts"
+        href: posts.qmd
       # - text: "contact"
       #   href: contact.qmd
 

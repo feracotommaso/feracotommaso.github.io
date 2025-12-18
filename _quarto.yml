@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - img/**
 
 website:
   # title: "TF"
@@ -9,6 +11,7 @@ website:
     location: navbar
     type: overlay
   navbar:
+    logo: img/power-rangers/green.png
     left:
       - text: "home"
         href: index.qmd

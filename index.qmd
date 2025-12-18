@@ -1,6 +1,11 @@
 ---
 title: "Tommaso Feraco"
+format:
+  html:
+    include-after-body: footer.html
+
 image: img/me.jpg
+
 about:
   id: hero-heading
   template: jolla

@@ -33,6 +33,7 @@ format:
     include-in-header:
        text: |
          <link rel="shortcut icon" href="img/favicon.png"/>
+         <script data-goatcounter="https://feracotommaso.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     theme:
       light: yeti
     fontsize: 1.2em

@@ -16,7 +16,7 @@ The core message of the paper is simple but crucial:
 This app offers an intuitive way to test these risks *before* running cluster analyses on real data.
 
 ➡️ **Explore the app:** <https://psicostat.shinyapps.io/clustersimulation-demo/>\
-➡️ **Manuscript:** *Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)*
+➡️ **Manuscript:** *Toffalini et al., <https://doi.org/10.1002/ijop.13246> (Open Access)*
 
 ## What the App Does
 
@@ -48,10 +48,8 @@ These are exactly the pitfalls the app helps users explore and understand.
 
 ## Features at a Glance
 
--   🧮 **Monte Carlo simulation interface**
--   🔢 **Data Specification mode** (define your own distributions)
--   📂 **Data Upload mode** (upload your dataset and test risks)
--   📊 **GMM and k-means implementations** following the paper
--   🔍 **Visual summaries** of detected cluster counts
--   ⏱️ **Time-limited simulation mode** for web performance
--   📥 **Downloadable simulation settings**
+-   **Monte Carlo simulation interface**
+-   **Data Specification mode** (define your own distributions)
+-   **Data Upload mode** (upload your dataset and test risks)
+-   **GMM and k-means implementations** following the paper
+-   **Visual summaries** of detected cluster counts

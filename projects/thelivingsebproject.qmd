@@ -55,4 +55,8 @@ No funding was obtained for this project at the moment.
 
 A living paper with updated results is available on github: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html>
 
+## Media coverage
+
+Our preprint was selected by the Association for Research in Personality for their yearly newsletter: [The Online Newsletter for Personality Science](https://www.personality-arp.org/newsletter-2026/)
+
 ## Publications

@@ -1,0 +1,15 @@
+---
+title: "Living SEB Review Results"
+description: "This post links to the interactive results page hosted in the living SEB review repository."
+date: 2026-03-10
+categories: ["SEB", "review", "living review"]
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html">
+---
+
+This post redirects to the external page.
+
+[Open the page directly](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html)

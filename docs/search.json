@@ -39,7 +39,7 @@
     "href": "projects/thelivingsebproject.html#collaborators-and-acknowledgment",
     "title": "The Living SEB Project",
     "section": "Collaborators and Acknowledgment",
-    "text": "Collaborators and Acknowledgment\nThis project is supported by Gerardo Pellegrino who helps me manage the new incoming data."
+    "text": "Collaborators and Acknowledgment\nThis project is supported by Gerardo Pellegrino and Margherita Calderan who help me manage the repo and the new incoming data."
   },
   {
     "objectID": "projects/thelivingsebproject.html#fundings",
@@ -291,7 +291,7 @@
     "href": "open-resources/sebapp.html#background",
     "title": "The Living SEB app",
     "section": "Background",
-    "text": "Background\nThe app accompanies the article:\nFeraco, T. & Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. https://doi.org/10.31234/osf.io/ewvuf_v1\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
+    "text": "Background\nThe app accompanies the article:\nFeraco, T., Calderan, M., & Pellegrino G. (2025). The Living SEB Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. https://doi.org/10.31234/osf.io/ewvuf_v1\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
   },
   {
     "objectID": "posts/iatmeasure.html",
@@ -439,5 +439,26 @@
     "title": "Projects",
     "section": "",
     "text": "Geographical Psychology of School Anxiety\n\n\n\ngeographical psychology\n\neducation\n\nvariability\n\n\n\nGPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently.\n\n\n\n\n\nDec 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nThe Living SEB Project\n\n\n\nSEB skills\n\nliving review\n\nmeta-analysis\n\nSEM\n\nreview\n\n\n\n“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”\n\n\n\n\n\nNov 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nChange goals and development of SEB skills\n\n\n\nSEB skills\n\neducation\n\npersonality\n\nchange\n\ndevelopment\n\n\n\n“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop what people think about changing them.”\n\n\n\n\n\nJun 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nSEB in students with learning disabilities\n\n\n\nSEB skills\n\nlearning\n\nSLD\n\n\n\n“Do students with specific learning disabilities report different levels of SEB skills?”\n\n\n\n\n\nJan 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring SEB skills\n\n\n\nSEB skills\n\nmeasurement\n\nSEM\n\n\n\n“What’s the best way to measure SEB skills? Are self-report enough?.”\n\n\n\n\n\nDec 4, 2023\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#living-results",
+    "href": "projects/thelivingsebproject.html#living-results",
+    "title": "The Living SEB Project",
+    "section": "Living results",
+    "text": "Living results\nA living paper with updated results is available on github: https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html"
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#detailed-description-of-the-project",
+    "href": "projects/thelivingsebproject.html#detailed-description-of-the-project",
+    "title": "The Living SEB Project",
+    "section": "Detailed description of the project",
+    "text": "Detailed description of the project\nThe project description was published at XXX. You can find an open access version of the manuscript here: https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html"
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#publications",
+    "href": "projects/thelivingsebproject.html#publications",
+    "title": "The Living SEB Project",
+    "section": "Publications",
+    "text": "Publications"
   }
 ]

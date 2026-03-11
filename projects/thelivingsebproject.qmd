@@ -20,7 +20,7 @@ google-scholar: false
 #     url: https://chrisvoncsefalvay.com/media/euronews-covid
 bibliography: references.bib
 nocite: |
-  @feracoLivingSEBProject2025
+  @livingSEB
 ---
 
 ## The project
@@ -45,15 +45,19 @@ Because the database is updated regularly, the Living SEB Project remains respon
 
 ## Collaborators and Acknowledgment
 
-This project is supported by Gerardo Pellegrino who helps me manage the new incoming data.
+This project is supported by Gerardo Pellegrino and Margherita [Calderan](https://mar-cald.github.io/) who help me manage the repo and the new incoming data.
 
 ## Fundings
 
 No funding was obtained for this project at the moment.
 
-## Living paper
+## Living results
 
-A living paper with updated results is available on github: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html>
+A living paper with updated results is available on github: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html>
+
+## Detailed description of the project
+
+The project description was published at XXX. You can find an open access version of the manuscript here: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html>
 
 ## Media coverage
 

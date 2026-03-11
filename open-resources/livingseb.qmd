@@ -25,8 +25,10 @@ The project provides access to a *living database*, a suite of analytic tools, a
 
 -   📄 **Living SEB Paper\
     **Full methodological and empirical description of the project.
-    -   **Living paper** ([html](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html))
     -   **Official preprint** ([pdf](https://doi.org/10.31234/osf.io/ewvuf_v1))
+-   📄 **Living Results \
+    **Description of the current database and monthly updated results.
+    -   **Living results** ([html](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html))
 -   **📊 Living SEB App\
     **Interactive Shiny app for browsing studies and running meta-analyses.
     -   **App** [link](https://feracoshiny.shinyapps.io/livingSEBapp/)

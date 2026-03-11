@@ -36,6 +36,6 @@ Built as part of a broader effort to create a living, open, and cumulative evide
 
 The app accompanies the article:
 
-Feraco, T. & Pellegrino G. (2025). The Living SEB Project: A Living Database for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. <https://doi.org/10.31234/osf.io/ewvuf_v1>
+Feraco, T., Calderan, M., & Pellegrino G. (2025). The Living SEB Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. <https://doi.org/10.31234/osf.io/ewvuf_v1>
 
 Together with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis.

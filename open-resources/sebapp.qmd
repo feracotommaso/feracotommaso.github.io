@@ -14,7 +14,7 @@ The Living SEB App is an interactive Shiny application designed to explore, synt
 
 Built as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.
 
-➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp/{target="\_blank"}
+➡️ Access the app here: <https://feracoshiny.shinyapps.io/livingSEBapp>
 
 ## What you can do with the app
 
@@ -36,6 +36,6 @@ Built as part of a broader effort to create a living, open, and cumulative evide
 
 The app accompanies the article:
 
-Feraco, T., Calderan, M., & Pellegrino G. (2025). The Living SEB Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. <https://doi.org/10.31234/osf.io/ewvuf_v1>
+Feraco, T., Calderan, M., & Pellegrino G. (2025). The Living SEB Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. [https://doi.org/10.31234/osf.io/ewvuf_v1](#0){.uri}
 
 Together with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis.

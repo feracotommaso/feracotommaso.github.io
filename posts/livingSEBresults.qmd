@@ -1,6 +1,6 @@
 ---
-title: "Living SEB Review Results"
-description: "This post links to the interactive results page hosted in the living SEB review repository."
+title: "Living SEB Skills Results"
+description: "This post links to the interactive results page hosted in the living SEB skills repository."
 date: 2026-03-10
 categories: ["SEB", "review", "living review"]
 format:

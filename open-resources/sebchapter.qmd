@@ -1,0 +1,16 @@
+---
+title: "SEB Skills chapter for students"
+description: "Un capitolo in italiano per l'approfondimento e lo studio delle SEB skills."
+date: 2026-03-12
+Method: [chapter]
+categories: [SEB]
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://feracotommaso.github.io/Personality-and-individual-differences/chapters/personalitySkills.html">
+---
+
+This post redirects to the external page.
+
+[Open the page directly](https://feracotommaso.github.io/Personality-and-individual-differences/chapters/personalitySkills.html)

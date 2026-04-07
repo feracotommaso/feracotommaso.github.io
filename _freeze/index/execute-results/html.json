@@ -1,0 +1,15 @@
+{
+  "hash": "f62eeee00937e04f0f7b3daace707271",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Tommaso Feraco\"\nformat:\n  html:\n    include-after-body: footer.html\n\nimage: img/me.jpg\n\nabout:\n  id: hero-heading\n  template: jolla\n  image-shape: round\n  image-width: 12em\n  links:\n  - icon: github\n    href: https://github.com/feracotommaso \n\n  - text: '<img src=\"img/x.png\" style=\"height: 1.2em; vertical-align: middle;\">'\n    href: https://x.com/FeracoTommaso\n    target: _blank\n\n  - text: '<img src=\"img/bluesky.png\" style=\"height: 1.2em; vertical-align: middle;\">'\n    href: https://bsky.app/profile/tommasoferaco.bsky.social\n    target: _blank\n\n  - text: '<img src=\"img/linkedin.svg\" style=\"height: 1.2em; vertical-align: middle;\">'\n    href: https://www.linkedin.com/in/tommaso-feraco-883810151/\n    target: _blank\n\n  - text: '<img src=\"img/osf.png\" style=\"height: 1.2em; vertical-align: middle;\">'\n    href: https://osf.io/user/pu75z\n    target: _blank\n\n  - text: '<img src=\"img/sc.png\" style=\"height: 1.2em; vertical-align: middle;\">'\n    href: https://www.scopus.com/authid/detail.uri?authorId=57218109907\n    target: _blank\n\n  - text: '<img src=\"img/rg.png\" style=\"height: 1.2em; vertical-align: middle;\">'\n    href: https://www.researchgate.net/profile/Tommaso-Feraco\n    target: _blank\n\n  - text: '<img src=\"img/psicostat.png\" style=\"height: 1.2em; vertical-align: middle; margin-right: 0.25em;\"> Psicostat'\n    href: https://psicostat.dpss.psy.unipd.it/\n    target: _blank\n\n  - text: '<img src=\"img/ML.png\" style=\"height: 1.2em; vertical-align: middle; margin-right: 0.25em;\"> M&L'\n    href: https://www.memoryandlearninglab.it/\n    target: _blank\n\nmarkdown:\n  extensions: [link_attributes]\nengine: knitr\n---\n\n:::: {#hero-heading}\n\n[tommaso.feraco\\@unipd.it](tommaso.feraco@unipd.it)\n\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\n\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n::::\n\n::: last-updated\nLast updated: 2026-04-07\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

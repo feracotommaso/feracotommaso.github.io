@@ -137,133 +137,14 @@
     "href": "open-resources.html",
     "title": "Open resources",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nSEM PhD Course\n\n\nApr 7, 2026\n\n\nA PhD-level course on structural equation models\n\n\nteaching; slides; code\n\n\nSEM; stat\n\n\n\n\n\n\nSEB Skills chapter for students\n\n\nMar 12, 2026\n\n\nUn capitolo in italiano per l’approfondimento e lo studio delle SEB skills.\n\n\nchapter\n\n\nSEB\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nSEM PhD Course\n\n\nApr 7, 2026\n\n\nA PhD-level course on structural equation models\n\n\nteaching; slides; code\n\n\nSEM, stat\n\n\n\n\n\n\nSEB Skills chapter for students\n\n\nMar 12, 2026\n\n\nUn capitolo in italiano per l’approfondimento e lo studio delle SEB skills.\n\n\nchapter\n\n\nSEB\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "open-resources/sebapp.html",
-    "href": "open-resources/sebapp.html",
-    "title": "The Living SEB app",
+    "objectID": "open-resources/sebchapter.html",
+    "href": "open-resources/sebchapter.html",
+    "title": "SEB Skills chapter for students",
     "section": "",
-    "text": "This app (app link) allows using the Living SEB Project materials to navigate and meta-analyse evidence from all cross-sectional SEB studies."
-  },
-  {
-    "objectID": "open-resources/sebapp.html#overview",
-    "href": "open-resources/sebapp.html#overview",
-    "title": "The Living SEB app",
-    "section": "Overview",
-    "text": "Overview\nThe Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.\nBuilt as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.\n➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp"
-  },
-  {
-    "objectID": "open-resources/sebapp.html#what-you-can-do-with-the-app",
-    "href": "open-resources/sebapp.html#what-you-can-do-with-the-app",
-    "title": "The Living SEB app",
-    "section": "What you can do with the app",
-    "text": "What you can do with the app\n\nBrowse all included SEB studies with filters for samples, designs, measures, and variables.\nInspect effect sizes and metadata for every association extracted in the review.\nRun on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).\nDownload the dataset used in the app for further analysis in R or other tools.\nTrack updates as new studies are added to the living review."
-  },
-  {
-    "objectID": "open-resources/sebapp.html#features-at-a-glance",
-    "href": "open-resources/sebapp.html#features-at-a-glance",
-    "title": "The Living SEB app",
-    "section": "Features at a glance",
-    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
-  },
-  {
-    "objectID": "open-resources/sebapp.html#background",
-    "href": "open-resources/sebapp.html#background",
-    "title": "The Living SEB app",
-    "section": "Background",
-    "text": "Background\nThe app accompanies the article:\nFeraco, T., Calderan, M., & Pellegrino G. (2025). The Living SEB Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. https://doi.org/10.31234/osf.io/ewvuf_v1\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html",
-    "href": "open-resources/csmetaapp.html",
-    "title": "Character strengths meta-analysis",
-    "section": "",
-    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html#overview",
-    "href": "open-resources/csmetaapp.html#overview",
-    "title": "Character strengths meta-analysis",
-    "section": "",
-    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html#what-you-can-do",
-    "href": "open-resources/csmetaapp.html#what-you-can-do",
-    "title": "Character strengths meta-analysis",
-    "section": "What you can do",
-    "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tommaso Feraco",
-    "section": "",
-    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2026-03-12"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
-  },
-  {
-    "objectID": "courses.html#reuse-of-materials",
-    "href": "courses.html#reuse-of-materials",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
-  },
-  {
-    "objectID": "courses.html#contact",
-    "href": "courses.html#contact",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
-  },
-  {
-    "objectID": "open-resources/clusterapp.html",
-    "href": "open-resources/clusterapp.html",
-    "title": "A shiny app for clusters that are not there",
-    "section": "",
-    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#overview",
-    "href": "open-resources/clusterapp.html#overview",
-    "title": "A shiny app for clusters that are not there",
-    "section": "",
-    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#what-the-app-does",
-    "href": "open-resources/clusterapp.html#what-the-app-does",
-    "title": "A shiny app for clusters that are not there",
-    "section": "What the App Does",
-    "text": "What the App Does\nThe app implements the simulation logic described in the manuscript, allowing users to:\n\nSimulate datasets with custom characteristics:\n\nsample size\nnumber of indicators\ncorrelations\nskewness and kurtosis\neffect size (d) between true clusters\n\nEstimate Type I error\nHow often does a method detect multiple clusters when the data truly come from one population? (e.g., GMM may show inflated Type I error under modest skewness)\nEstimate Power\nHow often does the method correctly detect two clusters when they truly exist? (e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means)\nAssess classification accuracy\nUsing the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (k-means may detect “two clusters” with 100% power but classify individuals no better than chance (Adjusted Rand Index ≈ .06))."
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#why-this-matters",
-    "href": "open-resources/clusterapp.html#why-this-matters",
-    "title": "A shiny app for clusters that are not there",
-    "section": "Why This Matters",
-    "text": "Why This Matters\nClustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:\n\nModerate skewness (skew = .50) yields 48% false positives for GMM in our simulation (p.7)\nModest correlations (r = .35) produce 100% false positives for k-means (p.8–9)\nLarge sample sizes exacerbate the problem for GMM (p.12)\nGMM may “create” clusters to compensate for skewed distributions (Figure 6, p.13)\n\nThese are exactly the pitfalls the app helps users explore and understand."
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#features-at-a-glance",
-    "href": "open-resources/clusterapp.html#features-at-a-glance",
-    "title": "A shiny app for clusters that are not there",
-    "section": "Features at a Glance",
-    "text": "Features at a Glance\n\nMonte Carlo simulation interface\nData Specification mode (define your own distributions)\nData Upload mode (upload your dataset and test risks)\nGMM and k-means implementations following the paper\nVisual summaries of detected cluster counts"
+    "text": "This post redirects to the external page.\nOpen the page directly"
   },
   {
     "objectID": "open-resources/livingseb.html",
@@ -301,11 +182,130 @@
     "text": "Why a “Living” approach?\nTraditional meta-analyses quickly become outdated as new studies accumulate.\nThe Living SEB Project uses a living evidence workflow — an approach that ensures:\n\nrapid integration of new findings\nfully reproducible synthesis pipelines\ntransparent tracking of updates\ncontinuous availability of up-to-date results\n\nThis allows the SEB literature to remain current, cumulative, and open for researchers and practitioners."
   },
   {
-    "objectID": "open-resources/sebchapter.html",
-    "href": "open-resources/sebchapter.html",
-    "title": "SEB Skills chapter for students",
+    "objectID": "open-resources/clusterapp.html",
+    "href": "open-resources/clusterapp.html",
+    "title": "A shiny app for clusters that are not there",
     "section": "",
-    "text": "This post redirects to the external page.\nOpen the page directly"
+    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#overview",
+    "href": "open-resources/clusterapp.html#overview",
+    "title": "A shiny app for clusters that are not there",
+    "section": "",
+    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#what-the-app-does",
+    "href": "open-resources/clusterapp.html#what-the-app-does",
+    "title": "A shiny app for clusters that are not there",
+    "section": "What the App Does",
+    "text": "What the App Does\nThe app implements the simulation logic described in the manuscript, allowing users to:\n\nSimulate datasets with custom characteristics:\n\nsample size\nnumber of indicators\ncorrelations\nskewness and kurtosis\neffect size (d) between true clusters\n\nEstimate Type I error\nHow often does a method detect multiple clusters when the data truly come from one population? (e.g., GMM may show inflated Type I error under modest skewness)\nEstimate Power\nHow often does the method correctly detect two clusters when they truly exist? (e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means)\nAssess classification accuracy\nUsing the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (k-means may detect “two clusters” with 100% power but classify individuals no better than chance (Adjusted Rand Index ≈ .06))."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#why-this-matters",
+    "href": "open-resources/clusterapp.html#why-this-matters",
+    "title": "A shiny app for clusters that are not there",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nClustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:\n\nModerate skewness (skew = .50) yields 48% false positives for GMM in our simulation (p.7)\nModest correlations (r = .35) produce 100% false positives for k-means (p.8–9)\nLarge sample sizes exacerbate the problem for GMM (p.12)\nGMM may “create” clusters to compensate for skewed distributions (Figure 6, p.13)\n\nThese are exactly the pitfalls the app helps users explore and understand."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#features-at-a-glance",
+    "href": "open-resources/clusterapp.html#features-at-a-glance",
+    "title": "A shiny app for clusters that are not there",
+    "section": "Features at a Glance",
+    "text": "Features at a Glance\n\nMonte Carlo simulation interface\nData Specification mode (define your own distributions)\nData Upload mode (upload your dataset and test risks)\nGMM and k-means implementations following the paper\nVisual summaries of detected cluster counts"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "courses.html#reuse-of-materials",
+    "href": "courses.html#reuse-of-materials",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
+  },
+  {
+    "objectID": "courses.html#contact",
+    "href": "courses.html#contact",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tommaso Feraco",
+    "section": "",
+    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2026-04-07"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html",
+    "href": "open-resources/csmetaapp.html",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html#overview",
+    "href": "open-resources/csmetaapp.html#overview",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html#what-you-can-do",
+    "href": "open-resources/csmetaapp.html#what-you-can-do",
+    "title": "Character strengths meta-analysis",
+    "section": "What you can do",
+    "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
+  },
+  {
+    "objectID": "open-resources/sebapp.html",
+    "href": "open-resources/sebapp.html",
+    "title": "The Living SEB app",
+    "section": "",
+    "text": "This app (app link) allows using the Living SEB Project materials to navigate and meta-analyse evidence from all cross-sectional SEB studies."
+  },
+  {
+    "objectID": "open-resources/sebapp.html#overview",
+    "href": "open-resources/sebapp.html#overview",
+    "title": "The Living SEB app",
+    "section": "Overview",
+    "text": "Overview\nThe Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.\nBuilt as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.\n➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp"
+  },
+  {
+    "objectID": "open-resources/sebapp.html#what-you-can-do-with-the-app",
+    "href": "open-resources/sebapp.html#what-you-can-do-with-the-app",
+    "title": "The Living SEB app",
+    "section": "What you can do with the app",
+    "text": "What you can do with the app\n\nBrowse all included SEB studies with filters for samples, designs, measures, and variables.\nInspect effect sizes and metadata for every association extracted in the review.\nRun on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).\nDownload the dataset used in the app for further analysis in R or other tools.\nTrack updates as new studies are added to the living review."
+  },
+  {
+    "objectID": "open-resources/sebapp.html#features-at-a-glance",
+    "href": "open-resources/sebapp.html#features-at-a-glance",
+    "title": "The Living SEB app",
+    "section": "Features at a glance",
+    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
+  },
+  {
+    "objectID": "open-resources/sebapp.html#background",
+    "href": "open-resources/sebapp.html#background",
+    "title": "The Living SEB app",
+    "section": "Background",
+    "text": "Background\nThe app accompanies the article:\nFeraco, T., Calderan, M., & Pellegrino G. (2025). The Living SEB Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. https://doi.org/10.31234/osf.io/ewvuf_v1\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
   },
   {
     "objectID": "posts/iatmeasure.html",

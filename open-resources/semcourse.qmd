@@ -3,7 +3,7 @@ title: "SEM PhD Course"
 description: "A PhD-level course on structural equation models"
 date: 2026-04-07
 Method: [teaching; slides; code]
-categories: [SEM; stat]
+categories: [SEM, stat]
 format:
   html:
     include-in-header:

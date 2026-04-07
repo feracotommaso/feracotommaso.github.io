@@ -42,3 +42,5 @@ format:
     toc: true
     smooth-scroll: true
 
+execute: 
+  freeze: auto

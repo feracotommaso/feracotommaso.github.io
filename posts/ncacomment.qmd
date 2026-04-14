@@ -1,5 +1,5 @@
 ---
-title: "The Bare Necessities of NCA (necessary condition analysis)"
+title: "The Bare Necessities of NCA"
 subtitle: "Or: how to turn a perfectly ordinary correlation into a bottleneck"
 description: |
     "Necessary condition analysis do not provide credible nor reliable necessity conditions when applied to psychological data."

@@ -170,6 +170,19 @@ And this is where some of the more enthusiastic uses of NCA become difficult to 
 
 In my opinion, better modeling approach already exist that answer similar questions, such as segmented regressions, gam and so on. These, however are probably not as attractive and much more difficult to defend and publish compared to a newer 'fancy' analysis such as NCA.
 
+## False positives
+
+Across all the simulation study, no necessity conditions were actually simulated. On the contrary, the *ground truth* was always a 'simple' correlation between two variables, meaning that all possible values in the scope are possible though their probabilty decreases as we move toward the upper-left corner. This corner is just more sparse, not impossible as a necessity effect would claim. Hence, an important question was: does NCA permutation test correctly identify 'simple' correlations or each correlation yields a false necessity effect.
+
+Across all conditions, the percentage of significant effects was larger than the expected, with conditions ensuring a 100% false positives. In other words, **NCA tests cannot distinguish a correlation from an necessity effect**.
+
+```{r}
+#| echo: false
+#| out-width: "80%"
+#| fig-pos: "center"
+knitr::include_graphics("imgs/ncap.png")
+```
+
 ## Does this mean NCA is useless?
 
 Maybe not (maybe yes). It means psychology should stop treating it as a way to inform theory.

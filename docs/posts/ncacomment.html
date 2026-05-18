@@ -226,6 +226,7 @@ window.Quarto = {
   <li><a href="#sample-size-alone-changes-the-estimate" id="toc-sample-size-alone-changes-the-estimate" class="nav-link" data-scroll-target="#sample-size-alone-changes-the-estimate">Sample size alone changes the estimate</a></li>
   </ul></li>
   <li><a href="#the-main-lesson" id="toc-the-main-lesson" class="nav-link" data-scroll-target="#the-main-lesson">The main lesson</a></li>
+  <li><a href="#false-positives" id="toc-false-positives" class="nav-link" data-scroll-target="#false-positives">False positives</a></li>
   <li><a href="#does-this-mean-nca-is-useless" id="toc-does-this-mean-nca-is-useless" class="nav-link" data-scroll-target="#does-this-mean-nca-is-useless">Does this mean NCA is useless?</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -410,6 +411,20 @@ Figure&nbsp;2: Example of an NCA plot. The scatterplot shows the relation betwee
 <p>That means the interpretive leap from “there is an empty corner in this score space” to “this construct is necessary for that construct” is usually much larger than the final discussion section lets on.</p>
 <p>And this is where some of the more enthusiastic uses of NCA become difficult to defend. Many psychological theories do not posit necessity relations in the strict sense. They posit probabilistic tendencies, reciprocal influences, multiple pathways, moderators, nonlinearities, developmental contingencies, and measurement error. Declaring necessity after spotting a sparse upper-left corner can therefore produce the peculiar feeling that a rich theory has been replaced by a geometry-based slogan.</p>
 <p>In my opinion, better modeling approach already exist that answer similar questions, such as segmented regressions, gam and so on. These, however are probably not as attractive and much more difficult to defend and publish compared to a newer ‘fancy’ analysis such as NCA.</p>
+</section>
+<section id="false-positives" class="level2">
+<h2 class="anchored" data-anchor-id="false-positives">False positives</h2>
+<p>Across all the simulation study, no necessity conditions were actually simulated. On the contrary, the <em>ground truth</em> was always a ‘simple’ correlation between two variables, meaning that all possible values in the scope are possible though their probabilty decreases as we move toward the upper-left corner. This corner is just more sparse, not impossible as a necessity effect would claim. Hence, an important question was: does NCA permutation test correctly identify ‘simple’ correlations or each correlation yields a false necessity effect.</p>
+<p>Across all conditions, the percentage of significant effects was larger than the expected, with conditions ensuring a 100% false positives. In other words, <strong>NCA tests cannot distinguish a correlation from an necessity effect</strong>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="imgs/ncap.png" class="img-fluid figure-img" style="width:80.0%" data-fig-pos="center"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="does-this-mean-nca-is-useless" class="level2">
 <h2 class="anchored" data-anchor-id="does-this-mean-nca-is-useless">Does this mean NCA is useless?</h2>

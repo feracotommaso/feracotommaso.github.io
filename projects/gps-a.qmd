@@ -20,6 +20,8 @@ google-scholar: false
 #     url: https://chrisvoncsefalvay.com/media/euronews-covid
 ---
 
+![](img/header_fis.jpg){fig-alt="FIS communication header"}
+
 ## The project
 
 **GPS-A (The Geographical Psychology of School Anxiety)** investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.

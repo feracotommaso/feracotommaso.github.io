@@ -59,6 +59,9 @@ engine: knitr
 I am a researcher at the Department of General Psychology, University of Padova, Italy.
 
 My research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.
+
+[CV](https://feracotommaso.github.io/cv/cv.html)
+
 ::::
 
 ::: last-updated

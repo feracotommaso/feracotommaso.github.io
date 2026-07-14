@@ -18,3 +18,7 @@ Here you can find slides used for scientific presentation and talks:
 -   **SEMbeddings** - [handZone](https://feracotommaso.github.io/living_SEB_review/slides/SEMbeddingSlides.pdf)
 -   **Latent interaction** - [handZone](https://feracotommaso.github.io/SEM-phd-course/extras/ex03_latent-interactions_modsem.html#/title-slide)
 -   **EFA-PCA-CFA** - [handZone](https://feracotommaso.github.io/SEM-phd-course/extras/ex_pca-efa-cfa_overview.html#/title-slide)
+
+## Geographical variability
+
+-   **Geographical variability of test anxiety** - [ECP 26](https://feracotommaso.github.io/Slides/fis/ecp26.html)

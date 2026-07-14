@@ -516,5 +516,12 @@
     "title": "The Bare Necessities of NCA",
     "section": "False positives",
     "text": "False positives\nAcross all the simulation study, no necessity conditions were actually simulated. On the contrary, the ground truth was always a ‘simple’ correlation between two variables, meaning that all possible values in the scope are possible though their probabilty decreases as we move toward the upper-left corner. This corner is just more sparse, not impossible as a necessity effect would claim. Hence, an important question was: does NCA permutation test correctly identify ‘simple’ correlations or each correlation yields a false necessity effect.\nAcross all conditions, the percentage of significant effects was larger than the expected, with conditions ensuring a 100% false positives. In other words, NCA tests cannot distinguish a correlation from an necessity effect."
+  },
+  {
+    "objectID": "slides.html#geographical-variability",
+    "href": "slides.html#geographical-variability",
+    "title": "Slides",
+    "section": "Geographical variability",
+    "text": "Geographical variability\n\nGeographical variability of test anxiety - ECP 26"
   }
 ]

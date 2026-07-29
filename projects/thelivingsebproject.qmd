@@ -17,10 +17,10 @@ format:
     toc: true
 google-scholar: false
 # citation:
-#     url: https://chrisvoncsefalvay.com/media/euronews-covid
+#     url: https://feracotommaso.github.io/projects/thelivingsebproject.html
 bibliography: references.bib
 nocite: |
-  @livingSEB
+  @feracoLivingSEBSkills2026
 ---
 
 ## The project
@@ -57,7 +57,7 @@ A living paper with updated results is available on github: <https://feracotomma
 
 ## Detailed description of the project
 
-The project description was published at XXX. You can find an open access version of the manuscript here: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html>
+The project description was published in the European Journal of Personality ([link](https://doi.org/10.1177/08902070261467477)). You can find an open access version of the manuscript here: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html>
 
 ## Media coverage
 

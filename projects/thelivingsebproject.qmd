@@ -57,7 +57,7 @@ A living paper with updated results is available on github: <https://feracotomma
 
 ## Detailed description of the project
 
-The project description was published in the European Journal of Personality ([link](https://doi.org/10.1177/08902070261467477)). You can find an open access version of the manuscript here: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html>
+The project description was published in the *European Journal of Personality* ([link](https://doi.org/10.1177/08902070261467477)). You can find an open access version of the manuscript here: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html>
 
 ## Media coverage
 

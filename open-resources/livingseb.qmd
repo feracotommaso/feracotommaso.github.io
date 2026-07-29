@@ -4,14 +4,15 @@ description: "A living database for SEB research."
 date: 2025-12-01
 Method: [database]
 categories: [review, meta-analysis, SEB]
+bibliography: references.bib
 ---
 
 ## Overview
 
-The **Living SEB Project** (<https://github.com/feracotommaso/living_SEB_review>) is an open, continuously updated research initiative that compiles and synthesizes all available **cross-sectional studies** on Strength–Emotion–Behavior (SEB) associations.\
+The **Living SEB Project** (<https://github.com/feracotommaso/living_SEB_review>) is an open, continuously updated research initiative that compiles and synthesizes all available **cross-sectional studies** on Social Emotional and Behavioral (SEB) skills.\
 Its goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.
 
-The project provides access to a *living database*, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature.
+The project provides access to a *living database*, a suite of analytic tools, a public preregistration, and a detailed methodological paper [@feracoLivingSEBSkills2026] explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature.
 
 ## What the project includes
 
@@ -25,13 +26,13 @@ The project provides access to a *living database*, a suite of analytic tools, a
 
 -   📄 **Living SEB Paper\
     **Full methodological and empirical description of the project.
-    -   **Official preprint** ([pdf](https://doi.org/10.31234/osf.io/ewvuf_v1))
--   📄 **Living Results \
+    -   **Official postprint** ([pdf](https://doi.org/10.31234/osf.io/ewvuf_v2))
+-   📄 **Living Results\
     **Description of the current database and monthly updated results.
     -   **Living results** ([html](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html))
 -   **📊 Living SEB App\
     **Interactive Shiny app for browsing studies and running meta-analyses.
-    -   **App** [link](https://feracoshiny.shinyapps.io/livingSEBapp/)
+    -   **App** [link](https://feracotommaso.github.io/living_SEB_review/shiny-app.html)
     -   **User manual ([PDF](https://feracotommaso.github.io/living_SEB_review/appManual/livingSEBapp_manual.pdf))**
 -   📝 **Preregistration\
     **Full preregistration protocol of the Living SEB workflow ([PDF](https://feracotommaso.github.io/living_SEB_review/preregistration/Preregistration_protocol_livingSEB.pdf)).

@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -176,9 +196,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The <strong>Living SEB Project</strong> (<a href="https://github.com/feracotommaso/living_SEB_review" class="uri">https://github.com/feracotommaso/living_SEB_review</a>) is an open, continuously updated research initiative that compiles and synthesizes all available <strong>cross-sectional studies</strong> on Strength–Emotion–Behavior (SEB) associations.<br>
+<p>The <strong>Living SEB Project</strong> (<a href="https://github.com/feracotommaso/living_SEB_review" class="uri">https://github.com/feracotommaso/living_SEB_review</a>) is an open, continuously updated research initiative that compiles and synthesizes all available <strong>cross-sectional studies</strong> on Social Emotional and Behavioral (SEB) skills.<br>
 Its goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.</p>
-<p>The project provides access to a <em>living database</em>, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature.</p>
+<p>The project provides access to a <em>living database</em>, a suite of analytic tools, a public preregistration, and a detailed methodological paper <span class="citation" data-cites="feracoLivingSEBSkills2026">(<a href="#ref-feracoLivingSEBSkills2026" role="doc-biblioref">Feraco, Calderan, and Pellegrino 2026</a>)</span> explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature.</p>
 </section>
 <section id="what-the-project-includes" class="level2">
 <h2 class="anchored" data-anchor-id="what-the-project-includes">What the project includes</h2>
@@ -196,7 +216,7 @@ Its goal is to create a transparent, reproducible, and dynamic evidence base tha
 <li>📄 <strong>Living SEB Paper<br>
 </strong>Full methodological and empirical description of the project.
 <ul>
-<li><strong>Official preprint</strong> (<a href="https://doi.org/10.31234/osf.io/ewvuf_v1">pdf</a>)</li>
+<li><strong>Official postprint</strong> (<a href="https://doi.org/10.31234/osf.io/ewvuf_v2">pdf</a>)</li>
 </ul></li>
 <li>📄 <strong>Living Results<br>
 </strong>Description of the current database and monthly updated results.
@@ -206,7 +226,7 @@ Its goal is to create a transparent, reproducible, and dynamic evidence base tha
 <li><strong>📊 Living SEB App<br>
 </strong>Interactive Shiny app for browsing studies and running meta-analyses.
 <ul>
-<li><strong>App</strong> <a href="https://feracoshiny.shinyapps.io/livingSEBapp/">link</a></li>
+<li><strong>App</strong> <a href="https://feracotommaso.github.io/living_SEB_review/shiny-app.html">link</a></li>
 <li><strong>User manual (<a href="https://feracotommaso.github.io/living_SEB_review/appManual/livingSEBapp_manual.pdf">PDF</a>)</strong></li>
 </ul></li>
 <li>📝 <strong>Preregistration<br>
@@ -231,9 +251,14 @@ The Living SEB Project uses a <em>living evidence</em> workflow — an approach 
 <p>This allows the SEB literature to remain <strong>current, cumulative, and open</strong> for researchers and practitioners.</p>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-feracoLivingSEBSkills2026" class="csl-entry" role="listitem">
+Feraco, Tommaso, Margherita Calderan, and Gerardo Pellegrino. 2026. <span>“The Living SEB Skills Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills.”</span> <em>European Journal of Personality</em>, July, 08902070261467477. <a href="https://doi.org/10.1177/08902070261467477">https://doi.org/10.1177/08902070261467477</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

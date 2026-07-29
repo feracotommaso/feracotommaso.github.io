@@ -21,6 +21,13 @@
     "text": "Methods\n\nClusters that are not there - Psicostat meeting\nSEMbeddings - handZone\nLatent interaction - handZone\nEFA-PCA-CFA - handZone"
   },
   {
+    "objectID": "slides.html#geographical-variability",
+    "href": "slides.html#geographical-variability",
+    "title": "Slides",
+    "section": "Geographical variability",
+    "text": "Geographical variability\n\nGeographical variability of test anxiety - ECP 26"
+  },
+  {
     "objectID": "projects/thelivingsebproject.html",
     "href": "projects/thelivingsebproject.html",
     "title": "The Living SEB Project",
@@ -126,186 +133,53 @@
     "text": "Fundings\nPart of this project was funded by the European Association of Personality Psychology as a collaborative grant with Nicole Casali."
   },
   {
-    "objectID": "posts/livingSEBresults.html",
-    "href": "posts/livingSEBresults.html",
-    "title": "Living SEB Skills Results",
+    "objectID": "posts/ncacomment.html",
+    "href": "posts/ncacomment.html",
+    "title": "The Bare Necessities of NCA",
     "section": "",
-    "text": "This post redirects to the external page.\nOpen the page directly"
+    "text": "“Look for the bare necessities, the simple bare necessities\nForget about your worries and your strife\nI mean the bare necessities, old mother nature\nThat bring the bare necessities of life”\nTerry Gilkyson, The Bare Necessities (1967)"
   },
   {
-    "objectID": "open-resources.html",
-    "href": "open-resources.html",
-    "title": "Open resources",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nSEM PhD Course\n\n\nApr 7, 2026\n\n\nA PhD-level course on structural equation models\n\n\nteaching; slides; code\n\n\nSEM, stat\n\n\n\n\n\n\nSEB Skills chapter for students\n\n\nMar 12, 2026\n\n\nUn capitolo in italiano per l’approfondimento e lo studio delle SEB skills.\n\n\nchapter\n\n\nSEB\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
+    "objectID": "posts/ncacomment.html#a-new-method-in-town",
+    "href": "posts/ncacomment.html#a-new-method-in-town",
+    "title": "The Bare Necessities of NCA",
+    "section": "A ‘new’ method in town",
+    "text": "A ‘new’ method in town\nThere is now a ‘new’ temptingly efficient way to generate a fresh psychological paper, wonderful insights, serendipity!\n\nStep 1: Take two variables that correlate\nStep 2: Draw a scatterplot.\n\n\n\n\n\n\n\n\n\nFigure 1: A scatterplot for your scientific insights!\n\n\n\n\n\nWhat do you notice? Is there any white space in those corner? Wow!\nMake sure it’s not a trick of your mind. White space in the upper-left corner of your scatterplot! What could it be?\n\nStep 3: Run Necessary Condition Analysis (NCA) to test if it is really blank.\n\nStep 4: NCA detects an effect. Is significant.\nStep 5: Declare that a certain level of X is necessary for Y to appear.\n\nCongratulations: your correlation has been promoted from a mildly respectable average effect to a theoretical bottleneck.\nThat is, of course, slightly impolite (but true!).\nNCA is an interesting method with a legitimate aim. It asks a different question from regression. Instead of asking whether higher values of \\(X\\) are associated with higher values of \\(Y\\) on average, it asks whether some level of \\(X\\) is required before a given level of \\(Y\\) can occur (Dul 2016; Dul, Hauff, and Bouncken 2023). In fields where variables have natural units and clear substantive thresholds, that question can be meaningful. For instance, what is the minimum salary required from all banks to give a 100k loan?\nPsychology, however, is not full of natural units. It is full of latent constructs hiding behind observed scores on tests, questionnaires, tasks."
   },
   {
-    "objectID": "open-resources/sebchapter.html",
-    "href": "open-resources/sebchapter.html",
-    "title": "SEB Skills chapter for students",
-    "section": "",
-    "text": "This post redirects to the external page.\nOpen the page directly"
+    "objectID": "posts/ncacomment.html#what-nca-actually-estimates",
+    "href": "posts/ncacomment.html#what-nca-actually-estimates",
+    "title": "The Bare Necessities of NCA",
+    "section": "What NCA actually estimates",
+    "text": "What NCA actually estimates\nThe basic logic of NCA is simple and elegant. If low values of a condition are incompatible with high values of an outcome, then the upper-left corner of the \\(X\\)-\\(Y\\) scatterplot should be empty. NCA quantifies that empty region, estimates a ceiling line, and summarizes the pattern through an effect size and a bottleneck table (see fig-nca Dul 2016).\nThat geometric intuition is exactly why the method is attractive. But it is also exactly why psychology is an awkward habitat for it.\n\nfit &lt;- NCA::nca(d, 1,2)\nres &lt;- NCA::nca_output(fit, plots = TRUE, summaries = FALSE)\n\n\n\n\n\n\n\n\n\nFigure 2: Example of an NCA plot. The scatterplot shows the relation between X and Y. NCA evaluates whether X is necessary for Y by identifying an empty upper-left region, meaning that high values of Y are absent when X is low. The ceiling lines (CE-FDH and CR-FDH) mark the estimated boundary of this empty space, while the OLS line is included only to contrast NCA with standard regression approaches.\n\n\n\n\n\nNCA does not estimate a latent relation, a structural parameter, or a causal mechanism. It estimates a property of the observed score space: the size of a ceiling zone relative to a scope, plus the bottleneck values implied by the estimated ceiling line. The threshold it reports is therefore tied to the metric of the score representation itself. Change the coding, the scoring rule, the number of response categories, the item thresholds, or the sample range, and you may change the NCA result even when the underlying latent relation is held constant.\n\nChange the questionnaire you are using to measure depression, and everything changes!\n\nA method that lives on sparse regions of the scatterplot is naturally sensitive to the exact way the scatterplot was manufactured. So before asking whether intelligence is necessary for creativity or whether self-control is necessary for academic success, one first has to ask a less glamorous but more important question: necessary in the construct, or necessary in this particular score representation? [in this particular sample?]"
   },
   {
-    "objectID": "open-resources/livingseb.html",
-    "href": "open-resources/livingseb.html",
-    "title": "The Living SEB project",
-    "section": "",
-    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+    "objectID": "posts/ncacomment.html#a-small-simulation",
+    "href": "posts/ncacomment.html#a-small-simulation",
+    "title": "The Bare Necessities of NCA",
+    "section": "A small simulation",
+    "text": "A small simulation\nDon’t you believe?\nA way to test my previous assertions is to simulate multiple scenarios thousands of times. In each replication, one latent paired dataset was generated first. NCA was then computed on those latent variables as a reference. Starting from that same latent dataset, multiple observed versions were created by changing score construction, loading strength, ordinal scaling, threshold placement, and sample restriction. NCA was then recomputed on each observed dataset.\n\nIf the latent relation stays the same, how much does the observed NCA estimate move just because psychology measures things the way psychology usually measures things?\n\nThe answer is: quite a lot.\n\nScore construction\nWith the same latent relation, factor-score NCA was systematically larger than sum-score NCA. Averaged across design cells, the mean NCA effect was about \\(d = .149\\) for factor scores and \\(d = .121\\) for sum scores, even though the mean observed correlations were essentially identical in the two cases (both about \\(r = .331\\)). In other words, two score types can tell almost the same correlation story while telling noticeably different necessity stories.\n\n\nReliability and loading strength\nThe reliability block is even more awkward for simple intuitions. As loadings increased from .50 to .85, the mean observed correlation rose from about \\(r = .255\\) to \\(r = .366\\), but the mean NCA effect decreased from about \\(d = .132\\) to \\(d = .087\\).\nThat is a useful reminder that NCA is not just another correlation method. It tracks geometry and more reliable measurement does not mechanically yield a larger necessity estimate. Sometimes it yields a smaller one.\n\n\nResponse categories\nThe number of response categories mattered a lot. Moving from 4 to 7 categories increased the mean NCA effect from about \\(d = .080\\) to \\(d = .165\\), with only small changes in the average correlation (roughly \\(r = .326\\) to \\(r = .334\\)). Put differently: changing the granularity of the ruler changed the estimated bottleneck, even when the underlying latent relation was held fixed.\n\nWhat kind of theoretical advancement can a method provide if it depends on how many options our questionnaire has?\n\n\n\nThreshold placement and induced skewness\nWhen item thresholds were shifted to induce asymmetric score distributions, observed skewness moved to roughly \\(\\pm .27\\), \\(\\pm .39\\), and \\(\\pm .61\\) (way below general cut-offs of problematic skewness). Across these conditions, the mean NCA effect fell from about \\(d = .113\\) at the mild shift to about \\(d = .100\\) at the strongest shift. The direction of the shift mattered surprisingly little; lower and upper shifts produced very similar average NCA values.\n\n\nRange restriction\nRange restriction also mattered in a way that should make applied researchers uneasy. Restricting the sample to the lower side of \\(X\\) or upper side of \\(Y\\) yielded mean NCA effects around \\(d = .133\\), whereas restricting to the upper side of \\(X\\) or lower side of \\(Y\\) brought them down to about \\(d = .096\\). These are shifts large enough to support different rhetorical summaries of the same phenomenon. One sample could make the bottleneck look substantial; another could make it look modest. Yet the difference may reside less in theory than in who happened to be admitted into the dataset.\n\n\nSample size alone changes the estimate\nBut beside every psychometric issue, a sufficient problem to rule NCA out under a latent-association theoretical model is the problem of sample size: Even in a latent-only simulation with the same target correlation of about \\(r = .40\\), the mean NCA effect declined from about \\(d = .201\\) at \\(n = 250\\) to about \\(d = .172\\) at \\(n = 10{,}000\\).\nThat is worth pausing on. The latent relation stayed basically the same. The correlation stayed basically the same. The NCA effect drifted downward as sample size increased. A method that changes when the ruler changes is one thing (this happens also to attenuated correlations). A method that changes its estimates when the sample size increases, it is on another level of problematicity.\n\nLarger samples are simply more likely to populate regions of the \\(X\\)-\\(Y\\) space that smaller samples leave empty by chance. Under ordinary stochastic relations, the empty corner is therefore not strong evidence for an underlying necessity structure; it is often evidence that the sample has not yet filled the corner."
   },
   {
-    "objectID": "open-resources/livingseb.html#overview",
-    "href": "open-resources/livingseb.html#overview",
-    "title": "The Living SEB project",
-    "section": "",
-    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Strength–Emotion–Behavior (SEB) associations.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+    "objectID": "posts/ncacomment.html#the-main-lesson",
+    "href": "posts/ncacomment.html#the-main-lesson",
+    "title": "The Bare Necessities of NCA",
+    "section": "The main lesson",
+    "text": "The main lesson\nNCA often operates on properties of observed score geometry rather than on stable properties of latent constructs.\nUntil NCA does not develop a way to account for measurement error under an NCA psychometric model, NCA estimates would never be reliable nor credible.\nThat means the interpretive leap from “there is an empty corner in this score space” to “this construct is necessary for that construct” is usually much larger than the final discussion section lets on.\nAnd this is where some of the more enthusiastic uses of NCA become difficult to defend. Many psychological theories do not posit necessity relations in the strict sense. They posit probabilistic tendencies, reciprocal influences, multiple pathways, moderators, nonlinearities, developmental contingencies, and measurement error. Declaring necessity after spotting a sparse upper-left corner can therefore produce the peculiar feeling that a rich theory has been replaced by a geometry-based slogan.\nIn my opinion, better modeling approach already exist that answer similar questions, such as segmented regressions, gam and so on. These, however are probably not as attractive and much more difficult to defend and publish compared to a newer ‘fancy’ analysis such as NCA."
   },
   {
-    "objectID": "open-resources/livingseb.html#what-the-project-includes",
-    "href": "open-resources/livingseb.html#what-the-project-includes",
-    "title": "The Living SEB project",
-    "section": "What the project includes",
-    "text": "What the project includes\n\nA curated, living database of SEB studies\nFully reproducible effect-size extraction pipeline\nA continuously updated synthesis of SEB associations\nInteractive tools for exploring and analysing the evidence\nOpen access materials including preregistrations, papers, and presentations"
+    "objectID": "posts/ncacomment.html#false-positives",
+    "href": "posts/ncacomment.html#false-positives",
+    "title": "The Bare Necessities of NCA",
+    "section": "False positives",
+    "text": "False positives\nAcross all the simulation study, no necessity conditions were actually simulated. On the contrary, the ground truth was always a ‘simple’ correlation between two variables, meaning that all possible values in the scope are possible though their probabilty decreases as we move toward the upper-left corner. This corner is just more sparse, not impossible as a necessity effect would claim. Hence, an important question was: does NCA permutation test correctly identify ‘simple’ correlations or each correlation yields a false necessity effect.\nAcross all conditions, the percentage of significant effects was larger than the expected, with conditions ensuring a 100% false positives. In other words, NCA tests cannot distinguish a correlation from an necessity effect."
   },
   {
-    "objectID": "open-resources/livingseb.html#core-resources",
-    "href": "open-resources/livingseb.html#core-resources",
-    "title": "The Living SEB project",
-    "section": "Core Resources",
-    "text": "Core Resources\n\n📄 Living SEB Paper\nFull methodological and empirical description of the project.\n\nOfficial preprint (pdf)\n\n📄 Living Results\nDescription of the current database and monthly updated results.\n\nLiving results (html)\n\n📊 Living SEB App\nInteractive Shiny app for browsing studies and running meta-analyses.\n\nApp link\nUser manual (PDF)\n\n📝 Preregistration\nFull preregistration protocol of the Living SEB workflow (PDF).\n🎤 Presentations\n\nIBT Colloquium • 2025-09-17 (slides)\nLab Meeting • 2025-10-13 (slides)"
-  },
-  {
-    "objectID": "open-resources/livingseb.html#why-a-living-approach",
-    "href": "open-resources/livingseb.html#why-a-living-approach",
-    "title": "The Living SEB project",
-    "section": "Why a “Living” approach?",
-    "text": "Why a “Living” approach?\nTraditional meta-analyses quickly become outdated as new studies accumulate.\nThe Living SEB Project uses a living evidence workflow — an approach that ensures:\n\nrapid integration of new findings\nfully reproducible synthesis pipelines\ntransparent tracking of updates\ncontinuous availability of up-to-date results\n\nThis allows the SEB literature to remain current, cumulative, and open for researchers and practitioners."
-  },
-  {
-    "objectID": "open-resources/clusterapp.html",
-    "href": "open-resources/clusterapp.html",
-    "title": "A shiny app for clusters that are not there",
-    "section": "",
-    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#overview",
-    "href": "open-resources/clusterapp.html#overview",
-    "title": "A shiny app for clusters that are not there",
-    "section": "",
-    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#what-the-app-does",
-    "href": "open-resources/clusterapp.html#what-the-app-does",
-    "title": "A shiny app for clusters that are not there",
-    "section": "What the App Does",
-    "text": "What the App Does\nThe app implements the simulation logic described in the manuscript, allowing users to:\n\nSimulate datasets with custom characteristics:\n\nsample size\nnumber of indicators\ncorrelations\nskewness and kurtosis\neffect size (d) between true clusters\n\nEstimate Type I error\nHow often does a method detect multiple clusters when the data truly come from one population? (e.g., GMM may show inflated Type I error under modest skewness)\nEstimate Power\nHow often does the method correctly detect two clusters when they truly exist? (e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means)\nAssess classification accuracy\nUsing the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (k-means may detect “two clusters” with 100% power but classify individuals no better than chance (Adjusted Rand Index ≈ .06))."
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#why-this-matters",
-    "href": "open-resources/clusterapp.html#why-this-matters",
-    "title": "A shiny app for clusters that are not there",
-    "section": "Why This Matters",
-    "text": "Why This Matters\nClustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:\n\nModerate skewness (skew = .50) yields 48% false positives for GMM in our simulation (p.7)\nModest correlations (r = .35) produce 100% false positives for k-means (p.8–9)\nLarge sample sizes exacerbate the problem for GMM (p.12)\nGMM may “create” clusters to compensate for skewed distributions (Figure 6, p.13)\n\nThese are exactly the pitfalls the app helps users explore and understand."
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#features-at-a-glance",
-    "href": "open-resources/clusterapp.html#features-at-a-glance",
-    "title": "A shiny app for clusters that are not there",
-    "section": "Features at a Glance",
-    "text": "Features at a Glance\n\nMonte Carlo simulation interface\nData Specification mode (define your own distributions)\nData Upload mode (upload your dataset and test risks)\nGMM and k-means implementations following the paper\nVisual summaries of detected cluster counts"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
-  },
-  {
-    "objectID": "courses.html#reuse-of-materials",
-    "href": "courses.html#reuse-of-materials",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
-  },
-  {
-    "objectID": "courses.html#contact",
-    "href": "courses.html#contact",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tommaso Feraco",
-    "section": "",
-    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\nCV\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2026-07-10"
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html",
-    "href": "open-resources/csmetaapp.html",
-    "title": "Character strengths meta-analysis",
-    "section": "",
-    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html#overview",
-    "href": "open-resources/csmetaapp.html#overview",
-    "title": "Character strengths meta-analysis",
-    "section": "",
-    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html#what-you-can-do",
-    "href": "open-resources/csmetaapp.html#what-you-can-do",
-    "title": "Character strengths meta-analysis",
-    "section": "What you can do",
-    "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
-  },
-  {
-    "objectID": "open-resources/sebapp.html",
-    "href": "open-resources/sebapp.html",
-    "title": "The Living SEB app",
-    "section": "",
-    "text": "This app (app link) allows using the Living SEB Project materials to navigate and meta-analyse evidence from all cross-sectional SEB studies."
-  },
-  {
-    "objectID": "open-resources/sebapp.html#overview",
-    "href": "open-resources/sebapp.html#overview",
-    "title": "The Living SEB app",
-    "section": "Overview",
-    "text": "Overview\nThe Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.\nBuilt as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.\n➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp"
-  },
-  {
-    "objectID": "open-resources/sebapp.html#what-you-can-do-with-the-app",
-    "href": "open-resources/sebapp.html#what-you-can-do-with-the-app",
-    "title": "The Living SEB app",
-    "section": "What you can do with the app",
-    "text": "What you can do with the app\n\nBrowse all included SEB studies with filters for samples, designs, measures, and variables.\nInspect effect sizes and metadata for every association extracted in the review.\nRun on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).\nDownload the dataset used in the app for further analysis in R or other tools.\nTrack updates as new studies are added to the living review."
-  },
-  {
-    "objectID": "open-resources/sebapp.html#features-at-a-glance",
-    "href": "open-resources/sebapp.html#features-at-a-glance",
-    "title": "The Living SEB app",
-    "section": "Features at a glance",
-    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
-  },
-  {
-    "objectID": "open-resources/sebapp.html#background",
-    "href": "open-resources/sebapp.html#background",
-    "title": "The Living SEB app",
-    "section": "Background",
-    "text": "Background\nThe app accompanies the article:\nFeraco, T., Calderan, M., & Pellegrino G. (2025). The Living SEB Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. https://doi.org/10.31234/osf.io/ewvuf_v1\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
+    "objectID": "posts/ncacomment.html#does-this-mean-nca-is-useless",
+    "href": "posts/ncacomment.html#does-this-mean-nca-is-useless",
+    "title": "The Bare Necessities of NCA",
+    "section": "Does this mean NCA is useless?",
+    "text": "Does this mean NCA is useless?\nMaybe not (maybe yes). It means psychology should stop treating it as a way to inform theory.\nNCA may still be useful as a descriptive boundary tool when the research question is explicitly about the observed score space (never, probably, who cares about my data if I don’t make any inference?) and the scale has unusually clear substantive meaning, or when robustness across multiple defensible score representations has been demonstrated.\nWhat seems much harder to justify is the common move from a single observed-score NCA result to a statement that a latent psychological construct is a necessary precondition for another latent psychological construct. In other words, it seem hard to inform any theory beyond the observed data.\nThat move is often too quick, too strong, and much easier to publish than to defend.\nBut…\n\nThe bare necessities of life will come to you\nThey’ll come to you!\n\nOh man, that’s really livin’"
   },
   {
     "objectID": "posts/iatmeasure.html",
@@ -357,18 +231,193 @@
     "text": "Acknowledgment\nA special thank to Enrico Toffalini who taught me most of these things."
   },
   {
+    "objectID": "open-resources/sebapp.html",
+    "href": "open-resources/sebapp.html",
+    "title": "The Living SEB app",
+    "section": "",
+    "text": "This app (app link) allows using the Living SEB Project materials to navigate and meta-analyse evidence from all cross-sectional SEB studies."
+  },
+  {
+    "objectID": "open-resources/sebapp.html#overview",
+    "href": "open-resources/sebapp.html#overview",
+    "title": "The Living SEB app",
+    "section": "Overview",
+    "text": "Overview\nThe Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.\nBuilt as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.\n➡️ Access the app here: https://feracoshiny.shinyapps.io/livingSEBapp"
+  },
+  {
+    "objectID": "open-resources/sebapp.html#what-you-can-do-with-the-app",
+    "href": "open-resources/sebapp.html#what-you-can-do-with-the-app",
+    "title": "The Living SEB app",
+    "section": "What you can do with the app",
+    "text": "What you can do with the app\n\nBrowse all included SEB studies with filters for samples, designs, measures, and variables.\nInspect effect sizes and metadata for every association extracted in the review.\nRun on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).\nDownload the dataset used in the app for further analysis in R or other tools.\nTrack updates as new studies are added to the living review."
+  },
+  {
+    "objectID": "open-resources/sebapp.html#features-at-a-glance",
+    "href": "open-resources/sebapp.html#features-at-a-glance",
+    "title": "The Living SEB app",
+    "section": "Features at a glance",
+    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
+  },
+  {
+    "objectID": "open-resources/sebapp.html#background",
+    "href": "open-resources/sebapp.html#background",
+    "title": "The Living SEB app",
+    "section": "Background",
+    "text": "Background\nThe app accompanies the article:\nFeraco, T., Calderan, M., & Pellegrino G. (2025). The Living SEB Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. PsyArXiv. https://doi.org/10.31234/osf.io/ewvuf_v1\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html",
+    "href": "open-resources/csmetaapp.html",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html#overview",
+    "href": "open-resources/csmetaapp.html#overview",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html#what-you-can-do",
+    "href": "open-resources/csmetaapp.html#what-you-can-do",
+    "title": "Character strengths meta-analysis",
+    "section": "What you can do",
+    "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tommaso Feraco",
+    "section": "",
+    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\nCV\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2026-07-10"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "courses.html#reuse-of-materials",
+    "href": "courses.html#reuse-of-materials",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
+  },
+  {
+    "objectID": "courses.html#contact",
+    "href": "courses.html#contact",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html",
+    "href": "open-resources/clusterapp.html",
+    "title": "A shiny app for clusters that are not there",
+    "section": "",
+    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#overview",
+    "href": "open-resources/clusterapp.html#overview",
+    "title": "A shiny app for clusters that are not there",
+    "section": "",
+    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#what-the-app-does",
+    "href": "open-resources/clusterapp.html#what-the-app-does",
+    "title": "A shiny app for clusters that are not there",
+    "section": "What the App Does",
+    "text": "What the App Does\nThe app implements the simulation logic described in the manuscript, allowing users to:\n\nSimulate datasets with custom characteristics:\n\nsample size\nnumber of indicators\ncorrelations\nskewness and kurtosis\neffect size (d) between true clusters\n\nEstimate Type I error\nHow often does a method detect multiple clusters when the data truly come from one population? (e.g., GMM may show inflated Type I error under modest skewness)\nEstimate Power\nHow often does the method correctly detect two clusters when they truly exist? (e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means)\nAssess classification accuracy\nUsing the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (k-means may detect “two clusters” with 100% power but classify individuals no better than chance (Adjusted Rand Index ≈ .06))."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#why-this-matters",
+    "href": "open-resources/clusterapp.html#why-this-matters",
+    "title": "A shiny app for clusters that are not there",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nClustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:\n\nModerate skewness (skew = .50) yields 48% false positives for GMM in our simulation (p.7)\nModest correlations (r = .35) produce 100% false positives for k-means (p.8–9)\nLarge sample sizes exacerbate the problem for GMM (p.12)\nGMM may “create” clusters to compensate for skewed distributions (Figure 6, p.13)\n\nThese are exactly the pitfalls the app helps users explore and understand."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#features-at-a-glance",
+    "href": "open-resources/clusterapp.html#features-at-a-glance",
+    "title": "A shiny app for clusters that are not there",
+    "section": "Features at a Glance",
+    "text": "Features at a Glance\n\nMonte Carlo simulation interface\nData Specification mode (define your own distributions)\nData Upload mode (upload your dataset and test risks)\nGMM and k-means implementations following the paper\nVisual summaries of detected cluster counts"
+  },
+  {
+    "objectID": "open-resources/livingseb.html",
+    "href": "open-resources/livingseb.html",
+    "title": "The Living SEB project",
+    "section": "",
+    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Social Emotional and Behavioral (SEB) skills.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper (Feraco, Calderan, and Pellegrino 2026) explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+  },
+  {
+    "objectID": "open-resources/livingseb.html#overview",
+    "href": "open-resources/livingseb.html#overview",
+    "title": "The Living SEB project",
+    "section": "",
+    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Social Emotional and Behavioral (SEB) skills.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper (Feraco, Calderan, and Pellegrino 2026) explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+  },
+  {
+    "objectID": "open-resources/livingseb.html#what-the-project-includes",
+    "href": "open-resources/livingseb.html#what-the-project-includes",
+    "title": "The Living SEB project",
+    "section": "What the project includes",
+    "text": "What the project includes\n\nA curated, living database of SEB studies\nFully reproducible effect-size extraction pipeline\nA continuously updated synthesis of SEB associations\nInteractive tools for exploring and analysing the evidence\nOpen access materials including preregistrations, papers, and presentations"
+  },
+  {
+    "objectID": "open-resources/livingseb.html#core-resources",
+    "href": "open-resources/livingseb.html#core-resources",
+    "title": "The Living SEB project",
+    "section": "Core Resources",
+    "text": "Core Resources\n\n📄 Living SEB Paper\nFull methodological and empirical description of the project.\n\nOfficial postprint (pdf)\n\n📄 Living Results\nDescription of the current database and monthly updated results.\n\nLiving results (html)\n\n📊 Living SEB App\nInteractive Shiny app for browsing studies and running meta-analyses.\n\nApp link\nUser manual (PDF)\n\n📝 Preregistration\nFull preregistration protocol of the Living SEB workflow (PDF).\n🎤 Presentations\n\nIBT Colloquium • 2025-09-17 (slides)\nLab Meeting • 2025-10-13 (slides)"
+  },
+  {
+    "objectID": "open-resources/livingseb.html#why-a-living-approach",
+    "href": "open-resources/livingseb.html#why-a-living-approach",
+    "title": "The Living SEB project",
+    "section": "Why a “Living” approach?",
+    "text": "Why a “Living” approach?\nTraditional meta-analyses quickly become outdated as new studies accumulate.\nThe Living SEB Project uses a living evidence workflow — an approach that ensures:\n\nrapid integration of new findings\nfully reproducible synthesis pipelines\ntransparent tracking of updates\ncontinuous availability of up-to-date results\n\nThis allows the SEB literature to remain current, cumulative, and open for researchers and practitioners."
+  },
+  {
+    "objectID": "open-resources/sebchapter.html",
+    "href": "open-resources/sebchapter.html",
+    "title": "SEB Skills chapter for students",
+    "section": "",
+    "text": "This post redirects to the external page.\nOpen the page directly"
+  },
+  {
+    "objectID": "open-resources.html",
+    "href": "open-resources.html",
+    "title": "Open resources",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nSEM PhD Course\n\n\nApr 7, 2026\n\n\nA PhD-level course on structural equation models\n\n\nteaching; slides; code\n\n\nSEM, stat\n\n\n\n\n\n\nSEB Skills chapter for students\n\n\nMar 12, 2026\n\n\nUn capitolo in italiano per l’approfondimento e lo studio delle SEB skills.\n\n\nchapter\n\n\nSEB\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/livingSEBresults.html",
+    "href": "posts/livingSEBresults.html",
+    "title": "Living SEB Skills Results",
+    "section": "",
+    "text": "This post redirects to the external page.\nOpen the page directly"
+  },
+  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Open resources",
     "section": "",
     "text": "The Bare Necessities of NCA\n\n\nOr: how to turn a perfectly ordinary correlation into a bottleneck\n\n\n\nNCA\n\nnecessity\n\nmethods\n\n\n\n“Necessary condition analysis do not provide credible nor reliable necessity conditions when applied to psychological data.”\n\n\n\n\n\nJun 19, 2026\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nLiving SEB Skills Results\n\n\n\n\n\n\nSEB\n\nreview\n\nliving review\n\n\n\nThis post links to the interactive results page hosted in the living SEB skills repository.\n\n\n\n\n\nMar 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nOn the predictive power of implicit measures of ratial attitudes\n\n\nA commentary on Axt and colleagues (2025)\n\n\n\nmeasurement\n\nIAT\n\nSEM\n\nvalidity\n\n\n\n“Badly modeling latent factors undermines your results and misleads your conclusions.”\n\n\n\n\n\nDec 5, 2025\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/gps-a.html",
-    "href": "projects/gps-a.html",
-    "title": "Geographical Psychology of School Anxiety",
-    "section": "",
-    "text": "GPS-A (The Geographical Psychology of School Anxiety) investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.\nGPS-A integrates educational psychology, geographical psychology, and environmental data to uncover the socio-ecological features—such as green spaces, climate, pollution, population density, and economic inequality—that help explain this variability. Through advanced spatial analyses and large-scale intervention studies that will be conducted across 50 diverse regions, the project tests whether the effectiveness of psychological interventions also changes depending on the local environment.\nBy developing the first fine-grained geographical model of school anxiety, GPS-A aims to support more context-sensitive theories, improve school-based interventions, and provide policymakers with evidence to better allocate resources. The project will also establish a freely accessible online platform where researchers can collaborate, explore geographical variations, and access pre-processed data to advance geographically informed psychological research."
   },
   {
     "objectID": "projects/gps-a.html#the-project",
@@ -390,6 +439,13 @@
     "title": "Geographical Psychology of School Anxiety",
     "section": "Fundings",
     "text": "Fundings\nThe project was funded by the European Association of Personality Psychology and by the Italian Science Fund (Fondo Italiano per la Scienza – FIS-3), established by the Italian Ministry of University and Research (MUR)."
+  },
+  {
+    "objectID": "projects/gps-a.html#presentations",
+    "href": "projects/gps-a.html#presentations",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "Presentations",
+    "text": "Presentations\n\nGeographical variability of test anxiety - https://feracotommaso.github.io/Slides/fis/ecp26.html"
   },
   {
     "objectID": "projects/gps-a.html#publications",
@@ -453,82 +509,5 @@
     "title": "Projects",
     "section": "",
     "text": "Geographical Psychology of School Anxiety\n\n\n\ngeographical psychology\n\neducation\n\nvariability\n\n\n\nGPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently.\n\n\n\n\n\nDec 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nThe Living SEB Project\n\n\n\nSEB skills\n\nliving review\n\nmeta-analysis\n\nSEM\n\nreview\n\n\n\n“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”\n\n\n\n\n\nNov 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nChange goals and development of SEB skills\n\n\n\nSEB skills\n\neducation\n\npersonality\n\nchange\n\ndevelopment\n\n\n\n“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop what people think about changing them.”\n\n\n\n\n\nJun 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nSEB in students with learning disabilities\n\n\n\nSEB skills\n\nlearning\n\nSLD\n\n\n\n“Do students with specific learning disabilities report different levels of SEB skills?”\n\n\n\n\n\nJan 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring SEB skills\n\n\n\nSEB skills\n\nmeasurement\n\nSEM\n\n\n\n“What’s the best way to measure SEB skills? Are self-report enough?.”\n\n\n\n\n\nDec 4, 2023\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/ncacomment.html",
-    "href": "posts/ncacomment.html",
-    "title": "The Bare Necessities of NCA",
-    "section": "",
-    "text": "“Look for the bare necessities, the simple bare necessities\nForget about your worries and your strife\nI mean the bare necessities, old mother nature\nThat bring the bare necessities of life”\nTerry Gilkyson, The Bare Necessities (1967)"
-  },
-  {
-    "objectID": "posts/ncacomment.html#what-nca-actually-estimates",
-    "href": "posts/ncacomment.html#what-nca-actually-estimates",
-    "title": "The Bare Necessities of NCA",
-    "section": "What NCA actually estimates",
-    "text": "What NCA actually estimates\nThe basic logic of NCA is simple and elegant. If low values of a condition are incompatible with high values of an outcome, then the upper-left corner of the \\(X\\)-\\(Y\\) scatterplot should be empty. NCA quantifies that empty region, estimates a ceiling line, and summarizes the pattern through an effect size and a bottleneck table (see fig-nca Dul 2016).\nThat geometric intuition is exactly why the method is attractive. But it is also exactly why psychology is an awkward habitat for it.\n\nfit &lt;- NCA::nca(d, 1,2)\nres &lt;- NCA::nca_output(fit, plots = TRUE, summaries = FALSE)\n\n\n\n\n\n\n\n\n\nFigure 2: Example of an NCA plot. The scatterplot shows the relation between X and Y. NCA evaluates whether X is necessary for Y by identifying an empty upper-left region, meaning that high values of Y are absent when X is low. The ceiling lines (CE-FDH and CR-FDH) mark the estimated boundary of this empty space, while the OLS line is included only to contrast NCA with standard regression approaches.\n\n\n\n\n\nNCA does not estimate a latent relation, a structural parameter, or a causal mechanism. It estimates a property of the observed score space: the size of a ceiling zone relative to a scope, plus the bottleneck values implied by the estimated ceiling line. The threshold it reports is therefore tied to the metric of the score representation itself. Change the coding, the scoring rule, the number of response categories, the item thresholds, or the sample range, and you may change the NCA result even when the underlying latent relation is held constant.\n\nChange the questionnaire you are using to measure depression, and everything changes!\n\nA method that lives on sparse regions of the scatterplot is naturally sensitive to the exact way the scatterplot was manufactured. So before asking whether intelligence is necessary for creativity or whether self-control is necessary for academic success, one first has to ask a less glamorous but more important question: necessary in the construct, or necessary in this particular score representation? [in this particular sample?]"
-  },
-  {
-    "objectID": "posts/ncacomment.html#a-small-simulation",
-    "href": "posts/ncacomment.html#a-small-simulation",
-    "title": "The Bare Necessities of NCA",
-    "section": "A small simulation",
-    "text": "A small simulation\nDon’t you believe?\nA way to test my previous assertions is to simulate multiple scenarios thousands of times. In each replication, one latent paired dataset was generated first. NCA was then computed on those latent variables as a reference. Starting from that same latent dataset, multiple observed versions were created by changing score construction, loading strength, ordinal scaling, threshold placement, and sample restriction. NCA was then recomputed on each observed dataset.\n\nIf the latent relation stays the same, how much does the observed NCA estimate move just because psychology measures things the way psychology usually measures things?\n\nThe answer is: quite a lot.\n\nScore construction\nWith the same latent relation, factor-score NCA was systematically larger than sum-score NCA. Averaged across design cells, the mean NCA effect was about \\(d = .149\\) for factor scores and \\(d = .121\\) for sum scores, even though the mean observed correlations were essentially identical in the two cases (both about \\(r = .331\\)). In other words, two score types can tell almost the same correlation story while telling noticeably different necessity stories.\n\n\nReliability and loading strength\nThe reliability block is even more awkward for simple intuitions. As loadings increased from .50 to .85, the mean observed correlation rose from about \\(r = .255\\) to \\(r = .366\\), but the mean NCA effect decreased from about \\(d = .132\\) to \\(d = .087\\).\nThat is a useful reminder that NCA is not just another correlation method. It tracks geometry and more reliable measurement does not mechanically yield a larger necessity estimate. Sometimes it yields a smaller one.\n\n\nResponse categories\nThe number of response categories mattered a lot. Moving from 4 to 7 categories increased the mean NCA effect from about \\(d = .080\\) to \\(d = .165\\), with only small changes in the average correlation (roughly \\(r = .326\\) to \\(r = .334\\)). Put differently: changing the granularity of the ruler changed the estimated bottleneck, even when the underlying latent relation was held fixed.\n\nWhat kind of theoretical advancement can a method provide if it depends on how many options our questionnaire has?\n\n\n\nThreshold placement and induced skewness\nWhen item thresholds were shifted to induce asymmetric score distributions, observed skewness moved to roughly \\(\\pm .27\\), \\(\\pm .39\\), and \\(\\pm .61\\) (way below general cut-offs of problematic skewness). Across these conditions, the mean NCA effect fell from about \\(d = .113\\) at the mild shift to about \\(d = .100\\) at the strongest shift. The direction of the shift mattered surprisingly little; lower and upper shifts produced very similar average NCA values.\n\n\nRange restriction\nRange restriction also mattered in a way that should make applied researchers uneasy. Restricting the sample to the lower side of \\(X\\) or upper side of \\(Y\\) yielded mean NCA effects around \\(d = .133\\), whereas restricting to the upper side of \\(X\\) or lower side of \\(Y\\) brought them down to about \\(d = .096\\). These are shifts large enough to support different rhetorical summaries of the same phenomenon. One sample could make the bottleneck look substantial; another could make it look modest. Yet the difference may reside less in theory than in who happened to be admitted into the dataset.\n\n\nSample size alone changes the estimate\nBut beside every psychometric issue, a sufficient problem to rule NCA out under a latent-association theoretical model is the problem of sample size: Even in a latent-only simulation with the same target correlation of about \\(r = .40\\), the mean NCA effect declined from about \\(d = .201\\) at \\(n = 250\\) to about \\(d = .172\\) at \\(n = 10{,}000\\).\nThat is worth pausing on. The latent relation stayed basically the same. The correlation stayed basically the same. The NCA effect drifted downward as sample size increased. A method that changes when the ruler changes is one thing (this happens also to attenuated correlations). A method that changes its estimates when the sample size increases, it is on another level of problematicity.\n\nLarger samples are simply more likely to populate regions of the \\(X\\)-\\(Y\\) space that smaller samples leave empty by chance. Under ordinary stochastic relations, the empty corner is therefore not strong evidence for an underlying necessity structure; it is often evidence that the sample has not yet filled the corner."
-  },
-  {
-    "objectID": "posts/ncacomment.html#the-main-lesson",
-    "href": "posts/ncacomment.html#the-main-lesson",
-    "title": "The Bare Necessities of NCA",
-    "section": "The main lesson",
-    "text": "The main lesson\nNCA often operates on properties of observed score geometry rather than on stable properties of latent constructs.\nUntil NCA does not develop a way to account for measurement error under an NCA psychometric model, NCA estimates would never be reliable nor credible.\nThat means the interpretive leap from “there is an empty corner in this score space” to “this construct is necessary for that construct” is usually much larger than the final discussion section lets on.\nAnd this is where some of the more enthusiastic uses of NCA become difficult to defend. Many psychological theories do not posit necessity relations in the strict sense. They posit probabilistic tendencies, reciprocal influences, multiple pathways, moderators, nonlinearities, developmental contingencies, and measurement error. Declaring necessity after spotting a sparse upper-left corner can therefore produce the peculiar feeling that a rich theory has been replaced by a geometry-based slogan.\nIn my opinion, better modeling approach already exist that answer similar questions, such as segmented regressions, gam and so on. These, however are probably not as attractive and much more difficult to defend and publish compared to a newer ‘fancy’ analysis such as NCA."
-  },
-  {
-    "objectID": "posts/ncacomment.html#why-the-bottleneck-table-is-not-a-magic-threshold-detector",
-    "href": "posts/ncacomment.html#why-the-bottleneck-table-is-not-a-magic-threshold-detector",
-    "title": "The Bare Necessities of NCA (necessary condition analysis)",
-    "section": "Why the bottleneck table is not a magic threshold detector",
-    "text": "Why the bottleneck table is not a magic threshold detector\nApplied papers often treat the bottleneck table as the crown jewel of NCA. It looks concrete. It says things like: to achieve this level of the outcome, at least that level of the predictor is required. That has tremendous rhetorical appeal because it sounds practical, decisive, and intervention-ready.\nBut the bottleneck is defined relative to the observed range. And the observed range is a psychometric and sample-dependent object, not a universal coordinate system (Dul, Hauff, and Bouncken 2023). If the range changes because the sample changes, the instrument changes, or the score-construction rule changes, the bottleneck changes too.\nSo what looks like a deep threshold in psychological reality may be a threshold in this sample, on this instrument, under this scoring rule, with this category structure, and this much skewness.\nThat is a perfectly respectable descriptive statement. It is just much weaker than the construct-level claim people often want it to be."
-  },
-  {
-    "objectID": "posts/ncacomment.html#does-this-mean-nca-is-useless",
-    "href": "posts/ncacomment.html#does-this-mean-nca-is-useless",
-    "title": "The Bare Necessities of NCA",
-    "section": "Does this mean NCA is useless?",
-    "text": "Does this mean NCA is useless?\nMaybe not (maybe yes). It means psychology should stop treating it as a way to inform theory.\nNCA may still be useful as a descriptive boundary tool when the research question is explicitly about the observed score space (never, probably, who cares about my data if I don’t make any inference?) and the scale has unusually clear substantive meaning, or when robustness across multiple defensible score representations has been demonstrated.\nWhat seems much harder to justify is the common move from a single observed-score NCA result to a statement that a latent psychological construct is a necessary precondition for another latent psychological construct. In other words, it seem hard to inform any theory beyond the observed data.\nThat move is often too quick, too strong, and much easier to publish than to defend.\nBut…\n\nThe bare necessities of life will come to you\nThey’ll come to you!\n\nOh man, that’s really livin’"
-  },
-  {
-    "objectID": "posts/ncacomment.html#a-more-disciplined-way-to-use-nca-in-psychology",
-    "href": "posts/ncacomment.html#a-more-disciplined-way-to-use-nca-in-psychology",
-    "title": "The Bare Necessities of NCA (necessary condition analysis)",
-    "section": "A more disciplined way to use NCA in psychology",
-    "text": "A more disciplined way to use NCA in psychology\nIf researchers want to use NCA responsibly in psychological work, a few questions should become routine.\nFirst, is the theory genuinely about necessity, or merely about importance, prediction, or average association?\nSecond, why should this particular score metric be interpreted as substantively meaningful enough to support a bottleneck claim?\nThird, does the result survive reasonable alternatives in score construction, ordinal specification, threshold placement, and sample composition?\nFourth, how far does the conclusion travel beyond this instrument and this sample?\nIf those questions are not answered, then the cleanest interpretation is usually the modest one: NCA has described an observed-score pattern, not established a construct-level necessity law.\nAnd that may be the bare necessity here: less excitement about bottlenecks, more respect for psychometrics."
-  },
-  {
-    "objectID": "posts/ncacomment.html#a-new-method-in-town",
-    "href": "posts/ncacomment.html#a-new-method-in-town",
-    "title": "The Bare Necessities of NCA",
-    "section": "A ‘new’ method in town",
-    "text": "A ‘new’ method in town\nThere is now a ‘new’ temptingly efficient way to generate a fresh psychological paper, wonderful insights, serendipity!\n\nStep 1: Take two variables that correlate\nStep 2: Draw a scatterplot.\n\n\n\n\n\n\n\n\n\nFigure 1: A scatterplot for your scientific insights!\n\n\n\n\n\nWhat do you notice? Is there any white space in those corner? Wow!\nMake sure it’s not a trick of your mind. White space in the upper-left corner of your scatterplot! What could it be?\n\nStep 3: Run Necessary Condition Analysis (NCA) to test if it is really blank.\n\nStep 4: NCA detects an effect. Is significant.\nStep 5: Declare that a certain level of X is necessary for Y to appear.\n\nCongratulations: your correlation has been promoted from a mildly respectable average effect to a theoretical bottleneck.\nThat is, of course, slightly impolite (but true!).\nNCA is an interesting method with a legitimate aim. It asks a different question from regression. Instead of asking whether higher values of \\(X\\) are associated with higher values of \\(Y\\) on average, it asks whether some level of \\(X\\) is required before a given level of \\(Y\\) can occur (Dul 2016; Dul, Hauff, and Bouncken 2023). In fields where variables have natural units and clear substantive thresholds, that question can be meaningful. For instance, what is the minimum salary required from all banks to give a 100k loan?\nPsychology, however, is not full of natural units. It is full of latent constructs hiding behind observed scores on tests, questionnaires, tasks."
-  },
-  {
-    "objectID": "posts/ncacomment.html#false-positives",
-    "href": "posts/ncacomment.html#false-positives",
-    "title": "The Bare Necessities of NCA",
-    "section": "False positives",
-    "text": "False positives\nAcross all the simulation study, no necessity conditions were actually simulated. On the contrary, the ground truth was always a ‘simple’ correlation between two variables, meaning that all possible values in the scope are possible though their probabilty decreases as we move toward the upper-left corner. This corner is just more sparse, not impossible as a necessity effect would claim. Hence, an important question was: does NCA permutation test correctly identify ‘simple’ correlations or each correlation yields a false necessity effect.\nAcross all conditions, the percentage of significant effects was larger than the expected, with conditions ensuring a 100% false positives. In other words, NCA tests cannot distinguish a correlation from an necessity effect."
-  },
-  {
-    "objectID": "slides.html#geographical-variability",
-    "href": "slides.html#geographical-variability",
-    "title": "Slides",
-    "section": "Geographical variability",
-    "text": "Geographical variability\n\nGeographical variability of test anxiety - ECP 26"
-  },
-  {
-    "objectID": "projects/gps-a.html#presentations",
-    "href": "projects/gps-a.html#presentations",
-    "title": "Geographical Psychology of School Anxiety",
-    "section": "Presentations",
-    "text": "Presentations\n\nGeographical variability of test anxiety - https://feracotommaso.github.io/Slides/fis/ecp26.html"
   }
 ]

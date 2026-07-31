@@ -10,14 +10,14 @@ categories: [measures, surveys, SEB]
 
 #### BESSI Originale
 
--   192 item - [Questionario](https://feracotommaso.github.io/open-resources/surveys/BESSI-I-192.docx); Scoring
+-   192 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-192.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/bessi-192_scoring.pdf)
 
--   96 item - Questionario; Scoring
+-   96 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-96.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-96.docx)
 
--   45 item - Questionario; Scoring
+-   45 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-45.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-45.docx)
 
--   20 item - Questionario; Scoring
+-   20 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-20.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-20.docx)
 
 #### BESSI Dual Format
 
--   45 item - Italiano; Inglese
+-   45 item - [Italiano](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-Dual-format-45-Italian.docx); [Inglese](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-Dual-format-45-English.docx)

@@ -12,11 +12,11 @@ categories: [measures, surveys, SEB]
 
 -   192 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-192.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/bessi-192_scoring.pdf)
 
--   96 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-96.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-96.docx)
+-   96 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-96.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/bessi-96_scoring.pdf)
 
--   45 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-45.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-45.docx)
+-   45 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-45.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/bessi-45_scoring.pdf)
 
--   20 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-20.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-20.docx)
+-   20 item - [Questionario](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/BESSI-I-20.docx); [Scoring](https://github.com/feracotommaso/feracotommaso.github.io/raw/refs/heads/main/open-resources/surveys/bessi-20_scoring.pdf)
 
 #### BESSI Dual Format
 

@@ -21,6 +21,7 @@ google-scholar: false
 bibliography: references.bib
 nocite: |
   @feracoItalianBehavioralEmotional2024
+  @pellegrinoCanWeDifferentiate2026
 ---
 
 ## The project
@@ -31,7 +32,7 @@ The **original** [BESSI](https://doi.org/10.1037/pspp0000401) **(Behavioral, Emo
 
 However, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.
 
-To address this, the project introduces and evaluates the **BESSI-R**, a refined measurement tool designed to better separate SEB skills from personality traits. The BESSI-R includes:
+To address this, we introduced and evaluates an alternative version of the BESSI, the **BESSI-Dual Rating**, a refined measurement tool designed to better separate SEB skills from personality traits. The Bessi-Dual Rating includes:
 
 -   **clearer conceptual instructions** distinguishing abilities from tendencies,
 
@@ -41,9 +42,9 @@ To address this, the project introduces and evaluates the **BESSI-R**, a refined
 
 -   small but targeted wording adjustments to facilitate more accurate self-assessment.
 
-Initial evidence from high school students shows that participants *do* perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-R retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.
+Initial evidence from high school students shows that participants *do* perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-Dual Rating retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.
 
-Together, the BESSI-I and BESSI-R projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:
+Together, the BESSI-I and Bessi-Dual Rating projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:
 
 -   validating the SEB skills framework across languages and developmental periods,
 

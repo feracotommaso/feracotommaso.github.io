@@ -1,0 +1,23 @@
+---
+title: "BESSI Italian versions"
+description: "A PhD-level course on structural equation models"
+date: 2026-07-031
+Method: [questionnaire]
+categories: [measures, surveys, SEB]
+---
+
+## Download the BESSI version you prefer (ITALIAN)
+
+#### BESSI Originale
+
+-   192 item - [Questionario](https://feracotommaso.github.io/open-resources/surveys/BESSI-I-192.docx); Scoring
+
+-   96 item - Questionario; Scoring
+
+-   45 item - Questionario; Scoring
+
+-   20 item - Questionario; Scoring
+
+#### BESSI Dual Format
+
+-   45 item - Italiano; Inglese

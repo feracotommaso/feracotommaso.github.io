@@ -287,18 +287,18 @@
     "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tommaso Feraco",
+    "objectID": "open-resources/bessiIta.html",
+    "href": "open-resources/bessiIta.html",
+    "title": "BESSI Italian versions",
     "section": "",
-    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\nCV\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2026-07-10"
+    "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
+    "objectID": "open-resources/bessiIta.html#download-the-bessi-version-you-prefer-italian",
+    "href": "open-resources/bessiIta.html#download-the-bessi-version-you-prefer-italian",
+    "title": "BESSI Italian versions",
     "section": "",
-    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
+    "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
   },
   {
     "objectID": "courses.html",
@@ -320,6 +320,20 @@
     "title": "Courses and Open Teaching materials",
     "section": "",
     "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tommaso Feraco",
+    "section": "",
+    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\nCV\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2026-07-10"
   },
   {
     "objectID": "open-resources/clusterapp.html",
@@ -403,7 +417,7 @@
     "href": "open-resources.html",
     "title": "Open resources",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nBESSI Italian versions\n\n\nJul 31, 2026\n\n\nA PhD-level course on structural equation models\n\n\nquestionnaire\n\n\nmeasures, surveys, SEB\n\n\n\n\n\n\nSEM PhD Course\n\n\nApr 7, 2026\n\n\nA PhD-level course on structural equation models\n\n\nteaching; slides; code\n\n\nSEM, stat\n\n\n\n\n\n\nSEB Skills chapter for students\n\n\nMar 12, 2026\n\n\nUn capitolo in italiano per l’approfondimento e lo studio delle SEB skills.\n\n\nchapter\n\n\nSEB\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nBESSI Italian versions\n\n\nJul 31, 2026\n\n\nAll the BESSI versions we developed, for free\n\n\nquestionnaire\n\n\nmeasures, surveys, SEB\n\n\n\n\n\n\nSEM PhD Course\n\n\nApr 7, 2026\n\n\nA PhD-level course on structural equation models\n\n\nteaching; slides; code\n\n\nSEM, stat\n\n\n\n\n\n\nSEB Skills chapter for students\n\n\nMar 12, 2026\n\n\nUn capitolo in italiano per l’approfondimento e lo studio delle SEB skills.\n\n\nchapter\n\n\nSEB\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/livingSEBresults.html",
@@ -509,19 +523,5 @@
     "title": "Projects",
     "section": "",
     "text": "Geographical Psychology of School Anxiety\n\n\n\ngeographical psychology\n\neducation\n\nvariability\n\n\n\nGPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently.\n\n\n\n\n\nDec 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nThe Living SEB Project\n\n\n\nSEB skills\n\nliving review\n\nmeta-analysis\n\nSEM\n\nreview\n\n\n\n“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”\n\n\n\n\n\nNov 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nChange goals and development of SEB skills\n\n\n\nSEB skills\n\neducation\n\npersonality\n\nchange\n\ndevelopment\n\n\n\n“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop what people think about changing them.”\n\n\n\n\n\nJun 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nSEB in students with learning disabilities\n\n\n\nSEB skills\n\nlearning\n\nSLD\n\n\n\n“Do students with specific learning disabilities report different levels of SEB skills?”\n\n\n\n\n\nJan 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring SEB skills\n\n\n\nSEB skills\n\nmeasurement\n\nSEM\n\n\n\n“What’s the best way to measure SEB skills? Are self-report enough?.”\n\n\n\n\n\nDec 4, 2023\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "open-resources/bessiIta.html",
-    "href": "open-resources/bessiIta.html",
-    "title": "BESSI Italian versions",
-    "section": "",
-    "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
-  },
-  {
-    "objectID": "open-resources/bessiIta.html#download-the-bessi-version-you-prefer-italian",
-    "href": "open-resources/bessiIta.html#download-the-bessi-version-you-prefer-italian",
-    "title": "BESSI Italian versions",
-    "section": "",
-    "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
   }
 ]

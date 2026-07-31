@@ -1,7 +1,7 @@
 ---
 title: "BESSI Italian versions"
-description: "A PhD-level course on structural equation models"
-date: 2026-07-031
+description: "All the BESSI versions we developed, for free"
+date: 2026-07-31
 Method: [questionnaire]
 categories: [measures, surveys, SEB]
 ---

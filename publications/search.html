@@ -1,0 +1,25 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const input = document.getElementById("publication-search");
+  const cards = Array.from(document.querySelectorAll(".publication-card"));
+  const count = document.getElementById("publication-count");
+  const empty = document.getElementById("publication-empty");
+  if (!input || !cards.length) return;
+
+  const normalize = text => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase();
+  const texts = cards.map(card => normalize(card.textContent));
+  function filter() {
+    const terms = normalize(input.value).trim().split(/\s+/).filter(Boolean);
+    let visible = 0;
+    cards.forEach((card, index) => {
+      card.hidden = !terms.every(term => texts[index].includes(term));
+      if (!card.hidden) visible++;
+    });
+    count.textContent = `${visible} of ${cards.length} publications`;
+    empty.hidden = visible !== 0;
+  }
+  input.closest(".publication-search").hidden = false;
+  input.addEventListener("input", filter);
+  filter();
+});
+</script>

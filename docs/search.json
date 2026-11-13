@@ -28,445 +28,11 @@
     "text": "Geographical variability\n\nGeographical variability of test anxiety - ECP 26"
   },
   {
-    "objectID": "projects/thelivingsebproject.html",
-    "href": "projects/thelivingsebproject.html",
-    "title": "The Living SEB Project",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a living, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.\nThe project includes ongoing systematic literature searches, a centralized and openly available database of coded study metadata and effect sizes, and an interactive web application that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.\nThe resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.\nConceptually, the project is grounded in the understanding of SEB skills as capacities—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: Innovation, Self-Management, Social Engagement, Cooperation, and Emotional Resilience.\nAims of the project\n\nTo provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.\nTo enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.\nTo help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.\n\nBecause the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications."
-  },
-  {
-    "objectID": "projects/thelivingsebproject.html#the-project",
-    "href": "projects/thelivingsebproject.html#the-project",
-    "title": "The Living SEB Project",
-    "section": "",
-    "text": "The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a living, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.\nThe project includes ongoing systematic literature searches, a centralized and openly available database of coded study metadata and effect sizes, and an interactive web application that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.\nThe resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.\nConceptually, the project is grounded in the understanding of SEB skills as capacities—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: Innovation, Self-Management, Social Engagement, Cooperation, and Emotional Resilience.\nAims of the project\n\nTo provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.\nTo enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.\nTo help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.\n\nBecause the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications."
-  },
-  {
-    "objectID": "projects/thelivingsebproject.html#collaborators-and-acknowledgment",
-    "href": "projects/thelivingsebproject.html#collaborators-and-acknowledgment",
-    "title": "The Living SEB Project",
-    "section": "Collaborators and Acknowledgment",
-    "text": "Collaborators and Acknowledgment\nThis project is supported by Gerardo Pellegrino and Margherita Calderan who help me manage the repo and the new incoming data."
-  },
-  {
-    "objectID": "projects/thelivingsebproject.html#fundings",
-    "href": "projects/thelivingsebproject.html#fundings",
-    "title": "The Living SEB Project",
-    "section": "Fundings",
-    "text": "Fundings\nNo funding was obtained for this project at the moment."
-  },
-  {
-    "objectID": "projects/thelivingsebproject.html#living-results",
-    "href": "projects/thelivingsebproject.html#living-results",
-    "title": "The Living SEB Project",
-    "section": "Living results",
-    "text": "Living results\nA living paper with updated results is available on github: https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html"
-  },
-  {
-    "objectID": "projects/thelivingsebproject.html#detailed-description-of-the-project",
-    "href": "projects/thelivingsebproject.html#detailed-description-of-the-project",
-    "title": "The Living SEB Project",
-    "section": "Detailed description of the project",
-    "text": "Detailed description of the project\nThe project description was published in the European Journal of Personality (link). You can find an open access version of the manuscript here: https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html"
-  },
-  {
-    "objectID": "projects/thelivingsebproject.html#media-coverage",
-    "href": "projects/thelivingsebproject.html#media-coverage",
-    "title": "The Living SEB Project",
-    "section": "Media coverage",
-    "text": "Media coverage\nOur preprint was selected by the Association for Research in Personality for their yearly newsletter: The Online Newsletter for Personality Science"
-  },
-  {
-    "objectID": "projects/measuringseb.html",
-    "href": "projects/measuringseb.html",
-    "title": "Measuring SEB skills",
-    "section": "",
-    "text": "Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.\nThe original BESSI (Behavioral, Emotional, and Social Skills Inventory) provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.\nHowever, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.\nTo address this, we introduced and evaluates an alternative version of the BESSI, the BESSI-Dual Rating, a refined measurement tool designed to better separate SEB skills from personality traits. The Bessi-Dual Rating includes:\n\nclearer conceptual instructions distinguishing abilities from tendencies,\na dual-item format, asking first about behavioral tendencies and then about abilities,\nan expanded response scale for finer discrimination, and\nsmall but targeted wording adjustments to facilitate more accurate self-assessment.\n\nInitial evidence from high school students shows that participants do perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-Dual Rating retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.\nTogether, the BESSI-I and Bessi-Dual Rating projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:\n\nvalidating the SEB skills framework across languages and developmental periods,\nimproving the measurement tools used to distinguish skills from traits, and\nsupporting more precise research, applied work, and educational interventions based on SEB skills.\n\nThis broader research program contributes to building a reliable, culturally adaptable, and theoretically coherent assessment system for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications."
-  },
-  {
-    "objectID": "projects/measuringseb.html#the-project",
-    "href": "projects/measuringseb.html#the-project",
-    "title": "Measuring SEB skills",
-    "section": "",
-    "text": "Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.\nThe original BESSI (Behavioral, Emotional, and Social Skills Inventory) provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.\nHowever, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.\nTo address this, we introduced and evaluates an alternative version of the BESSI, the BESSI-Dual Rating, a refined measurement tool designed to better separate SEB skills from personality traits. The Bessi-Dual Rating includes:\n\nclearer conceptual instructions distinguishing abilities from tendencies,\na dual-item format, asking first about behavioral tendencies and then about abilities,\nan expanded response scale for finer discrimination, and\nsmall but targeted wording adjustments to facilitate more accurate self-assessment.\n\nInitial evidence from high school students shows that participants do perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-Dual Rating retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.\nTogether, the BESSI-I and Bessi-Dual Rating projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:\n\nvalidating the SEB skills framework across languages and developmental periods,\nimproving the measurement tools used to distinguish skills from traits, and\nsupporting more precise research, applied work, and educational interventions based on SEB skills.\n\nThis broader research program contributes to building a reliable, culturally adaptable, and theoretically coherent assessment system for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications."
-  },
-  {
-    "objectID": "projects/measuringseb.html#collaborators-and-acknowledgment",
-    "href": "projects/measuringseb.html#collaborators-and-acknowledgment",
-    "title": "Measuring SEB skills",
-    "section": "Collaborators and Acknowledgment",
-    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, Barbara Carretti, Christopher J. Soto, Christopher M. Napolitano, and many more…"
-  },
-  {
-    "objectID": "projects/measuringseb.html#fundings",
-    "href": "projects/measuringseb.html#fundings",
-    "title": "Measuring SEB skills",
-    "section": "Fundings",
-    "text": "Fundings\nThis project was initially funded by a research grant from the Department of General Psychology in 2022."
-  },
-  {
-    "objectID": "projects/bessichange.html",
-    "href": "projects/bessichange.html",
-    "title": "Change goals and development of SEB skills",
-    "section": "",
-    "text": "This umbrella project investigates how social, emotional, and behavioral (SEB) skills develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ capacity to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.\nAcross multiple studies, this project addresses three interconnected questions:\n\nHow do SEB skills change across developmental periods?\nResearch including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.\nWhat do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?\nMulti-informant studies reveal that all groups see SEB skills as more feasible and desirable to change than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.\nHow do individuals prioritize change goals, and what shapes their motivation?\nExperimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.\n\nTogether, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions."
-  },
-  {
-    "objectID": "projects/bessichange.html#the-project",
-    "href": "projects/bessichange.html#the-project",
-    "title": "Change goals and development of SEB skills",
-    "section": "",
-    "text": "This umbrella project investigates how social, emotional, and behavioral (SEB) skills develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ capacity to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.\nAcross multiple studies, this project addresses three interconnected questions:\n\nHow do SEB skills change across developmental periods?\nResearch including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.\nWhat do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?\nMulti-informant studies reveal that all groups see SEB skills as more feasible and desirable to change than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.\nHow do individuals prioritize change goals, and what shapes their motivation?\nExperimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.\n\nTogether, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions."
-  },
-  {
-    "objectID": "projects/bessichange.html#collaborators-and-acknowledgment",
-    "href": "projects/bessichange.html#collaborators-and-acknowledgment",
-    "title": "Change goals and development of SEB skills",
-    "section": "Collaborators and Acknowledgment",
-    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Nicole Casali, Christopher J. Soto, Hayley K. Jach, Brent W. Roberts, Gerardo Pellegrino, Christopher M. Napolitano, and many more…"
-  },
-  {
-    "objectID": "projects/bessichange.html#fundings",
-    "href": "projects/bessichange.html#fundings",
-    "title": "Change goals and development of SEB skills",
-    "section": "Fundings",
-    "text": "Fundings\nPart of this project was funded by the European Association of Personality Psychology as a collaborative grant with Nicole Casali."
-  },
-  {
-    "objectID": "posts/ncacomment.html",
-    "href": "posts/ncacomment.html",
-    "title": "The Bare Necessities of NCA",
-    "section": "",
-    "text": "“Look for the bare necessities, the simple bare necessities\nForget about your worries and your strife\nI mean the bare necessities, old mother nature\nThat bring the bare necessities of life”\nTerry Gilkyson, The Bare Necessities (1967)"
-  },
-  {
-    "objectID": "posts/ncacomment.html#a-new-method-in-town",
-    "href": "posts/ncacomment.html#a-new-method-in-town",
-    "title": "The Bare Necessities of NCA",
-    "section": "A ‘new’ method in town",
-    "text": "A ‘new’ method in town\nThere is now a ‘new’ temptingly efficient way to generate a fresh psychological paper, wonderful insights, serendipity!\n\nStep 1: Take two variables that correlate\nStep 2: Draw a scatterplot.\n\n\n\n\n\n\n\n\n\nFigure 1: A scatterplot for your scientific insights!\n\n\n\n\n\nWhat do you notice? Is there any white space in those corner? Wow!\nMake sure it’s not a trick of your mind. White space in the upper-left corner of your scatterplot! What could it be?\n\nStep 3: Run Necessary Condition Analysis (NCA) to test if it is really blank.\n\nStep 4: NCA detects an effect. Is significant.\nStep 5: Declare that a certain level of X is necessary for Y to appear.\n\nCongratulations: your correlation has been promoted from a mildly respectable average effect to a theoretical bottleneck.\nThat is, of course, slightly impolite (but true!).\nNCA is an interesting method with a legitimate aim. It asks a different question from regression. Instead of asking whether higher values of \\(X\\) are associated with higher values of \\(Y\\) on average, it asks whether some level of \\(X\\) is required before a given level of \\(Y\\) can occur (Dul 2016; Dul, Hauff, and Bouncken 2023). In fields where variables have natural units and clear substantive thresholds, that question can be meaningful. For instance, what is the minimum salary required from all banks to give a 100k loan?\nPsychology, however, is not full of natural units. It is full of latent constructs hiding behind observed scores on tests, questionnaires, tasks."
-  },
-  {
-    "objectID": "posts/ncacomment.html#what-nca-actually-estimates",
-    "href": "posts/ncacomment.html#what-nca-actually-estimates",
-    "title": "The Bare Necessities of NCA",
-    "section": "What NCA actually estimates",
-    "text": "What NCA actually estimates\nThe basic logic of NCA is simple and elegant. If low values of a condition are incompatible with high values of an outcome, then the upper-left corner of the \\(X\\)-\\(Y\\) scatterplot should be empty. NCA quantifies that empty region, estimates a ceiling line, and summarizes the pattern through an effect size and a bottleneck table (see fig-nca Dul 2016).\nThat geometric intuition is exactly why the method is attractive. But it is also exactly why psychology is an awkward habitat for it.\n\nfit &lt;- NCA::nca(d, 1,2)\nres &lt;- NCA::nca_output(fit, plots = TRUE, summaries = FALSE)\n\n\n\n\n\n\n\n\n\nFigure 2: Example of an NCA plot. The scatterplot shows the relation between X and Y. NCA evaluates whether X is necessary for Y by identifying an empty upper-left region, meaning that high values of Y are absent when X is low. The ceiling lines (CE-FDH and CR-FDH) mark the estimated boundary of this empty space, while the OLS line is included only to contrast NCA with standard regression approaches.\n\n\n\n\n\nNCA does not estimate a latent relation, a structural parameter, or a causal mechanism. It estimates a property of the observed score space: the size of a ceiling zone relative to a scope, plus the bottleneck values implied by the estimated ceiling line. The threshold it reports is therefore tied to the metric of the score representation itself. Change the coding, the scoring rule, the number of response categories, the item thresholds, or the sample range, and you may change the NCA result even when the underlying latent relation is held constant.\n\nChange the questionnaire you are using to measure depression, and everything changes!\n\nA method that lives on sparse regions of the scatterplot is naturally sensitive to the exact way the scatterplot was manufactured. So before asking whether intelligence is necessary for creativity or whether self-control is necessary for academic success, one first has to ask a less glamorous but more important question: necessary in the construct, or necessary in this particular score representation? [in this particular sample?]"
-  },
-  {
-    "objectID": "posts/ncacomment.html#a-small-simulation",
-    "href": "posts/ncacomment.html#a-small-simulation",
-    "title": "The Bare Necessities of NCA",
-    "section": "A small simulation",
-    "text": "A small simulation\nDon’t you believe?\nA way to test my previous assertions is to simulate multiple scenarios thousands of times. In each replication, one latent paired dataset was generated first. NCA was then computed on those latent variables as a reference. Starting from that same latent dataset, multiple observed versions were created by changing score construction, loading strength, ordinal scaling, threshold placement, and sample restriction. NCA was then recomputed on each observed dataset.\n\nIf the latent relation stays the same, how much does the observed NCA estimate move just because psychology measures things the way psychology usually measures things?\n\nThe answer is: quite a lot.\n\nScore construction\nWith the same latent relation, factor-score NCA was systematically larger than sum-score NCA. Averaged across design cells, the mean NCA effect was about \\(d = .149\\) for factor scores and \\(d = .121\\) for sum scores, even though the mean observed correlations were essentially identical in the two cases (both about \\(r = .331\\)). In other words, two score types can tell almost the same correlation story while telling noticeably different necessity stories.\n\n\nReliability and loading strength\nThe reliability block is even more awkward for simple intuitions. As loadings increased from .50 to .85, the mean observed correlation rose from about \\(r = .255\\) to \\(r = .366\\), but the mean NCA effect decreased from about \\(d = .132\\) to \\(d = .087\\).\nThat is a useful reminder that NCA is not just another correlation method. It tracks geometry and more reliable measurement does not mechanically yield a larger necessity estimate. Sometimes it yields a smaller one.\n\n\nResponse categories\nThe number of response categories mattered a lot. Moving from 4 to 7 categories increased the mean NCA effect from about \\(d = .080\\) to \\(d = .165\\), with only small changes in the average correlation (roughly \\(r = .326\\) to \\(r = .334\\)). Put differently: changing the granularity of the ruler changed the estimated bottleneck, even when the underlying latent relation was held fixed.\n\nWhat kind of theoretical advancement can a method provide if it depends on how many options our questionnaire has?\n\n\n\nThreshold placement and induced skewness\nWhen item thresholds were shifted to induce asymmetric score distributions, observed skewness moved to roughly \\(\\pm .27\\), \\(\\pm .39\\), and \\(\\pm .61\\) (way below general cut-offs of problematic skewness). Across these conditions, the mean NCA effect fell from about \\(d = .113\\) at the mild shift to about \\(d = .100\\) at the strongest shift. The direction of the shift mattered surprisingly little; lower and upper shifts produced very similar average NCA values.\n\n\nRange restriction\nRange restriction also mattered in a way that should make applied researchers uneasy. Restricting the sample to the lower side of \\(X\\) or upper side of \\(Y\\) yielded mean NCA effects around \\(d = .133\\), whereas restricting to the upper side of \\(X\\) or lower side of \\(Y\\) brought them down to about \\(d = .096\\). These are shifts large enough to support different rhetorical summaries of the same phenomenon. One sample could make the bottleneck look substantial; another could make it look modest. Yet the difference may reside less in theory than in who happened to be admitted into the dataset.\n\n\nSample size alone changes the estimate\nBut beside every psychometric issue, a sufficient problem to rule NCA out under a latent-association theoretical model is the problem of sample size: Even in a latent-only simulation with the same target correlation of about \\(r = .40\\), the mean NCA effect declined from about \\(d = .201\\) at \\(n = 250\\) to about \\(d = .172\\) at \\(n = 10{,}000\\).\nThat is worth pausing on. The latent relation stayed basically the same. The correlation stayed basically the same. The NCA effect drifted downward as sample size increased. A method that changes when the ruler changes is one thing (this happens also to attenuated correlations). A method that changes its estimates when the sample size increases, it is on another level of problematicity.\n\nLarger samples are simply more likely to populate regions of the \\(X\\)-\\(Y\\) space that smaller samples leave empty by chance. Under ordinary stochastic relations, the empty corner is therefore not strong evidence for an underlying necessity structure; it is often evidence that the sample has not yet filled the corner."
-  },
-  {
-    "objectID": "posts/ncacomment.html#the-main-lesson",
-    "href": "posts/ncacomment.html#the-main-lesson",
-    "title": "The Bare Necessities of NCA",
-    "section": "The main lesson",
-    "text": "The main lesson\nNCA often operates on properties of observed score geometry rather than on stable properties of latent constructs.\nUntil NCA does not develop a way to account for measurement error under an NCA psychometric model, NCA estimates would never be reliable nor credible.\nThat means the interpretive leap from “there is an empty corner in this score space” to “this construct is necessary for that construct” is usually much larger than the final discussion section lets on.\nAnd this is where some of the more enthusiastic uses of NCA become difficult to defend. Many psychological theories do not posit necessity relations in the strict sense. They posit probabilistic tendencies, reciprocal influences, multiple pathways, moderators, nonlinearities, developmental contingencies, and measurement error. Declaring necessity after spotting a sparse upper-left corner can therefore produce the peculiar feeling that a rich theory has been replaced by a geometry-based slogan.\nIn my opinion, better modeling approach already exist that answer similar questions, such as segmented regressions, gam and so on. These, however are probably not as attractive and much more difficult to defend and publish compared to a newer ‘fancy’ analysis such as NCA."
-  },
-  {
-    "objectID": "posts/ncacomment.html#false-positives",
-    "href": "posts/ncacomment.html#false-positives",
-    "title": "The Bare Necessities of NCA",
-    "section": "False positives",
-    "text": "False positives\nAcross all the simulation study, no necessity conditions were actually simulated. On the contrary, the ground truth was always a ‘simple’ correlation between two variables, meaning that all possible values in the scope are possible though their probabilty decreases as we move toward the upper-left corner. This corner is just more sparse, not impossible as a necessity effect would claim. Hence, an important question was: does NCA permutation test correctly identify ‘simple’ correlations or each correlation yields a false necessity effect.\nAcross all conditions, the percentage of significant effects was larger than the expected, with conditions ensuring a 100% false positives. In other words, NCA tests cannot distinguish a correlation from an necessity effect."
-  },
-  {
-    "objectID": "posts/ncacomment.html#does-this-mean-nca-is-useless",
-    "href": "posts/ncacomment.html#does-this-mean-nca-is-useless",
-    "title": "The Bare Necessities of NCA",
-    "section": "Does this mean NCA is useless?",
-    "text": "Does this mean NCA is useless?\nMaybe not (maybe yes). It means psychology should stop treating it as a way to inform theory.\nNCA may still be useful as a descriptive boundary tool when the research question is explicitly about the observed score space (never, probably, who cares about my data if I don’t make any inference?) and the scale has unusually clear substantive meaning, or when robustness across multiple defensible score representations has been demonstrated.\nWhat seems much harder to justify is the common move from a single observed-score NCA result to a statement that a latent psychological construct is a necessary precondition for another latent psychological construct. In other words, it seem hard to inform any theory beyond the observed data.\nThat move is often too quick, too strong, and much easier to publish than to defend.\nBut…\n\nThe bare necessities of life will come to you\nThey’ll come to you!\n\nOh man, that’s really livin’"
-  },
-  {
-    "objectID": "posts/iatmeasure.html",
-    "href": "posts/iatmeasure.html",
-    "title": "On the predictive power of implicit measures of ratial attitudes",
-    "section": "",
-    "text": "During our Structural Equation Modeling course, we teach PhD students a simple but deceptively powerful fact about predictive validity in multiple regression. Imagine a single latent variable—call it racial attitudes—that predicts a behavioral outcome such as discriminatory behaviors. Now imagine that we have two different measures of this latent variable, for example an explicit self-report and an implicit reaction-time task.\nStudents often assume that if we regress the behavioral outcome on both the explicit and implicit measures simultaneously, the resulting regression coefficients tell us “which one is the better predictor”, but they also expect both effects will be zero because we are ‘controlling’ for the same thing. But both these intuitions are mistaken. If both measures load on the same underlying latent construct, then both will almost always be statistically significant in a large enough sample, even if neither has any unique predictive effect. The coefficients simply reflect their relative loadings on the same latent cause.\nThis is not a subtle point: it is a foundational implication of classical test theory and the logic of multiple regression. If we want to know whether either measure has incremental validity, we must first model and remove the influence of their common latent factor. Otherwise the incremental effect is an artifact of confounding.\nDon’t believe it? Here is a quick simulation to prove the point.\nWe start by simulating our latent variable (racial attitudes):\n\n# Imagine we have a sample size of N participants\nN = 1000\n# Our latent unobservable variable, is a normally-distributed\n# variable with mean 0 and sd 1\nlatent &lt;- rnorm(N, 0, 1)\n\nWe assume this latent variable to have an effect on Y (discriminatory behaviors). The unstandardized effect is 0.33:\n\n# Our dependent variable is again a normally-distributed\n# variable, partially explained by 'latent'\nY = .33*latent + rnorm(N, 0, 1)\n\nThe latent variable and Y are now correlated around .30:\n\nround(cor(latent,Y),2)\n\n[1] 0.32\n\n\nHowever, we cannot measure the latent variable directly. We need to build a questionnaire/test/paradigm that allows measuring and observing that construct. We build two of them, one explicit, with a higher loading, and one implicit, with a smaller loading. Let’s do it:\n\n# Explicit is just regressed on the latent variable\n# To have a higher loading we multiply latent by .8\nexplicit = .80*latent + rnorm(N,0,1)\n\n# Impicit is the same, but with smaller loading (.5)\nimplicit = .50*latent + rnorm(N,0,1)\n\nWe now have our data collection: we observed the dependent variable, and the two observed indicators of the latent variable [Note that none of them has any specific effect on Y!, We simulated it like this]. What happens if we test their multiple associations with Y?\n\nY=scale(Y);explicit=scale(explicit);implicit=scale(implicit)\nfit &lt;- lm(Y ~ explicit + implicit)\nround(summary(fit)$coefficients,3)\n\n            Estimate Std. Error t value Pr(&gt;|t|)\n(Intercept)    0.000      0.031   0.000    1.000\nexplicit       0.191      0.032   5.919    0.000\nimplicit       0.101      0.032   3.135    0.002\n\n\nTWO SIGNIFICANT EFFECTS! Let’s publish it, we found incremental validity of explicit attitudes above and beyond implicit attitudes and viceversa!\n\nThe simulation illustrates the key point: significant regression coefficients by themselves do not establish incremental predictive power. They can easily emerge when both predictors share variance due to an underlying latent trait—even if there are no specific effects at all. This was nicely explained by Julia Rohrer in her October 2025 blogpost, and has been know since many years (e.g., Westfall and Yarkoni 2016).\n\nBut this is not just a didactic issue. It has immediate consequences for how we interpret claims about the predictive and incremental validity of implicit measures—including the recently published adversarial collaboration by Axt et al. (2025)."
-  },
-  {
-    "objectID": "posts/iatmeasure.html#incremental-validity-in-the-case-of-higher-order-latent-variables",
-    "href": "posts/iatmeasure.html#incremental-validity-in-the-case-of-higher-order-latent-variables",
-    "title": "On the predictive power of implicit measures of ratial attitudes",
-    "section": "",
-    "text": "During our Structural Equation Modeling course, we teach PhD students a simple but deceptively powerful fact about predictive validity in multiple regression. Imagine a single latent variable—call it racial attitudes—that predicts a behavioral outcome such as discriminatory behaviors. Now imagine that we have two different measures of this latent variable, for example an explicit self-report and an implicit reaction-time task.\nStudents often assume that if we regress the behavioral outcome on both the explicit and implicit measures simultaneously, the resulting regression coefficients tell us “which one is the better predictor”, but they also expect both effects will be zero because we are ‘controlling’ for the same thing. But both these intuitions are mistaken. If both measures load on the same underlying latent construct, then both will almost always be statistically significant in a large enough sample, even if neither has any unique predictive effect. The coefficients simply reflect their relative loadings on the same latent cause.\nThis is not a subtle point: it is a foundational implication of classical test theory and the logic of multiple regression. If we want to know whether either measure has incremental validity, we must first model and remove the influence of their common latent factor. Otherwise the incremental effect is an artifact of confounding.\nDon’t believe it? Here is a quick simulation to prove the point.\nWe start by simulating our latent variable (racial attitudes):\n\n# Imagine we have a sample size of N participants\nN = 1000\n# Our latent unobservable variable, is a normally-distributed\n# variable with mean 0 and sd 1\nlatent &lt;- rnorm(N, 0, 1)\n\nWe assume this latent variable to have an effect on Y (discriminatory behaviors). The unstandardized effect is 0.33:\n\n# Our dependent variable is again a normally-distributed\n# variable, partially explained by 'latent'\nY = .33*latent + rnorm(N, 0, 1)\n\nThe latent variable and Y are now correlated around .30:\n\nround(cor(latent,Y),2)\n\n[1] 0.32\n\n\nHowever, we cannot measure the latent variable directly. We need to build a questionnaire/test/paradigm that allows measuring and observing that construct. We build two of them, one explicit, with a higher loading, and one implicit, with a smaller loading. Let’s do it:\n\n# Explicit is just regressed on the latent variable\n# To have a higher loading we multiply latent by .8\nexplicit = .80*latent + rnorm(N,0,1)\n\n# Impicit is the same, but with smaller loading (.5)\nimplicit = .50*latent + rnorm(N,0,1)\n\nWe now have our data collection: we observed the dependent variable, and the two observed indicators of the latent variable [Note that none of them has any specific effect on Y!, We simulated it like this]. What happens if we test their multiple associations with Y?\n\nY=scale(Y);explicit=scale(explicit);implicit=scale(implicit)\nfit &lt;- lm(Y ~ explicit + implicit)\nround(summary(fit)$coefficients,3)\n\n            Estimate Std. Error t value Pr(&gt;|t|)\n(Intercept)    0.000      0.031   0.000    1.000\nexplicit       0.191      0.032   5.919    0.000\nimplicit       0.101      0.032   3.135    0.002\n\n\nTWO SIGNIFICANT EFFECTS! Let’s publish it, we found incremental validity of explicit attitudes above and beyond implicit attitudes and viceversa!\n\nThe simulation illustrates the key point: significant regression coefficients by themselves do not establish incremental predictive power. They can easily emerge when both predictors share variance due to an underlying latent trait—even if there are no specific effects at all. This was nicely explained by Julia Rohrer in her October 2025 blogpost, and has been know since many years (e.g., Westfall and Yarkoni 2016).\n\nBut this is not just a didactic issue. It has immediate consequences for how we interpret claims about the predictive and incremental validity of implicit measures—including the recently published adversarial collaboration by Axt et al. (2025)."
-  },
-  {
-    "objectID": "posts/iatmeasure.html#reanalyzing-axt-and-colleagues-dataset",
-    "href": "posts/iatmeasure.html#reanalyzing-axt-and-colleagues-dataset",
-    "title": "On the predictive power of implicit measures of ratial attitudes",
-    "section": "Reanalyzing Axt and colleagues’ dataset",
-    "text": "Reanalyzing Axt and colleagues’ dataset\nThe recent paper ‘On the relationship between indirect measures of Black vs. White racial attitudes and discriminatory outcomes: An adversarial collaboration using a sample of White Americans’ represents one of the largest and methodologically strongest empirical efforts in the history of implicit bias research. With over 2,100 White American participants, four implicit measures, four explicit measures, four behavioral tasks, and a preregistered SEM framework, it looks—at first glance—like the definitive test the field has been waiting for.\nTheir headline finding is clear:\n\nImplicit attitudes predict discriminatory behavior, and they explain ~2.5% of the variance beyond explicit attitudes.\n\nBut here is the crucial problem: the model they fit assumes that implicit and explicit attitudes are separate causes of discriminatory behavior. The SEM explicitly excludes the possibility that both sets of indicators reflect a single underlying general attitude factor—an exremely plausible scenario in this case (Schimmack 2021) and exactly the scenario our simulation demonstrates.\nIndeed, the entire model in the published paper (see Figure 1 and the lavaan syntax below) implies that:\n\nThere is a latent implicit factor,\nA separate latent explicit factor,\nAnd both compete to predict latent discriminant behavior.\n\nWhat is missing is the latent general racial attitude factor that would naturally give rise to shared variance across both implicit and explicit methods (which are highly correlated). If such a factor exists—and there are strong theoretical, empirical, and psychometric reasons to believe it does—then their incremental validity claim could collapse.\n\n\n\n\n\n\nFigure 1: Published SEM model\n\n\n\n\nmodel_A &lt;- '\n  # measurement model\n    implicit =~ iat + sciat + amp + ept\n    explicit =~ anes + dpm + pi + srs\n    discrim =~ ug + tg + jbt + ret\n  # paths\n    discrim ~ implicit + explicit\n  # residual correlations\n    anes ~~ srs\n    dpm ~~ pi\n'\n\nSo what happens if we add that general latent factor?\nWhen we implement a hierarchical model—one general attitude factor plus the specific method factors—we get good fit (CFI = 0.98, TLI = 0.97, RMSEA = 0.03, SRMR = 0.03) but a radically different picture Figure 2:\n\nThe general attitude factor significantly predicts discriminatory behavior (β ≈ 0.15).\nThe explicit-specific factor still predicts behavior strongly (β ≈ 0.60).\nThe implicit-specific factor shows no meaningful unique relationship with discrimination (β ≈ .09, p = .23).\n\nThis is the model we should have tested from the beginning. And once we do, the “incremental validity” of implicit measures disappears.\n\nmodel_A &lt;- '\n  # measurement model\n    implicit =~ iat + sciat + amp + ept\n    explicit =~ anes + dpm + pi + srs\n    general =~ implicit + explicit\n    discrim =~ ug + tg + jbt + ret\n  # paths\n    discrim ~ implicit + explicit + general\n  # residual correlations\n    anes ~~ srs\n    dpm ~~ pi\n'\n\n\n\n\n\n\n\nFigure 2: The adjusted hierarchical model"
-  },
-  {
-    "objectID": "posts/iatmeasure.html#what-should-we-conclude",
-    "href": "posts/iatmeasure.html#what-should-we-conclude",
-    "title": "On the predictive power of implicit measures of ratial attitudes",
-    "section": "What should we conclude?",
-    "text": "What should we conclude?\nClaims of incremental validity for implicit measures collapse once we correctly model the latent structure of attitudes.\nThis insight generalizes far beyond implicit bias research. Many fields routinely treat different methods as different constructs:\n\ncognitive abilities vs. g,\nspecific anxiety subscales vs. general anxiety,\ndomain-specific “mindsets” vs. a general belief system\npersonality facets vs. general factors.\n…\n\nIn all these cases, without modeling the well-known general factors, we risk misinterpreting trivial method-specific residuals as psychologically meaningful incremental predictors.\nThe lesson is simple but profound:\n\nBefore searching for incremental validity, model the common latent variable.\nOtherwise you are not testing incremental validity at all."
-  },
-  {
-    "objectID": "posts/iatmeasure.html#final-thoughts",
-    "href": "posts/iatmeasure.html#final-thoughts",
-    "title": "On the predictive power of implicit measures of ratial attitudes",
-    "section": "Final Thoughts",
-    "text": "Final Thoughts\nScientific progress requires modeling our constructs correctly. Without that foundation, even the largest samples and most elaborate collaborations cannot answer the question they set out to resolve."
-  },
-  {
-    "objectID": "posts/iatmeasure.html#other-readings",
-    "href": "posts/iatmeasure.html#other-readings",
-    "title": "On the predictive power of implicit measures of ratial attitudes",
-    "section": "Other readings",
-    "text": "Other readings\nSee also https://replicationindex.com/2025/12/02/is-the-implicit-association-test-too-big-to-fail/ for different perspectives."
-  },
-  {
-    "objectID": "posts/iatmeasure.html#acknowledgment",
-    "href": "posts/iatmeasure.html#acknowledgment",
-    "title": "On the predictive power of implicit measures of ratial attitudes",
-    "section": "Acknowledgment",
-    "text": "Acknowledgment\nA special thank to Enrico Toffalini who taught me most of these things."
-  },
-  {
-    "objectID": "open-resources/sebapp.html",
-    "href": "open-resources/sebapp.html",
-    "title": "The Living SEB app",
-    "section": "",
-    "text": "This app (app link) allows using the Living SEB Skills Project materials to navigate and meta-analyse evidence from all cross-sectional SEB studies."
-  },
-  {
-    "objectID": "open-resources/sebapp.html#overview",
-    "href": "open-resources/sebapp.html#overview",
-    "title": "The Living SEB app",
-    "section": "Overview",
-    "text": "Overview\nThe Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Skills Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.\nBuilt as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.\n➡️ Access the app here: https://feracotommaso.github.io/living_SEB_review/shiny-app.html"
-  },
-  {
-    "objectID": "open-resources/sebapp.html#what-you-can-do-with-the-app",
-    "href": "open-resources/sebapp.html#what-you-can-do-with-the-app",
-    "title": "The Living SEB app",
-    "section": "What you can do with the app",
-    "text": "What you can do with the app\n\nBrowse all included SEB studies with filters for samples, designs, measures, and variables.\nInspect effect sizes and metadata for every association extracted in the review.\nRun on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).\nDownload the dataset used in the app for further analysis in R or other tools.\nTrack updates as new studies are added to the living review."
-  },
-  {
-    "objectID": "open-resources/sebapp.html#features-at-a-glance",
-    "href": "open-resources/sebapp.html#features-at-a-glance",
-    "title": "The Living SEB app",
-    "section": "Features at a glance",
-    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
-  },
-  {
-    "objectID": "open-resources/sebapp.html#background",
-    "href": "open-resources/sebapp.html#background",
-    "title": "The Living SEB app",
-    "section": "Background",
-    "text": "Background\nThe app accompanies the article:\nFeraco, T., Calderan, M., and Pellegrino, G. (2026). The Living SEB Skills Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. European Journal of Personality. https://doi.org/10.1177/08902070261467477\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html",
-    "href": "open-resources/csmetaapp.html",
-    "title": "Character strengths meta-analysis",
-    "section": "",
-    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html#overview",
-    "href": "open-resources/csmetaapp.html#overview",
-    "title": "Character strengths meta-analysis",
-    "section": "",
-    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
-  },
-  {
-    "objectID": "open-resources/csmetaapp.html#what-you-can-do",
-    "href": "open-resources/csmetaapp.html#what-you-can-do",
-    "title": "Character strengths meta-analysis",
-    "section": "What you can do",
-    "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
-  },
-  {
-    "objectID": "open-resources/bessiIta.html",
-    "href": "open-resources/bessiIta.html",
-    "title": "BESSI Italian versions",
-    "section": "",
-    "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
-  },
-  {
-    "objectID": "open-resources/bessiIta.html#download-the-bessi-version-you-prefer-italian",
-    "href": "open-resources/bessiIta.html#download-the-bessi-version-you-prefer-italian",
-    "title": "BESSI Italian versions",
-    "section": "",
-    "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
-  },
-  {
-    "objectID": "courses.html#reuse-of-materials",
-    "href": "courses.html#reuse-of-materials",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
-  },
-  {
-    "objectID": "courses.html#contact",
-    "href": "courses.html#contact",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tommaso Feraco",
-    "section": "",
-    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\nCV\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2026-07-10"
-  },
-  {
-    "objectID": "open-resources/clusterapp.html",
-    "href": "open-resources/clusterapp.html",
-    "title": "A shiny app for clusters that are not there",
-    "section": "",
-    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#overview",
-    "href": "open-resources/clusterapp.html#overview",
-    "title": "A shiny app for clusters that are not there",
-    "section": "",
-    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#what-the-app-does",
-    "href": "open-resources/clusterapp.html#what-the-app-does",
-    "title": "A shiny app for clusters that are not there",
-    "section": "What the App Does",
-    "text": "What the App Does\nThe app implements the simulation logic described in the manuscript, allowing users to:\n\nSimulate datasets with custom characteristics:\n\nsample size\nnumber of indicators\ncorrelations\nskewness and kurtosis\neffect size (d) between true clusters\n\nEstimate Type I error\nHow often does a method detect multiple clusters when the data truly come from one population? (e.g., GMM may show inflated Type I error under modest skewness)\nEstimate Power\nHow often does the method correctly detect two clusters when they truly exist? (e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means)\nAssess classification accuracy\nUsing the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (k-means may detect “two clusters” with 100% power but classify individuals no better than chance (Adjusted Rand Index ≈ .06))."
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#why-this-matters",
-    "href": "open-resources/clusterapp.html#why-this-matters",
-    "title": "A shiny app for clusters that are not there",
-    "section": "Why This Matters",
-    "text": "Why This Matters\nClustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:\n\nModerate skewness (skew = .50) yields 48% false positives for GMM in our simulation (p.7)\nModest correlations (r = .35) produce 100% false positives for k-means (p.8–9)\nLarge sample sizes exacerbate the problem for GMM (p.12)\nGMM may “create” clusters to compensate for skewed distributions (Figure 6, p.13)\n\nThese are exactly the pitfalls the app helps users explore and understand."
-  },
-  {
-    "objectID": "open-resources/clusterapp.html#features-at-a-glance",
-    "href": "open-resources/clusterapp.html#features-at-a-glance",
-    "title": "A shiny app for clusters that are not there",
-    "section": "Features at a Glance",
-    "text": "Features at a Glance\n\nMonte Carlo simulation interface\nData Specification mode (define your own distributions)\nData Upload mode (upload your dataset and test risks)\nGMM and k-means implementations following the paper\nVisual summaries of detected cluster counts"
-  },
-  {
-    "objectID": "open-resources/livingseb.html",
-    "href": "open-resources/livingseb.html",
-    "title": "The Living SEB project",
-    "section": "",
-    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Social Emotional and Behavioral (SEB) skills.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper (Feraco, Calderan, and Pellegrino 2026) explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
-  },
-  {
-    "objectID": "open-resources/livingseb.html#overview",
-    "href": "open-resources/livingseb.html#overview",
-    "title": "The Living SEB project",
-    "section": "",
-    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Social Emotional and Behavioral (SEB) skills.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper (Feraco, Calderan, and Pellegrino 2026) explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
-  },
-  {
-    "objectID": "open-resources/livingseb.html#what-the-project-includes",
-    "href": "open-resources/livingseb.html#what-the-project-includes",
-    "title": "The Living SEB project",
-    "section": "What the project includes",
-    "text": "What the project includes\n\nA curated, living database of SEB studies\nFully reproducible effect-size extraction pipeline\nA continuously updated synthesis of SEB associations\nInteractive tools for exploring and analysing the evidence\nOpen access materials including preregistrations, papers, and presentations"
-  },
-  {
-    "objectID": "open-resources/livingseb.html#core-resources",
-    "href": "open-resources/livingseb.html#core-resources",
-    "title": "The Living SEB project",
-    "section": "Core Resources",
-    "text": "Core Resources\n\n📄 Living SEB Paper\nFull methodological and empirical description of the project.\n\nOfficial postprint (pdf)\n\n📄 Living Results\nDescription of the current database and monthly updated results.\n\nLiving results (html)\n\n📊 Living SEB App\nInteractive Shiny app for browsing studies and running meta-analyses.\n\nApp link\nUser manual (PDF)\n\n📝 Preregistration\nFull preregistration protocol of the Living SEB workflow (PDF).\n🎤 Presentations\n\nIBT Colloquium • 2025-09-17 (slides)\nLab Meeting • 2025-10-13 (slides)"
-  },
-  {
-    "objectID": "open-resources/livingseb.html#why-a-living-approach",
-    "href": "open-resources/livingseb.html#why-a-living-approach",
-    "title": "The Living SEB project",
-    "section": "Why a “Living” approach?",
-    "text": "Why a “Living” approach?\nTraditional meta-analyses quickly become outdated as new studies accumulate.\nThe Living SEB Project uses a living evidence workflow — an approach that ensures:\n\nrapid integration of new findings\nfully reproducible synthesis pipelines\ntransparent tracking of updates\ncontinuous availability of up-to-date results\n\nThis allows the SEB literature to remain current, cumulative, and open for researchers and practitioners."
-  },
-  {
-    "objectID": "open-resources/sebchapter.html",
-    "href": "open-resources/sebchapter.html",
-    "title": "SEB Skills chapter for students",
-    "section": "",
-    "text": "This post redirects to the external page.\nOpen the page directly"
-  },
-  {
-    "objectID": "open-resources.html",
-    "href": "open-resources.html",
-    "title": "Open resources",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nBESSI Italian versions\n\n\nJul 31, 2026\n\n\nAll the BESSI versions we developed, for free\n\n\nquestionnaire\n\n\nmeasures, surveys, SEB\n\n\n\n\n\n\nSEM PhD Course\n\n\nApr 7, 2026\n\n\nA PhD-level course on structural equation models\n\n\nteaching; slides; code\n\n\nSEM, stat\n\n\n\n\n\n\nSEB Skills chapter for students\n\n\nMar 12, 2026\n\n\nUn capitolo in italiano per l’approfondimento e lo studio delle SEB skills.\n\n\nchapter\n\n\nSEB\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/livingSEBresults.html",
-    "href": "posts/livingSEBresults.html",
-    "title": "Living SEB Skills Results",
-    "section": "",
-    "text": "This post redirects to the external page.\nOpen the page directly"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "The Bare Necessities of NCA\n\n\nOr: how to turn a perfectly ordinary correlation into a bottleneck\n\n\n\nNCA\n\nnecessity\n\nmethods\n\n\n\n“Necessary condition analysis do not provide credible nor reliable necessity conditions when applied to psychological data.”\n\n\n\n\n\nJun 19, 2026\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nLiving SEB Skills Results\n\n\n\n\n\n\nSEB\n\nreview\n\nliving review\n\n\n\nThis post links to the interactive results page hosted in the living SEB skills repository.\n\n\n\n\n\nMar 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nOn the predictive power of implicit measures of ratial attitudes\n\n\nA commentary on Axt and colleagues (2025)\n\n\n\nmeasurement\n\nIAT\n\nSEM\n\nvalidity\n\n\n\n“Badly modeling latent factors undermines your results and misleads your conclusions.”\n\n\n\n\n\nDec 5, 2025\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/gps-a.html#the-project",
-    "href": "projects/gps-a.html#the-project",
-    "title": "Geographical Psychology of School Anxiety",
-    "section": "The project",
-    "text": "The project\nGPS-A (The Geographical Psychology of School Anxiety) investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.\nGPS-A integrates educational psychology, geographical psychology, and environmental data to uncover the socio-ecological features—such as green spaces, climate, pollution, population density, and economic inequality—that help explain this variability. Through advanced spatial analyses and large-scale intervention studies that will be conducted across 50 diverse regions, the project tests whether the effectiveness of psychological interventions also changes depending on the local environment.\nBy developing the first fine-grained geographical model of school anxiety, GPS-A aims to support more context-sensitive theories, improve school-based interventions, and provide policymakers with evidence to better allocate resources. The project will also establish a freely accessible online platform where researchers can collaborate, explore geographical variations, and access pre-processed data to advance geographically informed psychological research."
-  },
-  {
-    "objectID": "projects/gps-a.html#collaborators-and-acknowledgment",
-    "href": "projects/gps-a.html#collaborators-and-acknowledgment",
-    "title": "Geographical Psychology of School Anxiety",
-    "section": "Collaborators and Acknowledgment",
-    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Tobias Ebert, David Giofrè, and the INVALSI."
-  },
-  {
-    "objectID": "projects/gps-a.html#fundings",
-    "href": "projects/gps-a.html#fundings",
-    "title": "Geographical Psychology of School Anxiety",
-    "section": "Fundings",
-    "text": "Fundings\nThe project was funded by the European Association of Personality Psychology and by the Italian Science Fund (Fondo Italiano per la Scienza – FIS-3), established by the Italian Ministry of University and Research (MUR)."
-  },
-  {
-    "objectID": "projects/gps-a.html#presentations",
-    "href": "projects/gps-a.html#presentations",
-    "title": "Geographical Psychology of School Anxiety",
-    "section": "Presentations",
-    "text": "Presentations\n\nGeographical variability of test anxiety - https://feracotommaso.github.io/Slides/fis/ecp26.html"
-  },
-  {
-    "objectID": "projects/gps-a.html#publications",
-    "href": "projects/gps-a.html#publications",
-    "title": "Geographical Psychology of School Anxiety",
-    "section": "Publications",
-    "text": "Publications\nNothing yet, sorry :)"
+    "text": "Geographical Psychology of School Anxiety\n\n\n\ngeographical psychology\n\neducation\n\nvariability\n\n\n\nGPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently.\n\n\n\n\n\nDec 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nThe Living SEB Project\n\n\n\nSEB skills\n\nliving review\n\nmeta-analysis\n\nSEM\n\nreview\n\n\n\n“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”\n\n\n\n\n\nNov 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nChange goals and development of SEB skills\n\n\n\nSEB skills\n\neducation\n\npersonality\n\nchange\n\ndevelopment\n\n\n\n“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop what people think about changing them.”\n\n\n\n\n\nJun 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nSEB in students with learning disabilities\n\n\n\nSEB skills\n\nlearning\n\nSLD\n\n\n\n“Do students with specific learning disabilities report different levels of SEB skills?”\n\n\n\n\n\nJan 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring SEB skills\n\n\n\nSEB skills\n\nmeasurement\n\nSEM\n\n\n\n“What’s the best way to measure SEB skills? Are self-report enough?.”\n\n\n\n\n\nDec 4, 2023\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/sld-seb.html",
@@ -518,10 +84,563 @@
     "text": "Fundings\nThis project was initially funded by a research grant from the Department of General Psychology in 2023."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "projects/gps-a.html#the-project",
+    "href": "projects/gps-a.html#the-project",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "The project",
+    "text": "The project\nGPS-A (The Geographical Psychology of School Anxiety) investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.\nGPS-A integrates educational psychology, geographical psychology, and environmental data to uncover the socio-ecological features—such as green spaces, climate, pollution, population density, and economic inequality—that help explain this variability. Through advanced spatial analyses and large-scale intervention studies that will be conducted across 50 diverse regions, the project tests whether the effectiveness of psychological interventions also changes depending on the local environment.\nBy developing the first fine-grained geographical model of school anxiety, GPS-A aims to support more context-sensitive theories, improve school-based interventions, and provide policymakers with evidence to better allocate resources. The project will also establish a freely accessible online platform where researchers can collaborate, explore geographical variations, and access pre-processed data to advance geographically informed psychological research."
+  },
+  {
+    "objectID": "projects/gps-a.html#collaborators-and-acknowledgment",
+    "href": "projects/gps-a.html#collaborators-and-acknowledgment",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "Collaborators and Acknowledgment",
+    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Tobias Ebert, David Giofrè, and the INVALSI."
+  },
+  {
+    "objectID": "projects/gps-a.html#fundings",
+    "href": "projects/gps-a.html#fundings",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "Fundings",
+    "text": "Fundings\nThe project was funded by the European Association of Personality Psychology and by the Italian Science Fund (Fondo Italiano per la Scienza – FIS-3), established by the Italian Ministry of University and Research (MUR)."
+  },
+  {
+    "objectID": "projects/gps-a.html#presentations",
+    "href": "projects/gps-a.html#presentations",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "Presentations",
+    "text": "Presentations\n\nGeographical variability of test anxiety - https://feracotommaso.github.io/Slides/fis/ecp26.html"
+  },
+  {
+    "objectID": "projects/gps-a.html#publications",
+    "href": "projects/gps-a.html#publications",
+    "title": "Geographical Psychology of School Anxiety",
+    "section": "Publications",
+    "text": "Publications\nNothing yet, sorry :)"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
     "section": "",
-    "text": "Geographical Psychology of School Anxiety\n\n\n\ngeographical psychology\n\neducation\n\nvariability\n\n\n\nGPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently.\n\n\n\n\n\nDec 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nThe Living SEB Project\n\n\n\nSEB skills\n\nliving review\n\nmeta-analysis\n\nSEM\n\nreview\n\n\n\n“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”\n\n\n\n\n\nNov 4, 2025\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nChange goals and development of SEB skills\n\n\n\nSEB skills\n\neducation\n\npersonality\n\nchange\n\ndevelopment\n\n\n\n“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop what people think about changing them.”\n\n\n\n\n\nJun 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nSEB in students with learning disabilities\n\n\n\nSEB skills\n\nlearning\n\nSLD\n\n\n\n“Do students with specific learning disabilities report different levels of SEB skills?”\n\n\n\n\n\nJan 4, 2024\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring SEB skills\n\n\n\nSEB skills\n\nmeasurement\n\nSEM\n\n\n\n“What’s the best way to measure SEB skills? Are self-report enough?.”\n\n\n\n\n\nDec 4, 2023\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
+    "text": "The Bare Necessities of NCA\n\n\nOr: how to turn a perfectly ordinary correlation into a bottleneck\n\n\n\nNCA\n\nnecessity\n\nmethods\n\n\n\n“Necessary condition analysis do not provide credible nor reliable necessity conditions when applied to psychological data.”\n\n\n\n\n\nJun 19, 2026\n\n\nTommaso Feraco\n\n\n\n\n\n\n\n\n\n\n\n\nLiving SEB Skills Results\n\n\n\n\n\n\nSEB\n\nreview\n\nliving review\n\n\n\nThis post links to the interactive results page hosted in the living SEB skills repository.\n\n\n\n\n\nMar 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nOn the predictive power of implicit measures of ratial attitudes\n\n\nA commentary on Axt and colleagues (2025)\n\n\n\nmeasurement\n\nIAT\n\nSEM\n\nvalidity\n\n\n\n“Badly modeling latent factors undermines your results and misleads your conclusions.”\n\n\n\n\n\nDec 5, 2025\n\n\nTommaso Feraco\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/livingSEBresults.html",
+    "href": "posts/livingSEBresults.html",
+    "title": "Living SEB Skills Results",
+    "section": "",
+    "text": "This post redirects to the external page.\nOpen the page directly"
+  },
+  {
+    "objectID": "open-resources.html",
+    "href": "open-resources.html",
+    "title": "Open resources",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nDescription\n\n\n\nMethod\n\n\n\nCategories\n\n\n\n\n\n\n\n\nBESSI Italian versions\n\n\nJul 31, 2026\n\n\nAll the BESSI versions we developed, for free\n\n\nquestionnaire\n\n\nmeasures, surveys, SEB\n\n\n\n\n\n\nSEM PhD Course\n\n\nApr 7, 2026\n\n\nA PhD-level course on structural equation models\n\n\nteaching; slides; code\n\n\nSEM, stat\n\n\n\n\n\n\nSEB Skills chapter for students\n\n\nMar 12, 2026\n\n\nUn capitolo in italiano per l’approfondimento e lo studio delle SEB skills.\n\n\nchapter\n\n\nSEB\n\n\n\n\n\n\nThe Living SEB project\n\n\nDec 1, 2025\n\n\nA living database for SEB research.\n\n\ndatabase\n\n\nreview, meta-analysis, SEB\n\n\n\n\n\n\nThe Living SEB app\n\n\nDec 1, 2025\n\n\nA shiny app for SEB research synthesis\n\n\nshinyApp\n\n\nreview, shiny, SEB\n\n\n\n\n\n\nCharacter strengths meta-analysis\n\n\nAug 12, 2025\n\n\nAn app to explore meta-analytic results of Casali & Feraco, 2025\n\n\nshinyApp\n\n\nreview, meta-analysis, shiny\n\n\n\n\n\n\nA shiny app for clusters that are not there\n\n\nSep 23, 2024\n\n\nAn app for inferential risks and power in cluster analysis\n\n\nshinyApp\n\n\nclusters, shiny\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "open-resources/sebchapter.html",
+    "href": "open-resources/sebchapter.html",
+    "title": "SEB Skills chapter for students",
+    "section": "",
+    "text": "This post redirects to the external page.\nOpen the page directly"
+  },
+  {
+    "objectID": "open-resources/livingseb.html",
+    "href": "open-resources/livingseb.html",
+    "title": "The Living SEB project",
+    "section": "",
+    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Social Emotional and Behavioral (SEB) skills.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper (Feraco, Calderan, and Pellegrino 2026) explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+  },
+  {
+    "objectID": "open-resources/livingseb.html#overview",
+    "href": "open-resources/livingseb.html#overview",
+    "title": "The Living SEB project",
+    "section": "",
+    "text": "The Living SEB Project (https://github.com/feracotommaso/living_SEB_review) is an open, continuously updated research initiative that compiles and synthesizes all available cross-sectional studies on Social Emotional and Behavioral (SEB) skills.\nIts goal is to create a transparent, reproducible, and dynamic evidence base that evolves as new research emerges.\nThe project provides access to a living database, a suite of analytic tools, a public preregistration, and a detailed methodological paper (Feraco, Calderan, and Pellegrino 2026) explaining the full workflow. It is designed to support researchers, students, and meta-analysts who need reliable, continually updated evidence from the SEB literature."
+  },
+  {
+    "objectID": "open-resources/livingseb.html#what-the-project-includes",
+    "href": "open-resources/livingseb.html#what-the-project-includes",
+    "title": "The Living SEB project",
+    "section": "What the project includes",
+    "text": "What the project includes\n\nA curated, living database of SEB studies\nFully reproducible effect-size extraction pipeline\nA continuously updated synthesis of SEB associations\nInteractive tools for exploring and analysing the evidence\nOpen access materials including preregistrations, papers, and presentations"
+  },
+  {
+    "objectID": "open-resources/livingseb.html#core-resources",
+    "href": "open-resources/livingseb.html#core-resources",
+    "title": "The Living SEB project",
+    "section": "Core Resources",
+    "text": "Core Resources\n\n📄 Living SEB Paper\nFull methodological and empirical description of the project.\n\nOfficial postprint (pdf)\n\n📄 Living Results\nDescription of the current database and monthly updated results.\n\nLiving results (html)\n\n📊 Living SEB App\nInteractive Shiny app for browsing studies and running meta-analyses.\n\nApp link\nUser manual (PDF)\n\n📝 Preregistration\nFull preregistration protocol of the Living SEB workflow (PDF).\n🎤 Presentations\n\nIBT Colloquium • 2025-09-17 (slides)\nLab Meeting • 2025-10-13 (slides)"
+  },
+  {
+    "objectID": "open-resources/livingseb.html#why-a-living-approach",
+    "href": "open-resources/livingseb.html#why-a-living-approach",
+    "title": "The Living SEB project",
+    "section": "Why a “Living” approach?",
+    "text": "Why a “Living” approach?\nTraditional meta-analyses quickly become outdated as new studies accumulate.\nThe Living SEB Project uses a living evidence workflow — an approach that ensures:\n\nrapid integration of new findings\nfully reproducible synthesis pipelines\ntransparent tracking of updates\ncontinuous availability of up-to-date results\n\nThis allows the SEB literature to remain current, cumulative, and open for researchers and practitioners."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html",
+    "href": "open-resources/clusterapp.html",
+    "title": "A shiny app for clusters that are not there",
+    "section": "",
+    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#overview",
+    "href": "open-resources/clusterapp.html#overview",
+    "title": "A shiny app for clusters that are not there",
+    "section": "",
+    "text": "Clusters That Are Not There is a Shiny application designed to help researchers quantify inferential risks when applying clustering methods such as Gaussian Mixture Models (GMM) or k-means. Inspired by the article Clusters That Are Not There (Toffalini et al., 2024), the app provides an accessible interface to run Monte Carlo simulations that evaluate Type I error, power, and classification accuracy under conditions commonly found in psychological research.\nThe core message of the paper is simple but crucial:\nClustering methods can easily “detect” clusters even when none exist — especially when assumptions such as normality or local independence are violated.\nThis app offers an intuitive way to test these risks before running cluster analyses on real data.\n➡️ Explore the app: https://psicostat.shinyapps.io/clustersimulation-demo/\n➡️ Manuscript: Toffalini et al., https://doi.org/10.1002/ijop.13246 (Open Access)"
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#what-the-app-does",
+    "href": "open-resources/clusterapp.html#what-the-app-does",
+    "title": "A shiny app for clusters that are not there",
+    "section": "What the App Does",
+    "text": "What the App Does\nThe app implements the simulation logic described in the manuscript, allowing users to:\n\nSimulate datasets with custom characteristics:\n\nsample size\nnumber of indicators\ncorrelations\nskewness and kurtosis\neffect size (d) between true clusters\n\nEstimate Type I error\nHow often does a method detect multiple clusters when the data truly come from one population? (e.g., GMM may show inflated Type I error under modest skewness)\nEstimate Power\nHow often does the method correctly detect two clusters when they truly exist? (e.g., with d = .50 and N = 700, power is extremely low for both GMM and k-means)\nAssess classification accuracy\nUsing the Adjusted Rand Index, the app reveals how often detected clusters actually match the true underlying structure (k-means may detect “two clusters” with 100% power but classify individuals no better than chance (Adjusted Rand Index ≈ .06))."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#why-this-matters",
+    "href": "open-resources/clusterapp.html#why-this-matters",
+    "title": "A shiny app for clusters that are not there",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nClustering is popular in psychology, but the assumptions behind common methods are often unmet. The manuscript shows several scenarios where:\n\nModerate skewness (skew = .50) yields 48% false positives for GMM in our simulation (p.7)\nModest correlations (r = .35) produce 100% false positives for k-means (p.8–9)\nLarge sample sizes exacerbate the problem for GMM (p.12)\nGMM may “create” clusters to compensate for skewed distributions (Figure 6, p.13)\n\nThese are exactly the pitfalls the app helps users explore and understand."
+  },
+  {
+    "objectID": "open-resources/clusterapp.html#features-at-a-glance",
+    "href": "open-resources/clusterapp.html#features-at-a-glance",
+    "title": "A shiny app for clusters that are not there",
+    "section": "Features at a Glance",
+    "text": "Features at a Glance\n\nMonte Carlo simulation interface\nData Specification mode (define your own distributions)\nData Upload mode (upload your dataset and test risks)\nGMM and k-means implementations following the paper\nVisual summaries of detected cluster counts"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tommaso Feraco",
+    "section": "",
+    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\nCV\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\nLast updated: 2026-07-10"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "courses.html#reuse-of-materials",
+    "href": "courses.html#reuse-of-materials",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
+  },
+  {
+    "objectID": "courses.html#contact",
+    "href": "courses.html#contact",
+    "title": "Courses and Open Teaching materials",
+    "section": "",
+    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
+  },
+  {
+    "objectID": "open-resources/bessiIta.html",
+    "href": "open-resources/bessiIta.html",
+    "title": "BESSI Italian versions",
+    "section": "",
+    "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
+  },
+  {
+    "objectID": "open-resources/bessiIta.html#download-the-bessi-version-you-prefer-italian",
+    "href": "open-resources/bessiIta.html#download-the-bessi-version-you-prefer-italian",
+    "title": "BESSI Italian versions",
+    "section": "",
+    "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html",
+    "href": "open-resources/csmetaapp.html",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html#overview",
+    "href": "open-resources/csmetaapp.html#overview",
+    "title": "Character strengths meta-analysis",
+    "section": "",
+    "text": "This Shiny app provides an interactive interface to explore the results of our meta-analysis on the associations between character strengths and well-being and common mental health disorders (Casali & Feraco, 2025).\nIt allows users to navigate effect sizes, compare outcomes, and inspect forest, funnel, and caterpillar plots for each of the 24 VIA strengths.\n➡️ Launch the app:\nhttps://feracoshiny.shinyapps.io/character-meta-v3/\n➡️ More information on the meta-analysis:\nhttps://doi.org/10.1177/08902070251366765"
+  },
+  {
+    "objectID": "open-resources/csmetaapp.html#what-you-can-do",
+    "href": "open-resources/csmetaapp.html#what-you-can-do",
+    "title": "Character strengths meta-analysis",
+    "section": "What you can do",
+    "text": "What you can do\n\nBrowse meta-analytic correlations for each of the 24 character strengths\nCompare associations across well-being and mental health outcomes\nExplore patterns of heterogeneity and prediction intervals\nVisualize results through interactive plots\nAccess summary tables and effect-size information\n\nThe app is meant as a practical complement to the manuscript, enabling readers, students, and researchers to examine the results dynamically and intuitively."
+  },
+  {
+    "objectID": "open-resources/sebapp.html",
+    "href": "open-resources/sebapp.html",
+    "title": "The Living SEB app",
+    "section": "",
+    "text": "This app (app link) allows using the Living SEB Skills Project materials to navigate and meta-analyse evidence from all cross-sectional SEB studies."
+  },
+  {
+    "objectID": "open-resources/sebapp.html#overview",
+    "href": "open-resources/sebapp.html#overview",
+    "title": "The Living SEB app",
+    "section": "Overview",
+    "text": "Overview\nThe Living SEB App is an interactive Shiny application designed to explore, synthesize, and meta-analyse all available cross-sectional studies included in the Living SEB Skills Project. It provides a transparent, continuously updated interface to examine study characteristics, extract effect sizes, and run reproducible analyses in real time.\nBuilt as part of a broader effort to create a living, open, and cumulative evidence base on Social, Emotional, and Behavioral skills (SEB), the app allows researchers, students, and practitioners to interact with the data without needing to write any R code.\n➡️ Access the app here: https://feracotommaso.github.io/living_SEB_review/shiny-app.html"
+  },
+  {
+    "objectID": "open-resources/sebapp.html#what-you-can-do-with-the-app",
+    "href": "open-resources/sebapp.html#what-you-can-do-with-the-app",
+    "title": "The Living SEB app",
+    "section": "What you can do with the app",
+    "text": "What you can do with the app\n\nBrowse all included SEB studies with filters for samples, designs, measures, and variables.\nInspect effect sizes and metadata for every association extracted in the review.\nRun on-the-fly meta-analyses (random/fixed models, moderators, subgroup analyses).\nDownload the dataset used in the app for further analysis in R or other tools.\nTrack updates as new studies are added to the living review."
+  },
+  {
+    "objectID": "open-resources/sebapp.html#features-at-a-glance",
+    "href": "open-resources/sebapp.html#features-at-a-glance",
+    "title": "The Living SEB app",
+    "section": "Features at a glance",
+    "text": "Features at a glance\n\n📊 Interactive visualizations of effect sizes, uncertainty, and heterogeneity\n🧮 Built-in meta-analytic models using robust and reproducible pipelines\n🔍 Searchable database of SEB constructs, measures, sample characteristics\n🔄 Continuously updated through the Living SEB Project workflow\n📥 Export options for datasets and analysis outputs"
+  },
+  {
+    "objectID": "open-resources/sebapp.html#background",
+    "href": "open-resources/sebapp.html#background",
+    "title": "The Living SEB app",
+    "section": "Background",
+    "text": "Background\nThe app accompanies the article:\nFeraco, T., Calderan, M., and Pellegrino, G. (2026). The Living SEB Skills Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. European Journal of Personality. https://doi.org/10.1177/08902070261467477\nTogether with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis."
+  },
+  {
+    "objectID": "posts/iatmeasure.html",
+    "href": "posts/iatmeasure.html",
+    "title": "On the predictive power of implicit measures of ratial attitudes",
+    "section": "",
+    "text": "During our Structural Equation Modeling course, we teach PhD students a simple but deceptively powerful fact about predictive validity in multiple regression. Imagine a single latent variable—call it racial attitudes—that predicts a behavioral outcome such as discriminatory behaviors. Now imagine that we have two different measures of this latent variable, for example an explicit self-report and an implicit reaction-time task.\nStudents often assume that if we regress the behavioral outcome on both the explicit and implicit measures simultaneously, the resulting regression coefficients tell us “which one is the better predictor”, but they also expect both effects will be zero because we are ‘controlling’ for the same thing. But both these intuitions are mistaken. If both measures load on the same underlying latent construct, then both will almost always be statistically significant in a large enough sample, even if neither has any unique predictive effect. The coefficients simply reflect their relative loadings on the same latent cause.\nThis is not a subtle point: it is a foundational implication of classical test theory and the logic of multiple regression. If we want to know whether either measure has incremental validity, we must first model and remove the influence of their common latent factor. Otherwise the incremental effect is an artifact of confounding.\nDon’t believe it? Here is a quick simulation to prove the point.\nWe start by simulating our latent variable (racial attitudes):\n\n# Imagine we have a sample size of N participants\nN = 1000\n# Our latent unobservable variable, is a normally-distributed\n# variable with mean 0 and sd 1\nlatent &lt;- rnorm(N, 0, 1)\n\nWe assume this latent variable to have an effect on Y (discriminatory behaviors). The unstandardized effect is 0.33:\n\n# Our dependent variable is again a normally-distributed\n# variable, partially explained by 'latent'\nY = .33*latent + rnorm(N, 0, 1)\n\nThe latent variable and Y are now correlated around .30:\n\nround(cor(latent,Y),2)\n\n[1] 0.32\n\n\nHowever, we cannot measure the latent variable directly. We need to build a questionnaire/test/paradigm that allows measuring and observing that construct. We build two of them, one explicit, with a higher loading, and one implicit, with a smaller loading. Let’s do it:\n\n# Explicit is just regressed on the latent variable\n# To have a higher loading we multiply latent by .8\nexplicit = .80*latent + rnorm(N,0,1)\n\n# Impicit is the same, but with smaller loading (.5)\nimplicit = .50*latent + rnorm(N,0,1)\n\nWe now have our data collection: we observed the dependent variable, and the two observed indicators of the latent variable [Note that none of them has any specific effect on Y!, We simulated it like this]. What happens if we test their multiple associations with Y?\n\nY=scale(Y);explicit=scale(explicit);implicit=scale(implicit)\nfit &lt;- lm(Y ~ explicit + implicit)\nround(summary(fit)$coefficients,3)\n\n            Estimate Std. Error t value Pr(&gt;|t|)\n(Intercept)    0.000      0.031   0.000    1.000\nexplicit       0.191      0.032   5.919    0.000\nimplicit       0.101      0.032   3.135    0.002\n\n\nTWO SIGNIFICANT EFFECTS! Let’s publish it, we found incremental validity of explicit attitudes above and beyond implicit attitudes and viceversa!\n\nThe simulation illustrates the key point: significant regression coefficients by themselves do not establish incremental predictive power. They can easily emerge when both predictors share variance due to an underlying latent trait—even if there are no specific effects at all. This was nicely explained by Julia Rohrer in her October 2025 blogpost, and has been know since many years (e.g., Westfall and Yarkoni 2016).\n\nBut this is not just a didactic issue. It has immediate consequences for how we interpret claims about the predictive and incremental validity of implicit measures—including the recently published adversarial collaboration by Axt et al. (2025)."
+  },
+  {
+    "objectID": "posts/iatmeasure.html#incremental-validity-in-the-case-of-higher-order-latent-variables",
+    "href": "posts/iatmeasure.html#incremental-validity-in-the-case-of-higher-order-latent-variables",
+    "title": "On the predictive power of implicit measures of ratial attitudes",
+    "section": "",
+    "text": "During our Structural Equation Modeling course, we teach PhD students a simple but deceptively powerful fact about predictive validity in multiple regression. Imagine a single latent variable—call it racial attitudes—that predicts a behavioral outcome such as discriminatory behaviors. Now imagine that we have two different measures of this latent variable, for example an explicit self-report and an implicit reaction-time task.\nStudents often assume that if we regress the behavioral outcome on both the explicit and implicit measures simultaneously, the resulting regression coefficients tell us “which one is the better predictor”, but they also expect both effects will be zero because we are ‘controlling’ for the same thing. But both these intuitions are mistaken. If both measures load on the same underlying latent construct, then both will almost always be statistically significant in a large enough sample, even if neither has any unique predictive effect. The coefficients simply reflect their relative loadings on the same latent cause.\nThis is not a subtle point: it is a foundational implication of classical test theory and the logic of multiple regression. If we want to know whether either measure has incremental validity, we must first model and remove the influence of their common latent factor. Otherwise the incremental effect is an artifact of confounding.\nDon’t believe it? Here is a quick simulation to prove the point.\nWe start by simulating our latent variable (racial attitudes):\n\n# Imagine we have a sample size of N participants\nN = 1000\n# Our latent unobservable variable, is a normally-distributed\n# variable with mean 0 and sd 1\nlatent &lt;- rnorm(N, 0, 1)\n\nWe assume this latent variable to have an effect on Y (discriminatory behaviors). The unstandardized effect is 0.33:\n\n# Our dependent variable is again a normally-distributed\n# variable, partially explained by 'latent'\nY = .33*latent + rnorm(N, 0, 1)\n\nThe latent variable and Y are now correlated around .30:\n\nround(cor(latent,Y),2)\n\n[1] 0.32\n\n\nHowever, we cannot measure the latent variable directly. We need to build a questionnaire/test/paradigm that allows measuring and observing that construct. We build two of them, one explicit, with a higher loading, and one implicit, with a smaller loading. Let’s do it:\n\n# Explicit is just regressed on the latent variable\n# To have a higher loading we multiply latent by .8\nexplicit = .80*latent + rnorm(N,0,1)\n\n# Impicit is the same, but with smaller loading (.5)\nimplicit = .50*latent + rnorm(N,0,1)\n\nWe now have our data collection: we observed the dependent variable, and the two observed indicators of the latent variable [Note that none of them has any specific effect on Y!, We simulated it like this]. What happens if we test their multiple associations with Y?\n\nY=scale(Y);explicit=scale(explicit);implicit=scale(implicit)\nfit &lt;- lm(Y ~ explicit + implicit)\nround(summary(fit)$coefficients,3)\n\n            Estimate Std. Error t value Pr(&gt;|t|)\n(Intercept)    0.000      0.031   0.000    1.000\nexplicit       0.191      0.032   5.919    0.000\nimplicit       0.101      0.032   3.135    0.002\n\n\nTWO SIGNIFICANT EFFECTS! Let’s publish it, we found incremental validity of explicit attitudes above and beyond implicit attitudes and viceversa!\n\nThe simulation illustrates the key point: significant regression coefficients by themselves do not establish incremental predictive power. They can easily emerge when both predictors share variance due to an underlying latent trait—even if there are no specific effects at all. This was nicely explained by Julia Rohrer in her October 2025 blogpost, and has been know since many years (e.g., Westfall and Yarkoni 2016).\n\nBut this is not just a didactic issue. It has immediate consequences for how we interpret claims about the predictive and incremental validity of implicit measures—including the recently published adversarial collaboration by Axt et al. (2025)."
+  },
+  {
+    "objectID": "posts/iatmeasure.html#reanalyzing-axt-and-colleagues-dataset",
+    "href": "posts/iatmeasure.html#reanalyzing-axt-and-colleagues-dataset",
+    "title": "On the predictive power of implicit measures of ratial attitudes",
+    "section": "Reanalyzing Axt and colleagues’ dataset",
+    "text": "Reanalyzing Axt and colleagues’ dataset\nThe recent paper ‘On the relationship between indirect measures of Black vs. White racial attitudes and discriminatory outcomes: An adversarial collaboration using a sample of White Americans’ represents one of the largest and methodologically strongest empirical efforts in the history of implicit bias research. With over 2,100 White American participants, four implicit measures, four explicit measures, four behavioral tasks, and a preregistered SEM framework, it looks—at first glance—like the definitive test the field has been waiting for.\nTheir headline finding is clear:\n\nImplicit attitudes predict discriminatory behavior, and they explain ~2.5% of the variance beyond explicit attitudes.\n\nBut here is the crucial problem: the model they fit assumes that implicit and explicit attitudes are separate causes of discriminatory behavior. The SEM explicitly excludes the possibility that both sets of indicators reflect a single underlying general attitude factor—an exremely plausible scenario in this case (Schimmack 2021) and exactly the scenario our simulation demonstrates.\nIndeed, the entire model in the published paper (see Figure 1 and the lavaan syntax below) implies that:\n\nThere is a latent implicit factor,\nA separate latent explicit factor,\nAnd both compete to predict latent discriminant behavior.\n\nWhat is missing is the latent general racial attitude factor that would naturally give rise to shared variance across both implicit and explicit methods (which are highly correlated). If such a factor exists—and there are strong theoretical, empirical, and psychometric reasons to believe it does—then their incremental validity claim could collapse.\n\n\n\n\n\n\nFigure 1: Published SEM model\n\n\n\n\nmodel_A &lt;- '\n  # measurement model\n    implicit =~ iat + sciat + amp + ept\n    explicit =~ anes + dpm + pi + srs\n    discrim =~ ug + tg + jbt + ret\n  # paths\n    discrim ~ implicit + explicit\n  # residual correlations\n    anes ~~ srs\n    dpm ~~ pi\n'\n\nSo what happens if we add that general latent factor?\nWhen we implement a hierarchical model—one general attitude factor plus the specific method factors—we get good fit (CFI = 0.98, TLI = 0.97, RMSEA = 0.03, SRMR = 0.03) but a radically different picture Figure 2:\n\nThe general attitude factor significantly predicts discriminatory behavior (β ≈ 0.15).\nThe explicit-specific factor still predicts behavior strongly (β ≈ 0.60).\nThe implicit-specific factor shows no meaningful unique relationship with discrimination (β ≈ .09, p = .23).\n\nThis is the model we should have tested from the beginning. And once we do, the “incremental validity” of implicit measures disappears.\n\nmodel_A &lt;- '\n  # measurement model\n    implicit =~ iat + sciat + amp + ept\n    explicit =~ anes + dpm + pi + srs\n    general =~ implicit + explicit\n    discrim =~ ug + tg + jbt + ret\n  # paths\n    discrim ~ implicit + explicit + general\n  # residual correlations\n    anes ~~ srs\n    dpm ~~ pi\n'\n\n\n\n\n\n\n\nFigure 2: The adjusted hierarchical model"
+  },
+  {
+    "objectID": "posts/iatmeasure.html#what-should-we-conclude",
+    "href": "posts/iatmeasure.html#what-should-we-conclude",
+    "title": "On the predictive power of implicit measures of ratial attitudes",
+    "section": "What should we conclude?",
+    "text": "What should we conclude?\nClaims of incremental validity for implicit measures collapse once we correctly model the latent structure of attitudes.\nThis insight generalizes far beyond implicit bias research. Many fields routinely treat different methods as different constructs:\n\ncognitive abilities vs. g,\nspecific anxiety subscales vs. general anxiety,\ndomain-specific “mindsets” vs. a general belief system\npersonality facets vs. general factors.\n…\n\nIn all these cases, without modeling the well-known general factors, we risk misinterpreting trivial method-specific residuals as psychologically meaningful incremental predictors.\nThe lesson is simple but profound:\n\nBefore searching for incremental validity, model the common latent variable.\nOtherwise you are not testing incremental validity at all."
+  },
+  {
+    "objectID": "posts/iatmeasure.html#final-thoughts",
+    "href": "posts/iatmeasure.html#final-thoughts",
+    "title": "On the predictive power of implicit measures of ratial attitudes",
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nScientific progress requires modeling our constructs correctly. Without that foundation, even the largest samples and most elaborate collaborations cannot answer the question they set out to resolve."
+  },
+  {
+    "objectID": "posts/iatmeasure.html#other-readings",
+    "href": "posts/iatmeasure.html#other-readings",
+    "title": "On the predictive power of implicit measures of ratial attitudes",
+    "section": "Other readings",
+    "text": "Other readings\nSee also https://replicationindex.com/2025/12/02/is-the-implicit-association-test-too-big-to-fail/ for different perspectives."
+  },
+  {
+    "objectID": "posts/iatmeasure.html#acknowledgment",
+    "href": "posts/iatmeasure.html#acknowledgment",
+    "title": "On the predictive power of implicit measures of ratial attitudes",
+    "section": "Acknowledgment",
+    "text": "Acknowledgment\nA special thank to Enrico Toffalini who taught me most of these things."
+  },
+  {
+    "objectID": "posts/ncacomment.html",
+    "href": "posts/ncacomment.html",
+    "title": "The Bare Necessities of NCA",
+    "section": "",
+    "text": "“Look for the bare necessities, the simple bare necessities\nForget about your worries and your strife\nI mean the bare necessities, old mother nature\nThat bring the bare necessities of life”\nTerry Gilkyson, The Bare Necessities (1967)"
+  },
+  {
+    "objectID": "posts/ncacomment.html#a-new-method-in-town",
+    "href": "posts/ncacomment.html#a-new-method-in-town",
+    "title": "The Bare Necessities of NCA",
+    "section": "A ‘new’ method in town",
+    "text": "A ‘new’ method in town\nThere is now a ‘new’ temptingly efficient way to generate a fresh psychological paper, wonderful insights, serendipity!\n\nStep 1: Take two variables that correlate\nStep 2: Draw a scatterplot.\n\n\n\n\n\n\n\n\n\nFigure 1: A scatterplot for your scientific insights!\n\n\n\n\n\nWhat do you notice? Is there any white space in those corner? Wow!\nMake sure it’s not a trick of your mind. White space in the upper-left corner of your scatterplot! What could it be?\n\nStep 3: Run Necessary Condition Analysis (NCA) to test if it is really blank.\n\nStep 4: NCA detects an effect. Is significant.\nStep 5: Declare that a certain level of X is necessary for Y to appear.\n\nCongratulations: your correlation has been promoted from a mildly respectable average effect to a theoretical bottleneck.\nThat is, of course, slightly impolite (but true!).\nNCA is an interesting method with a legitimate aim. It asks a different question from regression. Instead of asking whether higher values of \\(X\\) are associated with higher values of \\(Y\\) on average, it asks whether some level of \\(X\\) is required before a given level of \\(Y\\) can occur (Dul 2016; Dul, Hauff, and Bouncken 2023). In fields where variables have natural units and clear substantive thresholds, that question can be meaningful. For instance, what is the minimum salary required from all banks to give a 100k loan?\nPsychology, however, is not full of natural units. It is full of latent constructs hiding behind observed scores on tests, questionnaires, tasks."
+  },
+  {
+    "objectID": "posts/ncacomment.html#what-nca-actually-estimates",
+    "href": "posts/ncacomment.html#what-nca-actually-estimates",
+    "title": "The Bare Necessities of NCA",
+    "section": "What NCA actually estimates",
+    "text": "What NCA actually estimates\nThe basic logic of NCA is simple and elegant. If low values of a condition are incompatible with high values of an outcome, then the upper-left corner of the \\(X\\)-\\(Y\\) scatterplot should be empty. NCA quantifies that empty region, estimates a ceiling line, and summarizes the pattern through an effect size and a bottleneck table (see fig-nca Dul 2016).\nThat geometric intuition is exactly why the method is attractive. But it is also exactly why psychology is an awkward habitat for it.\n\nfit &lt;- NCA::nca(d, 1,2)\nres &lt;- NCA::nca_output(fit, plots = TRUE, summaries = FALSE)\n\n\n\n\n\n\n\n\n\nFigure 2: Example of an NCA plot. The scatterplot shows the relation between X and Y. NCA evaluates whether X is necessary for Y by identifying an empty upper-left region, meaning that high values of Y are absent when X is low. The ceiling lines (CE-FDH and CR-FDH) mark the estimated boundary of this empty space, while the OLS line is included only to contrast NCA with standard regression approaches.\n\n\n\n\n\nNCA does not estimate a latent relation, a structural parameter, or a causal mechanism. It estimates a property of the observed score space: the size of a ceiling zone relative to a scope, plus the bottleneck values implied by the estimated ceiling line. The threshold it reports is therefore tied to the metric of the score representation itself. Change the coding, the scoring rule, the number of response categories, the item thresholds, or the sample range, and you may change the NCA result even when the underlying latent relation is held constant.\n\nChange the questionnaire you are using to measure depression, and everything changes!\n\nA method that lives on sparse regions of the scatterplot is naturally sensitive to the exact way the scatterplot was manufactured. So before asking whether intelligence is necessary for creativity or whether self-control is necessary for academic success, one first has to ask a less glamorous but more important question: necessary in the construct, or necessary in this particular score representation? [in this particular sample?]"
+  },
+  {
+    "objectID": "posts/ncacomment.html#a-small-simulation",
+    "href": "posts/ncacomment.html#a-small-simulation",
+    "title": "The Bare Necessities of NCA",
+    "section": "A small simulation",
+    "text": "A small simulation\nDon’t you believe?\nA way to test my previous assertions is to simulate multiple scenarios thousands of times. In each replication, one latent paired dataset was generated first. NCA was then computed on those latent variables as a reference. Starting from that same latent dataset, multiple observed versions were created by changing score construction, loading strength, ordinal scaling, threshold placement, and sample restriction. NCA was then recomputed on each observed dataset.\n\nIf the latent relation stays the same, how much does the observed NCA estimate move just because psychology measures things the way psychology usually measures things?\n\nThe answer is: quite a lot.\n\nScore construction\nWith the same latent relation, factor-score NCA was systematically larger than sum-score NCA. Averaged across design cells, the mean NCA effect was about \\(d = .149\\) for factor scores and \\(d = .121\\) for sum scores, even though the mean observed correlations were essentially identical in the two cases (both about \\(r = .331\\)). In other words, two score types can tell almost the same correlation story while telling noticeably different necessity stories.\n\n\nReliability and loading strength\nThe reliability block is even more awkward for simple intuitions. As loadings increased from .50 to .85, the mean observed correlation rose from about \\(r = .255\\) to \\(r = .366\\), but the mean NCA effect decreased from about \\(d = .132\\) to \\(d = .087\\).\nThat is a useful reminder that NCA is not just another correlation method. It tracks geometry and more reliable measurement does not mechanically yield a larger necessity estimate. Sometimes it yields a smaller one.\n\n\nResponse categories\nThe number of response categories mattered a lot. Moving from 4 to 7 categories increased the mean NCA effect from about \\(d = .080\\) to \\(d = .165\\), with only small changes in the average correlation (roughly \\(r = .326\\) to \\(r = .334\\)). Put differently: changing the granularity of the ruler changed the estimated bottleneck, even when the underlying latent relation was held fixed.\n\nWhat kind of theoretical advancement can a method provide if it depends on how many options our questionnaire has?\n\n\n\nThreshold placement and induced skewness\nWhen item thresholds were shifted to induce asymmetric score distributions, observed skewness moved to roughly \\(\\pm .27\\), \\(\\pm .39\\), and \\(\\pm .61\\) (way below general cut-offs of problematic skewness). Across these conditions, the mean NCA effect fell from about \\(d = .113\\) at the mild shift to about \\(d = .100\\) at the strongest shift. The direction of the shift mattered surprisingly little; lower and upper shifts produced very similar average NCA values.\n\n\nRange restriction\nRange restriction also mattered in a way that should make applied researchers uneasy. Restricting the sample to the lower side of \\(X\\) or upper side of \\(Y\\) yielded mean NCA effects around \\(d = .133\\), whereas restricting to the upper side of \\(X\\) or lower side of \\(Y\\) brought them down to about \\(d = .096\\). These are shifts large enough to support different rhetorical summaries of the same phenomenon. One sample could make the bottleneck look substantial; another could make it look modest. Yet the difference may reside less in theory than in who happened to be admitted into the dataset.\n\n\nSample size alone changes the estimate\nBut beside every psychometric issue, a sufficient problem to rule NCA out under a latent-association theoretical model is the problem of sample size: Even in a latent-only simulation with the same target correlation of about \\(r = .40\\), the mean NCA effect declined from about \\(d = .201\\) at \\(n = 250\\) to about \\(d = .172\\) at \\(n = 10{,}000\\).\nThat is worth pausing on. The latent relation stayed basically the same. The correlation stayed basically the same. The NCA effect drifted downward as sample size increased. A method that changes when the ruler changes is one thing (this happens also to attenuated correlations). A method that changes its estimates when the sample size increases, it is on another level of problematicity.\n\nLarger samples are simply more likely to populate regions of the \\(X\\)-\\(Y\\) space that smaller samples leave empty by chance. Under ordinary stochastic relations, the empty corner is therefore not strong evidence for an underlying necessity structure; it is often evidence that the sample has not yet filled the corner."
+  },
+  {
+    "objectID": "posts/ncacomment.html#the-main-lesson",
+    "href": "posts/ncacomment.html#the-main-lesson",
+    "title": "The Bare Necessities of NCA",
+    "section": "The main lesson",
+    "text": "The main lesson\nNCA often operates on properties of observed score geometry rather than on stable properties of latent constructs.\nUntil NCA does not develop a way to account for measurement error under an NCA psychometric model, NCA estimates would never be reliable nor credible.\nThat means the interpretive leap from “there is an empty corner in this score space” to “this construct is necessary for that construct” is usually much larger than the final discussion section lets on.\nAnd this is where some of the more enthusiastic uses of NCA become difficult to defend. Many psychological theories do not posit necessity relations in the strict sense. They posit probabilistic tendencies, reciprocal influences, multiple pathways, moderators, nonlinearities, developmental contingencies, and measurement error. Declaring necessity after spotting a sparse upper-left corner can therefore produce the peculiar feeling that a rich theory has been replaced by a geometry-based slogan.\nIn my opinion, better modeling approach already exist that answer similar questions, such as segmented regressions, gam and so on. These, however are probably not as attractive and much more difficult to defend and publish compared to a newer ‘fancy’ analysis such as NCA."
+  },
+  {
+    "objectID": "posts/ncacomment.html#false-positives",
+    "href": "posts/ncacomment.html#false-positives",
+    "title": "The Bare Necessities of NCA",
+    "section": "False positives",
+    "text": "False positives\nAcross all the simulation study, no necessity conditions were actually simulated. On the contrary, the ground truth was always a ‘simple’ correlation between two variables, meaning that all possible values in the scope are possible though their probabilty decreases as we move toward the upper-left corner. This corner is just more sparse, not impossible as a necessity effect would claim. Hence, an important question was: does NCA permutation test correctly identify ‘simple’ correlations or each correlation yields a false necessity effect.\nAcross all conditions, the percentage of significant effects was larger than the expected, with conditions ensuring a 100% false positives. In other words, NCA tests cannot distinguish a correlation from an necessity effect."
+  },
+  {
+    "objectID": "posts/ncacomment.html#does-this-mean-nca-is-useless",
+    "href": "posts/ncacomment.html#does-this-mean-nca-is-useless",
+    "title": "The Bare Necessities of NCA",
+    "section": "Does this mean NCA is useless?",
+    "text": "Does this mean NCA is useless?\nMaybe not (maybe yes). It means psychology should stop treating it as a way to inform theory.\nNCA may still be useful as a descriptive boundary tool when the research question is explicitly about the observed score space (never, probably, who cares about my data if I don’t make any inference?) and the scale has unusually clear substantive meaning, or when robustness across multiple defensible score representations has been demonstrated.\nWhat seems much harder to justify is the common move from a single observed-score NCA result to a statement that a latent psychological construct is a necessary precondition for another latent psychological construct. In other words, it seem hard to inform any theory beyond the observed data.\nThat move is often too quick, too strong, and much easier to publish than to defend.\nBut…\n\nThe bare necessities of life will come to you\nThey’ll come to you!\n\nOh man, that’s really livin’"
+  },
+  {
+    "objectID": "projects/bessichange.html",
+    "href": "projects/bessichange.html",
+    "title": "Change goals and development of SEB skills",
+    "section": "",
+    "text": "This umbrella project investigates how social, emotional, and behavioral (SEB) skills develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ capacity to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.\nAcross multiple studies, this project addresses three interconnected questions:\n\nHow do SEB skills change across developmental periods?\nResearch including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.\nWhat do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?\nMulti-informant studies reveal that all groups see SEB skills as more feasible and desirable to change than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.\nHow do individuals prioritize change goals, and what shapes their motivation?\nExperimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.\n\nTogether, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions."
+  },
+  {
+    "objectID": "projects/bessichange.html#the-project",
+    "href": "projects/bessichange.html#the-project",
+    "title": "Change goals and development of SEB skills",
+    "section": "",
+    "text": "This umbrella project investigates how social, emotional, and behavioral (SEB) skills develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ capacity to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.\nAcross multiple studies, this project addresses three interconnected questions:\n\nHow do SEB skills change across developmental periods?\nResearch including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.\nWhat do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?\nMulti-informant studies reveal that all groups see SEB skills as more feasible and desirable to change than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.\nHow do individuals prioritize change goals, and what shapes their motivation?\nExperimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.\n\nTogether, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions."
+  },
+  {
+    "objectID": "projects/bessichange.html#collaborators-and-acknowledgment",
+    "href": "projects/bessichange.html#collaborators-and-acknowledgment",
+    "title": "Change goals and development of SEB skills",
+    "section": "Collaborators and Acknowledgment",
+    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Nicole Casali, Christopher J. Soto, Hayley K. Jach, Brent W. Roberts, Gerardo Pellegrino, Christopher M. Napolitano, and many more…"
+  },
+  {
+    "objectID": "projects/bessichange.html#fundings",
+    "href": "projects/bessichange.html#fundings",
+    "title": "Change goals and development of SEB skills",
+    "section": "Fundings",
+    "text": "Fundings\nPart of this project was funded by the European Association of Personality Psychology as a collaborative grant with Nicole Casali."
+  },
+  {
+    "objectID": "projects/measuringseb.html",
+    "href": "projects/measuringseb.html",
+    "title": "Measuring SEB skills",
+    "section": "",
+    "text": "Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.\nThe original BESSI (Behavioral, Emotional, and Social Skills Inventory) provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.\nHowever, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.\nTo address this, we introduced and evaluates an alternative version of the BESSI, the BESSI-Dual Rating, a refined measurement tool designed to better separate SEB skills from personality traits. The Bessi-Dual Rating includes:\n\nclearer conceptual instructions distinguishing abilities from tendencies,\na dual-item format, asking first about behavioral tendencies and then about abilities,\nan expanded response scale for finer discrimination, and\nsmall but targeted wording adjustments to facilitate more accurate self-assessment.\n\nInitial evidence from high school students shows that participants do perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-Dual Rating retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.\nTogether, the BESSI-I and Bessi-Dual Rating projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:\n\nvalidating the SEB skills framework across languages and developmental periods,\nimproving the measurement tools used to distinguish skills from traits, and\nsupporting more precise research, applied work, and educational interventions based on SEB skills.\n\nThis broader research program contributes to building a reliable, culturally adaptable, and theoretically coherent assessment system for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications."
+  },
+  {
+    "objectID": "projects/measuringseb.html#the-project",
+    "href": "projects/measuringseb.html#the-project",
+    "title": "Measuring SEB skills",
+    "section": "",
+    "text": "Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.\nThe original BESSI (Behavioral, Emotional, and Social Skills Inventory) provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.\nHowever, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.\nTo address this, we introduced and evaluates an alternative version of the BESSI, the BESSI-Dual Rating, a refined measurement tool designed to better separate SEB skills from personality traits. The Bessi-Dual Rating includes:\n\nclearer conceptual instructions distinguishing abilities from tendencies,\na dual-item format, asking first about behavioral tendencies and then about abilities,\nan expanded response scale for finer discrimination, and\nsmall but targeted wording adjustments to facilitate more accurate self-assessment.\n\nInitial evidence from high school students shows that participants do perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-Dual Rating retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.\nTogether, the BESSI-I and Bessi-Dual Rating projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:\n\nvalidating the SEB skills framework across languages and developmental periods,\nimproving the measurement tools used to distinguish skills from traits, and\nsupporting more precise research, applied work, and educational interventions based on SEB skills.\n\nThis broader research program contributes to building a reliable, culturally adaptable, and theoretically coherent assessment system for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications."
+  },
+  {
+    "objectID": "projects/measuringseb.html#collaborators-and-acknowledgment",
+    "href": "projects/measuringseb.html#collaborators-and-acknowledgment",
+    "title": "Measuring SEB skills",
+    "section": "Collaborators and Acknowledgment",
+    "text": "Collaborators and Acknowledgment\nThis project would not be possible without the collaboration of Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, Barbara Carretti, Christopher J. Soto, Christopher M. Napolitano, and many more…"
+  },
+  {
+    "objectID": "projects/measuringseb.html#fundings",
+    "href": "projects/measuringseb.html#fundings",
+    "title": "Measuring SEB skills",
+    "section": "Fundings",
+    "text": "Fundings\nThis project was initially funded by a research grant from the Department of General Psychology in 2022."
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html",
+    "href": "projects/thelivingsebproject.html",
+    "title": "The Living SEB Project",
+    "section": "",
+    "text": "The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a living, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.\nThe project includes ongoing systematic literature searches, a centralized and openly available database of coded study metadata and effect sizes, and an interactive web application that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.\nThe resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.\nConceptually, the project is grounded in the understanding of SEB skills as capacities—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: Innovation, Self-Management, Social Engagement, Cooperation, and Emotional Resilience.\nAims of the project\n\nTo provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.\nTo enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.\nTo help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.\n\nBecause the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications."
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#the-project",
+    "href": "projects/thelivingsebproject.html#the-project",
+    "title": "The Living SEB Project",
+    "section": "",
+    "text": "The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a living, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.\nThe project includes ongoing systematic literature searches, a centralized and openly available database of coded study metadata and effect sizes, and an interactive web application that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.\nThe resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.\nConceptually, the project is grounded in the understanding of SEB skills as capacities—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: Innovation, Self-Management, Social Engagement, Cooperation, and Emotional Resilience.\nAims of the project\n\nTo provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.\nTo enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.\nTo help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.\n\nBecause the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications."
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#collaborators-and-acknowledgment",
+    "href": "projects/thelivingsebproject.html#collaborators-and-acknowledgment",
+    "title": "The Living SEB Project",
+    "section": "Collaborators and Acknowledgment",
+    "text": "Collaborators and Acknowledgment\nThis project is supported by Gerardo Pellegrino and Margherita Calderan who help me manage the repo and the new incoming data."
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#fundings",
+    "href": "projects/thelivingsebproject.html#fundings",
+    "title": "The Living SEB Project",
+    "section": "Fundings",
+    "text": "Fundings\nNo funding was obtained for this project at the moment."
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#living-results",
+    "href": "projects/thelivingsebproject.html#living-results",
+    "title": "The Living SEB Project",
+    "section": "Living results",
+    "text": "Living results\nA living paper with updated results is available on github: https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html"
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#detailed-description-of-the-project",
+    "href": "projects/thelivingsebproject.html#detailed-description-of-the-project",
+    "title": "The Living SEB Project",
+    "section": "Detailed description of the project",
+    "text": "Detailed description of the project\nThe project description was published in the European Journal of Personality (link). You can find an open access version of the manuscript here: https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html"
+  },
+  {
+    "objectID": "projects/thelivingsebproject.html#media-coverage",
+    "href": "projects/thelivingsebproject.html#media-coverage",
+    "title": "The Living SEB Project",
+    "section": "Media coverage",
+    "text": "Media coverage\nOur preprint was selected by the Association for Research in Personality for their yearly newsletter: The Online Newsletter for Personality Science"
+  },
+  {
+    "objectID": "selected-publications.html",
+    "href": "selected-publications.html",
+    "title": "Selected publications",
+    "section": "",
+    "text": "Search publications\nNo publications match your search."
+  },
+  {
+    "objectID": "selected-publications.html#comparing-change-goals-and-feasibility-beliefs-about-changing-social-emotional-and-behavioral-skills-vs.-personality-traits-among-adolescents-parents-and-teachers",
+    "href": "selected-publications.html#comparing-change-goals-and-feasibility-beliefs-about-changing-social-emotional-and-behavioral-skills-vs.-personality-traits-among-adolescents-parents-and-teachers",
+    "title": "Selected publications",
+    "section": "Comparing change goals and feasibility beliefs about changing social, emotional, and behavioral skills vs. personality traits among adolescents, parents, and teachers",
+    "text": "Comparing change goals and feasibility beliefs about changing social, emotional, and behavioral skills vs. personality traits among adolescents, parents, and teachers\n\nFeraco, T., Jach, H. K., Bardach, L., Kopatz, M., Murayama, K., Sewell, M. N., Napolitano, C. M., & Soto, C. J.\n\n\nJournal of Research in Personality, 104777.\n\n\nAbstract\nThis study compared adolescents', parents', and teachers' change goals and feasibility beliefs for Big Five traits versus social, emotional, and behavioral (SEB) skills. Participants were 676 Italian high school students who reported about themselves, 461 parents who reported about their participating child, and 704 international teachers reporting about students in general. We found that all groups viewed SEB skills as more changeable than traits, with the strongest skill preference among teachers. Student differences were clearest for Social Engagement versus Extraversion. Teachers, but not parents, also reported greater interest in skill-based than trait-based interventions. These findings suggest that skill framing may increase perceived malleability and support for developmental interventions in educational contexts.\n\n\nArticle\nData\nCode\nMaterials\nPreregistration"
+  },
+  {
+    "objectID": "selected-publications.html#social-emotional-and-behavioral-skills-as-resources-for-student-engagement-a-one-year-longitudinal-study-in-high-school-students",
+    "href": "selected-publications.html#social-emotional-and-behavioral-skills-as-resources-for-student-engagement-a-one-year-longitudinal-study-in-high-school-students",
+    "title": "Selected publications",
+    "section": "Social, emotional, and behavioral skills as resources for student engagement: A one-year longitudinal study in high school students",
+    "text": "Social, emotional, and behavioral skills as resources for student engagement: A one-year longitudinal study in high school students\n\nPellegrino G, Feraco T., Meneghetti C, Carretti B.\n\n\nLearning and Individual Differences, 131, 102988.\n\n\nAbstract\nSocial, emotional, and behavioral (SEB) skills refer to capacities that support social relationships, emotion regulation, and engagement with new experiences. These skills are considered crucial for high school students' academic success and well-being. The present study examined the longitudinal associations between five SEB skill domains (self-management, social engagement, cooperation, innovation, and emotional resilience) and four dimensions of student engagement (affective, behavioral, cognitive, and agentic). A sample of 1555 Italian high school students completed self-report measures of SEB skills and engagement at the beginning (T1), middle (T2), and end (T3) of the academic year. Latent change score modelling showed that student engagement generally declined across the school year, particularly between T1 and T2. However, students with higher levels of self-management, innovation, and social engagement at T1 showed smaller declines in engagement. Overall, these findings suggest that SEB skills help students sustain engagement, especially during the first part of the school year. Educational relevance statement: Social, emotional, and behavioral (SEB) skills are increasingly recognized as key competencies that foster student engagement in learning and academic activities. Using a comprehensive SEB framework and a three-wave longitudinal design, our study examined whether SEB skills contribute to the maintenance of engagement across the school year. Results indicated that students who reported higher levels of self-management, innovation, and social engagement also experienced smaller decreases in engagement, although the effects varied across engagement dimensions. Overall, these findings highlight the educational value of integrating SEB skills instruction into school curricula. Strengthening these skills may help students sustain engagement throughout the academic year, with potential benefits for academic achievement and well-being.\n\n\nArticle\nData\nCode"
+  },
+  {
+    "objectID": "selected-publications.html#musicians-memory-and-general-cognitive-ability-a-commentary-on-grassi-et-al.-2025",
+    "href": "selected-publications.html#musicians-memory-and-general-cognitive-ability-a-commentary-on-grassi-et-al.-2025",
+    "title": "Selected publications",
+    "section": "Musicians, Memory, and General Cognitive Ability: A Commentary on Grassi et al. (2025)",
+    "text": "Musicians, Memory, and General Cognitive Ability: A Commentary on Grassi et al. (2025)\n\nToffalini E, & Feraco T.\n\n\nAdvances in Methods and Practices in Psychological Science, 9(3).\n\n\nAbstract\nWhen cognitive variables show a positive manifold, mainstream psychometric theory suggests that their common variance should be modeled first. Treating correlated cognitive scores as if they were separately interpretable outcomes instead requires explicit theoretical justification. We comment on Grassi et al., an important multilab study on musicians and nonmusicians, and reexamine their cognitive results at the latent level. Using multigroup and multilevel structural equation models on the same data set, we ask whether the reported pattern can be parsimoniously understood as a difference in shared cognitive variance rather than as a set of task-specific advantages. The results suggest that under this latent-variable representation, the musician advantage is mostly captured by a latent common factor, whereas melody span retained a clear residual advantage and vocabulary showed, at most, a smaller task-specific deviation. The focus, therefore, is not just whether musicians differ from nonmusicians on a set of observed tasks, possibly controlled for each other, but also how such differences should be interpreted once those tasks are allowed to share variance. Grassi et al. provided an excellent example of open, collaborative work that the field should actively encourage. We suggest that this kind of enterprise should also be paired with equally strong and theoretically grounded measurement modeling.\n\n\nArticle"
+  },
+  {
+    "objectID": "selected-publications.html#can-we-differentiate-between-self-reported-skills-and-traits-a-possible-refinement-of-the-bessi-and-its-validity-in-italian-high-school-students",
+    "href": "selected-publications.html#can-we-differentiate-between-self-reported-skills-and-traits-a-possible-refinement-of-the-bessi-and-its-validity-in-italian-high-school-students",
+    "title": "Selected publications",
+    "section": "Can We Differentiate Between Self-Reported Skills and Traits? A Possible Refinement of the BESSI and Its Validity in Italian High School Students",
+    "text": "Can We Differentiate Between Self-Reported Skills and Traits? A Possible Refinement of the BESSI and Its Validity in Italian High School Students\n\nPellegrino G, Meneghetti C, Carretti B, Feraco T.\n\n\nAssessment, 0(0).\n\n\nAbstract\nRecent research has emphasized the conceptual distinction between personality traits and social, emotional, and behavioral (SEB) skills. However, their self-report measures show substantial empirical overlap. This study introduces and evaluates the Behavioral, Emotional, and Social Skills Inventory—Dual Rating (BESSI-Dual Rating), a modified version of the original BESSI designed to reduce this overlap. A sample of 598 Italian high school students completed the BESSI-Dual Rating, a Big Five personality inventory, and measures of academic and socio-emotional outcomes. Confirmatory factor analyses supported the structural validity of the BESSI-Dual Rating. Compared to previous BESSI validation studies, BESSI-Dual Rating scores showed improved discriminant and incremental validity relative to the corresponding traits. Furthermore, students perceived skill- and tendency-based items as meaningfully distinct—contrary to findings from prior research using alternative instruments. Parent-reported SEB skills provided additional support for the validity of the skill measures. These findings suggest that minor but targeted refinements in questionnaire design can enhance the empirical differentiation between skills and traits.\n\n\nArticle\nData\nCode\nMaterials\nPreregistration"
+  },
+  {
+    "objectID": "selected-publications.html#the-living-seb-skills-project-a-living-resource-for-review-and-meta-analysis-of-social-emotional-and-behavioral-skills",
+    "href": "selected-publications.html#the-living-seb-skills-project-a-living-resource-for-review-and-meta-analysis-of-social-emotional-and-behavioral-skills",
+    "title": "Selected publications",
+    "section": "The Living SEB Skills Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills",
+    "text": "The Living SEB Skills Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills\n\nFeraco, T., Calderan, M., & Pellegrino, G.\n\n\nEuropean Journal of Personality, 40(5), 1333-1346.\n\n\nAbstract\nThe social, emotional, and behavioral (SEB) skills framework was recently proposed as an integrative model for soft skills/socio-emotional competencies, clarifying their definition and distinction from personality traits. To support open and cumulative research in this area, we introduce the Living SEB Skills Project, a continuously updated database combining ongoing literature searches, an open repository of coded studies and effect sizes, and an interactive application enabling customizable meta-analyses. Using meta-analyses of correlations and meta-analytic structural equation models, we demonstrate the database’s utility by testing the predictive and incremental validity of SEB skills for academic achievement on the current available data (364 publications, of which 30 met the criteria for the living review and 19 [26 samples] for the quantitative synthesis). The Living SEB Skills Project sets out as a transparent, dynamic and openly accessible tool to accelerate and ease cumulative science and synthesis within the SEB skills framework and beyond.\n\n\nArticle\nData\nCode\nMaterials\nPreregistration"
+  },
+  {
+    "objectID": "selected-publications.html#bridges-over-troubled-water-a-meta-analysis-of-the-associations-of-character-strengths-with-well-being-and-common-mental-health-disorders",
+    "href": "selected-publications.html#bridges-over-troubled-water-a-meta-analysis-of-the-associations-of-character-strengths-with-well-being-and-common-mental-health-disorders",
+    "title": "Selected publications",
+    "section": "Bridges over troubled water: A meta-analysis of the associations of character strengths with well-being and common mental health disorders",
+    "text": "Bridges over troubled water: A meta-analysis of the associations of character strengths with well-being and common mental health disorders\n\nCasali, N., & Feraco, T.\n\n\nEuropean Journal of Personality, 39(6), 878-896.\n\n\nAbstract\nCharacter strengths are 24 morally valued personality traits that are associated with both well-being and mental health. Despite their importance, systematic evidence quantifying these associations and integrating them with basic personality frameworks is lacking. To address this gap, we synthesized evidence from 130 studies (total N = 275,007) and used previous evidence on Big Five and HEXACO traits to locate character strengths and derive corresponding expectations. Using three-level meta-analytic models, we found meaningful ( r &gt; .10) correlations with healthy functioning for all strengths except humility, with most ranging between .10 and .30. Hope ( r = .52) and zest ( r = .52) emerged as the strongest correlates overall, followed by gratitude ( r = .43), love ( r = .43), and curiosity ( r = .38) for well-being, and self-regulation ( r = .29), gratitude ( r = .30), and love ( r = .34) for common mental health disorders. Well-being outcomes showed stronger associations with strengths compared to common mental health outcomes. Overall, the present findings fit well with the existing evidence on personality and support the notion that character strengths, like personality, may promote healthy functioning. Future research should focus on understudied outcomes (e.g., domain satisfaction, anxiety, and stress) and populations (e.g., clinical populations).\n\n\nArticle\nData\nCode\nMaterials\nPreregistration"
+  },
+  {
+    "objectID": "selected-publications.html#differences-in-change-goals-between-personality-traits-and-social-emotional-and-behavioral-skills",
+    "href": "selected-publications.html#differences-in-change-goals-between-personality-traits-and-social-emotional-and-behavioral-skills",
+    "title": "Selected publications",
+    "section": "Differences in change goals between personality traits and social, emotional, and behavioral skills",
+    "text": "Differences in change goals between personality traits and social, emotional, and behavioral skills\n\nFeraco, T., Hudson, N.W., & Soto, C.J.\n\n\nPersonality and Individual Differences, 241, 113200.\n\n\nAbstract\nAlthough research suggests that most people want to change their personality traits, previous studies have neither explored whether individuals also desire to change the social, emotional, and behavioral (SEB) skills linked to those traits, nor whether people have different beliefs about the malleability of skills vs. traits. In the present within-person experiment, 264 young adults from the US and Italy rated their desire to change each of the Big Five personality traits and the corresponding domains of SEB skills. They also rated their beliefs about the feasibility, motivation, and impact of making these changes. Results showed that participants reported similar or higher scores for skills, compared to traits, across all measured outcomes. Specifically, scores for social engagement and self-management skills were consistently higher than those for extraversion and conscientiousness. These findings indicate that people believe it to be more desirable-and more feasible-to change some SEB skills than the corresponding personality traits.\n\n\nArticle\nData\nCode\nMaterials\nPreregistration"
+  },
+  {
+    "objectID": "selected-publications.html#soft-skills-in-high-schools-integrating-self-regulated-learning-and-social-emotional-and-behavioral-skills-frameworks",
+    "href": "selected-publications.html#soft-skills-in-high-schools-integrating-self-regulated-learning-and-social-emotional-and-behavioral-skills-frameworks",
+    "title": "Selected publications",
+    "section": "Soft skills in high schools: integrating self-regulated learning and social, emotional, and behavioral skills frameworks",
+    "text": "Soft skills in high schools: integrating self-regulated learning and social, emotional, and behavioral skills frameworks\n\nFeraco, T., Bonelli, R., Da Re, L., & Meneghetti, C.\n\n\nSocial Psychology of Education, 28:134, 1-24.\n\n\nAbstract\nSocial, emotional, and behavioral (SEB) skills– also known under labels like soft skills, 21st century skills, or social-emotional skills– are considered key factors for students’ success, well-being, and social relationships, among others. However, literature on the topic relied on different frameworks and questionable measurement methods. Additionally, they usually did not integrate skills into classical self-regulated learning (SRL) frameworks. To overcome these limitations, we adopted the new integrative SEB framework and measured SEB skills, along with five SRL factors (academic self-efficacy, SRL strategies, mastery learning goals, growth mindset, and achievement emotions) and three outcomes (i.e., self-reported academic achievement, peer acceptance, and life satisfaction). Participants were 5,075 Italian high school students (M = 18.23 years old; SD = 0.95). Our results show that SEB skills are associated with almost all SRL factors and outcomes, but when considering their specific role (net of other skills and SRL factors), no direct associations with self-reported academic achievement emerge, supporting the hypothesis that SEB skills’ effects on academic outcomes might be mainly explained by SRL factors, while specific skills (i.e., social engagement, collaboration, and emotional resilience skills) directly influence non-scholastic outcomes. Our results support the importance of adopting integrative skills frameworks along with SRL frameworks to deeply understand the processes linking skills to outcomes in the student population.\n\n\nArticle\nData\nCode\nMaterials"
+  },
+  {
+    "objectID": "selected-publications.html#years-of-character-strengths-a-bibliometric-review",
+    "href": "selected-publications.html#years-of-character-strengths-a-bibliometric-review",
+    "title": "Selected publications",
+    "section": "20 Years of Character Strengths: A Bibliometric Review",
+    "text": "20 Years of Character Strengths: A Bibliometric Review\n\nFeraco, T., & Casali, N.\n\n\nJournal of Happiness Studies, 26(34), 1-22.\n\n\nAbstract\nCharacter strengths were introduced into the positive psychology literature twenty years ago. The present bibliometric analysis quantitatively summarizes the research conducted in the field so far in terms of impact and themes analyzed. We conduct performance analysis to examine the total number of publications on character strengths, their bibliometric indices, the main journals contributing to the field, and the countries involved in such knowledge accumulation and how this has changed over time. We furthermore conduct science mapping analysis using the keywords of the papers. Specifically, we describe the time-varying occurrence of specific keywords and use network and thematic mapping analyses to determine the dynamic intercorrelations among the emerging research topics. Our results show the significant and growing contribution of character strengths to the positive psychology literature and beyond, but also the need for cross-fertilization with neighboring fields. We also highlight an increasing contribution from non-WEIRD countries in recent years, which calls for in-depth cross-cultural research. Topics such as measurement and well-being appear to be well-established and integrated, while there’s an emerging interest in mental health research. Overall, the present analysis illuminates on the past, present, and upcoming trends in the field.\n\n\nArticle\nData\nCode\nPreregistration"
+  },
+  {
+    "objectID": "selected-publications.html#sembeddings-how-to-evaluate-model-misfit-before-data-collection-using-large-language-models",
+    "href": "selected-publications.html#sembeddings-how-to-evaluate-model-misfit-before-data-collection-using-large-language-models",
+    "title": "Selected publications",
+    "section": "SEMbeddings: how to evaluate model misfit before data collection using large-language models",
+    "text": "SEMbeddings: how to evaluate model misfit before data collection using large-language models\n\nFeraco, T., & Toffalini, E.\n\n\nFrontiers in Psychology, 15:1433339.\n\n\nAbstract\nIntroduction Recent developments suggest that Large Language Models (LLMs) provide a promising approach for approximating empirical correlation matrices of item responses by utilizing item embeddings and their cosine similarities. In this paper, we introduce a novel tool, which we label SEMbeddings . Methods This tool integrates mpnet-personality (a fine-tuned embedding model) with latent measurement models to assess model fit or misfit prior to data collection. To support our statement, we apply SEMbeddings to the 96 items of the VIA-IS-P, which measures 24 different character strengths, using responses from 31,697 participants. Results Our analysis shows a significant, though not perfect, correlation ( r = 0.67) between the cosine similarities of embeddings and empirical correlations among items. We then demonstrate how to fit confirmatory factor analyses on the cosine similarity matrices produced by mpnet-personality and interpret the outcomes using modification indices. We found that relying on traditional fit indices when using SEMbeddings can be misleading as they often lead to more conservative conclusions compared to empirical results. Nevertheless, they provide valuable suggestions about possible misfit, and we argue that the modification indices obtained from these models could serve as a useful screening tool to make informed decisions about items prior to data collection. Discussion As LLMs become increasingly precise and new fine-tuned models are released, these procedures have the potential to deliver more reliable results, potentially transforming the way new questionnaires are developed.\n\n\nArticle\nData\nCode"
+  },
+  {
+    "objectID": "selected-publications.html#social-emotional-and-behavioral-skills-in-students-with-or-without-specific-learning-disabilities",
+    "href": "selected-publications.html#social-emotional-and-behavioral-skills-in-students-with-or-without-specific-learning-disabilities",
+    "title": "Selected publications",
+    "section": "Social, emotional, and behavioral skills in students with or without specific learning disabilities",
+    "text": "Social, emotional, and behavioral skills in students with or without specific learning disabilities\n\nFeraco, T., Pellegrino, G., Casali, N., Carretti, B., & Menenghetti, C.\n\n\nLearning and Individual Differences, 105, 102320.\n\n\nAbstract\nSocial, emotional, and behavioral (SEB) skills are key factors for academic and non-academic outcomes, but no previous studies deepened SEB skills of students with specific learning disabilities (SLD). We used the Behavioral, Emotional, and Social Skills Inventory (BESSI) to systematically investigate i) differences in social engagement, self-management, innovation, emotional resilience, and cooperation skills and ii) the interaction effect between skills and group on academic achievement and life satisfaction. In a sample of 2965 students (1589 females, M = 15.5 years, SD = 2.0), 359 of whom reported a SLD, we found differences in self-management (d = −0.28), innovation (d = −0.25), and social engagement (d = −0.19) skills. Furthermore, higher SEB skills do not guarantee higher academic achievement in the SLD group, while their role is similar in the two groups for life satisfaction. Overall, students with SLD may benefit from interventions to improve knowledge and use of SEB skills.\n\n\nArticle\nData\nCode\nMaterials"
+  },
+  {
+    "objectID": "selected-publications.html#which-character-strengths-may-build-organizational-well-being-insights-from-an-international-sample-of-workers",
+    "href": "selected-publications.html#which-character-strengths-may-build-organizational-well-being-insights-from-an-international-sample-of-workers",
+    "title": "Selected publications",
+    "section": "Which character strengths may build organizational well-being? Insights from an international sample of workers",
+    "text": "Which character strengths may build organizational well-being? Insights from an international sample of workers\n\nCasali, N. & Feraco, T.\n\n\nPLoS ONE 19(10): e0312934.\n\n\nAbstract\nThe nature and composition of well-being has been the subject of ongoing debate in the field of positive psychology. Recent discussions identify Seligman’s PERMA dimensions as concrete pathways to achieve subjective well-being, rather than a distinct type of well-being. Four additional “building blocks” have been categorized to define positive functioning at work (PERMA+4). The present study adds another level of inquiry, by newly examining the relationships of character strengths and a general factor or character with PERMA+4 and life satisfaction in a large international sample of 5,487 employees. We found that 21 of the 24 character strengths were significantly (yet only slightly) more strongly correlated with PERMA+4 than with life satisfaction, and that PERMA+4 was consistently related to life satisfaction. The happiness strengths (hope, gratitude, zest, curiosity and love) and the general factor of character were also directly and indirectly related to life satisfaction. Taken together, these results suggest that the PERMA+4 dimensions may help bridge the gap between strengths and well-being, explaining how individuals with good character are also those who report higher life satisfaction. Future longitudinal studies should build on the present findings and examine whether character strengths can act as the “building blocks of the building blocks” of life satisfaction.\n\n\nArticle"
+  },
+  {
+    "objectID": "selected-publications.html#clusters-that-are-not-there-an-r-tutorial-and-a-shiny-app-to-quantify-a-priori-inferential-risks-when-using-clustering-methods",
+    "href": "selected-publications.html#clusters-that-are-not-there-an-r-tutorial-and-a-shiny-app-to-quantify-a-priori-inferential-risks-when-using-clustering-methods",
+    "title": "Selected publications",
+    "section": "Clusters that are not there: An R tutorial and a Shiny app to quantify a priori inferential risks when using clustering methods",
+    "text": "Clusters that are not there: An R tutorial and a Shiny app to quantify a priori inferential risks when using clustering methods\n\nToffalini, E., Gambarota, F., Perugini, A., Girardi, P., Tobia, V., Altoè, G., Giofrè, D., Psicostat Core Team, & Feraco, T.\n\n\nInternational Journal of Psychology, 59 (6), 1183-1198.\n\n\nAbstract\nClustering methods are increasingly used in social science research. Generally, researchers use them to infer the existence of qualitatively different types of individuals within a larger population, thus unveiling previously “hidden” heterogeneity. Depending on the clustering technique, however, valid inference requires some conditions and assumptions. Common risks include not only failing to detect existing clusters due to a lack of power but also revealing clusters that do not exist in the population. Simple data simulations suggest that under conditions of sample size, number, correlation and skewness of indicators that are frequently encountered in applied psychological research, commonly used clustering methods are at a high risk of detecting clusters that are not there. Generally, this is due to some violations of assumptions that are not usually considered critical in psychology. The present article illustrates a simple R tutorial and a Shiny app (for those who are not familiar with R) that allow researchers to quantify a priori inferential risks when performing clustering methods on their own data. Doing so is suggested as a much‐needed preliminary sanity check, because conditions that inflate the number of detected clusters are very common in applied psychological research scenarios.\n\n\nArticle\nCode\nMaterials"
+  },
+  {
+    "objectID": "selected-publications.html#the-italian-behavioral-emotional-and-social-skills-inventory-bessi-i",
+    "href": "selected-publications.html#the-italian-behavioral-emotional-and-social-skills-inventory-bessi-i",
+    "title": "Selected publications",
+    "section": "The Italian Behavioral, Emotional, and Social Skills Inventory (BESSI-I)",
+    "text": "The Italian Behavioral, Emotional, and Social Skills Inventory (BESSI-I)\n\nFeraco, T., Casali, N., Pellegrino, G., Soto, C. J., Napolitano, C., Carretti, B., & Menenghetti, C.\n\n\nJournal of Personality Assessment, 106 (6), 750–764.\n\n\nAbstract\nThe importance of social, emotional, and behavioral (SEB) skills is recognized worldwide, but their measurement has always been a challenge. The BESSI measures 32 SEB skills, divided into five domains (social engagement, cooperation, self-management, emotional resilience, and innovation), but its validity must be expanded to new languages and contexts. Across two studies (N1 = 990, N2= 824) we developed the Italian version of the BESSI, provided further support for its convergent and discriminant validity with the Big Five, and expanded its nomological network to procrastination, self-efficacy, and emotion regulation. The BESSI-I showed excellent internal reliability and satisfactory fit indices at the facet, domain, and overarching framework level. We also confirmed the correlations between the SEB skills and the Big Five personality traits and found meaningful correlations with the selected external outcomes. Overall, we confirm that the BESSI-I is a valid and useful instrument to assess SEB skills for research and clinical purposes.\n\n\nArticle\nData\nCode\nMaterials\nPreregistration"
+  },
+  {
+    "objectID": "selected-publications.html#social-emotional-and-behavioral-skills-age-and-gender-differences-at-12-to-19-years-old",
+    "href": "selected-publications.html#social-emotional-and-behavioral-skills-age-and-gender-differences-at-12-to-19-years-old",
+    "title": "Selected publications",
+    "section": "Social, emotional, and behavioral skills: Age and gender differences at 12 to 19 years old",
+    "text": "Social, emotional, and behavioral skills: Age and gender differences at 12 to 19 years old\n\nFeraco, T. & Meneghetti, C.\n\n\nJournal of Intelligence.\n\n\nAbstract\nIndividuals use social, emotional, and behavioral (SEB) skills to build and maintain social relationships, regulate emotions, and manage goal-directed behaviors. A promising integrative framework of SEB skills was recently proposed, showing that they matter for positive outcomes during adolescence. Nothing is known about how and whether they differ between 12 and 19 years old and whether such differences depend on gender (males or females). Uncovering their age trajectories is fundamental because SEB skills are highly needed during this period of life. Educators, psychologists, and policymakers need to understand when, why, and how interventions concerning SEB skills should be proposed, potentially considering male and female profiles. To cover this gap, we cross-sectionally analyzed data from 4106 participants (2215 females, 12–19 years old). We highlighted age and gender differences in the five domains of SEB skills (self-management, innovation, cooperation, social engagement, and emotional resilience). Our results show that each SEB skill follows a specific age trend: emotional resilience and cooperation skills increase naturally between 12 and 19 years old, while innovation, social engagement, and self-management skills decline, especially between 12 and 16 years old, and grow later. The trajectories of self-management, social engagement, and emotional resilience skills also differ between males and females. Importantly, we detected declines in SEB skills (especially for social engagement and innovation skills) that can inform policies and interventions to sustain SEB skills in youths to favor their well-being and success in this crucial period.\n\n\nArticle\nPreregistration"
+  },
+  {
+    "objectID": "selected-publications.html#differentiation-of-general-and-specific-abilities-in-intelligence.-a-bifactor-study-of-age-and-gender-differentiation-in-8--to-19-year-olds",
+    "href": "selected-publications.html#differentiation-of-general-and-specific-abilities-in-intelligence.-a-bifactor-study-of-age-and-gender-differentiation-in-8--to-19-year-olds",
+    "title": "Selected publications",
+    "section": "Differentiation of general and specific abilities in intelligence. A bifactor study of age and gender differentiation in 8- to 19-year-olds",
+    "text": "Differentiation of general and specific abilities in intelligence. A bifactor study of age and gender differentiation in 8- to 19-year-olds\n\nFeraco, T. & Cona, G.\n\n\nIntelligence, 94. 101669.\n\n\nAbstract\nThe structure of intelligence is not static. Differentiation hypotheses suggest that the contribution of g and specific abilities on tasks performance varies with age, but most research focused solely on g. Here we sought to test intelligence differentiation in both its general and specific components using a bifactor modelling approach that – previously ignored in literature – should be better suited to this aim. In parallel, the possible differences in intelligence differentiation between males and females are explored for the first time. A population of 8866 youths (8–19 years old) of the Philadelphia Neurodevelopment Cohort completed 12 tasks measuring four components of cognition (complex cognition, executive control, episodic memory, and social cognition) and the WRAT-4. Using bootstrap and meta-regression analysis, the bifactor-(S·I - 1) model shows that the variance explained differently changes over time according to peculiar development patterns of specific components. Executive functions lose specificity with age and their variance is explained only by g at the end of adolescence, episodic memory is increasingly explained by g, and complex cognition is explained more by g in males – and less in females – when age increases, also suggesting a possible role of gender in intelligence differentiation. We conclude discussing the importance of using adequate statistical models and we proposed studying differentiation also at the level of specific abilities to account for the complexity of the developmental phenomenon that could be better described by development priority theories.\n\n\nArticle"
   }
 ]

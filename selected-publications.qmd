@@ -1,0 +1,36 @@
+---
+title: "Selected publications"
+description: "A selection of my research, with abstracts and links to the article and available research resources."
+toc: false
+page-layout: full
+engine: knitr
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: false
+  cache: false
+format:
+  html:
+    include-after-body: publications/search.html
+---
+
+```{=html}
+<div class="publication-search" hidden>
+  <label for="publication-search">Search publications</label>
+  <input id="publication-search" class="form-control" type="search" placeholder="Search by title, author, year, or abstract…" aria-controls="publication-list" aria-describedby="publication-count">
+  <p id="publication-count" class="publication-count" role="status" aria-live="polite" aria-atomic="true"></p>
+</div>
+```
+
+::: {#publication-list}
+```{r}
+#| results: asis
+source("publications/render.R", local = TRUE)
+render_selected_publications()
+```
+:::
+
+```{=html}
+<p id="publication-empty" hidden>No publications match your search.</p>
+```

@@ -25,6 +25,8 @@ website:
         href: projects.qmd
       - text: "posts"
         href: posts.qmd
+      - text: "selected publications"
+        href: selected-publications.qmd
       # - text: "contact"
       #   href: contact.qmd
 

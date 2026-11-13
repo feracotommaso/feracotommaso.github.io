@@ -1,12 +1,109 @@
 ---
 title: "Open resources"
-listing:
-  contents: open-resources
-  type: table
-  fields: [title, date, description, Method, categories] #file-modified
-  sort: "date desc"
-  sort-ui: [date, title]
-  filter-ui: [title, description, Method, categories]
-  categories: numbered
-  page-size: 30
+description: "Questionnaires, interactive research tools, open databases, and teaching materials for psychology and research methods."
+toc: false
+body-classes: resources-page
 ---
+
+```{=html}
+<nav class="resource-nav" aria-label="Resource sections">
+  <a href="#measure">Measure skills</a>
+  <a href="#explore">Explore data &amp; methods</a>
+  <a href="#learn">Learn &amp; teach</a>
+</nav>
+
+<section class="resource-section" aria-labelledby="measure">
+  <header class="resource-section-header">
+    <h2 id="measure">Measure skills</h2>
+    <p>Questionnaires and scoring materials for social, emotional, and behavioral (SEB) skills.</p>
+  </header>
+  <div class="resource-grid">
+    <article class="resource-card resource-card-wide">
+      <p class="resource-type">Questionnaires &amp; scoring</p>
+      <h3>BESSI Italian versions</h3>
+      <p>Find the original BESSI in 192-, 96-, 45-, and 20-item versions, with scoring guides, or the 45-item dual format.</p>
+      <p class="resource-audience"><strong>For:</strong> researchers studying SEB skills.</p>
+      <p class="resource-note">Original versions in Italian; dual format in Italian and English. Questionnaires in Word, scoring guides in PDF.</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="open-resources/bessiIta.html">Choose a questionnaire <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="resource-section" aria-labelledby="explore">
+  <header class="resource-section-header">
+    <h2 id="explore">Explore data &amp; methods</h2>
+    <p>Browse research evidence, explore meta-analytic results, and investigate statistical methods.</p>
+  </header>
+  <div class="resource-grid">
+    <article class="resource-card">
+      <p class="resource-type">Database &amp; reproducible research</p>
+      <h3>The Living SEB Project</h3>
+      <p>A living database of cross-sectional SEB studies, with reproducible analyses, a preregistered protocol, and updated results.</p>
+      <p class="resource-audience"><strong>For:</strong> researchers and meta-analysts working on SEB skills.</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://github.com/feracotommaso/living_SEB_review">Access the database <span aria-hidden="true">&rarr;</span></a>
+        <a class="resource-details" href="open-resources/livingseb.html">Project guide &amp; resources</a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">Interactive app</p>
+      <h3>The Living SEB App</h3>
+      <p>Browse studies, inspect effect sizes, and run meta-analyses using the Living SEB database, without writing R code.</p>
+      <p class="resource-audience"><strong>For:</strong> researchers and students exploring SEB evidence.</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/living_SEB_review/shiny-app.html">Launch the SEB app <span aria-hidden="true">&rarr;</span></a>
+        <a class="resource-details" href="open-resources/sebapp.html">About the SEB app</a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">Interactive app</p>
+      <h3>Character strengths meta-analysis</h3>
+      <p>Explore how the 24 VIA character strengths relate to well-being and common mental health disorders, with interactive meta-analytic plots.</p>
+      <p class="resource-audience"><strong>For:</strong> researchers and students interested in character strengths.</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracoshiny.shinyapps.io/character-meta-v3/">Explore the results <span aria-hidden="true">&rarr;</span></a>
+        <a class="resource-details" href="open-resources/csmetaapp.html">About the meta-analysis</a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">Simulation app</p>
+      <h3>Clusters That Are Not There</h3>
+      <p>Use simulations to investigate false positives, power, and classification accuracy in Gaussian mixture models and k-means.</p>
+      <p class="resource-audience"><strong>For:</strong> researchers planning cluster analyses, and methods students.</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://psicostat.shinyapps.io/clustersimulation-demo/">Launch the clustering app <span aria-hidden="true">&rarr;</span></a>
+        <a class="resource-details" href="open-resources/clusterapp.html">Methods &amp; background</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="resource-section" aria-labelledby="learn">
+  <header class="resource-section-header">
+    <h2 id="learn">Learn &amp; teach</h2>
+    <p>Course materials and readings for students and instructors.</p>
+  </header>
+  <div class="resource-grid">
+    <article class="resource-card">
+      <p class="resource-type">Course · slides &amp; code</p>
+      <h3>SEM PhD Course</h3>
+      <p>A PhD-level course on structural equation modeling, with slides, code, and additional methodological topics.</p>
+      <p class="resource-audience"><strong>For:</strong> PhD students and researchers learning SEM.</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/SEM-phd-course/">Open the course <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">Book chapter · Italian</p>
+      <h3>Understanding SEB skills</h3>
+      <p>An introduction to social, emotional, and behavioral skills, within the study of personality and individual differences.</p>
+      <p class="resource-audience"><strong>For:</strong> Italian-speaking students and instructors.</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/Personality-and-individual-differences/chapters/personalitySkills.html">Read the chapter <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+```

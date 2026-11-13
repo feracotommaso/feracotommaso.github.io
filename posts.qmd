@@ -1,5 +1,6 @@
 ---
 title: "Posts"
+description: "Notes, methodological commentaries, and updates from my research."
 listing:
   contents: posts
   sort: date desc

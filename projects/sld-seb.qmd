@@ -1,11 +1,18 @@
 ---
 title: "SEB in students with learning disabilities"
-description: |
-    "Do students with specific learning disabilities report different levels of SEB skills?"
+project-order: 5
+project-area: "Learning disabilities · Education"
+project-question: "How do SEB skills relate to learning and well-being in students with learning disabilities?"
+project-contribution: "Comparing skill profiles and their associations with achievement, engagement, and well-being, from middle school to university."
+project-link-label: "Key findings"
+project-link-url: "/projects/sld-seb.html#key-findings"
+description: "SEB skills, academic outcomes, and well-being in students with and without specific learning disabilities."
 author:
   - name: Tommaso Feraco
     orcid: 0000-0003-3131-0864
     email: tommaso.feraco@unipd.it
+body-classes: project-detail-page
+date-modified: 2026-11-13
 date: 2024-1-04
 categories: [
     "SEB skills","learning","SLD"
@@ -25,56 +32,61 @@ nocite: |
   @feracoSocialEmotionalBehavioral2026
 ---
 
-## **Overview**
+[← All projects](../projects.qmd){.project-back-link}
 
-Students with Specific Learning Disabilities (SLDs) experience persistent difficulties in reading, writing, or mathematics, but their challenges extend well beyond the academic domain. Research consistently shows that they face motivational, emotional, and interpersonal vulnerabilities, often struggling with self-efficacy, organization, and well-being. Yet, despite these vulnerabilities, we still know relatively little about how *soft skills*—more precisely, **social, emotional, and behavioral (SEB) skills**—characterize this population and whether these skills may serve as adaptive resources.
+::: {.project-summary}
+[Research question]{.project-summary-label}
 
-This project investigates SEB skills in students with and without SLDs from middle school to university, adopting the most comprehensive framework in the field: the SEB model ([Soto et al., 2021](https://doi.org/10.1177/0963721420978613)). The project includes several large-scale studies and replications, each examining group differences and the functional role of SEB skills in academic and non-academic outcomes.
+::: {.project-summary-question}
+{{< meta project-question >}}
+:::
 
-## What This Project Does
+**Focus:** SEB skills, academic outcomes, and well-being in students with and without specific learning disabilities (SLDs).
 
-Across multiple studies, this research program examines:
+**Outputs:** Studies from middle school to university, a replication and synthesis, and a summary of the main findings.
 
--   **Mean-level differences** in SEB skills between students with and without SLDs.
+::: {.project-detail-actions}
+[Key findings](#key-findings){.resource-button}
+[Related publications](#publications){.resource-details}
+:::
+:::
 
--   **How SEB skills relate to outcomes** such as academic achievement, life satisfaction, peer acceptance, academic burnout, and engagement.
+## The project
 
--   **Why SEB skills may function differently** for students with SLDs, with a particular focus on self-regulated learning processes.
+Students with SLDs face challenges that may extend beyond reading, writing, and mathematics. This programme examines their social, emotional, and behavioral (SEB) skills and how these skills relate to academic and non-academic outcomes.
 
--   **How these findings generalize**, via preregistered replications and meta-analytic synthesis.
+The aim is to identify both resources and vulnerabilities, while examining whether the same skills relate to outcomes differently in students with and without SLDs.
 
-Together, these studies build a coherent picture of the strengths and vulnerabilities of students with SLDs in non-academic domains—an essential step for designing more inclusive and strength-based educational practices.
+## Research approach
 
-## Key Findings
+The programme combines group comparisons, studies of academic and well-being outcomes, preregistered replication, and synthesis. It covers students from middle school to university, with particular attention to self-regulated learning and study-related factors.
 
-1.  **Students with SLDs show a consistently weaker SEB profile\
-    **Across multiple datasets—including more than 5,000 students—students with SLDs tend to report lower **Self-management**, **Cooperation**, and **Social Engagement** skills. These effects are small but highly consistent across studies and educational levels.
-2.  **Higher SEB skills do *not* guarantee better grades for students with SLDs\
-    **While Self-management skills are reliably associated with higher academic achievement among students without SLDs, these associations are **weak or absent** in the SLD group.\
-    This pattern replicates across independent samples.
-3.  **SEB skills remain important for well-being\
-    **Despite the weakened link with achievement, SEB skills are similarly associated with **life satisfaction** and other non-academic outcomes (e.g., peer acceptance) in both groups.
-4.  **Vulnerabilities extend beyond learning\
-    **Students with SLDs also report lower academic self-efficacy, weaker self-regulated learning strategies, and higher burnout risk, especially at the university level.
+## Key findings
 
-![A mini meta-analysis of the first three studies we conducted](img/sldmeta.png)
+Across the studies and their synthesis [@feracoSocialEmotionalBehavioral2025; @feracoSocialEmotionalBehavioral2026; @pellegrinoUniversityStudentsSpecific2026]:
 
-## Why This Matters
+1. **Some skill differences are small but consistent.** Students with SLDs tend to report lower self-management, cooperation, and social engagement skills across samples and educational levels.
+2. **Associations with achievement differ between groups.** Self-management is associated with higher achievement among students without SLDs, while this association is weaker or absent in the SLD group in the studies reported here.
+3. **Well-being remains relevant in both groups.** SEB skills are associated with life satisfaction and other non-academic outcomes, including peer acceptance, in students with and without SLDs.
+4. **Study-related factors also deserve attention.** University students with SLDs report vulnerabilities in academic self-efficacy, self-regulated learning, and burnout-related outcomes.
 
-This project contributes to reframing SLDs within a **broader developmental perspective**, recognizing that:
+![Mini meta-analysis summarizing the first three studies in the programme](img/sldmeta.png)
 
--   Learning disabilities diagnoses affect more than academic performance—they shape emotional and social adjustment as well.
--   SEB skills represent crucial personal resources, but students with SLDs may struggle to apply them effectively in academic contexts.
--   Interventions should address both **skill development** and **the structural barriers** that prevent students with SLDs from translating these skills into achievement.
+## Implications and next questions
 
-These findings support **strength-based**, **inclusive**, and **multi-level** approaches in schools and universities..
+The findings suggest that skill development and the conditions in which skills are used both deserve attention. Support for students with SLDs should consider study-related and structural barriers, as well as individual resources.
 
-## Collaborators and Acknowledgment
+The studies describe group differences and associations. They do not, by themselves, establish that improving a particular skill will cause better grades or well-being. Testing support strategies is a further research question.
 
-This project would not be possible without the collaboration of Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, and Barbara Carretti.
+## Collaborators
 
-## Fundings
+Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, and Barbara Carretti.
 
-This project was initially funded by a research grant from the Department of General Psychology in 2023.
+## Funding
+
+The programme initially received a research grant from the Department of General Psychology in 2023.
 
 ## Publications
+
+::: {#refs}
+:::

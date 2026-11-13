@@ -1,11 +1,20 @@
 ---
 title: "Geographical Psychology of School Anxiety"
-description: |
-    GPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently.
+project-order: 1
+project-area: "Geographical psychology · Education"
+project-question: "Where is school anxiety most prevalent, and why does its impact vary across places?"
+project-contribution: "Combining population-level educational data, environmental information, and spatial analyses to understand school anxiety in context."
+project-note: "Funded by the Italian Science Fund (FIS-3) and EAPP."
+project-featured: true
+project-link-label: "ECP 26 presentation"
+project-link-url: "https://feracotommaso.github.io/Slides/fis/ecp26.html"
+description: "Investigating geographical differences in school anxiety and the contexts that may help explain them."
 author:
   - name: Tommaso Feraco
     orcid: 0000-0003-3131-0864
     email: tommaso.feraco@unipd.it
+body-classes: project-detail-page
+date-modified: 2026-11-13
 date: 2025-12-04
 categories: [
     "geographical psychology","education","variability"
@@ -20,28 +29,55 @@ google-scholar: false
 #     url: 
 ---
 
-![](img/header_fis.jpg){fig-alt="FIS communication header"}
+![FIS project communication banner](img/header_fis.jpg)
+
+[← All projects](../projects.qmd){.project-back-link}
+
+::: {.project-summary}
+[Research question]{.project-summary-label}
+
+::: {.project-summary-question}
+{{< meta project-question >}}
+:::
+
+**Focus:** School anxiety, geographical context, and educational outcomes.
+
+**Outputs:** Conference presentation; more to come.
+
+::: {.project-detail-actions}
+[ECP 26 presentation](https://feracotommaso.github.io/Slides/fis/ecp26.html){.resource-button}
+[Research programme](#the-project){.resource-details}
+:::
+:::
 
 ## The project
 
-**GPS-A (The Geographical Psychology of School Anxiety)** investigates how school anxiety—one of the most common psychological challenges faced by students—varies across geographical contexts and why its impact differs so widely among regions. While school anxiety is known to affect mental health and academic achievement, recent evidence shows that these effects are far from uniform. Using population-level data from millions of Italian 5th grade students and linking these data to precise geographical locations, the project examines where school anxiety is more prevalent and where it is most harmful.
+**GPS-A (The Geographical Psychology of School Anxiety)** examines where school anxiety is more prevalent, where it is most strongly associated with educational outcomes, and which local conditions may help explain these differences.
 
-GPS-A integrates educational psychology, geographical psychology, and environmental data to uncover the socio-ecological features—such as green spaces, climate, pollution, population density, and economic inequality—that help explain this variability. Through advanced spatial analyses and large-scale intervention studies that will be conducted across 50 diverse regions, the project tests whether the effectiveness of psychological interventions also changes depending on the local environment.
+The programme combines population-level data from Italian fifth-grade students with geographical and environmental information. It brings together educational psychology, geographical psychology, and spatial analysis.
 
-By developing the first fine-grained geographical model of school anxiety, GPS-A aims to support more context-sensitive theories, improve school-based interventions, and provide policymakers with evidence to better allocate resources. The project will also establish a freely accessible online platform where researchers can collaborate, explore geographical variations, and access pre-processed data to advance geographically informed psychological research.
+## Research programme
 
-## Collaborators and Acknowledgment
+The project addresses three connected questions:
 
-This project would not be possible without the collaboration of Tobias Ebert, David Giofrè, and the INVALSI.
+1. **Where does school anxiety vary?** Map geographical differences in anxiety and its associations with academic achievement.
+2. **Which contextual features matter?** Examine green spaces, climate, pollution, population density, and economic inequality as potential explanations for these differences.
+3. **Does intervention effectiveness depend on place?** Planned intervention studies across 50 areas will examine whether local environments shape intervention outcomes.
 
-## Fundings
-
-The project was funded by the European Association of Personality Psychology and by the Italian Science Fund (Fondo Italiano per la Scienza – FIS-3), established by the Italian Ministry of University and Research (MUR).
+A further aim is to develop an open platform through which researchers can explore geographical patterns and access pre-processed data.
 
 ## Presentations
 
- -  Geographical variability of test anxiety - [https://feracotommaso.github.io/Slides/fis/ecp26.html](ECP 26)
+- **Geographical variability of test anxiety** — [ECP 26 slides](https://feracotommaso.github.io/Slides/fis/ecp26.html).
+
+## Collaborators
+
+Tobias Ebert, David Giofrè, and INVALSI.
+
+## Funding
+
+The project received support from the European Association of Personality Psychology and the Italian Science Fund (Fondo Italiano per la Scienza, FIS-3), established by the Italian Ministry of University and Research (MUR).
 
 ## Publications
 
-Nothing yet, sorry :)
+More to come.

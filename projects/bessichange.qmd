@@ -1,11 +1,18 @@
 ---
 title: "Change goals and development of SEB skills"
-description: |
-    "An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop what people think about changing them."
+project-order: 4
+project-area: "Development · Personality"
+project-question: "How do SEB skills develop, and which skills do people want to change?"
+project-contribution: "Studying age-related patterns, change goals, and beliefs about skill development among adolescents, adults, parents, and teachers."
+project-link-label: "Related publications"
+project-link-url: "/projects/bessichange.html#publications"
+description: "How SEB skills develop, which skills people want to change, and how they view the possibility of change."
 author:
   - name: Tommaso Feraco
     orcid: 0000-0003-3131-0864
     email: tommaso.feraco@unipd.it
+body-classes: project-detail-page
+date-modified: 2026-11-13
 date: 2024-06-04
 categories: [
     "SEB skills","education","personality","change","development"
@@ -24,29 +31,58 @@ nocite: |
   @feracoSocialEmotionalBehavioral2023
 ---
 
+[← All projects](../projects.qmd){.project-back-link}
+
+::: {.project-summary}
+[Research question]{.project-summary-label}
+
+::: {.project-summary-question}
+{{< meta project-question >}}
+:::
+
+**Focus:** Development, change goals, and beliefs about the malleability of social, emotional, and behavioral (SEB) skills.
+
+**Outputs:** Studies on age-related differences and on goals for changing skills and personality traits.
+
+::: {.project-detail-actions}
+[Related publications](#publications){.resource-button}
+[Key findings](#key-findings){.resource-details}
+:::
+:::
+
 ## The project
 
-This umbrella project investigates how **social, emotional, and behavioral (SEB) skills** develop, how young people, adults, and professionals think about changing these skills, and what motivates intentional personal development of SEB skills. SEB skills—such as self-management, cooperation, innovation, social engagement, and emotional resilience—play a central role in well-being, academic success, and social functioning. They represent individuals’ *capacity* to activate effective behaviors when situations require them, distinguishing them from more stable personality traits.
+SEB skills describe what people are capable of doing when situations require it, including managing goals, cooperating, engaging socially, innovating, and regulating emotions.
 
-Across multiple studies, this project addresses three interconnected questions:
+This research programme examines how these skills differ across age groups and how people think about developing them. It brings together developmental psychology, personality research, and motivation research.
 
-1.  **How do SEB skills change across developmental periods?**\
-    Research including large samples of adolescents and adults shows that SEB skills follow distinct age-related patterns and sometimes gender-specific trajectories, highlighting periods of natural growth and periods of vulnerability where certain skills decline and may require support.
+## Research approach
 
-2.  **What do adolescents, parents, teachers, and other professionals believe about the possibility of changing personal characteristics?**\
-    Multi-informant studies reveal that all groups see SEB skills as *more feasible and desirable to change* than personality traits. Teachers, in particular, strongly prefer skill-based development pathways, whereas students show more modest but consistent preferences—especially in domains linked to social engagement.
+The studies examine three complementary perspectives:
 
-3.  **How do individuals prioritize change goals, and what shapes their motivation?**\
-    Experimental work with young adults shows that people often report higher motivation, stronger perceived impact, and greater feasibility in changing SEB skills compared to their associated traits—especially in domains like self-management and social engagement. This suggests that skill-based framing may be a powerful route for personal development and intervention design.
+- **Development:** Age- and gender-related patterns in SEB skills, particularly during adolescence.
+- **Beliefs about change:** How adolescents, parents, teachers, and other professionals view the feasibility and desirability of changing skills and traits.
+- **Change goals:** Which characteristics people want to develop, and how skill-based versus trait-based framing relates to motivation.
 
-Together, I aim to support a comprehensive understanding of SEB skills, their natural development, their associated change goals and beliefs, and their role in volitional change. The project combines developmental psychology, personality science, motivation research, and educational practice to identify when and how SEB skills can be effectively supported—both through natural growth and through structured interventions.
+## Key findings
 
-## Collaborators and Acknowledgment
+- **Skills show distinct age-related patterns.** Research with adolescents identifies differences across ages and genders. These comparisons describe age-related variation; they do not, by themselves, establish how a particular individual changes over time [@feracoSocialEmotionalBehavioral2023].
+- **Skills and traits elicit different change goals.** Research with young adults finds differences in the goals people report for SEB skills and their corresponding personality traits [@feracoDifferencesChangeGoals2025].
+- **Beliefs matter for personal development.** The broader programme also examines how students, parents, and teachers evaluate the possibility of change and which areas they prioritize.
 
-This project would not be possible without the collaboration of Nicole Casali, Christopher J. Soto, Hayley K. Jach, Brent W. Roberts, Gerardo Pellegrino, Christopher M. Napolitano, and many more...
+## Next questions
 
-## Fundings
+The aim is to understand when and how SEB skill development can be supported. Preferences for changing a skill should be distinguished from evidence that a particular intervention changes it effectively.
 
-Part of this project was funded by the European Association of Personality Psychology as a collaborative grant with Nicole Casali.
+## Collaborators
+
+Nicole Casali, Christopher J. Soto, Hayley K. Jach, Brent W. Roberts, Gerardo Pellegrino, Christopher M. Napolitano, and other collaborators across the individual studies.
+
+## Funding
+
+Part of the programme was supported by a European Association of Personality Psychology collaborative grant with Nicole Casali.
 
 ## Publications
+
+::: {#refs}
+:::

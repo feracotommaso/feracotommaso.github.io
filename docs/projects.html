@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Research projects on social, emotional, and behavioral skills, measurement, and geographical psychology.">
 
 <title>Projects</title>
 <style>
@@ -78,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-execute','listing-language','listing-title','listing-project-order','listing-project-area','listing-project-question','listing-project-contribution','listing-project-link-label','listing-project-link-url','listing-description','listing-author','listing-body-classes','listing-date-modified','listing-date','listing-categories','listing-image','listing-google-scholar','listing-bibliography','listing-nocite','listing-path','listing-outputHref','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-project-note','listing-project-featured',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-project-order","listing-project-area","listing-project-question","listing-project-contribution","listing-project-link-label","listing-project-link-url","listing-description","listing-author","listing-body-classes","listing-date-modified","listing-date","listing-categories","listing-image","listing-google-scholar","listing-bibliography","listing-nocite","listing-path","listing-outputHref","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-project-note","listing-project-featured"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -134,7 +135,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed projects-page quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -186,20 +187,23 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Y2hhbmdl">change <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGV2ZWxvcG1lbnQ=">development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWR1Y2F0aW9u">education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z2VvZ3JhcGhpY2FsJTIwcHN5Y2hvbG9neQ==">geographical psychology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGVhcm5pbmc=">learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGl2aW5nJTIwcmV2aWV3">living review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWVhc3VyZW1lbnQ=">measurement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWV0YS1hbmFseXNpcw==">meta-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGVyc29uYWxpdHk=">personality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmV2aWV3">review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U0VCJTIwc2tpbGxz">SEB skills <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U0VN">SEM <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U0xE">SLD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmFyaWFiaWxpdHk=">variability <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Projects</h1>
 </div>
 
+<div>
+  <div class="description">
+    Research projects on social, emotional, and behavioral skills, measurement, and geographical psychology.
+  </div>
+</div>
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -215,186 +219,86 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Z2VvZ3JhcGhpY2FsJTIwcHN5Y2hvbG9neSUyQ2VkdWNhdGlvbiUyQ3ZhcmlhYmlsaXR5" data-listing-date-sort="1764802800000" data-listing-file-modified-sort="1785317676014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
-<div class="thumbnail"><a href="./projects/gps-a.html" class="no-external">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="project-grid list">
 
-<img loading="lazy" src="./projects/img/gpsimg.png" class="thumbnail-image">
+  <article class="project-card project-card-featured" aria-labelledby="project-title-0">
+    <div class="project-card-content">
+      <p class="project-area">Geographical psychology · Education</p>
+      <h2 class="listing-title anchored" id="project-title-0"><a href="./projects/gps-a.html">Geographical Psychology of School Anxiety</a></h2>
+      <p class="project-question">Where is school anxiety most prevalent, and why does its impact vary across places?</p>
+      <p class="project-contribution">Combining population-level educational data, environmental information, and spatial analyses to understand school anxiety in context.</p>
+      <p class="project-note">Funded by the Italian Science Fund (FIS-3) and EAPP.</p>
+      <div class="project-actions">
+        <a class="resource-button" href="./projects/gps-a.html">Explore project <span aria-hidden="true">→</span></a>
+        <a class="resource-details" href="https://feracotommaso.github.io/Slides/fis/ecp26.html">ECP 26 presentation</a>
+      </div>
+    </div>
+    
+    <img class="project-feature-image" src="./projects/img/gpsimg.png" alt="" width="480" height="480">
+    
+  </article>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/gps-a.html" class="no-external">Geographical Psychology of School Anxiety</a>
-</h3>
-<div class="listing-categories">
+  <article class="project-card" aria-labelledby="project-title-1">
+    <div class="project-card-content">
+      <p class="project-area">Evidence synthesis · Open science</p>
+      <h2 class="listing-title anchored" id="project-title-1"><a href="./projects/thelivingsebproject.html">The Living SEB Project</a></h2>
+      <p class="project-question">How can we keep the evidence on SEB skills cumulative, accessible, and up to date?</p>
+      <p class="project-contribution">A living database of studies and effect sizes, with reproducible analyses and an interactive meta-analysis app.</p>
+      
+      <div class="project-actions">
+        <a class="resource-button" href="./projects/thelivingsebproject.html">Explore project <span aria-hidden="true">→</span></a>
+        <a class="resource-details" href="https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html">Explore living results</a>
+      </div>
+    </div>
+    
+  </article>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Z2VvZ3JhcGhpY2FsJTIwcHN5Y2hvbG9neQ=='); return false;">geographical psychology</div>
+  <article class="project-card" aria-labelledby="project-title-2">
+    <div class="project-card-content">
+      <p class="project-area">Measurement · Psychometrics</p>
+      <h2 class="listing-title anchored" id="project-title-2"><a href="./projects/measuringseb.html">Measuring SEB skills</a></h2>
+      <p class="project-question">Can we distinguish what people typically do from what they are capable of doing?</p>
+      <p class="project-contribution">Validating the Italian BESSI and refining its format to better distinguish self-reported skills from personality traits.</p>
+      
+      <div class="project-actions">
+        <a class="resource-button" href="./projects/measuringseb.html">Explore project <span aria-hidden="true">→</span></a>
+        <a class="resource-details" href="./open-resources/bessiIta.html">Access BESSI questionnaires</a>
+      </div>
+    </div>
+    
+  </article>
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+  <article class="project-card" aria-labelledby="project-title-3">
+    <div class="project-card-content">
+      <p class="project-area">Development · Personality</p>
+      <h2 class="listing-title anchored" id="project-title-3"><a href="./projects/bessichange.html">Change goals and development of SEB skills</a></h2>
+      <p class="project-question">How do SEB skills develop, and which skills do people want to change?</p>
+      <p class="project-contribution">Studying age-related patterns, change goals, and beliefs about skill development among adolescents, adults, parents, and teachers.</p>
+      
+      <div class="project-actions">
+        <a class="resource-button" href="./projects/bessichange.html">Explore project <span aria-hidden="true">→</span></a>
+        <a class="resource-details" href="./projects/bessichange.html#publications">Related publications</a>
+      </div>
+    </div>
+    
+  </article>
 
-<div class="listing-category" onclick="window.quartoListingCategory('dmFyaWFiaWxpdHk='); return false;">variability</div>
+  <article class="project-card" aria-labelledby="project-title-4">
+    <div class="project-card-content">
+      <p class="project-area">Learning disabilities · Education</p>
+      <h2 class="listing-title anchored" id="project-title-4"><a href="./projects/sld-seb.html">SEB in students with learning disabilities</a></h2>
+      <p class="project-question">How do SEB skills relate to learning and well-being in students with learning disabilities?</p>
+      <p class="project-contribution">Comparing skill profiles and their associations with achievement, engagement, and well-being, from middle school to university.</p>
+      
+      <div class="project-actions">
+        <a class="resource-button" href="./projects/sld-seb.html">Explore project <span aria-hidden="true">→</span></a>
+        <a class="resource-details" href="./projects/sld-seb.html#key-findings">Key findings</a>
+      </div>
+    </div>
+    
+  </article>
 
-</div>
-<div class="delink listing-description"><a href="./projects/gps-a.html" class="no-external">
-<p>GPS-A pioneers a geographical approach to educational psychology, studying where and why school anxiety affects students differently.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/gps-a.html" class="no-external">
-<div class="listing-date">
-Dec 4, 2025
-</div>
-<div class="listing-author">
-Tommaso Feraco
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="U0VCJTIwc2tpbGxzJTJDbGl2aW5nJTIwcmV2aWV3JTJDbWV0YS1hbmFseXNpcyUyQ1NFTSUyQ3Jldmlldw==" data-listing-date-sort="1762210800000" data-listing-file-modified-sort="1785398933480" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="410">
-<div class="thumbnail"><a href="./projects/thelivingsebproject.html" class="no-external">
-
-<img loading="lazy" src="./projects/img/living.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/thelivingsebproject.html" class="no-external">The Living SEB Project</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U0VCJTIwc2tpbGxz'); return false;">SEB skills</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGl2aW5nJTIwcmV2aWV3'); return false;">living review</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWV0YS1hbmFseXNpcw=='); return false;">meta-analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U0VN'); return false;">SEM</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmV2aWV3'); return false;">review</div>
-
-</div>
-<div class="delink listing-description"><a href="./projects/thelivingsebproject.html" class="no-external">
-<p>“A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB).”</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/thelivingsebproject.html" class="no-external">
-<div class="listing-date">
-Nov 4, 2025
-</div>
-<div class="listing-author">
-Tommaso Feraco
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="U0VCJTIwc2tpbGxzJTJDZWR1Y2F0aW9uJTJDcGVyc29uYWxpdHklMkNjaGFuZ2UlMkNkZXZlbG9wbWVudA==" data-listing-date-sort="1717452000000" data-listing-file-modified-sort="1764847283330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="362">
-<div class="thumbnail"><a href="./projects/bessichange.html" class="no-external">
-
-<img loading="lazy" src="./projects/img/trends.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/bessichange.html" class="no-external">Change goals and development of SEB skills</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U0VCJTIwc2tpbGxz'); return false;">SEB skills</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGVyc29uYWxpdHk='); return false;">personality</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y2hhbmdl'); return false;">change</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGV2ZWxvcG1lbnQ='); return false;">development</div>
-
-</div>
-<div class="delink listing-description"><a href="./projects/bessichange.html" class="no-external">
-<p>“An umbrella project investigating how social, emotional, and behavioral (SEB) skills develop what people think about changing them.”</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/bessichange.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2024
-</div>
-<div class="listing-author">
-Tommaso Feraco
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="U0VCJTIwc2tpbGxzJTJDbGVhcm5pbmclMkNTTEQ=" data-listing-date-sort="1704322800000" data-listing-file-modified-sort="1785318602040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="522">
-<div class="thumbnail"><a href="./projects/sld-seb.html" class="no-external">
-
-<img loading="lazy" src="./projects/img/sld.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/sld-seb.html" class="no-external">SEB in students with learning disabilities</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U0VCJTIwc2tpbGxz'); return false;">SEB skills</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGVhcm5pbmc='); return false;">learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U0xE'); return false;">SLD</div>
-
-</div>
-<div class="delink listing-description"><a href="./projects/sld-seb.html" class="no-external">
-<p>“Do students with specific learning disabilities report different levels of SEB skills?”</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/sld-seb.html" class="no-external">
-<div class="listing-date">
-Jan 4, 2024
-</div>
-<div class="listing-author">
-Tommaso Feraco
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="U0VCJTIwc2tpbGxzJTJDbWVhc3VyZW1lbnQlMkNTRU0=" data-listing-date-sort="1701644400000" data-listing-file-modified-sort="1785507586315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<div class="thumbnail"><a href="./projects/measuringseb.html" class="no-external">
-
-<img loading="lazy" src="./projects/img/imgbessiita.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/measuringseb.html" class="no-external">Measuring SEB skills</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U0VCJTIwc2tpbGxz'); return false;">SEB skills</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVhc3VyZW1lbnQ='); return false;">measurement</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U0VN'); return false;">SEM</div>
-
-</div>
-<div class="delink listing-description"><a href="./projects/measuringseb.html" class="no-external">
-<p>“What’s the best way to measure SEB skills? Are self-report enough?.”</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/measuringseb.html" class="no-external">
-<div class="listing-date">
-Dec 4, 2023
-</div>
-<div class="listing-author">
-Tommaso Feraco
-</div>
-</a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->

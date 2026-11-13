@@ -1,11 +1,18 @@
 ---
 title: "The Living SEB Project"
-description: |
-    "A continuously updated, open-access database and meta-analytic platform synthesizing research on social, emotional, and behavioral skills (SEB)."
+project-order: 2
+project-area: "Evidence synthesis · Open science"
+project-question: "How can we keep the evidence on SEB skills cumulative, accessible, and up to date?"
+project-contribution: "A living database of studies and effect sizes, with reproducible analyses and an interactive meta-analysis app."
+project-link-label: "Explore living results"
+project-link-url: "https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html"
+description: "An open database and meta-analytic platform for cumulative research on SEB skills."
 author:
   - name: Tommaso Feraco
     orcid: 0000-0003-3131-0864
     email: tommaso.feraco@unipd.it
+body-classes: project-detail-page
+date-modified: 2026-11-13
 date: 2025-11-04
 categories: [
     "SEB skills","living review","meta-analysis","SEM","review"
@@ -23,44 +30,62 @@ nocite: |
   @feracoLivingSEBSkills2026
 ---
 
+[← All projects](../projects.qmd){.project-back-link}
+
+::: {.project-summary}
+[Research question]{.project-summary-label}
+
+::: {.project-summary-question}
+{{< meta project-question >}}
+:::
+
+**Focus:** An open, living evidence base for cross-sectional research on social, emotional, and behavioral (SEB) skills.
+
+**Outputs:** A study database, reproducible analyses, an interactive app, living results, and a published methodological paper.
+
+::: {.project-detail-actions}
+[Explore living results](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html){.resource-button}
+[Launch the app](https://feracotommaso.github.io/living_SEB_review/shiny-app.html){.resource-details}
+[Database & code](https://github.com/feracotommaso/living_SEB_review){.resource-details}
+:::
+:::
+
 ## The project
 
-The Living SEB Project responds to a growing challenge in SEB research: the expected rapid proliferation of studies adopting the SEB framework and the BESSI measures, which risks creating fragmentation, selective reporting, and conceptual confusion. The project addresses this challenge by building a *living*, open-science infrastructure that continually integrates new evidence and makes it accessible to the research community.
+The Living SEB Project brings together cross-sectional studies of SEB skills in an open database that can be extended as new evidence appears. It is designed to support cumulative research and transparent, reproducible evidence synthesis [@feracoLivingSEBSkills2026].
 
-The project includes ongoing systematic literature searches, a centralized and [openly available database](https://github.com/feracotommaso/living_SEB_review) of coded study metadata and effect sizes, and an interactive [web application](https://feracotommaso.github.io/living_SEB_review/shiny-app.html) that allows users to run customizable meta-analyses, extract data, and generate reproducible reports. This living approach ensures that evidence is updated regularly and that users always have access to the most current state of the field.
+The project focuses on skills as capacities, organized into five domains: innovation, self-management, social engagement, cooperation, and emotional resilience.
 
-The resource also includes demonstration analyses, such as meta-analytic estimates of associations between SEB skill domains and academic achievement, and a meta-analytic structural equation model examining the incremental validity of SEB skills beyond personality traits. These examples illustrate how the database can support complex modeling and theory testing.
+## How it works
 
-Conceptually, the project is grounded in the understanding of SEB skills as *capacities*—what people are capable of doing when required—distinguishing them from more stable personality traits. The skills are organized into five broad domains: **Innovation, Self-Management, Social Engagement, Cooperation,** and **Emotional Resilience**.
+The workflow combines systematic literature searches, coding of study characteristics and effect sizes, and reproducible analyses. An interactive app lets users explore studies, customize meta-analyses, and export results without writing R code.
 
-**Aims of the project**
-
--   To provide a comprehensive, up-to-date map of SEB skills research across different populations, settings, and outcomes.
-
--   To enable cumulative, transparent, and reproducible evidence synthesis through standardized meta-analytic tools and openly accessible data.
-
--   To help consolidate the SEB skills framework, reduce conceptual fragmentation, and guide future empirical and applied work based on the full available evidence.
-
-Because the database is updated regularly, the Living SEB Project remains responsive to the ongoing flow of new studies. Users can filter research by population, design, outcomes, or instruments; run their own analyses; and export data and code for further work, preregistrations, or replications.
-
-## Collaborators and Acknowledgment
-
-This project is supported by Gerardo Pellegrino and Margherita [Calderan](https://mar-cald.github.io/) who help me manage the repo and the new incoming data.
-
-## Fundings
-
-No funding was obtained for this project at the moment.
+Demonstration analyses examine associations with academic achievement and the incremental validity of SEB skills beyond personality traits. Because the database concerns cross-sectional studies, these associations should not be interpreted as evidence of causal effects or individual development over time.
 
 ## Living results
 
-A living paper with updated results is available on github: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html>
+The [living results paper](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBresults.html) presents the database and its synthesis. Consult that page for the results associated with the current release; the methodological publication describes the workflow.
 
-## Detailed description of the project
+## Materials
 
-The project description was published in the *European Journal of Personality* ([link](https://doi.org/10.1177/08902070261467477)). You can find an open access version of the manuscript here: <https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html>
+- **Database and code:** [GitHub repository](https://github.com/feracotommaso/living_SEB_review).
+- **Interactive analyses:** [Living SEB App](https://feracotommaso.github.io/living_SEB_review/shiny-app.html).
+- **Project documentation:** [Resource guide, manual, and preregistration](../open-resources/livingseb.qmd).
+- **Methodological paper:** [Open manuscript](https://feracotommaso.github.io/living_SEB_review/paper/livingSEBpaper.html) and [journal article](https://doi.org/10.1177/08902070261467477).
+
+## Collaborators
+
+I maintain the repository and integrate incoming data with Gerardo Pellegrino and Margherita [Calderan](https://mar-cald.github.io/).
+
+## Funding
+
+The resource was developed without dedicated project funding.
 
 ## Media coverage
 
-Our preprint was selected by the Association for Research in Personality for their yearly newsletter: [The Online Newsletter for Personality Science](https://www.personality-arp.org/newsletter-2026/)
+The preprint was featured in the Association for Research in Personality's [2026 newsletter](https://www.personality-arp.org/newsletter-2026/).
 
 ## Publications
+
+::: {#refs}
+:::

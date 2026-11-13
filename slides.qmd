@@ -1,9 +1,8 @@
 ---
 title: "Slides"
+description: "Slides from scientific presentations, talks, and methods workshops."
 editor: visual
 ---
-
-Here you can find slides used for scientific presentation and talks:
 
 ## Social, emotional, and behavioral skills
 

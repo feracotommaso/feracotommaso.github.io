@@ -52,8 +52,10 @@ render_selected_publications <- function(path = NULL) {
     cat("No selected publications yet.\n")
     return(invisible(pubs))
   }
-  resources <- c(doi_url = "Article", data_url = "Data", code_url = "Code",
-                 materials_url = "Materials", preregistration_url = "Preregistration")
+  resources <- c(doi_url = "Article", data_url = "Open data", code_url = "Open code",
+                 materials_url = "Open materials", preregistration_url = "Preregistration")
+  icons <- c(doi_url = "article.svg", data_url = "open-data.png", code_url = "open-code.png",
+             materials_url = "open-materials.png", preregistration_url = "preregistered.png")
   for (i in seq_len(nrow(pubs))) {
     pub <- pubs[i, , drop = FALSE]
     citation <- gsub("[\r\n]+", " ", publication_text(pub$citation_en))
@@ -86,9 +88,16 @@ render_selected_publications <- function(path = NULL) {
     links <- character()
     for (field in names(resources)) {
       url <- publication_url(pub[[field]])
-      if (nzchar(url)) links <- c(links, paste0("[", resources[[field]], "](<", url, ">){.publication-resource}"))
+      if (nzchar(url)) {
+        url <- gsub('"', "&quot;", gsub("&", "&amp;", url, fixed = TRUE), fixed = TRUE)
+        label <- resources[[field]]
+        links <- c(links, sprintf(
+          '<a href="%s" class="publication-resource" title="%s" aria-label="%s"><img src="img/publications/%s" alt="" aria-hidden="true" width="40" height="40"><span class="visually-hidden">%s</span></a>',
+          url, label, label, icons[[field]], label
+        ))
+      }
     }
-    if (length(links)) cat("::: {.publication-links}\n", paste(links, collapse = "\n\n"), "\n:::\n\n", sep = "")
+    if (length(links)) cat('```{=html}\n<div class="publication-links">\n', paste(links, collapse = "\n"), "\n</div>\n```\n\n", sep = "")
     cat(":::\n\n")
   }
   invisible(pubs)

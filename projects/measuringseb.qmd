@@ -1,11 +1,18 @@
 ---
 title: "Measuring SEB skills"
-description: |
-    "What's the best way to measure SEB skills? Are self-report enough?."
+project-order: 3
+project-area: "Measurement · Psychometrics"
+project-question: "Can we distinguish what people typically do from what they are capable of doing?"
+project-contribution: "Validating the Italian BESSI and refining its format to better distinguish self-reported skills from personality traits."
+project-link-label: "Access BESSI questionnaires"
+project-link-url: "/open-resources/bessiIta.html"
+description: "Developing and validating measures that distinguish SEB skills from personality traits."
 author:
   - name: Tommaso Feraco
     orcid: 0000-0003-3131-0864
     email: tommaso.feraco@unipd.it
+body-classes: project-detail-page
+date-modified: 2026-11-13
 date: 2023-12-04
 categories: [
     "SEB skills","measurement","SEM"
@@ -24,42 +31,58 @@ nocite: |
   @pellegrinoCanWeDifferentiate2026
 ---
 
+[← All projects](../projects.qmd){.project-back-link}
+
+::: {.project-summary}
+[Research question]{.project-summary-label}
+
+::: {.project-summary-question}
+{{< meta project-question >}}
+:::
+
+**Focus:** Measuring SEB skills and distinguishing self-reported capacities from personality traits.
+
+**Outputs:** The Italian BESSI, a dual-rating refinement, questionnaires, scoring resources, and validation studies.
+
+::: {.project-detail-actions}
+[BESSI questionnaires & scoring](../open-resources/bessiIta.qmd){.resource-button}
+[Validation studies](#publications){.resource-details}
+:::
+:::
+
 ## The project
 
-Accurately assessing social, emotional, and behavioral (SEB) skills is a central challenge in this field. SEB skills—people’s capacities to regulate emotions, build relationships, engage socially, innovate, and manage goals—are theoretically distinct from personality traits. Whereas traits capture how individuals typically behave, SEB skills reflect what people are capable of doing when a situation requires it. Yet, existing measurement tools have struggled to fully reflect this distinction.
+Personality traits describe how people typically behave; social, emotional, and behavioral (SEB) skills describe what they are capable of doing when required. Measuring that distinction is challenging because self-reports of skills and traits often overlap strongly.
 
-The **original** [BESSI](https://doi.org/10.1037/pspp0000401) **(Behavioral, Emotional, and Social Skills Inventory)** provided the first comprehensive framework to assess 32 SEB skill facets grouped into five domains, and showed strong psychometric properties across languages and cultural contexts. Our Italian validation study (BESSI-I) confirmed the robustness of the framework, demonstrating excellent reliability, solid factorial validity, and meaningful links with personality traits and relevant outcomes such as self-efficacy, procrastination, and emotion regulation.
+This programme develops and evaluates questionnaires that capture SEB skills while examining their relationship with personality traits.
 
-However, across international studies, self-reported SEB skills remained strongly correlated with Big Five traits—raising questions about discriminant validity and individuals’ ability to distinguish tendencies from capacities in questionnaire formats.
+## Research approach
 
-To address this, we introduced and evaluates an alternative version of the BESSI, the **BESSI-Dual Rating**, a refined measurement tool designed to better separate SEB skills from personality traits. The Bessi-Dual Rating includes:
+**Italian BESSI validation.** The Behavioral, Emotional, and Social Skills Inventory ([BESSI](https://doi.org/10.1037/pspp0000401)) assesses 32 skill facets organized into five domains. Our Italian validation study examined its reliability, factor structure, and associations with personality and relevant outcomes [@feracoItalianBehavioralEmotional2024].
 
--   **clearer conceptual instructions** distinguishing abilities from tendencies,
+**BESSI-Dual Rating.** A refined format asks separately about behavioral tendencies and capacities. It combines clearer instructions, a dual-item format, a wider response scale, and targeted wording changes [@pellegrinoCanWeDifferentiate2026].
 
--   a **dual-item format**, asking first about behavioral tendencies and then about abilities,
+## Key findings
 
--   an **expanded response scale** for finer discrimination, and
+- **The Italian BESSI supports research on SEB skills.** The validation study reports evidence for reliability and factorial validity, together with associations with self-efficacy, procrastination, and emotion regulation.
+- **Questionnaire design affects the distinction between skills and traits.** In Italian high-school students, the dual-rating format showed improved discriminant and incremental validity relative to previous BESSI validation studies.
+- **Multiple perspectives contribute to validation.** Parent reports provided additional evidence for the skill measures in the dual-rating study.
 
--   small but targeted wording adjustments to facilitate more accurate self-assessment.
+These findings support further evaluation across populations and settings; they do not imply that self-report questionnaires fully separate capacities from tendencies.
 
-Initial evidence from high school students shows that participants *do* perceive items about skills and tendencies as meaningfully different, report different scores for each, and show improved differentiation between skills and traits. The BESSI-Dual Rating retains the strong psychometric structure of the original BESSI while yielding lower skill–trait correlations, stronger incremental validity for predicting key academic and socio-emotional outcomes, and meaningful convergence with parent-reported skills.
+## Materials
 
-Together, the BESSI-I and Bessi-Dual Rating projects aim to advance the conceptual and empirical foundations of SEB skill assessment by:
+[Download the BESSI questionnaires and scoring guides](../open-resources/bessiIta.qmd). The resource page includes original versions of different lengths and the dual format in Italian and English.
 
--   validating the SEB skills framework across languages and developmental periods,
+## Collaborators
 
--   improving the measurement tools used to distinguish skills from traits, and
+Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, Barbara Carretti, Christopher J. Soto, Christopher M. Napolitano, and other collaborators across the individual studies.
 
--   supporting more precise research, applied work, and educational interventions based on SEB skills.
+## Funding
 
-This broader research program contributes to building a **reliable, culturally adaptable, and theoretically coherent assessment system** for SEB skills—one that respects their conceptual specificity, captures their malleability, and enables stronger scientific and practical applications.
-
-## Collaborators and Acknowledgment
-
-This project would not be possible without the collaboration of Gerardo Pellegrino, Nicole Casali, Chiara Meneghetti, Barbara Carretti, Christopher J. Soto, Christopher M. Napolitano, and many more...
-
-## Fundings
-
-This project was initially funded by a research grant from the Department of General Psychology in 2022.
+The programme initially received a research grant from the Department of General Psychology in 2022.
 
 ## Publications
+
+::: {#refs}
+:::

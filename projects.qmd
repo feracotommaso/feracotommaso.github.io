@@ -1,13 +1,15 @@
 ---
 title: "Projects"
+description: "Research projects on social, emotional, and behavioral skills, measurement, and geographical psychology."
 listing:
-    contents: projects
-    sort: date desc
-    type: default
-    categories: true
+    contents: "projects/*.qmd"
+    sort: project-order
+    template: templates/projects.ejs.md
+    categories: false
     sort-ui: false
     filter-ui: false
-    feed: true
+    page-size: 20
+toc: false
 page-layout: full
-title-block-bannerrR: false
+body-classes: projects-page
 ---

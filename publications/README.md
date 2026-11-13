@@ -36,3 +36,7 @@ when JavaScript is disabled.
 Cards use three columns on desktop, two below 1100px, and one below 640px.
 Abstracts are closed by default and expand through native `details` / `summary`
 controls, including when JavaScript is disabled. Search includes closed abstracts.
+
+Resource links use local icons in `img/publications/`, with hover titles and
+accessible labels. The four Open Science PNGs are reused unchanged from
+`assets/badges/` in the CV repository. The article SVG is drawn for this website.

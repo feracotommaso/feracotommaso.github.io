@@ -1,5 +1,7 @@
 ---
 title: "Tommaso Feraco"
+toc: false
+body-classes: home-page
 format:
   html:
     include-after-body: footer.html
@@ -10,7 +12,7 @@ about:
   id: hero-heading
   template: jolla
   image-shape: round
-  image-width: 12em
+  image-width: 9em
   links:
   - icon: github
     href: https://github.com/feracotommaso 
@@ -54,15 +56,47 @@ engine: knitr
 
 :::: {#hero-heading}
 
-[tommaso.feraco\@unipd.it](tommaso.feraco@unipd.it)
+[tommaso.feraco\@unipd.it](mailto:tommaso.feraco@unipd.it)
 
 I am a researcher at the Department of General Psychology, University of Padova, Italy.
 
 My research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.
 
-[CV](https://feracotommaso.github.io/cv/cv.html)
+```{=html}
+<nav class="home-actions" aria-label="Explore my work">
+  <a class="home-action home-action-primary" href="projects.html">Explore my research</a>
+  <a class="home-action" href="open-resources.html">Open tools &amp; resources</a>
+  <a class="home-action" href="https://feracotommaso.github.io/cv/cv.html">CV</a>
+</nav>
+```
 
 ::::
+
+<!-- ```{=html} -->
+<!-- <section class="home-featured" aria-labelledby="featured-heading"> -->
+<!--   <h2 id="featured-heading">Featured research &amp; resources</h2> -->
+<!--   <div class="home-featured-grid"> -->
+<!--     <article class="home-feature-card"> -->
+<!--       <p class="home-feature-type">Research project</p> -->
+<!--       <h3>GPS-A</h3> -->
+<!--       <p>Exploring where and why school anxiety varies across geographical contexts.</p> -->
+<!--       <a href="projects/gps-a.html">Explore the project <span aria-hidden="true">&rarr;</span></a> -->
+<!--     </article> -->
+<!--     <article class="home-feature-card"> -->
+<!--       <p class="home-feature-type">Living evidence</p> -->
+<!--       <h3>The Living SEB Project</h3> -->
+<!--       <p>A living database and interactive tools to explore research on social, emotional, and behavioral skills.</p> -->
+<!--       <a href="open-resources/livingseb.html">Explore the database &amp; tools <span aria-hidden="true">&rarr;</span></a> -->
+<!--     </article> -->
+<!--     <article class="home-feature-card"> -->
+<!--       <p class="home-feature-type">Questionnaires</p> -->
+<!--       <h3>BESSI Italian versions</h3> -->
+<!--       <p>Questionnaires and scoring resources for measuring social, emotional, and behavioral skills.</p> -->
+<!--       <a href="open-resources/bessiIta.html">Access the questionnaires <span aria-hidden="true">&rarr;</span></a> -->
+<!--     </article> -->
+<!--   </div> -->
+<!-- </section> -->
+<!-- ``` -->
 
 ::: last-updated
 Last updated: `r format(Sys.Date(), "%Y-%m-%d")`

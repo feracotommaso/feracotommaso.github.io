@@ -36,6 +36,6 @@ Built as part of a broader effort to create a living, open, and cumulative evide
 
 The app accompanies the article:
 
-Feraco, T., Calderan, M., and Pellegrino, G. (2026). The Living SEB Skills Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. *European Journal of Personality*. [https://doi.org/10.1177/08902070261467477](#0){.uri}
+Feraco, T., Calderan, M., and Pellegrino, G. (2026). The Living SEB Skills Project: A Living Resource for Review and Meta-Analysis of Social, Emotional, and Behavioral Skills. *European Journal of Personality*. <https://doi.org/10.1177/08902070261467477>
 
 Together with the broader Living SEB infrastructure, the app reflects a commitment to open science, research transparency, and dynamic evidence synthesis.

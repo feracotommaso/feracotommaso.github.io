@@ -14,38 +14,39 @@ about:
   image-shape: round
   image-width: 9em
   links:
-  - icon: github
-    href: https://github.com/feracotommaso 
+  - text: '<i class="bi bi-github" role="img" aria-label="GitHub" title="GitHub"></i>'
+    target: _blank
+    href: https://github.com/feracotommaso
 
-  - text: '<img src="img/x.png" style="height: 1.2em; vertical-align: middle;">'
+  - text: '<img src="img/x.png" alt="X" title="X" style="height: 1.2em; vertical-align: middle;">'
     href: https://x.com/FeracoTommaso
     target: _blank
 
-  - text: '<img src="img/bluesky.png" style="height: 1.2em; vertical-align: middle;">'
+  - text: '<img src="img/bluesky.png" alt="Bluesky" title="Bluesky" style="height: 1.2em; vertical-align: middle;">'
     href: https://bsky.app/profile/tommasoferaco.bsky.social
     target: _blank
 
-  - text: '<img src="img/linkedin.svg" style="height: 1.2em; vertical-align: middle;">'
+  - text: '<img src="img/linkedin.svg" alt="LinkedIn" title="LinkedIn" style="height: 1.2em; vertical-align: middle;">'
     href: https://www.linkedin.com/in/tommaso-feraco-883810151/
     target: _blank
 
-  - text: '<img src="img/osf.png" style="height: 1.2em; vertical-align: middle;">'
+  - text: '<img src="img/osf.png" alt="OSF" title="OSF" style="height: 1.2em; vertical-align: middle;">'
     href: https://osf.io/user/pu75z
     target: _blank
 
-  - text: '<img src="img/sc.png" style="height: 1.2em; vertical-align: middle;">'
+  - text: '<img src="img/sc.png" alt="Scopus" title="Scopus" style="height: 1.2em; vertical-align: middle;">'
     href: https://www.scopus.com/authid/detail.uri?authorId=57218109907
     target: _blank
 
-  - text: '<img src="img/rg.png" style="height: 1.2em; vertical-align: middle;">'
+  - text: '<img src="img/rg.png" alt="ResearchGate" title="ResearchGate" style="height: 1.2em; vertical-align: middle;">'
     href: https://www.researchgate.net/profile/Tommaso-Feraco
     target: _blank
 
-  - text: '<img src="img/psicostat.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> Psicostat'
+  - text: '<img src="img/psicostat.png" alt="" title="Psicostat" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> Psicostat'
     href: https://psicostat.dpss.psy.unipd.it/
     target: _blank
 
-  - text: '<img src="img/ML.png" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> M&L'
+  - text: '<img src="img/ML.png" alt="" title="Memory and Learning Lab" style="height: 1.2em; vertical-align: middle; margin-right: 0.25em;"> M&L'
     href: https://www.memoryandlearninglab.it/
     target: _blank
 
@@ -97,7 +98,3 @@ My research interests include personality, intelligence, SEB skills, geographica
 <!--   </div> -->
 <!-- </section> -->
 <!-- ``` -->
-
-::: last-updated
-Last updated: `r format(Sys.Date(), "%Y-%m-%d")`
-:::

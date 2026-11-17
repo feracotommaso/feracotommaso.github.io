@@ -1,24 +1,117 @@
 ---
 title: "Slides"
 description: "Slides from scientific presentations, talks, and methods workshops."
-editor: visual
+toc: false
+body-classes: resources-page slides-page
 ---
 
-## Social, emotional, and behavioral skills
+```{=html}
+<nav class="resource-nav" aria-label="Slide topics">
+  <a href="#seb">SEB skills</a>
+  <a href="#methods">Methods</a>
+  <a href="#geo">Geographical variability</a>
+</nav>
 
--   **What students *can* do: SEB skills in education** - [JLU Giessen research colloquium](https://feracotommaso.github.io/Slides/SEB_colloquium26/SEB_colloquium26.html){target="_blank"}
--   **SEB skills and specific learning disabilities** - [Departmental talk](https://feracotommaso.github.io/Slides/SEB_SLD/SebSldPresentation2.html){target="_blank"}
--   **SEB skills and self-regulated learning frameworks** - [ARP](https://feracotommaso.github.io/Slides/SEB_SRL/ARP_seb_srl_slides.html) ([pdf](https://feracotommaso.github.io/Slides/SEB_SRL/ARP_seb_srl_slides.pdf)); [ISSID](https://feracotommaso.github.io/Slides/SEB_SRL/ISSID/ISSID_seb_srl_slides.html)
--   **SEB skills in adolescence and change goals** - [YLC presentation](https://feracotommaso.github.io/Slides/YLC/YLC_slides.html) ([pdf](https://feracotommaso.github.io/Slides/YLC/YLC_slides.pdf))
--   **The Living SEB project** - [IBT](https://feracotommaso.github.io/living_SEB_review/slides/IBTcolloquium/IBTcolloquium.html#/title-slide); [Lab meeting](https://feracotommaso.github.io/living_SEB_review/slides/labMeeting/LabMeetingLMA.html)
+<section class="resource-section" aria-labelledby="seb">
+  <header class="resource-section-header">
+    <h2 id="seb">Social, emotional, and behavioral skills</h2>
+  </header>
+  <div class="resource-grid">
+    <article class="resource-card">
+      <p class="resource-type">Research colloquium · 2026</p>
+      <h3>What students <em>can</em> do: SEB skills in education</h3>
+      <p class="resource-note">JLU Giessen, Educational Psychology</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/Slides/SEB_colloquium26/SEB_colloquium26.html" target="_blank" rel="noopener">Open slides <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">Conference talks · 2025</p>
+      <h3>SEB skills and self-regulated learning frameworks</h3>
+      <p class="resource-note">ARP 2025 and ISSID 2025</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/Slides/SEB_SRL/ARP_seb_srl_slides.html" target="_blank" rel="noopener">ARP slides <span aria-hidden="true">&rarr;</span></a>
+        <a class="resource-details" href="https://feracotommaso.github.io/Slides/SEB_SRL/ARP_seb_srl_slides.pdf" target="_blank" rel="noopener">ARP PDF</a>
+        <a class="resource-details" href="https://feracotommaso.github.io/Slides/SEB_SRL/ISSID/ISSID_seb_srl_slides.html" target="_blank" rel="noopener">ISSID slides</a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">Conference talk · 2025</p>
+      <h3>SEB skills in adolescence and change goals</h3>
+      <p class="resource-note">YLC, Evanston</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/Slides/YLC/YLC_slides.html" target="_blank" rel="noopener">Open slides <span aria-hidden="true">&rarr;</span></a>
+        <a class="resource-details" href="https://feracotommaso.github.io/Slides/YLC/YLC_slides.pdf" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">Departmental talk · 2025</p>
+      <h3>SEB skills and specific learning disabilities</h3>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/Slides/SEB_SLD/SebSldPresentation2.html" target="_blank" rel="noopener">Open slides <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">Project talks</p>
+      <h3>The Living SEB project</h3>
+      <p class="resource-note">IBT colloquium and lab meeting</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/living_SEB_review/slides/IBTcolloquium/IBTcolloquium.html#/title-slide" target="_blank" rel="noopener">IBT slides <span aria-hidden="true">&rarr;</span></a>
+        <a class="resource-details" href="https://feracotommaso.github.io/living_SEB_review/slides/labMeeting/LabMeetingLMA.html" target="_blank" rel="noopener">Lab meeting slides</a>
+      </div>
+    </article>
+  </div>
+</section>
 
-## Methods
+<section class="resource-section" aria-labelledby="methods">
+  <header class="resource-section-header">
+    <h2 id="methods">Methods</h2>
+  </header>
+  <div class="resource-grid">
+    <article class="resource-card">
+      <p class="resource-type">Psicostat meeting · 2024</p>
+      <h3>Clusters that are not there</h3>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://psicostat.dpss.psy.unipd.it/meetings/slides/2024-03-08_feraco.pdf" target="_blank" rel="noopener">Open PDF <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">handZone</p>
+      <h3>SEMbeddings</h3>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/Slides/SEMbeddingSlides.pdf" target="_blank" rel="noopener">Open PDF <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">handZone</p>
+      <h3>Latent interaction</h3>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/SEM-phd-course/extras/ex03_latent-interactions_modsem.html#/title-slide" target="_blank" rel="noopener">Open slides <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+    <article class="resource-card">
+      <p class="resource-type">handZone</p>
+      <h3>EFA, PCA, and CFA</h3>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/SEM-phd-course/extras/ex_pca-efa-cfa_overview.html#/title-slide" target="_blank" rel="noopener">Open slides <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+</section>
 
--   **Clusters that are not there -** [Psicostat meeting](https://psicostat.dpss.psy.unipd.it/meetings/slides/2024-03-08_feraco.pdf)
--   **SEMbeddings** - [handZone](https://feracotommaso.github.io/living_SEB_review/slides/SEMbeddingSlides.pdf)
--   **Latent interaction** - [handZone](https://feracotommaso.github.io/SEM-phd-course/extras/ex03_latent-interactions_modsem.html#/title-slide)
--   **EFA-PCA-CFA** - [handZone](https://feracotommaso.github.io/SEM-phd-course/extras/ex_pca-efa-cfa_overview.html#/title-slide)
-
-## Geographical variability
-
--   **Geographical variability of test anxiety** - [ECP 26](https://feracotommaso.github.io/Slides/fis/ecp26.html)
+<section class="resource-section" aria-labelledby="geo">
+  <header class="resource-section-header">
+    <h2 id="geo">Geographical variability</h2>
+  </header>
+  <div class="resource-grid">
+    <article class="resource-card">
+      <p class="resource-type">Conference talk · 2026</p>
+      <h3>Geographical variability of test anxiety</h3>
+      <p class="resource-note">ECP 26</p>
+      <div class="resource-actions">
+        <a class="resource-button" href="https://feracotommaso.github.io/Slides/fis/ecp26.html" target="_blank" rel="noopener">Open slides <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+```

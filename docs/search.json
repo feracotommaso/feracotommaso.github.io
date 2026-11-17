@@ -469,39 +469,11 @@
     "text": "192 item - Questionario; Scoring\n96 item - Questionario; Scoring\n45 item - Questionario; Scoring\n20 item - Questionario; Scoring\n\n\n\n\n\n45 item - Italiano; Inglese"
   },
   {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "This page collects the main courses and open materials I make publicly available. Whenever possible, slides, exercises, and code are freely accessible so that students, teachers, and researchers can reuse or adapt them.\n\n\n\n\nStructural Equation Modeling \n\n\n\nCourse website: https://enricotoffalini.github.io/SEM-course/\nShort description\nThis course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.\nWhat you can find here\n\n📑 Slides and lecture notes\n\nConceptual slides introducing R as a language for data science\n\nStep-by-step examples to reproduce directly in R / RStudio\n\n🧪 Hands-on exercises\n\nGuided exercises for getting familiar with lavaan syntax\n\nSmall data sets used in class, ready to be reused in other courses or self-study\n\n\nWho this is useful for\n\nPhD students and early-career researchers who need a compact, applied introduction to SEM\n\nTeachers who want ready-made R exercises and examples and slides to integrate in their own courses\n\n\n\n\n\n\nPsicologia della Personalità e delle Differenze Individuali \n\n\n\nSito del corso e materiali aperti: https://feracotommaso.github.io/Personality-and-individual-differences/\nCorso triennale introduttivo sulla psicologia della personalità e sulle differenze individuali. Il corso affronta:\n\nla definizione di personalità\n\ni maggiori modelli di personalità\n\ni principali strumenti di misura della personalità\n\nvarie tipologie e aree di ricerca delle differenze individuali\n\nMateriali disponibili\n\n📑 Dispense e approfondimenti\nTutte le dispense usate in aggiunta ai testi di studio sono state scritte e rese disponibili online sulla pagina principale del corso. Questi materiali possono essere riutilizzati (con citazione) per attività didattiche, divulgative o di autoformazione.\n📑 Risultati delle esercitazioni\nDurante il corso, raccogliamo e analizziamo dati di personalità. Le slide con i risultati vengono pubblicate sul sito per consultazione.\n\nA chi può essere utile\n\nPersone curiose di capire meglio come e perchè le persone sono diverse una dall’altra e quali modelli spiegano meglio tali differenze;\nStudentesse e studenti di psicologia, neuroscienze, materie umanistiche;\nDocenti che cercano materiali pronti all’uso per lezioni sui temi di personalità e differenze individuali.\n\n\n\n\n\n\n✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first.\n\n\n\n\n\nIf you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
-  },
-  {
-    "objectID": "courses.html#reuse-of-materials",
-    "href": "courses.html#reuse-of-materials",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "✅ You are welcome to link to these course pages, embed specific exercises in your own syllabi, or recommend them to students.\n\n✅ Slides and code examples are generally fine to reuse for non-commercial teaching, ideally with a short acknowledgement (but for the MOOC on Federica Web Learning, please refer to the Federica license before copying any part!).\n\n❓ If you plan a more extensive reuse (for example, translating large parts of material, or integrating them into a paid course), it’s generally fine, but please get in touch first."
-  },
-  {
-    "objectID": "courses.html#contact",
-    "href": "courses.html#contact",
-    "title": "Courses and Open Teaching materials",
-    "section": "",
-    "text": "If you are interested in using or adapting these materials for your course, or if you have suggestions for improvements: tommaso.feraco@unipd.it\nI am always happy to see these resources reused, remixed, and improved, especially when they help promote better methods and critical thinking in psychological science."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "Email addresses\nPersonal: feraco.tommaso@gmail.com\nInstitutional: tommaso.feraco@unipd.it"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tommaso Feraco",
     "section": "",
-    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n\n  Research projects\n  Open tools & resources\n  CV\n\n \n  \n   \n  \n    \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLast updated: 2026-11-17"
+    "text": "tommaso.feraco@unipd.it\nI am a researcher at the Department of General Psychology, University of Padova, Italy.\nMy research interests include personality, intelligence, SEB skills, geographical psychology, meta-research, measurement, and research methods.\n\n  Research projects\n  Open tools & resources\n  CV\n\n \n  \n   \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n     \n  \n  \n      Psicostat\n  \n  \n      M&L"
   },
   {
     "objectID": "open-resources/clusterapp.html",
@@ -718,27 +690,6 @@
     "href": "slides.html",
     "title": "Slides",
     "section": "",
-    "text": "What students can do: SEB skills in education - JLU Giessen research colloquium\nSEB skills and specific learning disabilities - Departmental talk\nSEB skills and self-regulated learning frameworks - ARP (pdf); ISSID\nSEB skills in adolescence and change goals - YLC presentation (pdf)\nThe Living SEB project - IBT; Lab meeting"
-  },
-  {
-    "objectID": "slides.html#social-emotional-and-behavioral-skills",
-    "href": "slides.html#social-emotional-and-behavioral-skills",
-    "title": "Slides",
-    "section": "",
-    "text": "What students can do: SEB skills in education - JLU Giessen research colloquium\nSEB skills and specific learning disabilities - Departmental talk\nSEB skills and self-regulated learning frameworks - ARP (pdf); ISSID\nSEB skills in adolescence and change goals - YLC presentation (pdf)\nThe Living SEB project - IBT; Lab meeting"
-  },
-  {
-    "objectID": "slides.html#methods",
-    "href": "slides.html#methods",
-    "title": "Slides",
-    "section": "Methods",
-    "text": "Methods\n\nClusters that are not there - Psicostat meeting\nSEMbeddings - handZone\nLatent interaction - handZone\nEFA-PCA-CFA - handZone"
-  },
-  {
-    "objectID": "slides.html#geographical-variability",
-    "href": "slides.html#geographical-variability",
-    "title": "Slides",
-    "section": "Geographical variability",
-    "text": "Geographical variability\n\nGeographical variability of test anxiety - ECP 26"
+    "text": "SEB skills\n  Methods\n  Geographical variability\n\n\n\n  \n    Social, emotional, and behavioral skills\n  \n  \n    \n      Research colloquium · 2026\n      What students can do: SEB skills in education\n      JLU Giessen, Educational Psychology\n      \n        Open slides →\n      \n    \n    \n      Conference talks · 2025\n      SEB skills and self-regulated learning frameworks\n      ARP 2025 and ISSID 2025\n      \n        ARP slides →\n        ARP PDF\n        ISSID slides\n      \n    \n    \n      Conference talk · 2025\n      SEB skills in adolescence and change goals\n      YLC, Evanston\n      \n        Open slides →\n        PDF\n      \n    \n    \n      Departmental talk · 2025\n      SEB skills and specific learning disabilities\n      \n        Open slides →\n      \n    \n    \n      Project talks\n      The Living SEB project\n      IBT colloquium and lab meeting\n      \n        IBT slides →\n        Lab meeting slides\n      \n    \n  \n\n\n\n  \n    Methods\n  \n  \n    \n      Psicostat meeting · 2024\n      Clusters that are not there\n      \n        Open PDF →\n      \n    \n    \n      handZone\n      SEMbeddings\n      \n        Open PDF →\n      \n    \n    \n      handZone\n      Latent interaction\n      \n        Open slides →\n      \n    \n    \n      handZone\n      EFA, PCA, and CFA\n      \n        Open slides →\n      \n    \n  \n\n\n\n  \n    Geographical variability\n  \n  \n    \n      Conference talk · 2026\n      Geographical variability of test anxiety\n      ECP 26\n      \n        Open slides →"
   }
 ]

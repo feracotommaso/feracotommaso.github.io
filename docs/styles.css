@@ -353,13 +353,6 @@ body {
   margin: 0.5rem 0;
 }
 
-/* Subtle, aligned last-updated line closer to links */
-.last-updated {
-  margin-top: 0.2rem;         /* was 0.8rem */
-  text-align: center;
-  color: var(--bs-secondary-color);
-  font-size: 0.9rem;
-}
 
 
 /* ---------- Homepage navigation and featured content ---------- */

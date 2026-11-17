@@ -22,7 +22,7 @@ Structural Equation Modeling ![English](img/english.png){width="18px"}
 
 <br>
 
-**Course website**: <a href="https://feracotommaso.github.io/SEM-course/" target="_blank">https://enricotoffalini.github.io/SEM-course/</a>
+**Course website**: <a href="https://feracotommaso.github.io/SEM-course/" target="_blank">https://feracotommaso.github.io/SEM-course/</a>
 
 **Short description**\
 This course introduces the foundations of Structural Equation Modeling (SEM), covering latent variables, CFA, path analysis, and measurement invariance. You will learn how to specify, estimate, and test SEM models in R using the lavaan package, as well as perform power analysis through simulation.

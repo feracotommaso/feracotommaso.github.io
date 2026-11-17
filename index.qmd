@@ -64,7 +64,7 @@ My research interests include personality, intelligence, SEB skills, geographica
 
 ```{=html}
 <nav class="home-actions" aria-label="Explore my work">
-  <a class="home-action home-action-primary" href="projects.html">Explore my research</a>
+  <a class="home-action home-action-primary" href="projects.html">Research projects</a>
   <a class="home-action" href="open-resources.html">Open tools &amp; resources</a>
   <a class="home-action" href="https://feracotommaso.github.io/cv/cv.html">CV</a>
 </nav>

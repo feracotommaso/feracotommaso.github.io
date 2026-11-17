@@ -830,3 +830,46 @@ body {
 }
 
 
+
+/* ---------- Slides: compact cards ---------- */
+.slides-page main.content {
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.slides-page .resource-nav { margin: 1rem 0 1.5rem; }
+.slides-page .resource-nav a { min-height: 36px; padding: 0.3rem 0.75rem; font-size: 0.85rem; }
+
+.slides-page .resource-section { margin-bottom: 1.75rem; }
+.slides-page .resource-section-header h2 { margin-bottom: 0.75rem; font-size: 1.3rem; }
+
+.slides-page .resource-grid {
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 0.75rem;
+}
+
+.slides-page .resource-card {
+  padding: 0.8rem 1rem 0.7rem;
+  border-top-width: 2px;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.slides-page .resource-card .resource-type { margin-bottom: 0.3rem; font-size: 0.68rem; }
+.slides-page .resource-card h3 { margin-bottom: 0.3rem; font-size: 1rem; line-height: 1.3; }
+.slides-page .resource-note { margin-bottom: 0; font-size: 0.8rem; }
+
+.slides-page .resource-actions { gap: 0.3rem 0.8rem; padding-top: 0.5rem; }
+
+.slides-page .resource-button {
+  min-height: 32px;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.8rem;
+}
+
+.slides-page .resource-details { min-height: 32px; font-size: 0.8rem; }
+
+@media (max-width: 640px) {
+  .slides-page .resource-grid { grid-template-columns: minmax(0, 1fr); }
+}

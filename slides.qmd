@@ -3,6 +3,7 @@ title: "Slides"
 description: "Slides from scientific presentations, talks, and methods workshops."
 toc: false
 body-classes: resources-page slides-page
+page-layout: full
 ---
 
 ```{=html}

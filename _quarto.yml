@@ -7,6 +7,8 @@ project:
 website:
   # title: "TF"
   site-url: "https://feracotommaso.github.io/"
+  open-graph: true
+  twitter-card: true
   search: 
     location: navbar
     type: overlay

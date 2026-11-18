@@ -2,15 +2,14 @@
 title: "The Bare Necessities of NCA"
 subtitle: "Or: how to turn a perfectly ordinary correlation into a bottleneck"
 description: |
-    "Necessary condition analysis do not provide credible nor reliable necessity conditions when applied to psychological data."
+    "Necessary condition analysis does not provide credible or reliable necessity conditions when applied to psychological data."
 author:
   - name: Tommaso Feraco
     orcid: 0000-0003-3131-0864
     email: tommaso.feraco@unipd.it
-categories: [
-    "NCA","necessity","methods"
-            ]
+categories: ["methods"]
 date: 2026-06-19
+image: imgs/bare.png
 format: html
 bibliography: references.bib
 ---

@@ -505,7 +505,7 @@ body {
 }
 
 .resource-section {
-  margin-bottom: 3rem;
+  margin-bottom: 2.25rem;
 }
 
 .resource-section-header h2 {
@@ -513,12 +513,12 @@ body {
   padding: 0;
   border: 0;
   color: #35441f;
-  font-size: 1.6rem;
+  font-size: 1.45rem;
   scroll-margin-top: 6rem;
 }
 
 .resource-section-header > p {
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.9rem;
   color: #555;
   font-size: 1rem;
 }
@@ -526,33 +526,35 @@ body {
 .resource-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 0.85rem;
 }
 
 .resource-card {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  padding: 1.4rem;
+  padding: 1.1rem 1.2rem;
   border: 1px solid #dee3d7;
   border-top: 3px solid #556B2F;
   border-radius: 0.5rem;
   background: #f8faf5;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .resource-card-wide { grid-column: 1 / -1; }
 
+.resource-card p { margin-bottom: 0.6rem; }
+
 .resource-card h3 {
-  margin: 0 0 0.8rem;
+  margin: 0 0 0.5rem;
   color: #35441f;
-  font-size: 1.25rem;
+  font-size: 1.12rem;
   line-height: 1.3;
 }
 
 .resource-card .resource-type {
-  margin: 0 0 0.65rem;
+  margin: 0 0 0.4rem;
   color: #556B2F;
   font-size: 0.75rem;
   font-weight: 600;
@@ -560,7 +562,6 @@ body {
   text-transform: uppercase;
 }
 
-.resource-audience,
 .resource-note {
   color: #555;
   font-size: 0.85rem;
@@ -570,22 +571,22 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.65rem 1rem;
+  gap: 0.5rem 1rem;
   margin-top: auto;
-  padding-top: 0.65rem;
+  padding-top: 0.4rem;
 }
 
 .resource-button {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  min-height: 44px;
-  padding: 0.55rem 0.8rem;
+  min-height: 40px;
+  padding: 0.4rem 0.75rem;
   border: 1px solid #556B2F;
   border-radius: 0.4rem;
   color: #fff;
   background: #556B2F;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
   line-height: 1.4;
   text-decoration: none;
@@ -599,7 +600,7 @@ body {
 .resource-details {
   display: inline-flex;
   align-items: center;
-  min-height: 44px;
+  min-height: 40px;
   color: #435524;
   font-size: 0.85rem;
   text-underline-offset: 3px;
